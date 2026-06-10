@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마켓피드 · 카카오 뉴스레터 발행</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --bg: #0d0f14;
+    --surface: #161a24;
+    --surface2: #1e2433;
+    --border: #2a3045;
+    --kakao: #FEE500;
+    --kakao-dark: #e6ce00;
+    --kakao-text: #191600;
+    --accent: #3B82F6;
+    --accent2: #10B981;
+    --red: #EF4444;
+    --text: #e8ecf4;
+    --text2: #8b95aa;
+    --text3: #4a5468;
+    --radius: 12px;
+    --font: 'Pretendard', -apple-system, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── 헤더 ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .logo-badge {
+    background: var(--kakao);
+    color: var(--kakao-text);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .header-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text2);
+  }
+
+  .status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent2);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  /* ── 레이아웃 ── */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .container { grid-template-columns: 1fr; padding: 16px; }
+  }
+
+  /* ── 카드 ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .card-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: 0.3px;
+  }
+
+  .card-body { padding: 20px; }
+
+  /* ── 통계 바 ── */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .stat-box {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+    color: var(--text3);
+    margin-bottom: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .stat-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .stat-value.green { color: var(--accent2); }
+  .stat-value.blue { color: var(--accent); }
+  .stat-value.yellow { color: var(--kakao); }
+
+  /* ── 뉴스 목록 ── */
+  .news-controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  .filter-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all 0.15s;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+
+  .filter-btn.kakao-active {
+    background: var(--kakao);
+    border-color: var(--kakao);
+    color: var(--kakao-text);
+  }
+
+  .news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-height: 520px;
+    overflow-y: auto;
+  }
+
+  .news-list::-webkit-scrollbar { width: 4px; }
+  .news-list::-webkit-scrollbar-track { background: transparent; }
+  .news-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .news-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.12s;
+    border: 1px solid transparent;
+  }
+
+  .news-item:hover { background: var(--surface2); }
+
+  .news-item.selected {
+    background: rgba(59, 130, 246, 0.08);
+    border-color: rgba(59, 130, 246, 0.25);
+  }
+
+  .news-checkbox {
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    flex-shrink: 0;
+    accent-color: var(--kakao);
+    cursor: pointer;
+  }
+
+  .news-source-badge {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 7px;
+    border-radius: 4px;
+    background: var(--surface2);
+    color: var(--text3);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .news-content { flex: 1; min-width: 0; }
+
+  .news-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    line-height: 1.4;
+    margin-bottom: 4px;
+  }
+
+  .news-title.market-related::before {
+    content: '🔥';
+    margin-right: 4px;
+    font-size: 11px;
+  }
+
+  .news-meta {
+    font-size: 11px;
+    color: var(--text3);
+  }
+
+  .news-summary {
+    font-size: 12px;
+    color: var(--text2);
+    margin-top: 3px;
+    line-height: 1.4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  /* ── 카카오 패널 ── */
+  .kakao-panel { position: sticky; top: 80px; }
+
+  .kakao-preview {
+    background: #b2c7d9;
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    min-height: 200px;
+  }
+
+  .kakao-preview::before {
+    content: '📱 카카오톡 미리보기';
+    display: block;
+    font-size: 11px;
+    color: #5a7a8e;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .kakao-bubble {
+    background: white;
+    border-radius: 0 12px 12px 12px;
+    padding: 12px 14px;
+    font-size: 12.5px;
+    line-height: 1.65;
+    color: #191600;
+    white-space: pre-wrap;
+    word-break: break-all;
+    max-height: 350px;
+    overflow-y: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .kakao-bubble::-webkit-scrollbar { width: 3px; }
+  .kakao-bubble::-webkit-scrollbar-thumb { background: #ddd; border-radius: 2px; }
+
+  .char-count {
+    text-align: right;
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 8px;
+  }
+
+  .char-count.warn { color: var(--red); }
+
+  /* ── 버튼 ── */
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-family: var(--font);
+    transition: all 0.15s;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .btn-kakao {
+    background: var(--kakao);
+    color: var(--kakao-text);
+  }
+
+  .btn-kakao:hover { background: var(--kakao-dark); transform: translateY(-1px); }
+  .btn-kakao:active { transform: translateY(0); }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--text2);
+    border: 1px solid var(--border);
+  }
+
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn-blue {
+    background: var(--accent);
+    color: white;
+  }
+
+  .btn-blue:hover { background: #2563EB; }
+
+  .btn-green {
+    background: var(--accent2);
+    color: white;
+  }
+
+  .btn-green:hover { background: #059669; }
+
+  .btn-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* ── 스케줄 ── */
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .schedule-item {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+
+  .schedule-item:hover { border-color: var(--kakao); }
+
+  .schedule-item.active {
+    border-color: var(--kakao);
+    background: rgba(254, 229, 0, 0.06);
+  }
+
+  .schedule-time {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--kakao);
+  }
+
+  .schedule-label {
+    font-size: 11px;
+    color: var(--text3);
+    margin-top: 1px;
+  }
+
+  /* ── 업데이트 상태 ── */
+  .update-bar {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .update-info { font-size: 12px; color: var(--text2); }
+  .update-time { font-size: 11px; color: var(--text3); }
+
+  .refresh-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: var(--font);
+    transition: all 0.12s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .spinner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── 탭 ── */
+  .tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tab {
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text3);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    transition: all 0.15s;
+  }
+
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--text); border-bottom-color: var(--kakao); }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* ── 설정 ── */
+  .setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .setting-row:last-child { border-bottom: none; }
+
+  .setting-label { font-size: 13px; color: var(--text2); }
+  .setting-sublabel { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+  input[type="text"], input[type="url"], textarea, select {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: var(--font);
+    outline: none;
+    transition: border-color 0.12s;
+    width: 100%;
+  }
+
+  input[type="text"]:focus, input[type="url"]:focus, textarea:focus, select:focus {
+    border-color: var(--accent);
+  }
+
+  textarea { resize: vertical; min-height: 80px; }
+
+  .toggle {
+    width: 38px;
+    height: 22px;
+    background: var(--border);
+    border-radius: 11px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .toggle.on { background: var(--accent2); }
+
+  .toggle::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    transition: left 0.2s;
+  }
+
+  .toggle.on::after { left: 19px; }
+
+  /* ── 알림 토스트 ── */
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1000;
+    max-width: 300px;
+  }
+
+  .toast.show { transform: translateY(0); opacity: 1; }
+  .toast.success { border-left: 3px solid var(--accent2); }
+  .toast.error { border-left: 3px solid var(--red); }
+
+  /* ── 카카오 채널 안내 ── */
+  .guide-box {
+    background: rgba(254, 229, 0, 0.05);
+    border: 1px solid rgba(254, 229, 0, 0.2);
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 12px;
+    color: var(--text2);
+    line-height: 1.7;
+  }
+
+  .guide-box strong { color: var(--kakao); }
+
+  .link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text2);
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 4px 2px 0;
+    transition: all 0.12s;
+  }
+
+  .link-btn:hover { border-color: var(--kakao); color: var(--kakao); }
+
+  /* ── 로딩 스켈레톤 ── */
+  .skeleton {
+    background: linear-gradient(90deg, var(--surface2) 25%, var(--border) 50%, var(--surface2) 75%);
+    background-size: 200% 100%;
+    animation: skeleton 1.5s infinite;
+    border-radius: 4px;
+  }
+
+  @keyframes skeleton {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .skeleton-line { height: 13px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    📊 마켓피드
+    <span class="logo-badge">카카오 관리자</span>
+  </div>
+  <div class="header-status">
+    <div class="status-dot" id="statusDot"></div>
+    <span id="headerStatus">뉴스 로딩 중...</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- ── 왼쪽: 뉴스 피드 ── -->
+  <div>
+    <!-- 통계 -->
+    <div class="stats-row">
+      <div class="stat-box">
+        <div class="stat-label">총 뉴스</div>
+        <div class="stat-value blue" id="totalCount">-</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">시장 관련</div>
+        <div class="stat-value green" id="marketCount">-</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">선택됨</div>
+        <div class="stat-value yellow" id="selectedCount">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">마지막 업데이트</div>
+        <div class="stat-value" style="font-size:13px;color:var(--text2)" id="lastUpdate">-</div>
+      </div>
+    </div>
+
+    <!-- 업데이트 바 -->
+    <div class="update-bar">
+      <div>
+        <div class="update-info" id="updateInfo">📡 GitHub Actions로 6시간마다 자동 업데이트</div>
+        <div class="update-time" id="updateTime">-</div>
+      </div>
+      <button class="refresh-btn" id="refreshBtn" onclick="loadNews()">
+        <span id="refreshIcon">↻</span> 새로고침
+      </button>
+    </div>
+
+    <!-- 탭 -->
+    <div class="card">
+      <div class="tabs">
+        <div class="tab active" onclick="switchTab('news', this)">📰 뉴스 선택</div>
+        <div class="tab" onclick="switchTab('settings', this)">⚙️ 발행 설정</div>
+        <div class="tab" onclick="switchTab('guide', this)">📖 카카오 연동 가이드</div>
+      </div>
+
+      <!-- 뉴스 탭 -->
+      <div class="tab-content active" id="tab-news">
+        <div class="card-body">
+          <div class="news-controls">
+            <button class="filter-btn active" onclick="filterNews('all', this)">전체</button>
+            <button class="filter-btn" onclick="filterNews('market', this)">🔥 시장관련</button>
+            <button class="filter-btn" onclick="filterNews('ko', this)">🇰🇷 한국어</button>
+            <button class="filter-btn" onclick="filterNews('en', this)">🌐 영어</button>
+            <button class="filter-btn kakao-active" onclick="selectTop5()">⚡ TOP5 자동선택</button>
+          </div>
+          <div class="news-list" id="newsList">
+            <!-- 스켈레톤 -->
+            <div style="padding:12px">
+              <div class="skeleton skeleton-line" style="width:70%"></div>
+              <div class="skeleton skeleton-line" style="width:90%"></div>
+              <div class="skeleton skeleton-line" style="width:50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 설정 탭 -->
+      <div class="tab-content" id="tab-settings">
+        <div class="card-body">
+          <div style="margin-bottom:20px">
+            <div style="font-size:12px;color:var(--text3);margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px">메시지 헤더 설정</div>
+            <div style="margin-bottom:10px">
+              <label style="font-size:12px;color:var(--text2);display:block;margin-bottom:6px">채널 이름</label>
+              <input type="text" id="channelName" value="📊 마켓피드 · news.wishwifi.com" />
+            </div>
+            <div style="margin-bottom:10px">
+              <label style="font-size:12px;color:var(--text2);display:block;margin-bottom:6px">하단 CTA 메시지</label>
+              <input type="text" id="ctaMsg" value="📈 실시간 대시보드 보기 → news.wishwifi.com" />
+            </div>
+            <div>
+              <label style="font-size:12px;color:var(--text2);display:block;margin-bottom:6px">추가 안내문구</label>
+              <textarea id="footerMsg">💡 본 메시지는 투자 권유가 아닙니다. 모든 투자 결정은 투자자 본인 책임.</textarea>
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size:12px;color:var(--text3);margin-bottom:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px">발행 시간 설정</div>
+            <div class="schedule-grid" id="scheduleGrid">
+              <div class="schedule-item active" data-time="08:00" onclick="toggleSchedule(this)">
+                <div>
+                  <div class="schedule-time">08:00</div>
+                  <div class="schedule-label">아침 브리핑</div>
+                </div>
+                <span style="margin-left:auto;font-size:16px">✅</span>
+              </div>
+              <div class="schedule-item active" data-time="12:00" onclick="toggleSchedule(this)">
+                <div>
+                  <div class="schedule-time">12:00</div>
+                  <div class="schedule-label">점심 브리핑</div>
+                </div>
+                <span style="margin-left:auto;font-size:16px">✅</span>
+              </div>
+              <div class="schedule-item" data-time="18:00" onclick="toggleSchedule(this)">
+                <div>
+                  <div class="schedule-time">18:00</div>
+                  <div class="schedule-label">저녁 마감</div>
+                </div>
+                <span style="margin-left:auto;font-size:16px">☑️</span>
+              </div>
+              <div class="schedule-item" data-time="22:00" onclick="toggleSchedule(this)">
+                <div>
+                  <div class="schedule-time">22:00</div>
+                  <div class="schedule-label">야간 정리</div>
+                </div>
+                <span style="margin-left:auto;font-size:16px">☑️</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">시장 관련 뉴스만 포함</div>
+              <div class="setting-sublabel">키워드 필터로 증시 관련 기사 우선</div>
+            </div>
+            <div class="toggle on" id="marketFilterToggle" onclick="this.classList.toggle('on');rebuildPreview()"></div>
+          </div>
+
+          <div class="setting-row">
+            <div>
+              <div class="setting-label">영어 뉴스 포함</div>
+              <div class="setting-sublabel">Reuters, MarketWatch 등 글로벌 뉴스</div>
+            </div>
+            <div class="toggle on" id="enToggle" onclick="this.classList.toggle('on');rebuildPreview()"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 가이드 탭 -->
+      <div class="tab-content" id="tab-guide">
+        <div class="card-body">
+          <div class="guide-box" style="margin-bottom:16px">
+            <strong>🆓 무료로 카카오 구독자에게 보내는 방법</strong><br><br>
+            <strong>방법 1 · 카카오 채널 (추천)</strong><br>
+            카카오 비즈니스에서 채널을 만들면 구독자에게 <strong>1:1 메시지</strong> 발송 가능.<br>
+            월 1회까지 무료 · 이후 건당 약 9원<br><br>
+            <strong>방법 2 · 카카오 오픈채팅</strong><br>
+            오픈채팅방에 구독자를 모으고 공지로 발송. <strong>완전 무료</strong>, 단 1:1 불가<br><br>
+            <strong>방법 3 · 카카오 공유하기 (현재 사용 가능)</strong><br>
+            아래 "카카오 공유" 버튼으로 나의 카카오 친구/그룹에 즉시 발송
+          </div>
+
+          <div style="margin-bottom:16px">
+            <div style="font-size:12px;color:var(--text3);margin-bottom:10px;font-weight:600">📋 GitHub Actions 설정 방법</div>
+            <div style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:12px;color:var(--text2);line-height:1.8">
+              1. <code style="color:var(--kakao)">fetch-news.js</code> 와 <code style="color:var(--kakao)">.github/workflows/fetch-news.yml</code> 을<br>
+              &nbsp;&nbsp;&nbsp;GitHub 저장소에 업로드<br>
+              2. GitHub Pages 활성화 → <code style="color:var(--kakao)">data/news.json</code> 이 자동 생성<br>
+              3. 이 관리자 페이지에서 JSON URL 설정 후 사용<br><br>
+              📌 비용: <strong style="color:var(--accent2)">$0</strong> — GitHub 무료 플랜으로 월 2,000분 Actions 무료
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size:12px;color:var(--text3);margin-bottom:10px;font-weight:600">🔗 바로가기</div>
+            <a class="link-btn" href="https://business.kakao.com/info/bizmessage/" target="_blank">카카오 비즈메시지</a>
+            <a class="link-btn" href="https://center-pf.kakao.com/" target="_blank">카카오 채널 만들기</a>
+            <a class="link-btn" href="https://github.com/features/actions" target="_blank">GitHub Actions</a>
+          </div>
+
+          <div style="margin-top:16px">
+            <div style="font-size:12px;color:var(--text3);margin-bottom:8px;font-weight:600">📡 news.json URL 설정</div>
+            <input type="url" id="jsonUrl" placeholder="https://YOUR_USERNAME.github.io/repo/data/news.json" />
+            <button class="btn btn-blue" style="margin-top:8px;padding:8px 16px;width:auto" onclick="saveJsonUrl()">저장</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 오른쪽: 카카오 발송 패널 ── -->
+  <div class="kakao-panel">
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-header">
+        <div class="card-title">📱 카카오 메시지 미리보기</div>
+        <div id="charCount" class="char-count">0자</div>
+      </div>
+      <div style="padding:16px">
+        <div class="kakao-preview">
+          <div class="kakao-bubble" id="kakaoPreview">뉴스를 선택하면 메시지가 생성됩니다.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">🚀 발송 옵션</div>
+      </div>
+      <div class="card-body">
+        <div class="btn-row">
+
+          <!-- 카카오 공유 버튼 (JS SDK) -->
+          <button class="btn btn-kakao" onclick="shareKakao()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path d="M12 3C6.477 3 2 6.477 2 10.8c0 2.736 1.62 5.14 4.08 6.64L5 21l4.56-2.88C10.32 18.36 11.16 18.48 12 18.48c5.523 0 10-3.477 10-7.68S17.523 3 12 3z" fill="currentColor"/>
+            </svg>
+            카카오톡으로 공유하기
+          </button>
+
+          <!-- 클립보드 복사 -->
+          <button class="btn btn-outline" onclick="copyToClipboard()">
+            📋 메시지 복사 (카카오채널 붙여넣기용)
+          </button>
+
+          <!-- 텍스트 파일 다운로드 -->
+          <button class="btn btn-outline" onclick="downloadTxt()">
+            💾 .txt 파일 저장
+          </button>
+
+          <!-- 재생성 -->
+          <button class="btn btn-outline" onclick="rebuildPreview()">
+            ✨ AI로 메시지 재작성
+          </button>
+
+        </div>
+
+        <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+          <div style="font-size:12px;color:var(--text3);margin-bottom:10px;font-weight:600">⏰ 오늘 발송 스케줄</div>
+          <div id="todaySchedule" style="font-size:12px;color:var(--text2)">설정에서 시간을 선택하세요</div>
+        </div>
+
+        <div style="margin-top:16px">
+          <div class="guide-box" style="font-size:11px">
+            <strong>💡 발송 팁</strong><br>
+            • 오전 8시 · 점심 12시가 오픈율 최고<br>
+            • 메시지 1,000자 이내 권장<br>
+            • 링크는 1개로 집중 (news.wishwifi.com)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- 카카오 SDK -->
+<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" crossorigin="anonymous"></script>
+
+<script>
+// ── 설정 ──
+const DEFAULT_JSON_URL = localStorage.getItem('newsJsonUrl') ||
+  'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/news.json';
+
+const SITE_URL = 'https://news.wishwifi.com';
+const KAKAO_APP_KEY = 'YOUR_KAKAO_APP_KEY'; // kakao developers.kakao.com에서 발급
+
+// ── 상태 ──
+let allNews = [];
+let filteredNews = [];
+let selectedIds = new Set();
+let currentFilter = 'all';
+
+// ── 초기화 ──
+document.addEventListener('DOMContentLoaded', () => {
+  const savedUrl = localStorage.getItem('newsJsonUrl');
+  if (savedUrl) document.getElementById('jsonUrl').value = savedUrl;
+
+  try {
+    if (KAKAO_APP_KEY !== 'YOUR_KAKAO_APP_KEY') {
+      Kakao.init(KAKAO_APP_KEY);
+    }
+  } catch(e) {}
+
+  loadNews();
+  updateTodaySchedule();
+});
+
+// ── 뉴스 로드 ──
+async function loadNews() {
+  const btn = document.getElementById('refreshBtn');
+  const icon = document.getElementById('refreshIcon');
+  btn.disabled = true;
+  icon.innerHTML = '<span class="spinner"></span>';
+
+  const url = localStorage.getItem('newsJsonUrl') || DEFAULT_JSON_URL;
+
+  try {
+    const res = await fetch(url + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    allNews = data.items || [];
+    document.getElementById('totalCount').textContent = data.totalCount || allNews.length;
+    document.getElementById('marketCount').textContent = data.marketRelatedCount || '-';
+    document.getElementById('lastUpdate').textContent =
+      (data.updatedAtKST || '').slice(11, 16) || '-';
+    document.getElementById('updateTime').textContent =
+      '마지막 업데이트: ' + (data.updatedAtKST || '-');
+    document.getElementById('headerStatus').textContent = `뉴스 ${allNews.length}개 로드됨`;
+
+    filterNews(currentFilter);
+    selectTop5();
+
+  } catch(err) {
+    console.error(err);
+    document.getElementById('headerStatus').textContent = 'JSON 로드 실패 · 가이드 탭 참고';
+    document.getElementById('statusDot').style.background = '#EF4444';
+
+    // 데모 데이터로 대체
+    loadDemoData();
+  } finally {
+    btn.disabled = false;
+    icon.textContent = '↻';
+  }
+}
+
+// 데모 데이터 (JSON URL 미설정 시)
+function loadDemoData() {
+  const now = new Date().toISOString();
+  allNews = [
+    { id: 1, title: '나스닥, AI 기대감에 3일 연속 상승... 실적 시즌 기대', source: '한국경제', emoji: '📈', lang: 'ko', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: '빅테크 실적 발표를 앞두고 투자 심리가 개선되며 지수 상승세 지속' },
+    { id: 2, title: '연준 파월 "금리 인하 서두르지 않겠다" 매파 발언', source: '연합뉴스', emoji: '🏦', lang: 'ko', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: '인플레이션 목표치 2% 달성까지 현 기조 유지 시사' },
+    { id: 3, title: '삼성전자 2분기 실적 서프라이즈... HBM 수주 급증', source: '매일경제', emoji: '💹', lang: 'ko', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: 'AI 반도체 수요 증가로 영업이익 전년비 310% 급증 예상' },
+    { id: 4, title: '원달러 환율 1,370원대 안정... 외국인 국내증시 순매수', source: '이데일리', emoji: '💱', lang: 'ko', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: '달러 강세 주춤하며 이머징 자금 유입 재개' },
+    { id: 5, title: '트럼프, 반도체 관세 유예 검토... 테크 섹터 급등', source: '한국경제', emoji: '🇺🇸', lang: 'ko', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: '대만·한국産 반도체 관세 6개월 유예 가능성 보도' },
+    { id: 6, title: "S&P 500 hits record high as tech stocks surge on AI optimism", source: 'Reuters', emoji: '🌐', lang: 'en', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: '' },
+    { id: 7, title: "Fed officials signal patience on rate cuts amid sticky inflation", source: 'MarketWatch', emoji: '📊', lang: 'en', pubDate: now, isMarketRelated: true, link: SITE_URL, summary: '' },
+  ];
+
+  document.getElementById('totalCount').textContent = allNews.length;
+  document.getElementById('marketCount').textContent = allNews.filter(n => n.isMarketRelated).length;
+  document.getElementById('lastUpdate').textContent = '데모';
+  document.getElementById('updateInfo').textContent = '⚠️ 데모 데이터 · 가이드 탭에서 GitHub 저장소 설정하세요';
+
+  filterNews(currentFilter);
+  selectTop5();
+}
+
+// ── 필터 ──
+function filterNews(type, btn) {
+  currentFilter = type;
+  document.querySelectorAll('.filter-btn:not(.kakao-active)').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+
+  const marketFilter = document.getElementById('marketFilterToggle').classList.contains('on');
+  const enEnabled = document.getElementById('enToggle').classList.contains('on');
+
+  filteredNews = allNews.filter(n => {
+    if (type === 'market' && !n.isMarketRelated) return false;
+    if (type === 'ko' && n.lang !== 'ko') return false;
+    if (type === 'en' && n.lang !== 'en') return false;
+    if (marketFilter && !n.isMarketRelated && type !== 'market') return false;
+    if (!enEnabled && n.lang === 'en' && type !== 'en') return false;
+    return true;
+  });
+
+  renderNewsList();
+}
+
+// ── 뉴스 렌더 ──
+function renderNewsList() {
+  const list = document.getElementById('newsList');
+  if (filteredNews.length === 0) {
+    list.innerHTML = '<div style="padding:24px;text-align:center;color:var(--text3)">뉴스가 없습니다</div>';
+    return;
+  }
+
+  list.innerHTML = filteredNews.map((n, i) => {
+    const id = n.id || i;
+    const checked = selectedIds.has(id);
+    const date = n.pubDate ? new Date(n.pubDate).toLocaleString('ko', {
+      month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit'
+    }) : '';
+
+    return `
+      <div class="news-item ${checked ? 'selected' : ''}" onclick="toggleSelect(${id}, this)">
+        <input class="news-checkbox" type="checkbox" ${checked ? 'checked' : ''} onclick="event.stopPropagation();toggleSelect(${id}, this.closest('.news-item'))">
+        <span class="news-source-badge">${n.emoji} ${n.source}</span>
+        <div class="news-content">
+          <div class="news-title ${n.isMarketRelated ? 'market-related' : ''}">${n.title}</div>
+          ${n.summary ? `<div class="news-summary">${n.summary}</div>` : ''}
+          <div class="news-meta">${date}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// ── 선택/해제 ──
+function toggleSelect(id, el) {
+  const checkbox = el.querySelector('input[type="checkbox"]');
+  if (selectedIds.has(id)) {
+    selectedIds.delete(id);
+    el.classList.remove('selected');
+    if (checkbox) checkbox.checked = false;
+  } else {
+    selectedIds.add(id);
+    el.classList.add('selected');
+    if (checkbox) checkbox.checked = true;
+  }
+  document.getElementById('selectedCount').textContent = selectedIds.size;
+  rebuildPreview();
+}
+
+// ── TOP5 자동 선택 ──
+function selectTop5() {
+  selectedIds.clear();
+  const market = allNews.filter(n => n.isMarketRelated);
+  const ko = market.filter(n => n.lang === 'ko').slice(0, 5);
+  const en = market.filter(n => n.lang === 'en').slice(0, 3);
+
+  [...ko, ...en].forEach((n, i) => selectedIds.add(n.id || i));
+  document.getElementById('selectedCount').textContent = selectedIds.size;
+  renderNewsList();
+  rebuildPreview();
+  showToast('⚡ 시장 관련 TOP 뉴스가 자동 선택되었습니다', 'success');
+}
+
+// ── 미리보기 생성 ──
+function rebuildPreview() {
+  const channelName = document.getElementById('channelName').value;
+  const ctaMsg = document.getElementById('ctaMsg').value;
+  const footerMsg = document.getElementById('footerMsg').value;
+
+  const now = new Date();
+  const kst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+  const dateStr = kst.toISOString().slice(0, 10);
+  const hour = kst.getUTCHours();
+
+  let timeLabel = '아침 브리핑 ☀️';
+  if (hour >= 12 && hour < 18) timeLabel = '점심 브리핑 🌞';
+  else if (hour >= 18) timeLabel = '저녁 마감 🌙';
+  else if (hour >= 22) timeLabel = '야간 정리 🌛';
+
+  const selectedItems = allNews.filter((n, i) => selectedIds.has(n.id || i));
+  const koItems = selectedItems.filter(n => n.lang === 'ko');
+  const enItems = selectedItems.filter(n => n.lang === 'en');
+
+  if (selectedItems.length === 0) {
+    document.getElementById('kakaoPreview').textContent = '뉴스를 선택하면 메시지가 생성됩니다.';
+    document.getElementById('charCount').textContent = '0자';
+    return;
+  }
+
+  let msg = `${channelName}\n`;
+  msg += `${timeLabel} · ${dateStr}\n`;
+  msg += `━━━━━━━━━━━━━━━━\n\n`;
+
+  if (koItems.length > 0) {
+    msg += `🇰🇷 국내 주요 뉴스\n\n`;
+    koItems.forEach((n, i) => {
+      msg += `${i + 1}. ${n.title}\n`;
+      if (n.summary) msg += `   └ ${n.summary.slice(0, 50)}...\n`;
+      msg += `\n`;
+    });
+  }
+
+  if (enItems.length > 0) {
+    msg += `🌐 글로벌 뉴스\n\n`;
+    enItems.forEach((n, i) => {
+      msg += `${i + 1}. ${n.title}\n\n`;
+    });
+  }
+
+  msg += `━━━━━━━━━━━━━━━━\n`;
+  msg += `${ctaMsg}\n\n`;
+  msg += `${footerMsg}`;
+
+  document.getElementById('kakaoPreview').textContent = msg;
+
+  const len = msg.length;
+  const countEl = document.getElementById('charCount');
+  countEl.textContent = `${len}자`;
+  countEl.className = 'char-count' + (len > 1000 ? ' warn' : '');
+}
+
+// ── AI 메시지 재작성 ──
+async function rebuildWithAI() {
+  const selectedItems = allNews.filter((n, i) => selectedIds.has(n.id || i));
+  if (selectedItems.length === 0) {
+    showToast('뉴스를 먼저 선택해주세요', 'error');
+    return;
+  }
+
+  const preview = document.getElementById('kakaoPreview');
+  preview.textContent = 'AI가 메시지를 작성 중... ✍️';
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        system: `당신은 한국 증시/경제 뉴스 뉴스레터 작성 전문가입니다. 
+카카오톡 채널용 브리핑 메시지를 작성합니다.
+- 700자 이내
+- 이모지 활용
+- 핵심만 간결하게
+- 마지막에 https://news.wishwifi.com 링크 포함
+- 한국어로 작성`,
+        messages: [{
+          role: 'user',
+          content: `다음 뉴스들로 오늘의 마켓 브리핑 카카오톡 메시지를 작성해주세요:\n\n${
+            selectedItems.map(n => `• ${n.title}${n.summary ? '\n  ' + n.summary : ''}`).join('\n')
+          }`
+        }]
+      })
+    });
+
+    if (!resp.ok) throw new Error(`API ${resp.status}`);
+    const data = await resp.json();
+    const text = data.content?.map(c => c.text || '').join('') || '';
+    preview.textContent = text;
+
+    const len = text.length;
+    const countEl = document.getElementById('charCount');
+    countEl.textContent = `${len}자`;
+    countEl.className = 'char-count' + (len > 1000 ? ' warn' : '');
+
+    showToast('✨ AI 메시지 생성 완료!', 'success');
+  } catch(err) {
+    rebuildPreview();
+    showToast('AI 생성 실패 · 기본 메시지 사용', 'error');
+  }
+}
+
+// rebuildPreview 버튼을 AI 재작성으로 override
+document.addEventListener('DOMContentLoaded', () => {
+  const aiBtn = document.querySelector('[onclick="rebuildPreview()"]');
+  if (aiBtn && aiBtn.textContent.includes('AI')) {
+    aiBtn.onclick = rebuildWithAI;
+  }
+});
+
+// ── 카카오 공유 ──
+function shareKakao() {
+  const msg = document.getElementById('kakaoPreview').textContent;
+  if (!msg || msg === '뉴스를 선택하면 메시지가 생성됩니다.') {
+    showToast('뉴스를 먼저 선택해주세요', 'error');
+    return;
+  }
+
+  if (Kakao.isInitialized && Kakao.isInitialized()) {
+    Kakao.Share.sendDefault({
+      objectType: 'text',
+      text: msg.slice(0, 200),
+      link: { mobileWebUrl: SITE_URL, webUrl: SITE_URL },
+      buttons: [{ title: '📊 마켓피드 보기', link: { mobileWebUrl: SITE_URL, webUrl: SITE_URL } }]
+    });
+  } else {
+    // SDK 미설정 시 카카오 링크로 fallback
+    const encoded = encodeURIComponent(msg.slice(0, 200));
+    const url = `https://sharer.kakao.com/talk/friends/picker/link?app_key=YOUR_APP_KEY&text=${encoded}&url=${encodeURIComponent(SITE_URL)}`;
+    window.open(url, '_blank', 'width=500,height=600');
+    showToast('카카오 앱 키를 설정하면 바로 공유할 수 있어요', 'error');
+  }
+}
+
+// ── 클립보드 복사 ──
+async function copyToClipboard() {
+  const msg = document.getElementById('kakaoPreview').textContent;
+  try {
+    await navigator.clipboard.writeText(msg);
+    showToast('✅ 클립보드에 복사되었습니다! 카카오채널에 붙여넣으세요', 'success');
+  } catch {
+    showToast('복사 실패 · 수동으로 선택해서 복사해주세요', 'error');
+  }
+}
+
+// ── 파일 저장 ──
+function downloadTxt() {
+  const msg = document.getElementById('kakaoPreview').textContent;
+  const now = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 16).replace('T', '_');
+  const blob = new Blob([msg], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `마켓피드_${now}.txt`;
+  a.click();
+}
+
+// ── 탭 전환 ──
+function switchTab(id, tabEl) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  tabEl.classList.add('active');
+  document.getElementById('tab-' + id).classList.add('active');
+}
+
+// ── 스케줄 토글 ──
+function toggleSchedule(el) {
+  el.classList.toggle('active');
+  const icon = el.querySelector('span');
+  icon.textContent = el.classList.contains('active') ? '✅' : '☑️';
+  updateTodaySchedule();
+}
+
+function updateTodaySchedule() {
+  const active = [...document.querySelectorAll('.schedule-item.active')]
+    .map(el => el.dataset.time);
+  const today = document.getElementById('todaySchedule');
+  today.textContent = active.length
+    ? '발송 예정: ' + active.join(' · ')
+    : '발송 일정 없음';
+}
+
+// ── JSON URL 저장 ──
+function saveJsonUrl() {
+  const url = document.getElementById('jsonUrl').value.trim();
+  if (!url) return;
+  localStorage.setItem('newsJsonUrl', url);
+  showToast('✅ URL 저장됨 · 뉴스를 다시 로드합니다', 'success');
+  setTimeout(loadNews, 500);
+}
+
+// ── 토스트 ──
+function showToast(msg, type = 'success') {
+  const toast = document.getElementById('toast');
+  toast.textContent = msg;
+  toast.className = `toast ${type} show`;
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => toast.classList.remove('show'), 3000);
+}
+</script>
+</body>
+</html>
