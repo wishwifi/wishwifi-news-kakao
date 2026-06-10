@@ -1,0 +1,16 @@
+{
+  "name": "wishwifi-news-fetcher",
+  "version": "1.0.0",
+  "description": "WishWifi 마켓피드 RSS 자동 수집기 - GitHub Actions",
+  "main": "fetch-news.js",
+  "scripts": {
+    "fetch": "node fetch-news.js",
+    "test": "node fetch-news.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
