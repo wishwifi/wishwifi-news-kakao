@@ -2,12 +2,11 @@ name: 📰 뉴스 자동 수집 (6시간마다)
 
 on:
   schedule:
-    # 매일 KST 06:00, 12:00, 18:00, 24:00 (UTC 기준)
     - cron: '0 21 * * *'   # KST 06:00
     - cron: '0 3 * * *'    # KST 12:00
     - cron: '0 9 * * *'    # KST 18:00
     - cron: '0 15 * * *'   # KST 00:00
-  workflow_dispatch:       # 수동 실행 가능
+  workflow_dispatch:
 
 jobs:
   fetch-news:
@@ -16,7 +15,7 @@ jobs:
       contents: write
 
     steps:
-      - name: 📥 저장소 체크아웃
+      - name: 📥 체크아웃
         uses: actions/checkout@v4
 
       - name: 🟢 Node.js 설정
@@ -27,15 +26,17 @@ jobs:
       - name: 📦 패키지 설치
         run: npm install rss-parser
 
-      - name: 🗞️ RSS 뉴스 수집
+      - name: 🗞️ 뉴스 수집 & AI 요약 생성
         run: node fetch-news.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: 💾 news.json 커밋 & 푸시
+      - name: 💾 커밋 & 푸시
         run: |
           git config --global user.email "bot@wishwifi.com"
           git config --global user.name "WishWifi News Bot"
-          git add data/news.json data/kakao-template.txt
-          git diff --staged --quiet || git commit -m "📰 뉴스 업데이트 $(date '+%Y-%m-%d %H:%M KST' --date='9 hours')"
+          git add data/news.json data/summary.json data/kakao-template.txt
+          git diff --staged --quiet || git commit -m "📰 뉴스+요약 업데이트 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
