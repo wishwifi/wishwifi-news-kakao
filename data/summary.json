@@ -91,11 +91,11 @@
   ],
   "experts": [
     {
-      "quote": "오늘 수집된 뉴스를 바탕으로 시장을 분석하고 있습니다. Claude API 키를 설정하면 전문가 코멘트가 자동 생성됩니다.",
-      "name": "마켓피드 AI",
-      "role": "자동 분석 시스템",
-      "src": "GitHub Actions",
-      "srcUrl": "https://github.com/wishwifi/wishwifi-news-kakao"
+      "quote": "글로벌 시장은 뉴스 흐름에 민감하게 반응하고 있습니다. 오늘 주요 헤드라인을 확인하고 포지션을 점검하세요.",
+      "name": "마켓피드",
+      "role": "글로벌 증시 뉴스",
+      "src": "news.wishwifi.com",
+      "srcUrl": "https://news.wishwifi.com"
     }
   ],
   "checklist": [
@@ -112,13 +112,6 @@
       "desc": "The S&P 500 chart is breaking down — but this new buy signal is flashing green",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
-    },
-    {
-      "icon": "⚠️",
-      "title": "Claude API 설정 권장",
-      "desc": "GitHub Secrets에 ANTHROPIC_API_KEY 추가 시 AI 분석 자동 생성",
-      "url": "https://github.com/wishwifi/wishwifi-news-kakao/settings/secrets",
-      "urlLabel": "GitHub Secrets"
     }
   ],
   "trump": {
