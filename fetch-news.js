@@ -210,6 +210,64 @@ function generateFallbackSummary(newsItems, dateStr) {
   };
 }
 
+// ── Unsplash 이미지 키워드 매핑 ──
+const UNSPLASH_KW_MAP = [
+  { keys: ['트럼프','trump','관세','tariff','백악관'], query: 'donald trump white house' },
+  { keys: ['반도체','semiconductor','chip','엔비디아','nvidia','AI','인공지능'], query: 'semiconductor technology chip' },
+  { keys: ['금리','rate','연준','fed','powell'], query: 'federal reserve interest rate' },
+  { keys: ['달러','dollar','환율','currency'], query: 'us dollar currency exchange' },
+  { keys: ['유가','oil','원유','opec'], query: 'oil petroleum energy market' },
+  { keys: ['나스닥','nasdaq','s&p','증시','stock market'], query: 'stock market nasdaq trading' },
+  { keys: ['금','gold','은','silver'], query: 'gold bars investment' },
+  { keys: ['이란','iran','중동','middle east'], query: 'middle east diplomacy' },
+  { keys: ['부동산','real estate','주택'], query: 'real estate housing market' },
+];
+
+function getUnsplashKeyword(newsItems) {
+  const titles = newsItems.slice(0, 5).map(n => n.title.toLowerCase()).join(' ');
+  for (const kw of UNSPLASH_KW_MAP) {
+    if (kw.keys.some(k => titles.includes(k.toLowerCase()))) {
+      return kw.query;
+    }
+  }
+  return 'stock market wall street finance';
+}
+
+async function fetchUnsplashImage(query) {
+  const apiKey = process.env.UNSPLASH_ACCESS_KEY;
+  if (!apiKey) return null;
+
+  return new Promise((resolve) => {
+    const encodedQuery = encodeURIComponent(query);
+    const options = {
+      hostname: 'api.unsplash.com',
+      path: `/photos/random?query=${encodedQuery}&orientation=landscape&content_filter=high`,
+      method: 'GET',
+      headers: {
+        'Authorization': `Client-ID ${apiKey}`,
+        'Accept-Version': 'v1'
+      }
+    };
+
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const d = JSON.parse(data);
+          // regular 사이즈 URL (1080px) — 카카오 호환
+          const imgUrl = d.urls?.regular || d.urls?.full || null;
+          console.log(`  🖼️  Unsplash 이미지: ${imgUrl?.slice(0,60) || '없음'}`);
+          resolve(imgUrl);
+        } catch (e) { resolve(null); }
+      });
+    });
+    req.on('error', () => resolve(null));
+    req.setTimeout(8000, () => { req.destroy(); resolve(null); });
+    req.end();
+  });
+}
+
 // ── 카카오 템플릿 생성 ──
 function generateKakaoTemplate(newsItems, summary) {
   const kstNow = new Date(Date.now() + 9 * 60 * 60 * 1000);
@@ -274,6 +332,16 @@ async function main() {
   const summary = await generateSummary(unique);
   summary.updatedAt = new Date().toISOString();
   summary.updatedAtKST = newsOutput.updatedAtKST;
+
+  // Unsplash 이미지 — 오늘 뉴스 키워드 기반 자동 선택
+  const marketNews = unique.filter(n => n.isMarketRelated);
+  const unsplashQuery = getUnsplashKeyword(marketNews);
+  console.log(`\n🖼️  Unsplash 검색어: "${unsplashQuery}"`);
+  const ogImage = await fetchUnsplashImage(unsplashQuery);
+  summary.ogImage = ogImage || '';  // summary.json에 저장
+  if (ogImage) console.log('✅ OG 이미지 저장 완료');
+  else console.log('⚠️  Unsplash 이미지 없음 (UNSPLASH_ACCESS_KEY 설정 필요)');
+
   fs.writeFileSync(path.join(dataDir, 'summary.json'), JSON.stringify(summary, null, 2), 'utf-8');
   console.log('✅ data/summary.json 저장');
 
