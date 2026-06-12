@@ -1,10 +1,10 @@
 // netlify/edge-functions/meta-inject.js
 // 카카오·구글 크롤러 접근 시 summary.json + 기사 OG이미지 동적 주입
 
-const SUMMARY_URL = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/news.json';
+const SUMMARY_URL = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/summary.json';
 const SITE_NAME = '마켓피드';
 
-// Netlify 자체 호스팅 이미지 (카카오 크롤러 호환)
+// GitHub 호스팅 fallback 이미지 (Unsplash 없을 때)
 const FALLBACK_IMAGES = [
   'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/assets/og-1.svg',
   'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/assets/og-2.svg',
@@ -51,36 +51,23 @@ export default async (request, context) => {
   try {
     const res = await fetch(SUMMARY_URL, { signal: AbortSignal.timeout(5000) });
     if (res.ok) {
-      const data = await res.json();
-      const items = data.items || [];
+      const summary = await res.json();
 
-      // 시장 관련 TOP 뉴스 (한국어 우선)
-      const marketNews = items.filter(n => n.isMarketRelated);
-      const koNews = marketNews.filter(n => n.lang === 'ko').slice(0, 3);
-      const topNews = koNews.length >= 2 ? koNews : marketNews.slice(0, 3);
+      // summary.json에 저장된 Unsplash 이미지 URL 사용
+      if (summary.ogImage) ogImage = summary.ogImage;
 
-      // 제목: 오늘 뉴스 기반
-      if (topNews[0]) {
-        const headline = topNews[0].title.replace(/\[.*?\]/g, '').replace(/\(.*?\)/g, '').trim();
-        title = `${headline.slice(0, 33)}... | ${SITE_NAME} ${dateStr}`;
+      const kst2 = new Date(Date.now() + 9 * 60 * 60 * 1000);
+      const dateStr = `${kst2.getMonth() + 1}월 ${kst2.getDate()}일`;
+
+      if (summary.headline) {
+        title = `${summary.headline.slice(0, 35).replace(/\[.*?\]/g, '').trim()}... | ${SITE_NAME} ${dateStr}`;
       }
 
-      // description: TOP 3 뉴스 제목 조합
-      if (topNews.length >= 2) {
-        const pts = topNews.map(n =>
-          n.title.replace(/\[.*?\]/g, '').replace(/\(.*?\)/g, '').trim().slice(0, 28)
+      if (summary.points && summary.points.length >= 2) {
+        const pts = summary.points.slice(0, 3).map(p =>
+          p.title.replace(/\[.*?\]/g, '').trim()
         );
-        description = `${pts.join(' · ')} | ${dateStr}`;
-      }
-
-      // ── 기사 OG 이미지 추출 (TOP 3 순서로 시도) ──
-      for (const news of topNews) {
-        if (!news.link || news.link === '#') continue;
-        const img = await fetchArticleImage(news.link);
-        if (img) {
-          ogImage = img;
-          break; // 첫 번째 성공한 이미지 사용
-        }
+        description = `${pts.join(' · ')} | ${dateStr} 증시 뉴스`;
       }
     }
   } catch (e) {
