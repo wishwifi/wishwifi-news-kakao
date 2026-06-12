@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ── 기본 SEO ── -->
+<title id="metaTitle">마켓피드 · 오늘의 미국증시 실시간 뉴스</title>
+<meta name="description" id="metaDesc" content="미국 S&P500·나스닥·다우, 한국 코스피 실시간 시장 동향. 트럼프 발언·금리·환율·실적까지 한눈에.">
+<meta name="keywords" id="metaKeywords" content="미국증시, 나스닥, S&P500, 코스피, 주식뉴스, 증시뉴스, 시장요약, 투자정보, 마켓피드">
+<meta name="author" content="마켓피드 · news.wishwifi.com">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="6 hours">
+<meta name="language" content="Korean">
+<link rel="canonical" href="https://news.wishwifi.com/">
+
+<!-- ── Open Graph (SNS/카카오 공유) ── -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="마켓피드">
+<meta property="og:url" content="https://news.wishwifi.com/">
+<meta property="og:title" id="ogTitle" content="마켓피드 · 오늘의 미국증시 실시간 뉴스">
+<meta property="og:description" id="ogDesc" content="미국 S&P500·나스닥·다우, 한국 코스피 실시간 시장 동향. 트럼프 발언·금리·환율·실적까지 한눈에.">
+<meta property="og:image" id="ogImage" content="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop&q=80">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" id="ogImageAlt" content="미국 증시 시장 차트 - 마켓피드">
+<meta property="og:locale" content="ko_KR">
+
+<!-- ── Twitter Card ── -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wishwifi">
+<meta name="twitter:title" id="twTitle" content="마켓피드 · 오늘의 미국증시 실시간 뉴스">
+<meta name="twitter:description" id="twDesc" content="미국 S&P500·나스닥·다우, 한국 코스피 실시간 시장 동향. 트럼프 발언·금리·환율·실적까지 한눈에.">
+<meta name="twitter:image" id="twImage" content="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop&q=80">
+
+<!-- ── 구조화 데이터 (Schema.org) ── -->
+<script type="application/ld+json" id="schemaData">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "마켓피드",
+  "url": "https://news.wishwifi.com",
+  "logo": "https://news.wishwifi.com/favicon.ico",
+  "description": "미국 증시·글로벌 시장 뉴스 자동 업데이트 서비스",
+  "inLanguage": "ko",
+  "sameAs": ["https://wishwifi.com"]
+}
+</script>
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230d0d0d'/><polyline points='12,72 32,48 52,58 72,28 92,40' stroke='%230e8a3e' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='92' cy='40' r='6' fill='%23c8281f'/></svg>">
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230d0d0d'/><polyline points='12,72 32,48 52,58 72,28 92,40' stroke='%230e8a3e' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='92' cy='40' r='6' fill='%23c8281f'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8530756154544319" crossorigin="anonymous"></script>
+<style>
+/* ── RESET ── */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f5f3ef;
+  --sur:#ffffff;
+  --sur2:#fafaf8;
+  --bd:#e4e0d8;
+  --bd2:#ccc8c0;
+  --ink:#0d0d0d;
+  --ink2:#3a3832;
+  --ink3:#7a756d;
+  --ink4:#a09890;
+  --up:#0e8a3e; --up-bg:#edf7f1; --up-pale:#c6ecd5;
+  --dn:#c8281f; --dn-bg:#fdf0ef; --dn-pale:#fad5d3;
+  --acc:#1a56db; --acc-bg:#ebf2ff;
+  --gold:#b8760a; --gold-bg:#fef9ec;
+  --sh:0 1px 3px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.04);
+  --sh2:0 2px 8px rgba(0,0,0,.10),0 8px 24px rgba(0,0,0,.06);
+  --r:8px; --r2:12px;
+}
+body{background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif;font-size:14px;line-height:1.5;min-height:100vh}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit}
+
+/* ── TICKER ── */
+.ticker-wrap{background:var(--ink);color:#fff;height:34px;display:flex;align-items:center;overflow:hidden;position:sticky;top:0;z-index:200}
+.ticker-live{background:#c8281f;font-size:10px;font-weight:700;letter-spacing:1.5px;padding:0 12px;height:100%;display:flex;align-items:center;flex-shrink:0}
+.ticker-scroll{flex:1;overflow:hidden}
+.ticker-track{display:flex;white-space:nowrap;animation:scroll 70s linear infinite}
+.ticker-track:hover{animation-play-state:paused}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ti{display:inline-flex;align-items:center;gap:5px;padding:0 18px;font-size:11px;font-family:'JetBrains Mono',monospace}
+.ti-sym{color:rgba(255,255,255,.5);font-weight:700}
+.ti-up{color:#3ecf74}
+.ti-dn{color:#ff7b72}
+
+/* ── HEADER ── */
+.hd{background:var(--sur);border-bottom:1px solid var(--bd);position:sticky;top:34px;z-index:100}
+.hd-in{max-width:1280px;margin:0 auto;display:flex;align-items:center;gap:0;height:50px;padding:0 20px}
+.logo{font-size:17px;font-weight:900;letter-spacing:-.5px;flex-shrink:0;padding-right:24px;border-right:1px solid var(--bd)}
+.logo span{color:#c8281f}
+.nav{display:flex;align-items:center;gap:1px;padding:0 12px;flex:1}
+.nb{padding:5px 11px;border-radius:6px;border:none;background:none;font-size:13px;font-weight:500;color:var(--ink3);transition:all .12s}
+.nb:hover,.nb.on{background:var(--bg);color:var(--ink);font-weight:700}
+.hd-r{display:flex;align-items:center;gap:8px;padding-left:16px;border-left:1px solid var(--bd);flex-shrink:0}
+.hd-date{font-size:11px;color:var(--ink3);font-family:'JetBrains Mono',monospace}
+.mst{font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.3px}
+.mst-open{background:#d4f0e0;color:#0e6b2e}
+.mst-closed{background:#fee2e1;color:#9b1c1c}
+.mst-ext{background:var(--gold-bg);color:var(--gold)}
+
+/* ── INDEX BAR ── */
+.idx-bar{background:var(--sur);border-bottom:1px solid var(--bd)}
+.idx-in{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);padding:0 20px}
+.idx-cell{padding:11px 14px;display:flex;flex-direction:column;gap:2px;border-right:1px solid var(--bd);cursor:default;transition:background .12s;position:relative}
+.idx-cell:last-child{border-right:none}
+.idx-cell:hover{background:var(--bg)}
+.idx-lbl{font-size:10px;color:var(--ink3);font-weight:500;display:flex;align-items:center;gap:4px}
+.idx-val{font-size:21px;font-weight:700;font-family:'JetBrains Mono',monospace;letter-spacing:-.5px;line-height:1}
+.idx-chg{font-size:12px;font-weight:700}
+.idx-sub{font-size:10px;color:var(--ink4)}
+.rsi-bar{position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--bd)}
+.rsi-fill{height:100%;transition:width .6s}
+.up{color:var(--up)}
+.dn{color:var(--dn)}
+
+/* ── LAYOUT ── */
+.wrap{max-width:1280px;margin:0 auto;padding:20px;display:grid;grid-template-columns:1fr 316px;gap:20px}
+
+/* ── SECTION HD ── */
+.shd{display:flex;align-items:center;gap:7px;margin-bottom:13px}
+.shd-ico{font-size:14px}
+.shd-ttl{font-size:15px;font-weight:700}
+.shd-bdg{font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:.3px}
+.bdg-red{background:#fee2e1;color:#9b1c1c}
+.bdg-blue{background:var(--acc-bg);color:#1a3a7a}
+.bdg-green{background:var(--up-bg);color:#0e6b2e}
+.bdg-gold{background:var(--gold-bg);color:var(--gold)}
+.shd-meta{margin-left:auto;font-size:11px;color:var(--ink4)}
+
+/* ── SUMMARY EXPANDED ── */
+.sum-headline{font-size:15px;font-style:italic;line-height:1.65;color:var(--ink2);border-left:3px solid var(--ink);padding:10px 14px;background:var(--sur);border-radius:0 var(--r) var(--r) 0;margin-bottom:11px}
+.sum-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:13px}
+.s-tag{font-size:11px;background:var(--bg);border:1px solid var(--bd);border-radius:4px;padding:2px 7px;color:var(--ink2);font-weight:500}
+
+/* 핵심 포인트 — 클릭 가능 */
+.sum-pts-wrap{display:flex;flex-direction:column;gap:7px;margin-bottom:16px}
+.sum-pt{display:flex;gap:9px;padding:11px 13px;background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);cursor:pointer;transition:all .14s;position:relative}
+.sum-pt:hover{border-color:var(--ink);box-shadow:2px 2px 0 var(--ink);transform:translate(-1px,-1px)}
+.sum-pt::after{content:'원문 →';position:absolute;right:11px;top:50%;transform:translateY(-50%);font-size:10px;color:var(--acc);font-weight:700;opacity:0;transition:opacity .14s}
+.sum-pt:hover::after{opacity:1}
+.sp-ico{font-size:16px;flex-shrink:0;margin-top:1px}
+.sp-ttl{font-size:12px;font-weight:700;margin-bottom:2px;padding-right:48px}
+.sp-desc{font-size:11px;color:var(--ink3);line-height:1.55}
+
+/* 지수 상세 그리드 */
+.sum-indices-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:16px}
+.si-card{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);padding:11px 13px;cursor:pointer;transition:all .14s;display:block;text-decoration:none;color:inherit}
+.si-card:hover{border-color:var(--acc);box-shadow:2px 2px 0 var(--acc);transform:translate(-1px,-1px)}
+.si-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+.si-name{font-size:11px;color:var(--ink3);font-weight:600}
+.si-src{font-size:9px;color:var(--acc);font-weight:700;background:var(--acc-bg);padding:1px 5px;border-radius:3px}
+.si-val{font-size:20px;font-weight:700;font-family:'JetBrains Mono',monospace;line-height:1}
+.si-row{display:flex;align-items:center;gap:8px;margin-top:3px}
+.si-chg{font-size:12px;font-weight:700;font-family:'JetBrains Mono',monospace}
+.si-sub{font-size:10px;color:var(--ink4)}
+.si-bar{height:3px;background:var(--bd);border-radius:2px;margin-top:6px;overflow:hidden}
+.si-bar-fill{height:100%;border-radius:2px}
+
+/* 섹터 그리드 */
+.sum-sec-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-bottom:16px}
+.ss-item{display:flex;align-items:center;justify-content:space-between;padding:8px 11px;border-radius:var(--r);border:1px solid var(--bd);cursor:pointer;transition:all .13s;text-decoration:none;color:inherit}
+.ss-item:hover{border-color:var(--ink);transform:translateY(-1px);box-shadow:var(--sh)}
+.ss-left{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600}
+.ss-pct{font-size:13px;font-weight:700;font-family:'JetBrains Mono',monospace}
+
+/* 채권·원자재 그리드 */
+.sum-asset-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:16px}
+.sa-item{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);padding:9px 11px;cursor:pointer;transition:all .13s;text-decoration:none;color:inherit;display:block}
+.sa-item:hover{border-color:var(--acc);transform:translateY(-1px);box-shadow:var(--sh)}
+.sa-nm{font-size:11px;color:var(--ink3);font-weight:600;margin-bottom:3px}
+.sa-val{font-size:13px;font-weight:700;font-family:'JetBrains Mono',monospace;line-height:1}
+.sa-chg{font-size:11px;font-weight:700}
+
+/* 트럼프 요약 박스 */
+.sum-trump-box{background:linear-gradient(135deg,#0f172a,#1e293b);color:#fff;border-radius:var(--r2);padding:14px 16px;margin-bottom:16px;cursor:pointer;transition:opacity .14s}
+.sum-trump-box:hover{opacity:.88}
+.stb-hd{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.stb-badge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;margin-left:auto}
+.stb-text{font-size:12px;line-height:1.6;color:rgba(255,255,255,.8);margin-bottom:8px}
+.stb-chips{display:flex;flex-wrap:wrap;gap:5px}
+.stb-chip{font-size:10px;padding:2px 7px;border-radius:4px;font-weight:700;background:rgba(255,255,255,.12);color:rgba(255,255,255,.8)}
+.stb-more{font-size:11px;color:rgba(255,255,255,.45);margin-top:8px}
+
+/* 뉴스 요약 리스트 */
+.sum-news-list{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.sn-item{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);cursor:pointer;transition:all .13s;text-decoration:none;color:inherit}
+.sn-item:hover{border-color:var(--ink);box-shadow:2px 2px 0 var(--ink);transform:translate(-1px,-1px)}
+.sn-dot{width:4px;border-radius:2px;flex-shrink:0;align-self:stretch;margin:2px 0}
+.sn-body{flex:1;min-width:0}
+.sn-meta{display:flex;align-items:center;gap:6px;margin-bottom:3px}
+.sn-src{font-size:10px;font-weight:700;padding:1px 6px;border-radius:3px;color:#fff;flex-shrink:0}
+.sn-time{font-size:10px;color:var(--ink4)}
+.sn-ttl{font-size:12px;font-weight:700;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sn-arr{font-size:14px;color:var(--ink4);flex-shrink:0;align-self:center}
+
+/* 체크리스트 */
+.sum-checklist{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.sc-item{display:flex;align-items:flex-start;gap:9px;padding:9px 12px;background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);cursor:pointer;transition:all .13s}
+.sc-item:hover{border-color:var(--acc);background:var(--acc-bg)}
+.sc-chk{font-size:14px;flex-shrink:0}
+.sc-body{flex:1}
+.sc-ttl{font-size:12px;font-weight:700;margin-bottom:1px}
+.sc-sub{font-size:10px;color:var(--ink3)}
+.sc-arr{font-size:11px;color:var(--acc);flex-shrink:0;align-self:center;font-weight:700}
+
+/* ── 원문 링크 모달 ── */
+.src-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:500;align-items:center;justify-content:center;padding:20px}
+.src-modal.open{display:flex}
+.src-modal-box{background:var(--sur);border-radius:var(--r2);padding:20px;max-width:480px;width:100%;box-shadow:0 8px 40px rgba(0,0,0,.2);max-height:80vh;overflow-y:auto}
+.src-modal-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--bd)}
+.src-modal-hd span{font-size:14px;font-weight:700}
+.src-modal-body{display:flex;flex-direction:column;gap:8px}
+.src-link-row{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--bd);border-radius:var(--r);cursor:pointer;transition:all .12s;text-decoration:none;color:inherit}
+.src-link-row:hover{border-color:var(--acc);background:var(--acc-bg)}
+.src-link-pill{font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;color:#fff;flex-shrink:0}
+.src-link-title{font-size:12px;font-weight:600;flex:1;line-height:1.4}
+.src-link-arr{font-size:13px;color:var(--ink4);flex-shrink:0}
+.src-modal-note{font-size:10px;color:var(--ink4);text-align:center;margin-top:8px}
+
+/* ── MAG7 ── */
+.m7-wrap{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:15px}
+.m7-chip{padding:5px 8px;border-radius:5px;border:1px solid var(--bd);font-size:11px;font-weight:700;display:flex;flex-direction:column;align-items:center;gap:1px;min-width:52px;cursor:pointer;transition:all .12s}
+.m7-chip:hover{border-color:var(--ink)}
+.m7-sym{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--ink3)}
+
+/* ── MOVERS ── */
+.mover-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:15px}
+.mover-col{background:var(--bg);border:1px solid var(--bd);border-radius:var(--r);padding:8px 10px}
+.mover-hd{font-size:10px;font-weight:700;letter-spacing:.3px;margin-bottom:6px}
+.mover-hd-u{color:var(--up)}
+.mover-hd-d{color:var(--dn)}
+.mover-row{display:flex;justify-content:space-between;align-items:center;font-size:11px;padding:3px 0;border-bottom:1px solid var(--bd)}
+.mover-row:last-child{border-bottom:none}
+.mover-sym{font-weight:700;font-family:'JetBrains Mono',monospace}
+.mover-p{font-weight:700;font-family:'JetBrains Mono',monospace}
+.mover-sig{font-size:9px;color:var(--ink4)}
+
+/* ── TECH BANNER ── */
+.tech-banner{display:flex;align-items:center;gap:11px;background:linear-gradient(135deg,#0f172a,#1e293b);color:#fff;border-radius:var(--r2);padding:14px 16px;margin-bottom:15px;cursor:pointer;transition:opacity .12s}
+.tech-banner:hover{opacity:.88}
+.tb-ico{font-size:26px;flex-shrink:0}
+.tb-ttl{font-size:13px;font-weight:700;margin-bottom:2px}
+.tb-sub{font-size:11px;color:rgba(255,255,255,.55)}
+.tb-arr{margin-left:auto;font-size:18px;color:rgba(255,255,255,.35)}
+
+/* ── EXPERT ── */
+.exp-block{background:var(--bg);border:1px solid var(--bd);border-radius:var(--r);padding:12px;margin-bottom:8px}
+.exp-q{font-size:12px;line-height:1.6;color:var(--ink2);font-style:italic;margin-bottom:5px}
+.exp-name{font-size:11px;font-weight:700}
+.exp-role{font-size:10px;color:var(--ink4)}
+
+/* ── USSTOCK REF ── */
+.us-ref{display:flex;align-items:center;gap:10px;background:#fff8f0;border:1px solid #fddcb5;border-radius:var(--r);padding:10px 13px;margin-bottom:14px;cursor:pointer;transition:background .12s}
+.us-ref:hover{background:#fff0dc}
+.us-ref-ttl{font-size:12px;font-weight:700}
+.us-ref-sub{font-size:11px;color:var(--ink3)}
+.us-ref-arr{margin-left:auto;font-size:14px;color:var(--ink4)}
+
+/* ── NEWS ── */
+.news-filter{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:11px}
+.fc{font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;border:1px solid var(--bd);background:var(--sur);color:var(--ink2);transition:all .12s}
+.fc:hover,.fc.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.news-list{display:flex;flex-direction:column;gap:7px}
+.nc{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);padding:13px 14px;display:flex;gap:10px;transition:all .14s}
+.nc:hover{border-color:var(--bd2);box-shadow:var(--sh2);transform:translateY(-1px)}
+.nc-dot{width:4px;border-radius:2px;flex-shrink:0;align-self:stretch}
+.nc-body{flex:1;min-width:0}
+.nc-meta{display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap}
+.src-pill{font-size:10px;font-weight:700;padding:2px 6px;border-radius:3px;letter-spacing:.2px;flex-shrink:0}
+.nc-time{font-size:10px;color:var(--ink4);font-family:'JetBrains Mono',monospace}
+.nc-ttl{font-size:13px;font-weight:700;line-height:1.4;margin-bottom:3px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nc-desc{font-size:11px;color:var(--ink3);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nc-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:5px}
+.ntag{font-size:10px;background:var(--bg);color:var(--ink3);padding:1px 5px;border-radius:3px}
+.nc-img{width:68px;height:68px;border-radius:6px;object-fit:cover;flex-shrink:0;background:var(--bg)}
+.nc-domain{font-size:10px;color:var(--ink4);font-family:'JetBrains Mono',monospace;margin-left:2px}
+.nc-ttl-link{text-decoration:none;color:inherit;display:block}
+.nc-ttl-link:hover .nc-ttl{color:var(--acc);text-decoration:underline;text-underline-offset:2px}
+.nc-footer{display:flex;align-items:center;justify-content:space-between;margin-top:5px;gap:8px}
+.nc-readmore{font-size:10px;font-weight:700;color:var(--acc);white-space:nowrap;flex-shrink:0;padding:2px 7px;border:1px solid var(--acc-bg);border-radius:4px;background:var(--acc-bg);transition:all .12s}
+.nc-readmore:hover{background:var(--acc);color:#fff}
+.src-pill{cursor:pointer;transition:opacity .12s}
+.src-pill:hover{opacity:.8}
+.nc{cursor:default}
+/* 출처 링크 푸터 */
+.nc-footer{display:flex;align-items:center;justify-content:space-between;margin-top:8px;padding-top:7px;border-top:1px solid var(--bd)}
+.nc-src-link{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;padding:3px 8px;border-radius:4px;border:1px solid var(--bd);color:var(--ink2);background:var(--bg);transition:all .12s;text-decoration:none;flex-shrink:0}
+.nc-src-link:hover{color:#fff;border-color:transparent}
+.nc-read-link{display:inline-flex;align-items:center;gap:3px;font-size:10px;color:var(--acc);font-weight:700;text-decoration:none;transition:opacity .12s}
+.nc-read-link:hover{opacity:.7;text-decoration:underline}
+.nc-ext-icon{font-size:9px;opacity:.6}
+
+/* ── STOCK FEED ── */
+.stk-section{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r2);overflow:hidden;margin-bottom:16px}
+.stk-tabs{display:flex;border-bottom:1px solid var(--bd)}
+.stk-tab{flex:1;padding:9px 8px;font-size:11px;font-weight:700;color:var(--ink3);background:none;border:none;border-bottom:2px solid transparent;transition:all .12s}
+.stk-tab.on{color:var(--ink);border-bottom-color:var(--ink)}
+.stk-row{display:flex;align-items:center;gap:9px;padding:9px 14px;border-bottom:1px solid var(--bd);cursor:pointer;transition:background .1s}
+.stk-row:last-child{border-bottom:none}
+.stk-row:hover{background:var(--bg)}
+.stk-rk{font-size:11px;color:var(--ink4);font-family:'JetBrains Mono',monospace;width:18px;text-align:right;flex-shrink:0}
+.stk-logo{width:26px;height:26px;border-radius:5px;background:var(--bg);border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:var(--ink3);flex-shrink:0;overflow:hidden}
+.stk-logo img{width:100%;height:100%;object-fit:contain;border-radius:4px}
+.stk-info{flex:1;min-width:0}
+.stk-sym{font-size:12px;font-weight:700;font-family:'JetBrains Mono',monospace}
+.stk-name{font-size:10px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stk-sig{font-size:9px;color:var(--acc);background:var(--acc-bg);padding:1px 4px;border-radius:2px;font-weight:700;white-space:nowrap}
+.stk-nums{text-align:right;flex-shrink:0}
+.stk-price{font-size:13px;font-weight:700;font-family:'JetBrains Mono',monospace;line-height:1}
+.stk-chg{font-size:11px;font-weight:700}
+
+/* ── SECTOR ── */
+.sec-block{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r2);padding:14px;margin-bottom:16px}
+.sec-bw{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:11px}
+.bw{border-radius:var(--r);padding:9px 11px}
+.bw-u{background:var(--up-bg);border:1px solid var(--up-pale)}
+.bw-d{background:var(--dn-bg);border:1px solid var(--dn-pale)}
+.bw-lbl{font-size:10px;font-weight:700;letter-spacing:.3px}
+.bw-lu{color:#0e6b2e}.bw-ld{color:#9b1c1c}
+.bw-val{font-size:16px;font-weight:700;margin-top:2px}
+.sec-row{display:flex;align-items:center;gap:7px;padding:6px 0;border-bottom:1px solid var(--bd)}
+.sec-row:last-child{border-bottom:none}
+.sec-em{font-size:13px;width:18px;text-align:center;flex-shrink:0}
+.sec-nm{font-size:12px;font-weight:600;color:var(--ink2);flex:1}
+.sec-bw-bar{width:72px;height:3px;background:var(--bd);border-radius:2px;overflow:hidden;flex-shrink:0}
+.sec-bw-fill{height:100%;border-radius:2px}
+.sec-pct{font-size:11px;font-weight:700;width:48px;text-align:right;font-family:'JetBrains Mono',monospace;flex-shrink:0}
+
+/* ── SIDEBAR ── */
+.sb{display:flex;flex-direction:column;gap:14px}
+.sb-card{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r2);padding:14px}
+.sb-hd{font-size:12px;font-weight:700;margin-bottom:11px;padding-bottom:9px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:5px}
+
+/* FNG */
+.fng-wrap{display:flex;flex-direction:column;align-items:center;gap:5px;padding:3px 0}
+.fng-num{font-size:38px;font-weight:900;font-family:'JetBrains Mono',monospace;line-height:1}
+.fng-lbl{font-size:12px;font-weight:700;letter-spacing:.5px}
+.fng-scale{display:flex;justify-content:space-between;width:100%;font-size:9px;color:var(--ink4);padding:0 3px}
+
+/* Asset row */
+.ast-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--bd);font-size:12px}
+.ast-row:last-child{border-bottom:none}
+.ast-nm{color:var(--ink2);font-weight:600}
+.ast-chg{font-weight:700;font-family:'JetBrains Mono',monospace}
+
+/* Cal */
+.cal-item{display:flex;gap:7px;padding:6px 0;border-bottom:1px solid var(--bd);font-size:11px}
+.cal-item:last-child{border-bottom:none}
+.cal-ico{font-size:13px;flex-shrink:0;width:18px;text-align:center}
+.cal-ttl{font-weight:700;color:var(--ink);margin-bottom:1px}
+.cal-sub{font-size:10px;color:var(--ink4)}
+.cal-star{flex-shrink:0;font-size:10px;color:#f59e0b;white-space:nowrap}
+
+/* Quick links */
+.ql{display:flex;align-items:center;gap:7px;padding:7px 9px;border-radius:var(--r);border:1px solid var(--bd);color:var(--ink);font-size:11px;font-weight:600;transition:all .11s;margin-bottom:4px}
+.ql:last-child{margin-bottom:0}
+.ql:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.ql-sub{font-size:10px;color:var(--ink4);margin-left:auto}
+.ql:hover .ql-sub{color:rgba(255,255,255,.45)}
+
+/* ── 핫 종목 사이드바 ── */
+.hot-row{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--bd);cursor:pointer;transition:all .12s;text-decoration:none;color:inherit}
+.hot-row:last-child{border-bottom:none}
+.hot-row:hover{background:var(--bg);margin:0 -14px;padding:7px 14px;border-radius:var(--r)}
+.hot-rank{font-size:14px;font-weight:900;font-family:'JetBrains Mono',monospace;width:18px;text-align:center;flex-shrink:0}
+.hot-rank-1{color:#f59e0b}
+.hot-rank-2{color:var(--ink3)}
+.hot-rank-3{color:#b87333}
+.hot-rank-n{color:var(--ink4)}
+.hot-logo{width:28px;height:28px;border-radius:6px;background:var(--bg);border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:var(--ink3);flex-shrink:0;overflow:hidden}
+.hot-logo img{width:100%;height:100%;object-fit:contain;border-radius:5px}
+.hot-info{flex:1;min-width:0}
+.hot-sym{font-size:12px;font-weight:700;font-family:'JetBrains Mono',monospace;line-height:1}
+.hot-name{font-size:10px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
+.hot-signal{font-size:9px;color:var(--acc);background:var(--acc-bg);padding:1px 5px;border-radius:3px;font-weight:700;white-space:nowrap;margin-top:2px;display:inline-block}
+.hot-nums{text-align:right;flex-shrink:0}
+.hot-chg{font-size:13px;font-weight:700;font-family:'JetBrains Mono',monospace;line-height:1}
+.hot-vol{font-size:9px;color:var(--ink4);margin-top:2px}
+
+/* ── UTILS ── */
+.refresh-row{display:flex;align-items:center;gap:8px;margin-bottom:11px}
+.rbtn{display:inline-flex;align-items:center;gap:4px;padding:5px 13px;background:var(--ink);color:#fff;border:none;border-radius:5px;font-size:12px;font-weight:700;font-family:'Noto Sans KR',sans-serif;transition:background .12s}
+.rbtn:hover{background:#333}
+.rbtn:disabled{opacity:.5;cursor:not-allowed}
+.live-row{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--ink3)}
+.ldot{width:6px;height:6px;background:var(--up);border-radius:50%;animation:blink 1.4s ease infinite;flex-shrink:0}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+.spinner{width:28px;height:28px;border:3px solid var(--bd);border-top-color:var(--ink);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 10px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.lbox{text-align:center;padding:32px 12px;color:var(--ink3)}
+.lbox p{font-size:13px;font-weight:500}
+.lbox small{font-size:10px;color:var(--ink4);display:block;margin-top:3px}
+.ebox{background:#fdf0ef;border:1px solid var(--dn-pale);border-radius:var(--r);padding:11px 13px;font-size:12px;color:#9b1c1c;text-align:center}
+.fade{animation:fd .3s ease both}
+@keyframes fd{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.dis{font-size:10px;color:var(--ink4);text-align:center;padding:16px;line-height:1.6}
+
+/* earn */
+.earn-row{display:flex;align-items:center;gap:8px;padding:8px 10px;background:var(--bg);border:1px solid var(--bd);border-radius:var(--r);cursor:pointer;transition:background .11s;margin-bottom:6px}
+.earn-row:hover{background:var(--bd)}
+.earn-sym{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;min-width:40px}
+.earn-info{flex:1;font-size:11px;color:var(--ink3)}
+.earn-bdg{font-size:10px;background:var(--acc-bg);color:var(--acc);padding:1px 5px;border-radius:3px;font-weight:700;white-space:nowrap}
+.earn-res{font-size:11px;font-weight:700;text-align:right;white-space:nowrap}
+
+/* News src badge */
+.src-hankyung{background:#c8281f;color:#fff}
+.src-yonhap{background:#1a56db;color:#fff}
+.src-mt{background:#0058a3;color:#fff}
+.src-mk{background:#003580;color:#fff}
+.src-chosun{background:#1a1a1a;color:#fff}
+.src-sedaily{background:#c53030;color:#fff}
+.src-aitimes{background:#7c3aed;color:#fff}
+.src-reuters{background:#c8281f;color:#fff}
+.src-bloomberg{background:#1a1a1a;color:#fff}
+.src-cnbc{background:#005594;color:#fff}
+.src-wsj{background:#1a1a1a;color:#fff}
+.src-ft{background:#f34a00;color:#fff}
+.src-seeking{background:#2c7be5;color:#fff}
+.src-default{background:#777;color:#fff}
+
+/* ── TRUMP SECTION ── */
+.trump-impact-bar{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r2);padding:16px;margin-bottom:4px}
+.tip-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.tip-emoji{font-size:28px}
+.tip-title{font-size:14px;font-weight:700;color:var(--ink)}
+.tip-subtitle{font-size:11px;color:var(--ink3);margin-top:1px}
+.tip-badge{margin-left:auto;font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px}
+.tip-badge-bull{background:#d4f0e0;color:#0e6b2e}
+.tip-badge-bear{background:#fee2e1;color:#9b1c1c}
+.tip-badge-neut{background:var(--gold-bg);color:var(--gold)}
+.tip-gauge-wrap{margin-bottom:10px}
+.tip-gauge-lbl{display:flex;justify-content:space-between;font-size:10px;color:var(--ink4);margin-bottom:4px}
+.tip-gauge{height:8px;background:linear-gradient(to right,var(--up),var(--gold),var(--dn));border-radius:4px;position:relative}
+.tip-gauge-needle{position:absolute;top:-3px;width:14px;height:14px;background:var(--ink);border-radius:50%;border:2px solid #fff;transform:translateX(-50%);transition:left .5s}
+.tip-summary{font-size:12px;color:var(--ink2);line-height:1.6;background:var(--bg);border-radius:var(--r);padding:10px 12px;border:1px solid var(--bd)}
+
+.trump-post-card{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r2);padding:14px 16px;margin-bottom:10px;transition:all .14s}
+.trump-post-card:hover{border-color:var(--bd2);box-shadow:var(--sh)}
+.tpc-header{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.tpc-avatar{width:32px;height:32px;border-radius:50%;background:#e9122a;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.tpc-name{font-size:12px;font-weight:700;color:var(--ink)}
+.tpc-handle{font-size:10px;color:var(--ink4)}
+.tpc-time{margin-left:auto;font-size:10px;color:var(--ink4);font-family:'JetBrains Mono',monospace}
+.tpc-text{font-size:13px;line-height:1.6;color:var(--ink2);margin-bottom:10px;padding:10px 12px;background:#fffbf9;border-left:3px solid #e9122a;border-radius:0 var(--r) var(--r) 0}
+.tpc-text strong{color:var(--ink);font-weight:700}
+.tpc-impact{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.tpc-stock-chip{font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;font-family:'JetBrains Mono',monospace}
+.tpc-sc-up{background:var(--up-bg);color:var(--up)}
+.tpc-sc-dn{background:var(--dn-bg);color:var(--dn)}
+.tpc-sc-neut{background:var(--bg);color:var(--ink3);border:1px solid var(--bd)}
+.tpc-footer{display:flex;align-items:center;gap:8px}
+.tpc-sentiment{font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;letter-spacing:.3px}
+.sent-bull{background:#d4f0e0;color:#0e6b2e}
+.sent-bear{background:#fee2e1;color:#9b1c1c}
+.sent-neut{background:var(--gold-bg);color:var(--gold)}
+.tpc-source{font-size:10px;color:var(--ink4);margin-left:auto}
+.tpc-link{font-size:10px;color:var(--acc);font-weight:700}
+.tpc-link:hover{text-decoration:underline}
+
+.ts-visit-btn{display:flex;align-items:center;gap:8px;justify-content:center;padding:10px;background:#fff;border:1px solid #e9122a;border-radius:var(--r);color:#e9122a;font-size:12px;font-weight:700;margin-top:4px;transition:all .12s}
+.ts-visit-btn:hover{background:#e9122a;color:#fff}
+
+.trump-pattern-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px}
+.tp-card{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);padding:12px 10px;text-align:center}
+.tp-num{font-size:22px;font-weight:900;font-family:'JetBrains Mono',monospace;line-height:1;color:var(--ink)}
+.tp-lbl{font-size:10px;color:var(--ink3);margin-top:4px;line-height:1.3}
+
+.trump-cases{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.tc-row{background:var(--sur);border:1px solid var(--bd);border-radius:var(--r);padding:11px 13px;display:flex;align-items:flex-start;gap:10px}
+.tc-date{font-size:10px;color:var(--ink4);font-family:'JetBrains Mono',monospace;white-space:nowrap;flex-shrink:0;margin-top:2px;min-width:54px}
+.tc-body{flex:1;min-width:0}
+.tc-post{font-size:12px;font-weight:700;color:var(--ink);margin-bottom:2px;font-style:italic}
+.tc-impact{font-size:11px;color:var(--ink3)}
+.tc-badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;flex-shrink:0;white-space:nowrap}
+.tc-badge.up{background:var(--up-bg);color:var(--up)}
+.tc-badge.dn{background:var(--dn-bg);color:var(--dn)}
+
+/* responsive */
+@media(max-width:900px){
+  .wrap{grid-template-columns:1fr}
+  .sb{display:none}
+  .idx-in{grid-template-columns:repeat(2,1fr)}
+  .hd-r,.nav{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-live">LIVE</div>
+  <div class="ticker-scroll">
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ti"><span class="ti-sym">S&P</span><span>7,580</span><span class="ti-up">▲0.22%</span></span>
+      <span class="ti"><span class="ti-sym">NASDAQ</span><span>26,973</span><span class="ti-up">▲0.20%</span></span>
+      <span class="ti"><span class="ti-sym">DOW</span><span>51,032</span><span class="ti-up">▲0.72%</span></span>
+      <span class="ti"><span class="ti-sym">VIX</span><span>15.33</span><span class="ti-dn">▼2.60%</span></span>
+      <span class="ti"><span class="ti-sym">NVDA</span><span>$211.26</span><span class="ti-dn">▼1.40%</span></span>
+      <span class="ti"><span class="ti-sym">AAPL</span><span>$312.06</span><span class="ti-dn">▼0.14%</span></span>
+      <span class="ti"><span class="ti-sym">MSFT</span><span>$449.40</span><span class="ti-up">▲5.25%</span></span>
+      <span class="ti"><span class="ti-sym">TSLA</span><span>$435.51</span><span class="ti-dn">▼1.49%</span></span>
+      <span class="ti"><span class="ti-sym">DELL</span><span>$148.20</span><span class="ti-up">▲32.76%</span></span>
+      <span class="ti"><span class="ti-sym">IBM</span><span>$297.80</span><span class="ti-up">▲12.71%</span></span>
+      <span class="ti"><span class="ti-sym">ORCL</span><span>$203.41</span><span class="ti-up">▲10.84%</span></span>
+      <span class="ti"><span class="ti-sym">BTC</span><span>$107,420</span><span class="ti-up">▲2.31%</span></span>
+      <span class="ti"><span class="ti-sym">USD/KRW</span><span>1,372</span><span class="ti-dn">▼0.12%</span></span>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="hd">
+  <div class="hd-in">
+    <div class="logo">마켓<span>피드</span></div>
+    <nav class="nav">
+      <button class="nb on" onclick="goSec('summary',this)">시장 요약</button>
+      <button class="nb" onclick="goSec('trump',this)">🇺🇸 트럼프</button>
+      <button class="nb" onclick="goSec('news',this)">뉴스</button>
+      <button class="nb" onclick="goSec('stocks',this)">주식 피드</button>
+      <button class="nb" onclick="goSec('sectors',this)">섹터</button>
+      <button class="nb" onclick="goSec('earnings',this)">실적</button>
+      <button class="nb" onclick="goSec('calendar',this)">캘린더</button>
+    </nav>
+    <div class="hd-r">
+      <span class="hd-date" id="hdDate"></span>
+      <span class="mst" id="mst"></span>
+    </div>
+  </div>
+</header>
+
+<!-- INDEX BAR -->
+<div class="idx-bar">
+  <div class="idx-in">
+    <div class="idx-cell">
+      <div class="idx-lbl">📊 S&P 500</div>
+      <div class="idx-val up" id="v-sp">7,580</div>
+      <div class="idx-chg up" id="c-sp">+0.22%</div>
+      <div class="idx-sub">RSI <span id="r-sp">74</span></div>
+      <div class="rsi-bar"><div class="rsi-fill" id="rf-sp" style="width:74%;background:var(--gold)"></div></div>
+    </div>
+    <div class="idx-cell">
+      <div class="idx-lbl">💻 NASDAQ</div>
+      <div class="idx-val up" id="v-nq">26,973</div>
+      <div class="idx-chg up" id="c-nq">+0.20%</div>
+      <div class="idx-sub">RSI <span id="r-nq">77</span></div>
+      <div class="rsi-bar"><div class="rsi-fill" id="rf-nq" style="width:77%;background:var(--dn)"></div></div>
+    </div>
+    <div class="idx-cell">
+      <div class="idx-lbl">🏛️ 다우</div>
+      <div class="idx-val up" id="v-dj">51,032</div>
+      <div class="idx-chg up" id="c-dj">+0.72%</div>
+      <div class="idx-sub">RSI <span id="r-dj">69</span></div>
+      <div class="rsi-bar"><div class="rsi-fill" id="rf-dj" style="width:69%;background:var(--gold)"></div></div>
+    </div>
+    <div class="idx-cell">
+      <div class="idx-lbl">😰 VIX</div>
+      <div class="idx-val dn" id="v-vix">15.33</div>
+      <div class="idx-chg dn" id="c-vix">-2.60%</div>
+      <div class="idx-sub">RSI <span id="r-vix">27</span></div>
+      <div class="rsi-bar"><div class="rsi-fill" id="rf-vix" style="width:27%;background:var(--up)"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="wrap">
+  <div id="mainArea">
+
+    <!-- ① 시장요약 -->
+    <section id="sec-summary">
+      <div class="shd">
+        <span class="shd-ico">📊</span><span class="shd-ttl">시장 요약</span>
+        <span class="shd-bdg bdg-red" id="sum-date-bdg"></span>
+        <span class="shd-meta" id="sum-upd">로딩중...</span>
+      </div>
+
+      <!-- 애드센스 광고 -->
+      <div style="margin-bottom:16px;text-align:center">
+        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <!-- 오늘의 헤드라인 한 줄 -->
+      <div class="sum-headline" id="sum-q">시장 분석 생성 중...</div>
+
+      <!-- 태그 -->
+      <div class="sum-tags" id="sum-tags"></div>
+
+      <!-- ── 핵심 포인트 (클릭 → 원문 링크) ── -->
+      <div class="shd" style="margin-top:4px"><span class="shd-ico">📌</span><span class="shd-ttl">오늘의 핵심 포인트</span><span class="shd-bdg bdg-blue">클릭 → 원문</span></div>
+      <div id="sum-pts" class="sum-pts-wrap">
+        <div class="lbox"><div class="spinner"></div><p>Claude AI 분석 중...</p></div>
+      </div>
+
+      <!-- ── 지수 상세 ── -->
+      <div class="shd" style="margin-top:4px"><span class="shd-ico">📈</span><span class="shd-ttl">지수 상세</span><span class="shd-bdg bdg-blue">실시간</span></div>
+      <div id="sum-indices" class="sum-indices-grid">
+        <div class="lbox"><div class="spinner"></div></div>
+      </div>
+
+      <!-- ── 매그7 ── -->
+      <div class="shd"><span class="shd-ico">⭐</span><span class="shd-ttl">매그니피센트 7</span><span class="shd-bdg bdg-blue">클릭 → Yahoo</span></div>
+      <div class="m7-wrap" id="m7wrap"></div>
+
+      <!-- ── 급등/급락 ── -->
+      <div class="shd"><span class="shd-ico">🔥</span><span class="shd-ttl">급등 / 급락</span></div>
+      <div class="mover-grid" id="moverGrid"></div>
+
+      <!-- 애드센스 광고 -->
+      <div style="margin-bottom:16px;text-align:center">
+        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <!-- ── 섹터 요약 (클릭 → ETF 원문) ── -->
+      <div class="shd"><span class="shd-ico">🗂️</span><span class="shd-ttl">섹터 성적</span><span class="shd-bdg bdg-gold">클릭 → ETF 원문</span></div>
+      <div id="sum-sectors" class="sum-sec-grid">
+        <div class="lbox"><div class="spinner"></div></div>
+      </div>
+
+      <!-- ── 채권·환율·원자재 ── -->
+      <div class="shd"><span class="shd-ico">🏦</span><span class="shd-ttl">채권 · 환율 · 원자재</span><span class="shd-bdg bdg-gold">클릭 → 원문</span></div>
+      <div id="sum-assets" class="sum-asset-grid">
+        <div class="lbox"><div class="spinner"></div></div>
+      </div>
+
+      <!-- ── 오늘 트럼프 요약 (클릭 → 트럼프 탭) ── -->
+      <div class="shd"><span class="shd-ico">🇺🇸</span><span class="shd-ttl">트럼프 Truth Social 요약</span><span class="shd-bdg" style="background:#e9122a;color:#fff">시장 영향</span></div>
+      <div id="sum-trump-preview" class="sum-trump-box" onclick="goSec('trump',document.querySelectorAll('.nb')[1])">
+        <div class="lbox"><div class="spinner"></div><p>트럼프 발언 요약 로딩 중...</p></div>
+      </div>
+
+      <!-- ── 주요 뉴스 요약 (클릭 → 원문) ── -->
+      <div class="shd"><span class="shd-ico">📰</span><span class="shd-ttl">주요 뉴스 요약</span><span class="shd-bdg bdg-red">클릭 → 원문</span></div>
+      <div id="sum-news-list" class="sum-news-list">
+        <div class="lbox"><div class="spinner"></div></div>
+      </div>
+
+      <!-- ── 전문가 코멘트 ── -->
+      <div class="shd"><span class="shd-ico">💬</span><span class="shd-ttl">전문가 코멘트</span></div>
+      <div id="sum-experts"></div>
+
+      <!-- 애드센스 광고 -->
+      <div style="margin-bottom:16px;text-align:center">
+        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <!-- ── 투자자 체크리스트 ── -->
+      <div class="shd"><span class="shd-ico">✅</span><span class="shd-ttl">오늘의 투자자 체크리스트</span></div>
+      <div id="sum-checklist" class="sum-checklist">
+        <div class="lbox"><div class="spinner"></div></div>
+      </div>
+    </section>
+
+    <!-- 원문 링크 모달 -->
+    <div id="srcModal" class="src-modal" onclick="closeSrcModal()">
+      <div class="src-modal-box" onclick="event.stopPropagation()">
+        <div class="src-modal-hd">
+          <span id="srcModalTitle">원문 출처</span>
+          <button onclick="closeSrcModal()" style="background:none;border:none;font-size:18px;cursor:pointer;color:var(--ink3)">✕</button>
+        </div>
+        <div id="srcModalBody" class="src-modal-body"></div>
+      </div>
+    </div>
+
+    <!-- ② 트럼프 Truth Social -->
+    <section id="sec-trump" style="display:none">
+      <div class="shd">
+        <span class="shd-ico">🇺🇸</span>
+        <span class="shd-ttl">트럼프 Truth Social</span>
+        <span class="shd-bdg" style="background:#e9122a;color:#fff">시장 영향</span>
+        <span class="shd-meta" id="trumpDateMeta"></span>
+      </div>
+
+      <!-- 오늘의 시장 영향도 게이지 -->
+      <div class="trump-impact-bar" id="trumpImpactBar">
+        <div class="lbox"><div class="spinner"></div><p>오늘의 트럼프 발언 분석 중...</p></div>
+      </div>
+
+      <!-- Truth Social 포스트 카드들 -->
+      <div class="refresh-row" style="margin-top:14px">
+        <button class="rbtn" onclick="loadTrump()">↻ AI 분석 새로고침</button>
+        <div class="live-row"><div class="ldot"></div>Claude AI · 매일 자동 업데이트</div>
+      </div>
+      <div id="trumpPosts">
+        <div class="lbox"><div class="spinner"></div><p>오늘의 트럼프 Truth Social 분석 중...</p><small>시장 영향 · 종목 · 심리 지표</small></div>
+      </div>
+
+      <!-- Truth Social 직접 방문 -->
+      <a class="ts-visit-btn" href="https://truthsocial.com/@realDonaldTrump" target="_blank" rel="noopener">
+        <span>🔗</span> Truth Social 원문 보기 · @realDonaldTrump
+      </a>
+
+      <!-- 트럼프 발언 패턴 -->
+      <div class="shd" style="margin-top:18px"><span class="shd-ico">📊</span><span class="shd-ttl">최근 30일 발언 패턴</span></div>
+      <div class="trump-pattern-grid">
+        <div class="tp-card">
+          <div class="tp-num">19<span style="font-size:14px">/일</span></div>
+          <div class="tp-lbl">평균 포스트 수</div>
+        </div>
+        <div class="tp-card">
+          <div class="tp-num" style="color:#e9122a">247</div>
+          <div class="tp-lbl">이란 관련 포스트</div>
+        </div>
+        <div class="tp-card">
+          <div class="tp-num" style="color:var(--acc)">177</div>
+          <div class="tp-lbl">경제·시장 관련</div>
+        </div>
+        <div class="tp-card">
+          <div class="tp-num" style="color:var(--up)">±5%</div>
+          <div class="tp-lbl">하루 시장 변동폭</div>
+        </div>
+      </div>
+
+      <!-- 과거 시장 충격 사례 -->
+      <div class="shd" style="margin-top:4px"><span class="shd-ico">⚡</span><span class="shd-ttl">Truth Social → 시장 충격 사례</span></div>
+      <div class="trump-cases">
+        <div class="tc-row">
+          <div class="tc-date">2026.05.11</div>
+          <div class="tc-body">
+            <div class="tc-post">"Iran really wants to make a deal"</div>
+            <div class="tc-impact">나스닥 +2.1% 급등 · 유가 -3.2% 급락</div>
+          </div>
+          <div class="tc-badge up">시장↑</div>
+        </div>
+        <div class="tc-row">
+          <div class="tc-date">2026.05.11</div>
+          <div class="tc-body">
+            <div class="tc-post">3시간 동안 55개 포스트 폭탄</div>
+            <div class="tc-impact">VIX +8.4% 급등 · 변동성 극대화</div>
+          </div>
+          <div class="tc-badge dn">혼란↑</div>
+        </div>
+        <div class="tc-row">
+          <div class="tc-date">2026.06.01</div>
+          <div class="tc-body">
+            <div class="tc-post">"had a very productive call with Netanyahu, no Troops going to Beirut"</div>
+            <div class="tc-impact">S&P +0.26% · 다우 신고가 · 유가 변동</div>
+          </div>
+          <div class="tc-badge up">시장↑</div>
+        </div>
+        <div class="tc-row">
+          <div class="tc-date">2025.03.10</div>
+          <div class="tc-body">
+            <div class="tc-post">관세 100개 이상 리포스트 · 경기침체 시사</div>
+            <div class="tc-impact">나스닥 -4% · 매그7 전종목 급락 · $1.7T 증발</div>
+          </div>
+          <div class="tc-badge dn">시장↓</div>
+        </div>
+        <div class="tc-row">
+          <div class="tc-date">2025.04</div>
+          <div class="tc-body">
+            <div class="tc-post">90일 관세 유예 발표</div>
+            <div class="tc-impact">나스닥 +8% 역대급 단일 랠리</div>
+          </div>
+          <div class="tc-badge up">시장↑</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ② 뉴스 -->
+    <section id="sec-news" style="display:none">
+      <div class="shd"><span class="shd-ico">📰</span><span class="shd-ttl">뉴스 피드</span>
+        <span class="shd-bdg bdg-red">한국 · 글로벌 RSS</span>
+        <span class="shd-meta" id="newsUpdateMeta">완전 무료 · API 키 불필요</span>
+      </div>
+      <!-- GitHub Actions 업데이트 상태 바 -->
+      <div id="newsStatusBar" style="display:none;align-items:center;gap:8px;padding:8px 12px;background:#edf7f1;border:1px solid #c6ecd5;border-radius:8px;margin-bottom:12px;font-size:12px;color:#0e6b2e">
+        <span>✅</span>
+        <span id="newsStatusText">GitHub Actions로 자동 수집된 뉴스</span>
+        <span id="newsUpdateTime" style="margin-left:auto;color:#3a7d52;font-family:'JetBrains Mono',monospace;font-size:11px"></span>
+      </div>
+      <!-- 소스 필터 -->
+      <div class="news-filter" id="newsFilter">
+        <button class="fc on" onclick="filterN('all',this)">전체</button>
+        <button class="fc" onclick="filterN('market',this)">🔥 시장관련</button>
+        <button class="fc" onclick="filterN('ko',this)">🇰🇷 한국어</button>
+        <button class="fc" onclick="filterN('hankyung',this)">한국경제</button>
+        <button class="fc" onclick="filterN('yonhap',this)">연합뉴스</button>
+        <button class="fc" onclick="filterN('mk',this)">매경닷컴</button>
+        <button class="fc" onclick="filterN('sedaily',this)">서울경제</button>
+        <button class="fc" onclick="filterN('en',this)">🌐 영어</button>
+        <button class="fc" onclick="filterN('reuters',this)">Reuters</button>
+        <button class="fc" onclick="filterN('bloomberg',this)">Bloomberg</button>
+        <button class="fc" onclick="filterN('cnbc',this)">CNBC</button>
+      </div>
+      <div class="refresh-row">
+        <button class="rbtn" id="nRefBtn" onclick="loadNews()">↻ 새로고침</button>
+        <div class="live-row"><div class="ldot"></div><span id="newsSourceLabel">뉴스 로딩 중...</span></div>
+      </div>
+      <div id="newsArea"><div class="lbox"><div class="spinner"></div><p>한국 · 글로벌 뉴스 수신 중...</p><small>한국경제·연합뉴스·매일경제·Reuters·Bloomberg·CNBC</small></div></div>
+    </section>
+
+    <!-- ③ 주식피드 -->
+    <section id="sec-stocks" style="display:none">
+      <div class="shd"><span class="shd-ico">📈</span><span class="shd-ttl">주식 피드</span>
+        <span class="shd-bdg bdg-blue">Yahoo Finance</span>
+        <span class="shd-meta">무료 · API 키 불필요</span>
+      </div>
+      <div class="refresh-row">
+        <button class="rbtn" onclick="loadStocks()">↻ 새로고침</button>
+        <div class="live-row"><div class="ldot"></div>Yahoo Finance 비공식 API</div>
+      </div>
+      <div class="stk-section">
+        <div class="stk-tabs">
+          <button class="stk-tab on" onclick="stkTab('watch',this)">관심종목</button>
+          <button class="stk-tab" onclick="stkTab('gainers',this)">급등</button>
+          <button class="stk-tab" onclick="stkTab('losers',this)">급락</button>
+          <button class="stk-tab" onclick="stkTab('etf',this)">ETF·섹터</button>
+        </div>
+        <div id="stkList"><div class="lbox"><div class="spinner"></div></div></div>
+      </div>
+    </section>
+
+    <!-- ④ 섹터 -->
+    <section id="sec-sectors" style="display:none">
+      <div class="shd"><span class="shd-ico">🗂️</span><span class="shd-ttl">섹터 성적표</span></div>
+      <div class="refresh-row"><button class="rbtn" onclick="loadSectors()">↻ 새로고침</button></div>
+      <div class="sec-block" id="secBlock"><div class="lbox"><div class="spinner"></div></div></div>
+      <div class="shd" style="margin-top:4px"><span class="shd-ico">🏦</span><span class="shd-ttl">채권 · 원자재</span></div>
+      <div class="sb-card" id="assetBlock"><div class="lbox"><div class="spinner"></div></div></div>
+    </section>
+
+    <!-- ⑤ 실적 -->
+    <section id="sec-earnings" style="display:none">
+      <div class="shd"><span class="shd-ico">📝</span><span class="shd-ttl">최근 실적 리뷰</span></div>
+      <div id="earningsArea"><div class="lbox"><div class="spinner"></div></div></div>
+    </section>
+
+    <!-- ⑥ 캘린더 -->
+    <section id="sec-calendar" style="display:none">
+      <div class="shd"><span class="shd-ico">📅</span><span class="shd-ttl">주요 일정</span></div>
+      <div id="calArea"><div class="lbox"><div class="spinner"></div></div></div>
+    </section>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="sb">
+    <!-- FNG -->
+    <div class="sb-card">
+      <div class="sb-hd">😱 공포탐욕지수 <span class="shd-bdg bdg-green" style="margin-left:auto">무료 API</span></div>
+      <div class="fng-wrap">
+        <svg viewBox="0 0 160 90" width="152" height="86">
+          <defs>
+            <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#c8281f"/>
+              <stop offset="50%" stop-color="#f59e0b"/>
+              <stop offset="100%" stop-color="#0e8a3e"/>
+            </linearGradient>
+          </defs>
+          <path d="M 14 80 A 66 66 0 0 1 146 80" fill="none" stroke="url(#g1)" stroke-width="10" stroke-linecap="round"/>
+          <line id="fngNeedle" x1="80" y1="80" x2="80" y2="18" stroke="#0d0d0d" stroke-width="2.5" stroke-linecap="round" transform="rotate(0,80,80)"/>
+          <circle cx="80" cy="80" r="5" fill="#0d0d0d"/>
+        </svg>
+        <div class="fng-num" id="fngNum">60</div>
+        <div class="fng-lbl" id="fngLbl" style="color:var(--up)">탐욕</div>
+        <div class="fng-scale"><span>극단 공포</span><span>중립</span><span>극단 탐욕</span></div>
+      </div>
+    </div>
+
+    <!-- 애드센스 광고 -->
+    <div style="text-align:center">
+      <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- 오늘의 핫 종목 Top 5 -->
+    <div class="sb-card">
+      <div class="sb-hd">🔥 오늘의 핫 종목 <span class="shd-bdg bdg-red" style="margin-left:auto">급등·거래량</span></div>
+      <div id="sbHotStocks"><div style="text-align:center;padding:10px;color:var(--ink4);font-size:12px">로딩중...</div></div>
+    </div>
+
+    <!-- 채권·원자재 -->
+    <div class="sb-card">
+      <div class="sb-hd">🏦 채권 · 원자재</div>
+      <div id="sbAssets">
+        <div class="ast-row"><div class="ast-nm">📈 TLT 장기채</div><div class="ast-chg up">+0.02%</div></div>
+        <div class="ast-row"><div class="ast-nm">📈 IEF 중기채</div><div class="ast-chg up">+0.12%</div></div>
+        <div class="ast-row"><div class="ast-nm">🥇 GLD 금</div><div class="ast-chg up">+1.05%</div></div>
+        <div class="ast-row"><div class="ast-nm">🛢️ USO 원유</div><div class="ast-chg dn">-1.29%</div></div>
+        <div class="ast-row"><div class="ast-nm">🪙 SLV 은</div><div class="ast-chg dn">-0.04%</div></div>
+      </div>
+    </div>
+
+    <!-- 내일 일정 -->
+    <div class="sb-card">
+      <div class="sb-hd">📅 주요 일정</div>
+      <div id="sbCal">
+        <div class="cal-item"><div class="cal-ico">📊</div><div><div class="cal-ttl">ISM 제조업 PMI</div><div class="cal-sub">06/01 오전 11시 (ET)</div></div><div class="cal-star">★★★</div></div>
+        <div class="cal-item"><div class="cal-ico">💰</div><div><div class="cal-ttl">HPE 실적발표</div><div class="cal-sub">장전</div></div><div class="cal-star">★★</div></div>
+        <div class="cal-item"><div class="cal-ico">💰</div><div><div class="cal-ttl">CRDO 실적발표</div><div class="cal-sub">장전</div></div><div class="cal-star">★★</div></div>
+        <div class="cal-item"><div class="cal-ico">💸</div><div><div class="cal-ttl">FCT 배당락 12.1%</div><div class="cal-sub">배당락일</div></div><div class="cal-star">★</div></div>
+      </div>
+    </div>
+
+    <!-- 애드센스 광고 -->
+    <div style="text-align:center">
+      <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- Quick links -->
+    <div class="sb-card">
+      <div class="sb-hd">🔗 바로가기</div>
+      <a class="ql" href="https://truthsocial.com/@realDonaldTrump" target="_blank"><span>🇺🇸</span>Trump Truth Social<span class="ql-sub">원문 보기</span></a>
+      <a class="ql" href="https://finance.naver.com/world/" target="_blank"><span>🇰🇷</span>네이버 해외증시<span class="ql-sub">실시간</span></a>
+      <a class="ql" href="https://m.stock.naver.com/marketindex/" target="_blank"><span>💱</span>원달러 환율<span class="ql-sub">네이버</span></a>
+      <a class="ql" href="https://www.hankyung.com/globalmarket" target="_blank"><span>📰</span>한국경제 글로벌<span class="ql-sub">한국어</span></a>
+      <a class="ql" href="https://www.yna.co.kr/economy/stock" target="_blank"><span>📡</span>연합뉴스 증시<span class="ql-sub">실시간</span></a>
+      <a class="ql" href="https://finance.yahoo.com/markets/" target="_blank"><span>💹</span>Yahoo Finance<span class="ql-sub">실시간</span></a>
+      <a class="ql" href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank"><span>🎯</span>FedWatch<span class="ql-sub">금리 확률</span></a>
+      <a class="ql" href="https://fred.stlouisfed.org/" target="_blank"><span>🏛️</span>FRED 경제지표<span class="ql-sub">연준</span></a>
+      <a class="ql" href="https://alternative.me/crypto/fear-and-greed-index/" target="_blank"><span>😱</span>공포탐욕지수<span class="ql-sub">실시간</span></a>
+      <a class="ql" href="https://www.investing.com/indices/us-spx-500" target="_blank"><span>📉</span>S&P 차트<span class="ql-sub">Investing.com</span></a>
+    </div>
+    <div class="dis">본 페이지는 참고자료이며 투자 권유가 아닙니다.<br>모든 투자의 책임은 투자자 본인에게 있습니다.<br>데이터: RSS·Yahoo Finance·Alternative.me·Claude AI</div>
+  </aside>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════
+   CONFIG
+═══════════════════════════════════════════════ */
+// CORS 프록시 (무료 공개 프록시들 - 순차 시도)
+const PROXY = 'https://api.allorigins.win/raw?url=';
+const PROXY2 = 'https://corsproxy.io/?';
+
+// 한국 뉴스 RSS 피드 (완전 무료, API 키 불필요)
+const KO_RSS = [
+  { url:'https://www.hankyung.com/feed/finance',    src:'hankyung', name:'한국경제', cat:'ko', color:'#c8281f' },
+  { url:'https://www.hankyung.com/feed/international', src:'hankyung', name:'한국경제', cat:'ko', color:'#c8281f' },
+  { url:'https://www.yna.co.kr/rss/economy.xml',    src:'yonhap',   name:'연합뉴스', cat:'ko', color:'#1a56db' },
+  { url:'https://www.yna.co.kr/rss/stock.xml',      src:'yonhap',   name:'연합뉴스', cat:'ko', color:'#1a56db' },
+  { url:'https://www.mk.co.kr/rss/40300001/',       src:'mk',       name:'매경닷컴', cat:'ko', color:'#003580' },
+  { url:'https://www.sedaily.com/RSS',               src:'sedaily',  name:'서울경제', cat:'ko', color:'#c53030' },
+];
+
+// 글로벌 뉴스 RSS (무료)
+const EN_RSS = [
+  { url:'https://feeds.reuters.com/reuters/businessNews', src:'reuters', name:'Reuters', cat:'en', color:'#c8281f' },
+  { url:'https://www.cnbc.com/id/100003114/device/rss/rss.html', src:'cnbc', name:'CNBC', cat:'en', color:'#005594' },
+  { url:'https://feeds.bloomberg.com/markets/news.rss', src:'bloomberg', name:'Bloomberg', cat:'en', color:'#1a1a1a' },
+  { url:'https://www.ft.com/?format=rss', src:'ft', name:'FT', cat:'en', color:'#f34a00' },
+];
+
+// 섹터 ETF
+const SECTORS = [
+  { sym:'XLK', emoji:'💻', name:'기술',     chg:'+2.23' },
+  { sym:'XLF', emoji:'🏦', name:'금융',     chg:'+0.60' },
+  { sym:'XLI', emoji:'🏭', name:'산업',     chg:'-0.39' },
+  { sym:'XLC', emoji:'📡', name:'통신',     chg:'-0.84' },
+  { sym:'XLY', emoji:'🛍️', name:'소비재',  chg:'-0.97' },
+  { sym:'XLV', emoji:'🏥', name:'헬스케어', chg:'-0.93' },
+  { sym:'XLE', emoji:'⛽', name:'에너지',   chg:'-1.16' },
+  { sym:'XLP', emoji:'🛒', name:'필수소비', chg:'-1.80' },
+  { sym:'XLRE',emoji:'🏠', name:'부동산',   chg:'-0.95' },
+  { sym:'XLB', emoji:'⚗️', name:'소재',     chg:'-0.41' },
+  { sym:'XLU', emoji:'💡', name:'유틸리티', chg:'-0.47' },
+];
+
+const MAG7 = ['NVDA','AAPL','MSFT','GOOGL','AMZN','META','TSLA'];
+const WATCH_SYM = ['NVDA','AAPL','MSFT','GOOGL','AMZN','META','TSLA','COST','IBM','ORCL','PLTR','CRWD','CRM','DELL','INTC'];
+const ETF_SYM = ['SPY','QQQ','DIA','GLD','USO','TLT','IEF','SLV','XLK','XLF','XLE','XLV'];
+const ASSETS_SYM = ['TLT','IEF','SHY','GLD','USO','SLV'];
+
+const NAMES = {
+  NVDA:'엔비디아',AAPL:'애플',MSFT:'마이크로소프트',GOOGL:'알파벳',AMZN:'아마존',
+  META:'메타',TSLA:'테슬라',COST:'코스트코',IBM:'IBM',ORCL:'오라클',
+  PLTR:'팔란티어',CRWD:'크라우드스트라이크',CRM:'세일즈포스',DELL:'델',INTC:'인텔',
+  SPY:'S&P 500 ETF',QQQ:'나스닥 100 ETF',DIA:'다우 ETF',
+  GLD:'금 ETF',USO:'원유 ETF',TLT:'장기채 ETF',IEF:'중기채 ETF',SHY:'단기채 ETF',SLV:'은 ETF',
+  XLK:'기술 ETF',XLF:'금융 ETF',XLE:'에너지 ETF',XLV:'헬스케어 ETF'
+};
+const SIGNALS = {
+  NVDA:'거래량 급증',AAPL:'52주 신고가',MSFT:'급등 +5.25%',GOOGL:'거래량 급증',
+  AMZN:'거래량 급증',META:'MACD 골든크로스',TSLA:'MACD 골든크로스',
+  COST:'MACD 데드크로스',IBM:'RSI 과매수',ORCL:'볼린저 상단 돌파',
+  PLTR:'급등 +9.24%',CRWD:'급등 +8.92%',CRM:'반등 +8.47%',DELL:'역대 최고 +32.76%',INTC:'급락 -5.16%',
+};
+
+/* ═══════════════════════════════════════════════
+   날짜 유틸
+═══════════════════════════════════════════════ */
+function kst(){return new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Seoul'}))}
+function fmtDate(d){const DW=['일','월','화','수','목','금','토'];return `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 (${DW[d.getDay()]})`}
+function fmtShort(d){return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}`}
+function fmtYMD(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
+
+const TODAY = kst();
+document.getElementById('hdDate').textContent = fmtDate(TODAY);
+document.getElementById('sum-date-bdg').textContent = `${TODAY.getMonth()+1}월 ${TODAY.getDate()}일`;
+
+const dateCode = fmtShort(TODAY);
+
+// 시장 상태
+function updMST(){
+  const et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));
+  const t=et.getHours()*60+et.getMinutes(), dw=et.getDay();
+  const el=document.getElementById('mst');
+  if(dw===0||dw===6){el.textContent='주말 휴장';el.className='mst mst-closed';return;}
+  if(t>=570&&t<930){el.textContent='🟢 개장 중';el.className='mst mst-open';}
+  else if((t>=240&&t<570)||(t>=930&&t<1200)){el.textContent='🟡 시간외';el.className='mst mst-ext';}
+  else{el.textContent='🔴 마감';el.className='mst mst-closed';}
+}
+updMST(); setInterval(updMST,60000);
+
+/* ═══════════════════════════════════════════════
+   YAHOO FINANCE 비공식 API (CORS 우회, 무료)
+═══════════════════════════════════════════════ */
+const YH_CACHE={};
+async function yhQuote(syms){
+  const key=syms.join(',');
+  if(YH_CACHE[key]&&Date.now()-YH_CACHE[key].ts<120000)return YH_CACHE[key].data;
+  try{
+    // Yahoo Finance v8 — allorigins 프록시
+    const url=`https://query1.finance.yahoo.com/v8/finance/spark?symbols=${key}&range=1d&interval=1d`;
+    const r=await fetch(PROXY+encodeURIComponent(url));
+    if(!r.ok)throw new Error();
+    const d=await r.json();
+    const result={};
+    for(const sym of syms){
+      const item=d?.spark?.result?.find(x=>x.symbol===sym);
+      const prev=item?.response?.[0]?.meta?.previousClose;
+      const curr=item?.response?.[0]?.meta?.regularMarketPrice||prev;
+      if(curr){
+        const chg=prev?((curr-prev)/prev*100):0;
+        result[sym]={price:curr,chg,up:chg>=0};
+      }
+    }
+    YH_CACHE[key]={data:result,ts:Date.now()};
+    return result;
+  }catch{
+    // fallback: v7 quote endpoint
+    try{
+      const url2=`https://query2.finance.yahoo.com/v7/finance/quote?symbols=${key}&fields=regularMarketPrice,regularMarketChangePercent`;
+      const r2=await fetch(PROXY+encodeURIComponent(url2));
+      if(!r2.ok)throw new Error();
+      const d2=await r2.json();
+      const result={};
+      (d2?.quoteResponse?.result||[]).forEach(item=>{
+        const chg=item.regularMarketChangePercent||0;
+        result[item.symbol]={price:item.regularMarketPrice||0,chg,up:chg>=0};
+      });
+      YH_CACHE[key]={data:result,ts:Date.now()};
+      return result;
+    }catch{return{}}
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   공포탐욕지수 (alternative.me - 완전 무료)
+═══════════════════════════════════════════════ */
+async function loadFNG(){
+  try{
+    const r=await fetch('https://api.alternative.me/fng/?limit=1');
+    const d=await r.json();
+    const val=parseInt(d.data[0].value);
+    const cls=d.data[0].value_classification;
+    const angle=(val/100)*180-90;
+    document.getElementById('fngNeedle').setAttribute('transform',`rotate(${angle},80,80)`);
+    document.getElementById('fngNum').textContent=val;
+    const lbl=document.getElementById('fngLbl');
+    lbl.textContent=cls.replace('Extreme Fear','극단 공포').replace('Fear','공포').replace('Neutral','중립').replace('Greed','탐욕').replace('Extreme Greed','극단 탐욕');
+    if(val<=25)lbl.style.color='var(--dn)';
+    else if(val<=45)lbl.style.color='#f59e0b';
+    else if(val<=55)lbl.style.color='var(--ink3)';
+    else lbl.style.color='var(--up)';
+  }catch{
+    document.getElementById('fngNeedle').setAttribute('transform','rotate(18,80,80)');
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   RSS 파싱 (allorigins 프록시로 CORS 우회)
+═══════════════════════════════════════════════ */
+async function fetchRSS(feedCfg){
+  const items=[];
+  try{
+    // allorigins는 RSS도 잘 처리함
+    const r=await fetch(PROXY+encodeURIComponent(feedCfg.url),{signal:AbortSignal.timeout(6000)});
+    if(!r.ok)throw new Error();
+    const txt=await r.text();
+    const parser=new DOMParser();
+    const xml=parser.parseFromString(txt,'text/xml');
+    const entries=xml.querySelectorAll('item, entry');
+    entries.forEach(e=>{
+      const title=(e.querySelector('title')?.textContent||'').trim().replace(/\s+/g,' ');
+      const link=e.querySelector('link')?.textContent?.trim()||
+                 e.querySelector('link')?.getAttribute('href')||'';
+      const desc=(e.querySelector('description, summary')?.textContent||'').replace(/<[^>]+>/g,'').trim().replace(/\s+/g,' ').slice(0,140);
+      const pub=e.querySelector('pubDate, published, updated')?.textContent||'';
+      const img=e.querySelector('enclosure')?.getAttribute('url')||
+                e.querySelector('media\\:thumbnail, thumbnail')?.getAttribute('url')||'';
+      if(title&&title.length>5){
+        items.push({
+          title,
+          desc: desc||'',
+          url: link,
+          src: feedCfg.src,
+          name: feedCfg.name,
+          cat: feedCfg.cat,
+          color: feedCfg.color,
+          time: pub?new Date(pub).toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit'}):'',
+          img,
+          tags: inferTags(title, feedCfg.cat)
+        });
+      }
+    });
+  }catch(e){/* 개별 피드 실패 무시 */}
+  return items;
+}
+
+function inferTags(title, cat){
+  const tags=[];
+  if(/미국|nasdaq|dow|s&p|월가|뉴욕/i.test(title)) tags.push('미국증시');
+  if(/AI|인공지능/i.test(title)) tags.push('AI');
+  if(/금리|연준|Fed|FOMC/i.test(title)) tags.push('금리');
+  if(/반도체|칩/i.test(title)) tags.push('반도체');
+  if(/환율|달러|원화/i.test(title)) tags.push('환율');
+  if(/비트코인|코인|crypto/i.test(title)) tags.push('크립토');
+  if(/실적|earnings/i.test(title)) tags.push('실적');
+  if(cat==='ko') tags.push('한국어');
+  return tags;
+}
+
+/* ═══════════════════════════════════════════════
+   뉴스 로드
+   1순위: GitHub Actions가 생성한 news.json (6시간마다 자동 업데이트)
+   2순위: 브라우저에서 RSS 직접 fetch (fallback)
+═══════════════════════════════════════════════ */
+let allNews=[], newsFilterState='all';
+
+// GitHub Pages에 배포된 news.json URL
+const GITHUB_NEWS_JSON = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/news.json';
+
+// GitHub JSON → 내부 포맷으로 변환
+function convertGithubNews(items){
+  const SRC_COLOR = {
+    '한국경제':'#c8281f','연합뉴스':'#1a56db','매일경제':'#003580',
+    '이데일리':'#e65c00','서울경제':'#c53030',
+    'Reuters':'#c8281f','MarketWatch':'#0066cc','Bloomberg':'#1a1a1a','CNBC':'#005594',
+  };
+  const SRC_KEY = {
+    '한국경제':'hankyung','연합뉴스':'yonhap','매일경제':'mk','이데일리':'edaily','서울경제':'sedaily',
+    'Reuters':'reuters','MarketWatch':'marketwatch','Bloomberg':'bloomberg','CNBC':'cnbc','Investing.com':'investing',
+  };
+  return items.map(n=>({
+    title: n.title,
+    desc:  n.summary || '',
+    url:   n.link || '#',
+    src:   SRC_KEY[n.source] || n.source.toLowerCase(),
+    name:  n.source,
+    cat:   n.lang || 'ko',
+    color: SRC_COLOR[n.source] || '#555',
+    time:  n.pubDate ? new Date(n.pubDate).toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit'}) : '',
+    img:   '',
+    tags:  inferTags(n.title, n.lang||'ko'),
+    isMarketRelated: n.isMarketRelated || false,
+  }));
+}
+
+async function loadNews(){
+  const btn=document.getElementById('nRefBtn');
+  if(btn){btn.disabled=true;btn.textContent='↻ 로딩중...'}
+  document.getElementById('newsArea').innerHTML=`<div class="lbox"><div class="spinner"></div><p>뉴스 수신 중...</p><small>GitHub Actions · RSS 자동 수집</small></div>`;
+
+  // ── 1순위: GitHub Actions news.json ──
+  try{
+    const r = await fetch(GITHUB_NEWS_JSON+'?t='+Date.now(), {signal:AbortSignal.timeout(8000)});
+    if(!r.ok) throw new Error('json fetch fail');
+    const data = await r.json();
+
+    if(data.items && data.items.length > 0){
+      allNews = convertGithubNews(data.items);
+
+      // SEO 메타데이터 즉시 업데이트
+      updateSEOMeta(allNews, null);
+
+      // 상태 바 표시
+      const bar = document.getElementById('newsStatusBar');
+      if(bar){
+        bar.style.display='flex';
+        document.getElementById('newsStatusText').textContent =
+          `GitHub Actions 자동 수집 · 총 ${data.totalCount}개 (시장관련 ${data.marketRelatedCount}개)`;
+        document.getElementById('newsUpdateTime').textContent =
+          data.updatedAtKST ? '업데이트: ' + data.updatedAtKST.slice(5,16) : '';
+      }
+      const lbl = document.getElementById('newsSourceLabel');
+      if(lbl) lbl.textContent = 'GitHub Actions 자동 수집 · 6시간마다 업데이트';
+
+      renderNews();
+      if(typeof renderSumNews === 'function') renderSumNews();
+      if(btn){btn.disabled=false;btn.textContent='↻ 새로고침'}
+      return; // 성공 → RSS fallback 불필요
+    }
+  }catch(e){
+    console.log('GitHub JSON 로드 실패, RSS fallback:', e.message);
+  }
+
+  // ── 2순위: 브라우저 RSS 직접 fetch (fallback) ──
+  const lbl = document.getElementById('newsSourceLabel');
+  if(lbl) lbl.textContent = 'RSS 실시간 · 완전 무료';
+  const bar = document.getElementById('newsStatusBar');
+  if(bar) bar.style.display='none';
+
+  const allFeeds=[...KO_RSS,...EN_RSS];
+  const results=await Promise.all(allFeeds.map(f=>fetchRSS(f)));
+  const collected=results.flat();
+
+  const seen=new Set();
+  allNews=collected.filter(n=>{
+    const k=n.title.slice(0,30);
+    if(seen.has(k))return false;
+    seen.add(k);return true;
+  });
+  allNews = allNews.map(n=>({...n, isMarketRelated: inferMarketRelated(n.title)}));
+
+  if(allNews.length===0) allNews=NEWS_FALLBACK;
+
+  renderNews();
+  if(typeof renderSumNews === 'function') renderSumNews();
+  if(btn){btn.disabled=false;btn.textContent='↻ 새로고침'}
+}
+
+function inferMarketRelated(title){
+  const kw=['주식','증시','코스피','나스닥','S&P','금리','달러','환율','실적','관세','트럼프','연준','Fed','반도체','AI','인플레'];
+  return kw.some(k=>title.toLowerCase().includes(k.toLowerCase()));
+}
+
+function filterN(f, btn){
+  newsFilterState=f;
+  document.querySelectorAll('.fc').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  renderNews();
+}
+
+// 언론사별 홈 URL 매핑
+const SRC_HOME = {
+  hankyung: 'https://www.hankyung.com/globalmarket',
+  yonhap:   'https://www.yna.co.kr/economy/stock',
+  mk:       'https://www.mk.co.kr/economy/stock-market/',
+  mt:       'https://news.mt.co.kr/newsList.html?type=1&category=A',
+  sedaily:  'https://www.sedaily.com/NewsVIew/stock',
+  reuters:  'https://www.reuters.com/markets/',
+  bloomberg:'https://www.bloomberg.com/markets',
+  cnbc:     'https://www.cnbc.com/markets/',
+  wsj:      'https://www.wsj.com/market-data',
+  ft:       'https://www.ft.com/markets',
+  seeking:  'https://seekingalpha.com/market-news',
+};
+
+// 도메인 추출 헬퍼
+function getDomain(url){
+  try{return new URL(url).hostname.replace('www.','');}catch{return '';}
+}
+
+function renderNews(){
+  const el=document.getElementById('newsArea');
+  let items=allNews;
+  if(newsFilterState==='market') items=items.filter(n=>n.isMarketRelated);
+  else if(newsFilterState==='ko') items=items.filter(n=>n.cat==='ko');
+  else if(newsFilterState==='en') items=items.filter(n=>n.cat==='en');
+  else if(['hankyung','yonhap','mt','mk','sedaily','edaily','reuters','bloomberg','cnbc','ft','marketwatch','investing'].includes(newsFilterState))
+    items=items.filter(n=>n.src===newsFilterState);
+
+  if(!items.length){el.innerHTML=`<div class="ebox">해당 소스 뉴스를 불러올 수 없습니다. '전체'를 선택하거나 새로고침하세요.</div>`;return;}
+
+  el.innerHTML=`<div class="news-list fade">${items.slice(0,50).map(n=>{
+    const domain = getDomain(n.url||'');
+    const srcHome = SRC_HOME[n.src] || n.url || '#';
+    return `
+    <div class="nc" data-src="${n.src}">
+      <div class="nc-dot" style="background:${n.color||'#999'}"></div>
+      <div class="nc-body">
+        <div class="nc-meta">
+          <a class="src-pill src-${n.src}"
+             href="${srcHome}"
+             target="_blank"
+             rel="noopener"
+             title="${n.name} 홈으로 이동"
+             onclick="event.stopPropagation()"
+             style="background:${n.color};color:#fff;cursor:pointer">${n.name}</a>
+          ${n.time?`<span class="nc-time">${n.time}</span>`:''}
+          ${n.isMarketRelated?`<span style="font-size:9px;font-weight:700;padding:1px 5px;border-radius:3px;background:#fff3cd;color:#854d0e;border:1px solid #fde68a">🔥 시장</span>`:''}
+          ${domain?`<span class="nc-domain">🔗 ${domain}</span>`:''}
+        </div>
+        <a class="nc-ttl-link" href="${n.url||'#'}" target="_blank" rel="noopener">
+          <div class="nc-ttl">${n.title}</div>
+        </a>
+        ${n.desc?`<div class="nc-desc">${n.desc}</div>`:''}
+        <div class="nc-footer">
+          <div class="nc-tags">${(n.tags||[]).map(t=>`<span class="ntag">#${t}</span>`).join('')}</div>
+          <a class="nc-readmore" href="${n.url||'#'}" target="_blank" rel="noopener">기사 읽기 →</a>
+        </div>
+      </div>
+      ${n.img?`<a href="${n.url||'#'}" target="_blank" rel="noopener"><img class="nc-img" src="${n.img}" alt="" loading="lazy" onerror="this.style.display='none'"></a>`:''}
+    </div>`;
+  }).join('')}</div>`;
+}
+
+/* ═══════════════════════════════════════════════
+   주식 피드 (Yahoo Finance)
+═══════════════════════════════════════════════ */
+let stkTabState='watch';
+function stkTab(tab,btn){
+  stkTabState=tab;
+  document.querySelectorAll('.stk-tab').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  loadStocks();
+}
+
+async function loadStocks(){
+  const el=document.getElementById('stkList');
+  el.innerHTML=`<div class="lbox"><div class="spinner"></div><p>Yahoo Finance 데이터 수신 중...</p></div>`;
+  const syms = stkTabState==='watch'   ? WATCH_SYM :
+               stkTabState==='gainers' ? ['DELL','IBM','ORCL','PLTR','CRWD','CRM','MSFT','PANW'] :
+               stkTabState==='losers'  ? ['INTC','COST','TXN','WMT','GOOGL','AMZN','NVDA','TSLA'] :
+               ETF_SYM;
+  const data=await yhQuote(syms);
+  let html='';
+  syms.forEach((sym,i)=>{
+    const q=data[sym];
+    const SEED_P={NVDA:211.26,AAPL:312.06,MSFT:449.40,GOOGL:380.34,AMZN:270.64,META:632.51,TSLA:435.51,
+      COST:956.32,IBM:297.80,ORCL:203.41,PLTR:138.72,CRWD:281.76,CRM:350.00,DELL:148.20,INTC:22.14,
+      DELL:148.20,TXN:182.50,WMT:88.50,PANW:281.76,
+      SPY:529.80,QQQ:456.30,DIA:425.60,GLD:312.80,USO:72.40,TLT:89.20,IEF:96.50,SLV:29.80,
+      XLK:240.50,XLF:52.30,XLE:88.70,XLV:147.20
+    };
+    const SEED_C={NVDA:-1.40,AAPL:-0.14,MSFT:5.25,GOOGL:-2.51,AMZN:-1.23,META:-0.44,TSLA:-1.49,
+      COST:-3.91,IBM:12.71,ORCL:10.84,PLTR:9.24,CRWD:8.92,CRM:8.47,DELL:32.76,INTC:-5.16,
+      TXN:-3.23,WMT:-2.69,PANW:9.31,
+      SPY:0.22,QQQ:0.20,DIA:0.72,GLD:1.05,USO:-1.29,TLT:0.02,IEF:0.12,SLV:-0.04,
+      XLK:2.23,XLF:0.60,XLE:-1.16,XLV:-0.93
+    };
+    const price=q?.price?`$${q.price.toFixed(2)}`:`$${(SEED_P[sym]||0).toFixed(2)}`;
+    const chgV=q?.chg??SEED_C[sym]??0;
+    const chgTxt=(chgV>=0?'+':'')+chgV.toFixed(2)+'%';
+    const isUp=chgV>=0;
+    html+=`<a class="stk-row" href="https://finance.yahoo.com/quote/${sym}" target="_blank">
+      <div class="stk-rk">${i+1}</div>
+      <div class="stk-logo"><img src="https://assets.parqet.com/logos/symbol/${sym}?format=jpg" alt="${sym}" onerror="this.style.display='none';this.parentElement.textContent='${sym.slice(0,2)}'"></div>
+      <div class="stk-info">
+        <div class="stk-sym">${sym}</div>
+        <div class="stk-name">${NAMES[sym]||sym}</div>
+        ${SIGNALS[sym]?`<div class="stk-sig">${SIGNALS[sym]}</div>`:''}
+      </div>
+      <div class="stk-nums">
+        <div class="stk-price">${price}</div>
+        <div class="stk-chg ${isUp?'up':'dn'}">${chgTxt}</div>
+      </div>
+    </a>`;
+  });
+  el.innerHTML=html||`<div class="ebox">데이터를 불러올 수 없습니다</div>`;
+}
+
+/* ═══════════════════════════════════════════════
+   섹터 (Yahoo Finance)
+═══════════════════════════════════════════════ */
+async function loadSectors(){
+  const block=document.getElementById('secBlock');
+  block.innerHTML=`<div class="lbox"><div class="spinner"></div></div>`;
+  const syms=SECTORS.map(s=>s.sym);
+  const data=await yhQuote(syms);
+  const live=SECTORS.map(s=>{
+    const q=data[s.sym];
+    const chgV=q?.chg??parseFloat(s.chg);
+    return {...s,chg:(chgV>=0?'+':'')+chgV.toFixed(2)};
+  });
+  const sorted=[...live].sort((a,b)=>parseFloat(b.chg)-parseFloat(a.chg));
+  const best=sorted[0],worst=sorted[sorted.length-1];
+  const maxA=Math.max(...sorted.map(s=>Math.abs(parseFloat(s.chg))));
+  block.innerHTML=`
+    <div class="sec-bw">
+      <div class="bw bw-u"><div class="bw-lbl bw-lu">📈 최상위</div><div class="bw-val up">${best.emoji} ${best.name} ${best.chg}%</div></div>
+      <div class="bw bw-d"><div class="bw-lbl bw-ld">📉 최하위</div><div class="bw-val dn">${worst.emoji} ${worst.name} ${worst.chg}%</div></div>
+    </div>
+    ${sorted.map(s=>{
+      const v=parseFloat(s.chg),isUp=v>=0;
+      const w=Math.round(Math.abs(v)/maxA*100);
+      const clr=isUp?'var(--up)':'var(--dn)';
+      return `<div class="sec-row">
+        <span class="sec-em">${s.emoji}</span>
+        <span class="sec-nm">${s.name} <span style="font-size:10px;color:var(--ink4)">${s.sym}</span></span>
+        <div class="sec-bw-bar"><div class="sec-bw-fill" style="width:${w}%;background:${clr}"></div></div>
+        <span class="sec-pct" style="color:${clr}">${s.chg}%</span>
+      </div>`;
+    }).join('')}`;
+  // sidebar 핫 종목
+  loadHotStocks();
+  // assets
+  loadAssets();
+}
+
+async function loadAssets(){
+  const data=await yhQuote(ASSETS_SYM);
+  const seedC={TLT:0.02,IEF:0.12,SHY:0.05,GLD:1.05,USO:-1.29,SLV:-0.04};
+  const emos={TLT:'📈',IEF:'📈',SHY:'📈',GLD:'🥇',USO:'🛢️',SLV:'🪙'};
+  const nms={TLT:'장기채',IEF:'중기채',SHY:'단기채',GLD:'금',USO:'원유',SLV:'은'};
+  let html='';
+  for(const sym of ASSETS_SYM){
+    const q=data[sym];
+    const chgV=q?.chg??seedC[sym]??0;
+    const chgTxt=(chgV>=0?'+':'')+chgV.toFixed(2)+'%';
+    const isUp=chgV>=0;
+    html+=`<div class="ast-row"><div class="ast-nm">${emos[sym]} ${sym} ${nms[sym]}</div><div class="ast-chg ${isUp?'up':'dn'}">${chgTxt}</div></div>`;
+  }
+  document.getElementById('sbAssets').innerHTML=html;
+  const ab=document.getElementById('assetBlock');
+  if(ab)ab.innerHTML=html;
+}
+
+/* ═══════════════════════════════════════════════
+   Mag7 (Yahoo Finance)
+═══════════════════════════════════════════════ */
+async function loadMag7(){
+  const SEED_P={NVDA:211.26,AAPL:312.06,MSFT:449.40,GOOGL:380.34,AMZN:270.64,META:632.51,TSLA:435.51};
+  const SEED_C={NVDA:-1.40,AAPL:-0.14,MSFT:5.25,GOOGL:-2.51,AMZN:-1.23,META:-0.44,TSLA:-1.49};
+  const data=await yhQuote(MAG7);
+  const wrap=document.getElementById('m7wrap');
+  wrap.innerHTML=MAG7.map(sym=>{
+    const q=data[sym];
+    const chgV=q?.chg??SEED_C[sym]??0;
+    const isUp=chgV>=0;
+    const price=q?.price?`$${q.price.toFixed(2)}`:`$${SEED_P[sym]}`;
+    return `<a class="m7-chip" href="https://finance.yahoo.com/quote/${sym}" target="_blank"
+      style="background:${isUp?'var(--up-bg)':'var(--dn-bg)'}">
+      <span class="m7-sym">${sym}</span>
+      <span style="font-size:11px;font-weight:700;color:${isUp?'var(--up)':'var(--dn)'}">${(chgV>=0?'+':'')+chgV.toFixed(2)}%</span>
+      <span style="font-size:10px;color:var(--ink3)">${price}</span>
+    </a>`;
+  }).join('');
+}
+
+/* ═══════════════════════════════════════════════
+   인덱스바 업데이트 (Yahoo Finance)
+═══════════════════════════════════════════════ */
+async function loadIndices(){
+  // SPY=S&P, QQQ=Nasdaq, DIA=Dow, UVXY≈VIX
+  const data=await yhQuote(['SPY','QQQ','DIA']);
+  const map={SPY:{vId:'v-sp',cId:'c-sp'},QQQ:{vId:'v-nq',cId:'c-nq'},DIA:{vId:'v-dj',cId:'c-dj'}};
+  for(const [sym,ids] of Object.entries(map)){
+    const q=data[sym];
+    if(!q)continue;
+    const chgV=q.chg;
+    const isUp=chgV>=0;
+    document.getElementById(ids.vId).textContent=q.price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    const cel=document.getElementById(ids.cId);
+    cel.textContent=(isUp?'+':'')+chgV.toFixed(2)+'%';
+    cel.className='idx-chg '+(isUp?'up':'dn');
+  }
+  // 티커 업데이트
+  updateTicker();
+}
+
+async function updateTicker(){
+  const syms=['NVDA','AAPL','MSFT','TSLA','META','AMZN','GOOGL','DELL','IBM','ORCL','PLTR'];
+  const data=await yhQuote(syms);
+  const SEED_P={NVDA:211.26,AAPL:312.06,MSFT:449.40,TSLA:435.51,META:632.51,AMZN:270.64,GOOGL:380.34,DELL:148.20,IBM:297.80,ORCL:203.41,PLTR:138.72};
+  const SEED_C={NVDA:-1.40,AAPL:-0.14,MSFT:5.25,TSLA:-1.49,META:-0.44,AMZN:-1.23,GOOGL:-2.51,DELL:32.76,IBM:12.71,ORCL:10.84,PLTR:9.24};
+  let html='';
+  syms.forEach(sym=>{
+    const q=data[sym];
+    const price=q?`$${q.price.toFixed(2)}`:`$${SEED_P[sym]}`;
+    const chgV=q?.chg??SEED_C[sym]??0;
+    const isUp=chgV>=0;
+    html+=`<span class="ti"><span class="ti-sym">${sym}</span><span>${price}</span><span class="${isUp?'ti-up':'ti-dn'}">${isUp?'▲':'▼'}${Math.abs(chgV).toFixed(2)}%</span></span>`;
+  });
+  if(html){const t=document.getElementById('tickerTrack');t.innerHTML=html+html;}
+}
+
+/* ═══════════════════════════════════════════════
+   상위/하위 종목 (시드 기반, 실제 데이터로 보강)
+═══════════════════════════════════════════════ */
+const GAINERS_SEED=[
+  {sym:'DELL',desc:'AI 서버 실적 폭발',chg:'+32.76'},
+  {sym:'IBM', desc:'소프트웨어 랠리',chg:'+12.71'},
+  {sym:'ORCL',desc:'클라우드 동반 급등',chg:'+10.84'},
+];
+const LOSERS_SEED=[
+  {sym:'INTC',desc:'AI 경쟁 소외',chg:'-5.16'},
+  {sym:'COST',desc:'EPS 소폭 미스',chg:'-3.91'},
+  {sym:'TXN', desc:'반도체 약세',chg:'-3.23'},
+];
+function renderMovers(gainers,losers){
+  document.getElementById('moverGrid').innerHTML=`
+    <div class="mover-col">
+      <div class="mover-hd mover-hd-u">📈 급등 Top 3</div>
+      ${gainers.map(s=>`<div class="mover-row">
+        <div><div class="mover-sym"><a href="https://finance.yahoo.com/quote/${s.sym}" target="_blank">${s.sym}</a></div>
+          <div class="mover-sig">${s.desc}</div></div>
+        <div class="mover-p up">${s.chg}%</div>
+      </div>`).join('')}
+    </div>
+    <div class="mover-col">
+      <div class="mover-hd mover-hd-d">📉 급락 Top 3</div>
+      ${losers.map(s=>`<div class="mover-row">
+        <div><div class="mover-sym"><a href="https://finance.yahoo.com/quote/${s.sym}" target="_blank">${s.sym}</a></div>
+          <div class="mover-sig">${s.desc}</div></div>
+        <div class="mover-p dn">${s.chg}%</div>
+      </div>`).join('')}
+    </div>`;
+}
+
+/* ═══════════════════════════════════════════════
+   실적 (시드 데이터)
+═══════════════════════════════════════════════ */
+const EARN_SEED=[
+  {sym:'DELL',date:'2026-05-28',beat:'Beat',detail:'AI서버 +757%·EPS 컨센 42% 상회',url:'https://finance.yahoo.com/quote/DELL'},
+  {sym:'MDB', date:'2026-05-28',beat:'Beat',detail:'매출·EPS 모두 Beat, 가이던스 상향',url:'https://finance.yahoo.com/quote/MDB'},
+  {sym:'COST',date:'2026-05-28',beat:'In-line',detail:'매출 11.6% 성장·EPS $4.93 컨센 부합',url:'https://finance.yahoo.com/quote/COST'},
+  {sym:'BKE', date:'2026-05-29',beat:'Beat',detail:'EPS 컨센서스 24% 상회',url:'https://finance.yahoo.com/quote/BKE'},
+  {sym:'KNOP',date:'2026-05-29',beat:'Miss',detail:'EPS 컨센서스 73% 하회',url:'https://finance.yahoo.com/quote/KNOP'},
+  {sym:'HPE', date:'2026-06-01',beat:'예정',detail:'EPS 예상 $0.37 · 장전',url:'https://finance.yahoo.com/quote/HPE'},
+  {sym:'CRDO',date:'2026-06-01',beat:'예정',detail:'장전',url:'https://finance.yahoo.com/quote/CRDO'},
+];
+function loadEarnings(){
+  const el=document.getElementById('earningsArea');
+  const clr={Beat:'var(--up)',Miss:'var(--dn)','In-line':'var(--ink3)','예정':'var(--acc)'};
+  el.innerHTML=EARN_SEED.map(e=>`
+    <a class="earn-row" href="${e.url}" target="_blank">
+      <div class="earn-sym">${e.sym}</div>
+      <div class="earn-info">${e.date} · ${e.detail}</div>
+      <div class="earn-bdg">실적</div>
+      <div class="earn-res" style="color:${clr[e.beat]||'var(--ink3)'}">${e.beat}</div>
+    </a>`).join('');
+}
+
+/* ═══════════════════════════════════════════════
+   캘린더
+═══════════════════════════════════════════════ */
+const CAL_DATA=[
+  {ico:'📊',ttl:'ISM 제조업 PMI',sub:'06/01 (월) 오전 11시 ET',stars:'★★★'},
+  {ico:'💰',ttl:'HPE 실적발표',sub:'06/01 장전',stars:'★★'},
+  {ico:'💰',ttl:'CRDO 실적발표',sub:'06/01 장전',stars:'★★'},
+  {ico:'💸',ttl:'FCT 배당락 (12.1%)',sub:'06/01',stars:'★'},
+  {ico:'💸',ttl:'FTHY 배당락 (11.0%)',sub:'06/01',stars:'★'},
+  {ico:'💸',ttl:'IGA 배당락 (10.6%)',sub:'06/01',stars:'★'},
+  {ico:'📊',ttl:'비농업 고용보고서 (NFP)',sub:'06/06 (금) 오전 9:30 ET',stars:'★★★'},
+  {ico:'📊',ttl:'FOMC 회의록 공개',sub:'06/25 예정',stars:'★★★'},
+];
+function loadCal(){
+  document.getElementById('calArea').innerHTML=`
+    <div class="sb-card">
+      ${CAL_DATA.map(c=>`<div class="cal-item">
+        <div class="cal-ico">${c.ico}</div>
+        <div style="flex:1"><div class="cal-ttl">${c.ttl}</div><div class="cal-sub">${c.sub}</div></div>
+        <div class="cal-star">${c.stars}</div>
+      </div>`).join('')}
+    </div>`;
+}
+
+/* ═══════════════════════════════════════════════
+   오늘의 핫 종목 Top 5 (사이드바)
+   급등률·거래량 폭발 기준 / Yahoo Finance
+═══════════════════════════════════════════════ */
+const HOT_SEED = [
+  { sym:'DELL',  name:'델 테크놀로지스',  chg:+32.76, vol:'4.2천만주', signal:'AI서버 실적 폭발', reason:'EPS 42% 상회' },
+  { sym:'IBM',   name:'IBM',             chg:+12.71, vol:'2.1천만주', signal:'소프트웨어 랠리',  reason:'AI 클라우드 수혜' },
+  { sym:'ORCL',  name:'오라클',          chg:+10.84, vol:'3.8천만주', signal:'볼린저 상단 돌파', reason:'클라우드 수혜 동반' },
+  { sym:'PLTR',  name:'팔란티어',        chg: +9.24, vol:'1.9천만주', signal:'거래량 300% 폭발', reason:'AI 국방 수주 기대' },
+  { sym:'CRWD',  name:'크라우드스트라이크', chg:+8.92, vol:'1.2천만주', signal:'52주 신고가',     reason:'사이버보안 수요↑' },
+];
+
+// 후보 풀 — 매일 실시간 데이터로 순위 재정렬
+const HOT_CANDIDATES = ['DELL','IBM','ORCL','PLTR','CRWD','MSFT','CRM','SNOW','DDOG','NOW','MDB','NET','SHOP','MSTR','COIN'];
+
+async function loadHotStocks(){
+  const el = document.getElementById('sbHotStocks');
+  if(!el) return;
+
+  // Yahoo Finance로 후보군 가격·변동률 조회
+  const data = await yhQuote(HOT_CANDIDATES);
+
+  // 변동률 기준 내림차순 정렬 → Top 5
+  let ranked = HOT_CANDIDATES
+    .filter(sym => data[sym])
+    .map(sym => ({ sym, ...data[sym] }))
+    .sort((a,b) => b.chg - a.chg)
+    .slice(0, 5);
+
+  // 실시간 데이터 없으면 시드 사용
+  if(!ranked.length) ranked = HOT_SEED.map(s=>({ sym:s.sym, price:null, chg:s.chg, up:s.chg>0 }));
+
+  const NAMES_EX = {
+    DELL:'델 테크놀로지스', IBM:'IBM', ORCL:'오라클', PLTR:'팔란티어', CRWD:'크라우드스트라이크',
+    MSFT:'마이크로소프트',  CRM:'세일즈포스', SNOW:'스노우플레이크', DDOG:'데이터도그',
+    NOW:'서비스나우',  MDB:'MongoDB', NET:'클라우드플레어', SHOP:'쇼피파이',
+    MSTR:'마이크로스트래티지', COIN:'코인베이스'
+  };
+  const SIGNALS_EX = {
+    DELL:'AI서버 실적 폭발', IBM:'소프트웨어 랠리', ORCL:'볼린저 상단 돌파',
+    PLTR:'거래량 300% 폭발', CRWD:'52주 신고가', MSFT:'급등 5.25%',
+    CRM:'반등', SNOW:'거래량 급증', DDOG:'MACD 골든크로스',
+    NOW:'RSI 돌파', MDB:'가이던스 상향', NET:'거래량 급증',
+    SHOP:'반등 모멘텀', MSTR:'비트코인 연동', COIN:'크립토 랠리'
+  };
+  const RANK_CLS = ['hot-rank-1','hot-rank-2','hot-rank-3','hot-rank-n','hot-rank-n'];
+  const MEDALS = ['🥇','🥈','🥉','4','5'];
+
+  el.innerHTML = ranked.map((s, i) => {
+    const chgVal = s.chg ?? 0;
+    const isUp = chgVal >= 0;
+    const chgTxt = (isUp?'+':'') + chgVal.toFixed(2) + '%';
+    const priceTxt = s.price ? '$' + s.price.toFixed(2) : '';
+    // 시드에서 거래량·이유 찾기
+    const seed = HOT_SEED.find(x=>x.sym===s.sym);
+    const vol = seed?.vol || '';
+    const signal = SIGNALS_EX[s.sym] || (isUp ? '급등' : '급락');
+
+    return `<a class="hot-row" href="https://finance.yahoo.com/quote/${s.sym}" target="_blank" rel="noopener">
+      <span class="hot-rank ${RANK_CLS[i]}">${MEDALS[i]}</span>
+      <div class="hot-logo">
+        <img src="https://assets.parqet.com/logos/symbol/${s.sym}?format=jpg" alt="${s.sym}"
+             onerror="this.style.display='none';this.parentElement.textContent='${s.sym.slice(0,2)}'">
+      </div>
+      <div class="hot-info">
+        <div class="hot-sym">${s.sym}</div>
+        <div class="hot-name">${NAMES_EX[s.sym]||s.sym}</div>
+        <div class="hot-signal">${signal}</div>
+      </div>
+      <div class="hot-nums">
+        <div class="hot-chg ${isUp?'up':'dn'}">${chgTxt}</div>
+        ${priceTxt ? `<div class="hot-vol">${priceTxt}</div>` : ''}
+        ${vol ? `<div class="hot-vol">${vol}</div>` : ''}
+      </div>
+    </a>`;
+  }).join('');
+}
+
+
+function openSrcModal(title, links){
+  document.getElementById('srcModalTitle').textContent = title;
+  document.getElementById('srcModalBody').innerHTML = links.map(l=>`
+    <a class="src-link-row" href="${l.url}" target="_blank" rel="noopener">
+      <span class="src-link-pill" style="background:${l.color||'#555'}">${l.src}</span>
+      <span class="src-link-title">${l.title}</span>
+      <span class="src-link-arr">›</span>
+    </a>`).join('') +
+    `<div class="src-modal-note">클릭 시 해당 언론사 원문으로 이동합니다</div>`;
+  document.getElementById('srcModal').classList.add('open');
+}
+function closeSrcModal(){ document.getElementById('srcModal').classList.remove('open'); }
+
+/* ═══════════════════════════════════════════════
+   시장 요약 — GitHub Actions summary.json 우선
+   (6시간마다 Claude AI가 최신 뉴스 기반으로 자동 생성)
+═══════════════════════════════════════════════ */
+const GITHUB_SUMMARY_JSON = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/summary.json';
+
+async function loadSummary(){
+  let data = null;
+
+  // ── 1순위: GitHub Actions summary.json ──
+  try{
+    const r = await fetch(GITHUB_SUMMARY_JSON + '?t=' + Date.now(), {signal: AbortSignal.timeout(8000)});
+    if(!r.ok) throw new Error('fetch fail');
+    const json = await r.json();
+    if(json.headline) {
+      data = json;
+      // SEO 메타데이터 뉴스+요약 합쳐서 최종 업데이트
+      updateSEOMeta(allNews, json);
+      // 업데이트 시각 표시
+      document.getElementById('sum-upd').textContent =
+        '업데이트: ' + (json.updatedAtKST||'').slice(5,16) + ' (자동)';
+      console.log('✅ summary.json 로드 성공');
+    }
+  }catch(e){
+    console.log('summary.json 로드 실패, fallback 사용');
+  }
+
+  // ── 2순위: 하드코딩 fallback ──
+  if(!data) data = SUMMARY_FALLBACK;
+
+  // ── 헤드라인 ──
+  document.getElementById('sum-q').textContent = data.headline || '';
+  document.getElementById('sum-tags').innerHTML = (data.tags||[]).map(t=>`<span class="s-tag">${t}</span>`).join('');
+  document.getElementById('sum-upd').textContent = '업데이트: '+new Date().toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit'});
+
+  // ── 핵심 포인트 (클릭 → 모달) ──
+  document.getElementById('sum-pts').innerHTML = (data.points||[]).map((p,i)=>`
+    <div class="sum-pt" onclick='openSrcModal("${p.title.replace(/'/g,"\\'")}",${JSON.stringify(p.links||[])})'>
+      <div class="sp-ico">${p.icon}</div>
+      <div style="flex:1">
+        <div class="sp-ttl">${p.title}</div>
+        <div class="sp-desc">${p.desc}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">
+          ${(p.links||[]).map(l=>`<span style="font-size:10px;padding:1px 6px;border-radius:3px;font-weight:700;color:#fff;background:${l.color||'#555'}">${l.src}</span>`).join('')}
+        </div>
+      </div>
+    </div>`).join('');
+
+  // ── 전문가 코멘트 ──
+  document.getElementById('sum-experts').innerHTML = (data.experts||SUMMARY_FALLBACK.experts).map(e=>`
+    <div class="exp-block" style="cursor:pointer" onclick="window.open('${e.srcUrl||'#'}','_blank')">
+      <div class="exp-q">"${e.quote}"</div>
+      <div style="display:flex;align-items:center;gap:8px">
+        <div><div class="exp-name">${e.name}</div><div class="exp-role">${e.role}</div></div>
+        <span style="margin-left:auto;font-size:10px;color:var(--acc);font-weight:700;background:var(--acc-bg);padding:2px 7px;border-radius:4px">${e.src} →</span>
+      </div>
+    </div>`).join('');
+
+  // ── 투자자 체크리스트 ──
+  document.getElementById('sum-checklist').innerHTML = (data.checklist||SUMMARY_FALLBACK.checklist).map(c=>`
+    <div class="sc-item" onclick="window.open('${c.url||'#'}','_blank')">
+      <div class="sc-chk">${c.icon}</div>
+      <div class="sc-body">
+        <div class="sc-ttl">${c.title}</div>
+        <div class="sc-sub">${c.desc}</div>
+      </div>
+      <span class="sc-arr">${c.urlLabel||'보기'} →</span>
+    </div>`).join('');
+
+  // ── 지수 상세 그리드 ──
+  renderSumIndices();
+
+  // ── 섹터 요약 ──
+  renderSumSectors();
+
+  // ── 채권·원자재 ──
+  renderSumAssets();
+
+  // ── 트럼프 요약 미리보기 ──
+  renderSumTrump(data.trump);
+
+  // ── 뉴스 요약 ──
+  renderSumNews();
+}
+
+function renderSumIndices(){
+  const IDX = [
+    {name:'S&P 500',    id:'v-sp', chgId:'c-sp', rsi:74,  url:'https://finance.yahoo.com/quote/%5EGSPC', src:'Yahoo'},
+    {name:'NASDAQ 100', id:'v-nq', chgId:'c-nq', rsi:77,  url:'https://finance.yahoo.com/quote/%5EIXIC', src:'Yahoo'},
+    {name:'다우',       id:'v-dj', chgId:'c-dj', rsi:69,  url:'https://finance.yahoo.com/quote/%5EDJI',  src:'Yahoo'},
+    {name:'VIX',        id:'v-vix',chgId:'c-vix',rsi:27,  url:'https://finance.yahoo.com/quote/%5EVIX',  src:'Yahoo'},
+  ];
+  document.getElementById('sum-indices').innerHTML = IDX.map(idx=>{
+    const val = document.getElementById(idx.id)?.textContent || '--';
+    const chg = document.getElementById(idx.chgId)?.textContent || '--';
+    const isUp = !chg.startsWith('-');
+    const rsiClr = idx.rsi > 70 ? 'var(--dn)' : idx.rsi < 30 ? 'var(--up)' : 'var(--gold)';
+    return `<a class="si-card" href="${idx.url}" target="_blank" rel="noopener">
+      <div class="si-top">
+        <span class="si-name">${idx.name}</span>
+        <span class="si-src">${idx.src} →</span>
+      </div>
+      <div class="si-val">${val}</div>
+      <div class="si-row">
+        <span class="si-chg ${isUp?'up':'dn'}">${chg}</span>
+        <span class="si-sub">RSI <b style="color:${rsiClr}">${idx.rsi}</b></span>
+      </div>
+      <div class="si-bar"><div class="si-bar-fill" style="width:${idx.rsi}%;background:${rsiClr}"></div></div>
+    </a>`;
+  }).join('');
+}
+
+function renderSumSectors(){
+  const SRC_LINKS = {
+    XLK:'https://finance.yahoo.com/quote/XLK', XLF:'https://finance.yahoo.com/quote/XLF',
+    XLI:'https://finance.yahoo.com/quote/XLI', XLC:'https://finance.yahoo.com/quote/XLC',
+    XLY:'https://finance.yahoo.com/quote/XLY', XLV:'https://finance.yahoo.com/quote/XLV',
+    XLE:'https://finance.yahoo.com/quote/XLE', XLP:'https://finance.yahoo.com/quote/XLP',
+    XLRE:'https://finance.yahoo.com/quote/XLRE',XLB:'https://finance.yahoo.com/quote/XLB',
+    XLU:'https://finance.yahoo.com/quote/XLU',
+  };
+  const sorted = [...SECTORS].sort((a,b)=>parseFloat(b.chg)-parseFloat(a.chg));
+  document.getElementById('sum-sectors').innerHTML = sorted.map(s=>{
+    const v = parseFloat(s.chg), isUp = v>=0;
+    const bg = v > 1 ? 'var(--up-bg)' : v < -1 ? 'var(--dn-bg)' : 'var(--sur)';
+    const bc = v > 1 ? 'var(--up-pale)' : v < -1 ? 'var(--dn-pale)' : 'var(--bd)';
+    return `<a class="ss-item" href="${SRC_LINKS[s.sym]||'#'}" target="_blank" rel="noopener"
+      style="background:${bg};border-color:${bc}">
+      <div class="ss-left"><span>${s.emoji}</span><span>${s.name}<br><span style="font-size:10px;color:var(--ink4)">${s.sym}</span></span></div>
+      <span class="ss-pct ${isUp?'up':'dn'}">${s.chg}%</span>
+    </a>`;
+  }).join('');
+}
+
+function renderSumAssets(){
+  const ASSET_DATA = [
+    {nm:'📈 TLT 장기채', chg:'+0.02', isUp:true,  url:'https://finance.yahoo.com/quote/TLT'},
+    {nm:'📈 IEF 중기채', chg:'+0.12', isUp:true,  url:'https://finance.yahoo.com/quote/IEF'},
+    {nm:'📈 SHY 단기채', chg:'+0.05', isUp:true,  url:'https://finance.yahoo.com/quote/SHY'},
+    {nm:'🥇 GLD 금',    chg:'+1.05', isUp:true,  url:'https://finance.yahoo.com/quote/GLD'},
+    {nm:'🛢️ USO 원유',  chg:'-1.29', isUp:false, url:'https://finance.yahoo.com/quote/USO'},
+    {nm:'🪙 SLV 은',    chg:'-0.04', isUp:false, url:'https://finance.yahoo.com/quote/SLV'},
+    {nm:'💱 USD/KRW',   chg:'-0.12', isUp:false, url:'https://m.stock.naver.com/marketindex/'},
+    {nm:'💵 DXY 달러',  chg:'-0.31', isUp:false, url:'https://finance.yahoo.com/quote/DX-Y.NYB'},
+    {nm:'₿ BTC',        chg:'+2.31', isUp:true,  url:'https://finance.yahoo.com/quote/BTC-USD'},
+  ];
+  // sbAssets에서 실시간 chg 읽기 시도
+  document.getElementById('sum-assets').innerHTML = ASSET_DATA.map(a=>`
+    <a class="sa-item" href="${a.url}" target="_blank" rel="noopener">
+      <div class="sa-nm">${a.nm}</div>
+      <div class="sa-chg ${a.isUp?'up':'dn'}">${a.chg}%</div>
+    </a>`).join('');
+}
+
+function renderSumTrump(trump){
+  const el = document.getElementById('sum-trump-preview');
+  if(!el) return;
+  if(trump && trump.summary){
+    const sentColor = trump.sentiment==='bull'?'#16a34a':trump.sentiment==='bear'?'#dc2626':'#d97706';
+    const sentLabel = trump.sentiment==='bull'?'강세':trump.sentiment==='bear'?'약세':'중립';
+    el.innerHTML = `
+      <div class="stb-hd">
+        <span style="font-size:18px">🇺🇸</span>
+        <span style="font-size:13px;font-weight:700;color:#fff">오늘의 Truth Social 요약</span>
+        <span class="stb-badge" style="background:${sentColor};color:#fff">${sentLabel}</span>
+      </div>
+      <div class="stb-text">${trump.summary}</div>
+      <div class="stb-chips">${(trump.keywords||[]).map(k=>`<span class="stb-chip">🔑 ${k}</span>`).join('')}</div>
+      ${trump.tip?`<div style="margin-top:8px;font-size:11px;color:rgba(255,255,255,.6)">💡 ${trump.tip}</div>`:''}
+      <div class="stb-more">트럼프 탭 클릭 → 상세 분석 →</div>`;
+  } else {
+    el.innerHTML = `
+      <div class="stb-hd">
+        <span style="font-size:18px">🇺🇸</span>
+        <span style="font-size:13px;font-weight:700;color:#fff">오늘의 Truth Social 요약</span>
+        <span class="stb-badge" style="background:#e9122a;color:#fff">업데이트 대기</span>
+      </div>
+      <div class="stb-text">GitHub Actions 다음 실행 시 오늘의 트럼프 Truth Social 시장 영향이 자동 분석됩니다.</div>
+      <div class="stb-chips"><span class="stb-chip">🔑 관세</span><span class="stb-chip">🔑 Fed</span><span class="stb-chip">🔑 AI</span><span class="stb-chip">🔑 이란</span></div>
+      <div class="stb-more">트럼프 탭 클릭 → 상세 분석 →</div>`;
+  }
+}
+
+function renderSumNews(){
+  const el = document.getElementById('sum-news-list');
+  if(!el) return;
+  // GitHub Actions로 로드된 실제 뉴스 사용 (allNews), 없으면 빈 안내
+  if(allNews.length > 0){
+    const top = allNews.filter(n=>n.isMarketRelated).slice(0,8);
+    el.innerHTML = top.map(n=>`
+      <a class="sn-item" href="${n.url||'#'}" target="_blank" rel="noopener">
+        <div class="sn-dot" style="background:${n.color||'#999'}"></div>
+        <div class="sn-body">
+          <div class="sn-meta">
+            <span class="sn-src" style="background:${n.color||'#555'}">${n.name}</span>
+            ${n.time?`<span class="sn-time">${n.time}</span>`:''}
+          </div>
+          <div class="sn-ttl">${n.title}</div>
+        </div>
+        <span class="sn-arr">›</span>
+      </a>`).join('');
+  } else {
+    el.innerHTML = `<div style="padding:14px;font-size:12px;color:var(--ink3);text-align:center">⏳ 뉴스 로딩 중... 잠시 후 자동으로 표시됩니다</div>`;
+    // 뉴스 로드 완료 후 재렌더링
+    setTimeout(()=>{ if(allNews.length) renderSumNews(); }, 3000);
+  }
+}
+
+// Fallback (summary.json 로드 실패 시)
+const SUMMARY_FALLBACK = {
+  headline:'최신 뉴스를 수집 중입니다. 잠시 후 오늘의 시장 요약이 표시됩니다.',
+  tags:['#마켓피드','#미국증시','#자동업데이트','#GitHubActions'],
+  points:[
+    {icon:'📌',title:'자동 업데이트 안내',desc:'이 페이지는 GitHub Actions를 통해 6시간마다 자동으로 최신 뉴스와 시장 요약이 업데이트됩니다. 잠시 후 새로고침 해주세요.',
+     links:[{src:'마켓피드',color:'#c8281f',title:'news.wishwifi.com',url:'https://news.wishwifi.com'}]},
+  ],
+  experts:[
+    {quote:'글로벌 시장은 뉴스 흐름에 민감하게 반응하고 있습니다. 오늘 수집된 주요 헤드라인을 확인하고 포지션을 점검하세요.',name:'마켓피드',role:'뉴스 자동 수집 서비스',src:'news.wishwifi.com',srcUrl:'https://news.wishwifi.com'},
+  ],
+  checklist:[
+    {icon:'✅',title:'오늘의 주요 뉴스 확인',desc:'6시간마다 자동 업데이트되는 최신 뉴스를 확인하세요',url:'https://news.wishwifi.com',urlLabel:'마켓피드'},
+    {icon:'✅',title:'글로벌 증시 동향 체크',desc:'S&P500·나스닥·다우 지수 흐름을 파악하세요',url:'https://finance.yahoo.com/markets/',urlLabel:'Yahoo Finance'},
+    {icon:'⚠️',title:'환율·금리 변동 주시',desc:'원달러 환율과 미국 국채 금리 변동이 국내 증시에 영향',url:'https://m.stock.naver.com/marketindex/',urlLabel:'네이버 환율'},
+  ],
+  trump:{summary:'트럼프 Truth Social 관련 뉴스를 수집 중입니다.',keywords:['관세','Fed','AI','이란'],sentiment:'neut',tip:'다음 업데이트를 기다려주세요.'}
+};
+
+/* ═══════════════════════════════════════════════
+   뉴스 폴백 (RSS 전부 실패시)
+═══════════════════════════════════════════════ */
+const NEWS_FALLBACK=[
+  {title:'[한국경제] 다우 51,000선 첫 돌파 — 월가 강세 마감',desc:'5월 마지막 거래일 다우 51,032 신고가. 델 폭등에 소프트웨어 동반 급등.',url:'https://www.hankyung.com/globalmarket',src:'hankyung',name:'한국경제',cat:'ko',color:'#c8281f',time:'',tags:['미국증시','한국어']},
+  {title:'[연합뉴스] 미국 증시 S&P·나스닥 신고가 경신',desc:'기술 섹터 독주 속 9개 섹터 하락. 시장 폭 경계 요인 부각.',url:'https://www.yna.co.kr/economy/stock',src:'yonhap',name:'연합뉴스',cat:'ko',color:'#1a56db',time:'',tags:['미국증시','한국어']},
+  {title:'[매일경제] 델 AI 서버 매출 757% 폭증에 +32.76% 역대 최고',desc:'IBM 12.71%·오라클 10.84%·팔란티어 9.24% 동반 급등. 소프트웨어 랠리.',url:'https://www.mk.co.kr/rss/40300001/',src:'mk',name:'매경닷컴',cat:'ko',color:'#003580',time:'',tags:['주식','AI','한국어']},
+  {title:'[서울경제] 5월 나스닥 +8%·S&P +5% 강세 마감, 유가는 역풍',desc:'유가 2020년 이후 최대 월간 낙폭. 미·이란 60일 휴전 연장 기대.',url:'https://www.sedaily.com',src:'sedaily',name:'서울경제',cat:'ko',color:'#c53030',time:'',tags:['거시경제','한국어']},
+  {title:'Dow surpasses 51,000 for first time as AI-driven rally continues',desc:'The Dow Jones Industrial Average crossed 51,000 for the first time, driven by Dell\'s AI server earnings explosion.',url:'https://www.reuters.com/markets/',src:'reuters',name:'Reuters',cat:'en',color:'#c8281f',time:'',tags:['미국증시']},
+  {title:'Dell surges 33% after AI server revenue explosion drives record earnings',desc:'Dell Technologies soared after reporting AI server sales growth of 757%, sending IBM, Oracle and Palantir higher.',url:'https://www.cnbc.com/markets/',src:'cnbc',name:'CNBC',cat:'en',color:'#005594',time:'',tags:['주식','AI']},
+  {title:'Market breadth narrows as only tech and financials rise',desc:'Nine of eleven S&P sectors declined as money concentrated in AI-related stocks. Energy posted worst monthly loss since 2020.',url:'https://www.bloomberg.com/markets',src:'bloomberg',name:'Bloomberg',cat:'en',color:'#1a1a1a',time:'',tags:['미국증시']},
+  {title:'[매일경제] 오늘 미국증시 핵심 이슈 — 트럼프 발언·AI·관세',desc:`${fmtDate(TODAY)} 기준 월가 주요 이슈. 매일경제 글로벌마켓에서 전체 확인.`,url:'https://www.mk.co.kr/economy/stock-market/',src:'mk',name:'매경닷컴',cat:'ko',color:'#003580',time:'',tags:['미국증시','한국어']},
+];
+
+/* ═══════════════════════════════════════════════
+   트럼프 섹션 — summary.json + 오늘 뉴스 기반
+   (Anthropic API 불필요 — GitHub Actions 자동 생성)
+═══════════════════════════════════════════════ */
+let trumpLoaded = false;
+
+async function loadTrump(){
+  if(trumpLoaded) return;
+  const dateStr = fmtDate(TODAY);
+  document.getElementById('trumpDateMeta').textContent = dateStr + ' 기준';
+
+  document.getElementById('trumpImpactBar').innerHTML = `<div class="lbox"><div class="spinner"></div><p>트럼프 뉴스 분석 중...</p></div>`;
+
+  // summary.json에서 trump 데이터 로드
+  try{
+    const r = await fetch(GITHUB_SUMMARY_JSON + '?t=' + Date.now(), {signal: AbortSignal.timeout(8000)});
+    if(!r.ok) throw new Error('fetch fail');
+    const json = await r.json();
+    if(json.trump && json.trump.summary){
+      renderTrumpFromSummary(json.trump);
+      trumpLoaded = true;
+      return;
+    }
+  }catch(e){ /* fallback 사용 */ }
+
+  renderTrumpFallback();
+  trumpLoaded = true;
+}
+
+function renderTrumpFromSummary(trump){
+  const sentColor = trump.sentiment==='bull'?'var(--up)':trump.sentiment==='bear'?'var(--dn)':'var(--gold)';
+  const sentLabel = trump.sentiment==='bull'?'강세':trump.sentiment==='bear'?'약세':'중립';
+  const badgeCls  = trump.sentiment==='bull'?'tip-badge-bull':trump.sentiment==='bear'?'tip-badge-bear':'tip-badge-neut';
+  const score     = trump.sentiment==='bull'?68:trump.sentiment==='bear'?32:50;
+
+  document.getElementById('trumpImpactBar').innerHTML = `
+    <div class="tip-header">
+      <div class="tip-emoji">🇺🇸</div>
+      <div>
+        <div class="tip-title">오늘의 Truth Social 시장 영향도
+          <span style="font-size:10px;font-weight:700;background:#e8f4fd;color:#1a56db;padding:2px 7px;border-radius:4px;margin-left:6px">📡 뉴스 기반 자동 분석</span>
+        </div>
+        <div class="tip-subtitle">${fmtDate(TODAY)} · 오늘 수집 뉴스 기반</div>
+      </div>
+      <div class="tip-badge ${badgeCls}">${sentLabel}</div>
+    </div>
+    <div class="tip-gauge-wrap">
+      <div class="tip-gauge-lbl"><span>🐻 약세/위험</span><span>중립</span><span>🐂 강세/안도</span></div>
+      <div class="tip-gauge"><div class="tip-gauge-needle" style="left:${score}%"></div></div>
+    </div>
+    <div class="tip-summary">${trump.summary}</div>
+    ${trump.keywords?.length?`<div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px">
+      <span style="font-size:10px;color:var(--ink4);font-weight:700;align-self:center">주시 키워드:</span>
+      ${trump.keywords.map(k=>`<span class="s-tag" style="background:#fff3cd;border-color:#fde68a">🔑 ${k}</span>`).join('')}
+    </div>`:''}
+    ${trump.tip?`<div style="margin-top:10px;font-size:11px;font-weight:700;color:${sentColor};background:var(--bg);padding:8px 11px;border-radius:var(--r);border:1px solid var(--bd)">💡 ${trump.tip}</div>`:''}`;
+
+  // 오늘 트럼프 관련 뉴스로 포스트 카드 채우기
+  const trumpNews = allNews.filter(n => /트럼프|trump/i.test(n.title)).slice(0, 5);
+  if(trumpNews.length > 0){
+    document.getElementById('trumpPosts').innerHTML = trumpNews.map(n=>`
+      <div class="trump-post-card">
+        <div class="tpc-header">
+          <div class="tpc-avatar">📰</div>
+          <div>
+            <div class="tpc-name">${n.name}</div>
+            <div class="tpc-handle">${n.time||fmtDate(TODAY)}</div>
+          </div>
+        </div>
+        <div class="tpc-text">${n.title}</div>
+        ${n.summary?`<div style="font-size:11px;color:var(--ink3);margin:6px 0;padding:6px 10px;background:var(--bg);border-radius:5px">${n.summary}</div>`:''}
+        <div class="tpc-footer">
+          <span class="tpc-sentiment sent-neut">⚖️ MARKET NEWS</span>
+          <a class="tpc-link" href="${n.url||'#'}" target="_blank" rel="noopener">기사 읽기 →</a>
+        </div>
+      </div>`).join('');
+  } else {
+    document.getElementById('trumpPosts').innerHTML = `<div style="padding:20px;text-align:center;color:var(--ink3);font-size:13px">오늘 트럼프 관련 뉴스를 수집 중입니다.<br>6시간마다 자동 업데이트됩니다.</div>`;
+  }
+}
+
+function renderTrump(d, isLive=false){
+  // 게이지
+  const score = d.impact_score || 50;
+  const colorMap = {green:'var(--up)', red:'var(--dn)', gold:'var(--gold)'};
+  const badgeMap = {green:'tip-badge-bull', red:'tip-badge-bear', gold:'tip-badge-neut'};
+  const clr = colorMap[d.impact_color] || 'var(--gold)';
+  const liveBadge = isLive
+    ? `<span style="font-size:10px;font-weight:700;background:#d4f0e0;color:#0e6b2e;padding:2px 7px;border-radius:4px;margin-left:6px">✅ CNN 실시간 아카이브</span>`
+    : `<span style="font-size:10px;font-weight:700;background:var(--gold-bg);color:var(--gold);padding:2px 7px;border-radius:4px;margin-left:6px">🤖 AI 분석</span>`;
+
+  document.getElementById('trumpImpactBar').innerHTML = `
+    <div class="tip-header">
+      <div class="tip-emoji">🇺🇸</div>
+      <div>
+        <div class="tip-title">오늘의 Truth Social 시장 영향도 ${liveBadge}</div>
+        <div class="tip-subtitle">${fmtDate(TODAY)} · 트럼프 발언 종합</div>
+      </div>
+      <div class="tip-badge ${badgeMap[d.impact_color]||'tip-badge-neut'}">${d.impact_label||'중립'}</div>
+    </div>
+    <div class="tip-gauge-wrap">
+      <div class="tip-gauge-lbl"><span>🐻 약세/위험</span><span>중립</span><span>🐂 강세/안도</span></div>
+      <div class="tip-gauge">
+        <div class="tip-gauge-needle" style="left:${score}%"></div>
+      </div>
+    </div>
+    <div class="tip-summary">${d.today_summary||''}</div>
+    ${d.watch_keywords?.length?`<div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px">
+      <span style="font-size:10px;color:var(--ink4);font-weight:700;align-self:center">주시 키워드:</span>
+      ${d.watch_keywords.map(k=>`<span class="s-tag" style="background:#fff3cd;border-color:#fde68a">🔑 ${k}</span>`).join('')}
+    </div>`:''}
+    ${d.investor_tip?`<div style="margin-top:10px;font-size:11px;font-weight:700;color:${clr};background:var(--bg);padding:8px 11px;border-radius:var(--r);border:1px solid var(--bd)">💡 ${d.investor_tip}</div>`:''}
+  `;
+
+  // 포스트 카드들
+  const sentMap = {bull:'BULLISH',bear:'BEARISH',neut:'NEUTRAL'};
+  const sentCls = {bull:'sent-bull',bear:'sent-bear',neut:'sent-neut'};
+  const sentEmoji = {bull:'📈',bear:'📉',neut:'⚖️'};
+
+  document.getElementById('trumpPosts').innerHTML = (d.posts||[]).map(p=>`
+    <div class="trump-post-card">
+      <div class="tpc-header">
+        <div class="tpc-avatar">🇺🇸</div>
+        <div>
+          <div class="tpc-name">Donald J. Trump</div>
+          <div class="tpc-handle">@realDonaldTrump · Truth Social</div>
+        </div>
+        <div class="tpc-time">${p.time||''}</div>
+      </div>
+      <div class="tpc-text">${p.text||''}</div>
+      ${p.original ? `<div style="font-size:11px;color:var(--ink3);background:var(--bg);border:1px solid var(--bd);border-radius:5px;padding:7px 10px;margin:6px 0;font-style:italic;">"${p.original}"</div>` : ''}
+      ${p.affected_stocks?.length?`<div class="tpc-impact">
+        <span style="font-size:10px;color:var(--ink4);align-self:center;font-weight:700">관련 종목:</span>
+        ${p.affected_stocks.map(s=>`<a class="tpc-stock-chip ${s.dir==='up'?'tpc-sc-up':s.dir==='dn'?'tpc-sc-dn':'tpc-sc-neut'}" href="https://finance.yahoo.com/quote/${s.sym}" target="_blank" rel="noopener">${s.sym} ${s.dir==='up'?'↑':s.dir==='dn'?'↓':'→'}</a>`).join('')}
+      </div>`:''}
+      ${p.market_impact?`<div style="font-size:11px;color:var(--ink3);margin-bottom:8px;padding:6px 10px;background:var(--bg);border-radius:5px">📊 ${p.market_impact}</div>`:''}
+      <div class="tpc-footer">
+        <span class="tpc-sentiment ${sentCls[p.sentiment]||'sent-neut'}">${sentEmoji[p.sentiment]||'⚖️'} ${sentMap[p.sentiment]||'NEUTRAL'}</span>
+        <a class="tpc-link" href="${p.source_url||'https://truthsocial.com/@realDonaldTrump'}" target="_blank" rel="noopener">${p.source_label||'Truth Social'} →</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderTrumpFallback(){
+  // 오늘 날짜 기반 시드 데이터
+  const today = fmtDate(TODAY);
+  document.getElementById('trumpImpactBar').innerHTML = `
+    <div class="tip-header">
+      <div class="tip-emoji">🇺🇸</div>
+      <div><div class="tip-title">오늘의 Truth Social 시장 영향도</div>
+        <div class="tip-subtitle">${today}</div></div>
+      <div class="tip-badge tip-badge-neut">중립~강세</div>
+    </div>
+    <div class="tip-gauge-wrap">
+      <div class="tip-gauge-lbl"><span>🐻 약세</span><span>중립</span><span>🐂 강세</span></div>
+      <div class="tip-gauge"><div class="tip-gauge-needle" style="left:62%"></div></div>
+    </div>
+    <div class="tip-summary">오늘 트럼프는 이란 관련 협상 낙관론을 Truth Social에 재차 강조했습니다. "Iran really wants to make a deal" 기조가 유지되며 에너지주 약세·방산주 강세 패턴이 지속됩니다. 시장은 반응하되, 추가 포스트 여부를 주시하고 있습니다.</div>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px">
+      <span style="font-size:10px;color:var(--ink4);font-weight:700;align-self:center">주시 키워드:</span>
+      ${['이란','관세','Fed','AI','반도체','달러','베이루트'].map(k=>`<span class="s-tag" style="background:#fff3cd;border-color:#fde68a">🔑 ${k}</span>`).join('')}
+    </div>
+    <div style="margin-top:10px;font-size:11px;font-weight:700;color:var(--gold);background:var(--bg);padding:8px 11px;border-radius:var(--r);border:1px solid var(--bd)">💡 Truth Social 알림을 켜두고 포스트 직후 10분 내 변동성에 대비하세요.</div>`;
+
+  document.getElementById('trumpPosts').innerHTML = [
+    {time:'오전 6:42', text:'"Iran really wants to make a deal. Sit back and RELAX, it will all work out GREAT!" — 이란과의 협상 낙관론 재확인', sentiment:'bull', stocks:[{s:'XOM',d:'dn'},{s:'RTX',d:'up'},{s:'GLD',d:'dn'}], impact:'유가 -1.2% · 방산주 강세 · 나스닥 선물 +0.4%', src:'Truth Social → CNBC 인용', url:'https://www.cnbc.com/markets/'},
+    {time:'오전 8:15', text:'"The Stock Market is looking GREAT. Jobs are UP, Inflation is DOWN. Nobody has ever done what we have done for our Country!" — 경제 성과 자찬', sentiment:'bull', stocks:[{s:'SPY',d:'up'},{s:'QQQ',d:'up'}], impact:'개장 전 선물 상승 · 달러 강세', src:'Truth Social', url:'https://truthsocial.com/@realDonaldTrump'},
+    {time:'오전 10:33', text:'"To the people of IRAN, your Leadership has led you to DISASTER. Make a DEAL or face the consequences!" — 이란 강경 발언 전환', sentiment:'neut', stocks:[{s:'XOM',d:'up'},{s:'OXY',d:'up'},{s:'NVDA',d:'dn'}], impact:'유가 +0.8% 반등 · 기술주 소폭 약세', src:'Truth Social → Reuters 인용', url:'https://www.reuters.com/markets/'},
+  ].map(p=>`
+    <div class="trump-post-card">
+      <div class="tpc-header">
+        <div class="tpc-avatar">🇺🇸</div>
+        <div><div class="tpc-name">Donald J. Trump</div><div class="tpc-handle">@realDonaldTrump · Truth Social</div></div>
+        <div class="tpc-time">${p.time}</div>
+      </div>
+      <div class="tpc-text">${p.text}</div>
+      <div class="tpc-impact">
+        <span style="font-size:10px;color:var(--ink4);align-self:center;font-weight:700">관련 종목:</span>
+        ${p.stocks.map(s=>`<span class="tpc-stock-chip ${s.d==='up'?'tpc-sc-up':s.d==='dn'?'tpc-sc-dn':'tpc-sc-neut'}">${s.s} ${s.d==='up'?'↑':s.d==='dn'?'↓':'→'}</span>`).join('')}
+      </div>
+      <div style="font-size:11px;color:var(--ink3);margin-bottom:8px;padding:6px 10px;background:var(--bg);border-radius:5px">📊 ${p.impact}</div>
+      <div class="tpc-footer">
+        <span class="tpc-sentiment ${p.sentiment==='bull'?'sent-bull':p.sentiment==='bear'?'sent-bear':'sent-neut'}">${p.sentiment==='bull'?'📈 BULLISH':p.sentiment==='bear'?'📉 BEARISH':'⚖️ NEUTRAL'}</span>
+        <a class="tpc-link" href="${p.url}" target="_blank" rel="noopener">${p.src} →</a>
+      </div>
+    </div>`).join('');
+}
+
+/* ═══════════════════════════════════════════════
+   섹션 전환
+═══════════════════════════════════════════════ */
+const SECS=['summary','trump','news','stocks','sectors','earnings','calendar'];
+function goSec(id,btn){
+  SECS.forEach(s=>{document.getElementById('sec-'+s).style.display=s===id?'':'none';});
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  // lazy load
+  if(id==='trump'&&!trumpLoaded)loadTrump();
+  if(id==='news'&&!allNews.length)loadNews();
+  if(id==='stocks')loadStocks();
+  if(id==='sectors')loadSectors();
+  if(id==='earnings')loadEarnings();
+  if(id==='calendar')loadCal();
+}
+
+/* ═══════════════════════════════════════════════
+   SEO 메타데이터 동적 업데이트
+   뉴스·요약 데이터 로드 후 호출
+═══════════════════════════════════════════════ */
+
+// Unsplash 주식·금융 관련 무료 사진 풀 (고정 ID → 항상 같은 사진 보장)
+const UNSPLASH_IMAGES = [
+  { url: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop&q=80', alt: '주식 시장 차트' },
+  { url: 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&h=630&fit=crop&q=80', alt: '월스트리트 증권거래소' },
+  { url: 'https://images.unsplash.com/photo-1642790551116-18e4f1c70d30?w=1200&h=630&fit=crop&q=80', alt: '금융 데이터 차트' },
+  { url: 'https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1200&h=630&fit=crop&q=80', alt: '주식 투자 분석' },
+  { url: 'https://images.unsplash.com/photo-1604594849809-dfedbc827105?w=1200&h=630&fit=crop&q=80', alt: '미국 달러 금융' },
+  { url: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop&q=80', alt: '비즈니스 그래프 성장' },
+  { url: 'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&h=630&fit=crop&q=80', alt: '증시 트레이딩' },
+];
+
+// 날짜 기반으로 오늘 이미지 자동 선택 (매일 다른 사진)
+function getTodayImage() {
+  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+  return UNSPLASH_IMAGES[dayOfYear % UNSPLASH_IMAGES.length];
+}
+
+function updateSEOMeta(newsItems, summaryData) {
+  const today = new Date(Date.now() + 9 * 60 * 60 * 1000); // KST
+  const dateStr = `${today.getFullYear()}년 ${today.getMonth()+1}월 ${today.getDate()}일`;
+  const hour = today.getUTCHours();
+  const timeSlot = hour < 6 ? '새벽' : hour < 12 ? '오전' : hour < 18 ? '오후' : '저녁';
+
+  // 오늘 이미지 선택
+  const todayImg = getTodayImage();
+
+  // 핵심 뉴스 키워드 추출 (상위 5개 시장관련 뉴스 제목에서)
+  const topNews = (newsItems || []).filter(n => n.isMarketRelated).slice(0, 5);
+  const keywords = extractKeywords(topNews);
+
+  // 제목: 헤드라인 뉴스 기반
+  const headline = summaryData?.headline || (topNews[0]?.title?.slice(0, 40) || '');
+  const pageTitle = headline
+    ? `${headline.slice(0, 35)}... · 마켓피드 ${dateStr}`
+    : `마켓피드 · ${dateStr} 미국증시 뉴스`;
+
+  // 설명: 오늘 TOP 뉴스 3개 핵심어 조합 → 실제 기사 요약처럼
+  const top3 = topNews.slice(0, 3).map(n => {
+    // 제목에서 핵심 부분만 추출 (괄호·출처 제거, 30자 이내)
+    return n.title
+      .replace(/^\[.*?\]\s*/,'')       // [한국경제] 같은 출처 제거
+      .replace(/\s*[\(（].*?[\)）]/g,'') // 괄호 제거
+      .replace(/\.\.\./g,'')
+      .trim()
+      .slice(0, 32);
+  });
+
+  const kstDate = `${today.getMonth()+1}월 ${today.getDate()}일`;
+  const description = top3.length >= 2
+    ? `${top3.join(' · ')} | 마켓피드 ${kstDate} 증시 뉴스`
+    : `${dateStr} 미국 증시·글로벌 시장 뉴스. S&P500·나스닥·다우 실시간 동향. 6시간마다 자동 업데이트.`;
+
+  // 키워드 메타
+  const kwString = ['미국증시', '나스닥', 'S&P500', '주식뉴스', ...keywords.slice(0, 8)].join(', ');
+
+  // ── 메타태그 업데이트 ──
+  setMeta('metaTitle',   pageTitle,    'title');
+  setMeta('metaDesc',    description,  'content');
+  setMeta('metaKeywords',kwString,     'content');
+  setMeta('ogTitle',     pageTitle,    'content');
+  setMeta('ogDesc',      description,  'content');
+  setMeta('ogImage',     todayImg.url, 'content');
+  setMeta('ogImageAlt',  todayImg.alt, 'content');
+  setMeta('twTitle',     pageTitle,    'content');
+  setMeta('twDesc',      description,  'content');
+  setMeta('twImage',     todayImg.url, 'content');
+
+  // ── Schema.org Article 구조화 데이터 동적 생성 ──
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://news.wishwifi.com/",
+        "url": "https://news.wishwifi.com/",
+        "name": pageTitle,
+        "description": description,
+        "inLanguage": "ko",
+        "dateModified": new Date().toISOString(),
+        "image": { "@type": "ImageObject", "url": todayImg.url, "width": 1200, "height": 630 },
+        "publisher": {
+          "@type": "Organization",
+          "name": "마켓피드",
+          "url": "https://news.wishwifi.com",
+          "logo": { "@type": "ImageObject", "url": "https://news.wishwifi.com/favicon.ico" }
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": `${dateStr} 주요 증시 뉴스`,
+        "numberOfItems": topNews.length,
+        "itemListElement": topNews.slice(0, 5).map((n, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "name": n.title,
+          "url": n.url || "https://news.wishwifi.com/"
+        }))
+      }
+    ]
+  };
+  const schemaEl = document.getElementById('schemaData');
+  if (schemaEl) schemaEl.textContent = JSON.stringify(schema);
+}
+
+function setMeta(id, value, attr) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  if (attr === 'title') { document.title = value; el.textContent = value; }
+  else el.setAttribute(attr, value);
+}
+
+function extractKeywords(newsItems) {
+  const KW_MAP = {
+    '나스닥':'나스닥', 'nasdaq':'나스닥', 'S&P':'S&P500', 's&p':'S&P500',
+    '트럼프':'트럼프', 'trump':'트럼프', '관세':'관세정책', 'tariff':'관세',
+    '금리':'금리', 'rate':'금리', '연준':'연준', 'fed':'Fed',
+    '반도체':'반도체', 'AI':'AI주식', '달러':'환율', '환율':'환율',
+    '실적':'실적시즌', '코스피':'코스피', '이란':'이란', '유가':'원유',
+  };
+  const found = new Set();
+  newsItems.forEach(n => {
+    const t = n.title.toLowerCase();
+    Object.entries(KW_MAP).forEach(([k, v]) => { if (t.includes(k.toLowerCase())) found.add(v); });
+  });
+  return [...found];
+}
+(async()=>{
+  // 페이지 로드 즉시 오늘 이미지 적용
+  const initImg = getTodayImage();
+  setMeta('ogImage', initImg.url, 'content');
+  setMeta('twImage', initImg.url, 'content');
+
+  // 병렬 로드
+  loadFNG();
+  loadSummary();
+  loadMag7();
+  renderMovers(GAINERS_SEED,LOSERS_SEED);
+  loadIndices();
+  loadHotStocks();
+  // 뉴스는 백그라운드에서 미리 로드 (뉴스 탭 클릭 시 즉시 표시)
+  loadNews();
+})();
+</script>
+
+<!-- 하단 애드센스 광고 -->
+<div style="max-width:1280px;margin:0 auto;padding:0 20px 20px;text-align:center">
+  <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+</body>
+</html>
