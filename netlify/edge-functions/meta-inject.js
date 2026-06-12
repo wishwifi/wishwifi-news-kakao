@@ -4,14 +4,10 @@
 const SUMMARY_URL = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/news.json';
 const SITE_NAME = '마켓피드';
 
-// Unsplash 금융 사진 fallback (기사 이미지 없을 때)
+// Netlify 자체 호스팅 이미지 (카카오 크롤러 호환)
 const FALLBACK_IMAGES = [
-  'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&h=630&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1642790551116-18e4f1c70d30?w=1200&h=630&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1200&h=630&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&h=630&fit=crop&q=80',
+  'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/assets/og-1.svg',
+  'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/assets/og-2.svg',
 ];
 
 // 기사 URL에서 og:image 추출
