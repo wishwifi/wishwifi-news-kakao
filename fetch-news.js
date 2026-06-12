@@ -199,7 +199,7 @@ function generateFallbackSummary(newsItems, dateStr) {
     checklist: [
       { icon: '✅', title: '오늘의 주요 뉴스 확인', desc: koTop[0]?.title || '최신 시장 뉴스를 확인하세요', url: 'https://news.wishwifi.com', urlLabel: '마켓피드' },
       { icon: '✅', title: '글로벌 시장 동향', desc: enTop[0]?.title || 'Global market news', url: 'https://www.reuters.com/markets/', urlLabel: 'Reuters' },
-      { icon: '⚠️', title: 'Claude API 설정 권장', desc: 'GitHub Secrets에 ANTHROPIC_API_KEY 추가 시 AI 분석 자동 생성', url: 'https://github.com/wishwifi/wishwifi-news-kakao/settings/secrets', urlLabel: 'GitHub Secrets' },
+      { icon: '⚠️', title: '환율·금리 변동 주시', desc: '원달러 환율과 미국 국채 금리 변동이 국내 증시에 영향', url: 'https://m.stock.naver.com/marketindex/', urlLabel: '네이버 환율' },
     ],
     trump: {
       summary: trumpSummary,
