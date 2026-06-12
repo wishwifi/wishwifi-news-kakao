@@ -1,6 +1,127 @@
 // netlify/edge-functions/meta-inject.js
-// 카카오·구글 크롤러 접근 시 summary.json 읽어서 메타태그 동적 주입
-// Netlify 무료 플랜 Edge Functions (월 100만 회 무료)
+// 카카오·구글 크롤러 접근 시 summary.json + 기사 OG이미지 동적 주입
+
+const SUMMARY_URL = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/news.json';
+const SITE_NAME = '마켓피드';
+
+// Unsplash 금융 사진 fallback (기사 이미지 없을 때)
+const FALLBACK_IMAGES = [
+  'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=630&fit=crop&q=80',
+  'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&h=630&fit=crop&q=80',
+  'https://images.unsplash.com/photo-1642790551116-18e4f1c70d30?w=1200&h=630&fit=crop&q=80',
+  'https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1200&h=630&fit=crop&q=80',
+  'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop&q=80',
+  'https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?w=1200&h=630&fit=crop&q=80',
+];
+
+// 기사 URL에서 og:image 추출
+async function fetchArticleImage(articleUrl) {
+  if (!articleUrl || articleUrl === '#') return null;
+  try {
+    const res = await fetch(articleUrl, {
+      signal: AbortSignal.timeout(4000),
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; MetaBot/1.0)' }
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+
+    // og:image 추출
+    const match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+                || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+    if (match && match[1] && match[1].startsWith('http')) {
+      return match[1];
+    }
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+export default async (request, context) => {
+  // 크롤러 여부 확인
+  const ua = request.headers.get('user-agent') || '';
+  const isCrawler = /kakaotalk|facebookexternalhit|twitterbot|googlebot|bingbot|naverbot|yeti|daumoa|applebot|linkedinbot/i.test(ua);
+
+  if (!isCrawler) return context.next();
+
+  // KST 날짜
+  const kst = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const dateStr = `${kst.getMonth() + 1}월 ${kst.getDate()}일`;
+
+  let title = `${SITE_NAME} · 미국 증시·글로벌 시장 뉴스`;
+  let description = '미국 S&P500·나스닥·다우, 한국 코스피 실시간 시장 동향. 트럼프 발언·금리·환율·실적까지 한눈에.';
+  let ogImage = FALLBACK_IMAGES[kst.getDate() % FALLBACK_IMAGES.length];
+
+  try {
+    const res = await fetch(SUMMARY_URL, { signal: AbortSignal.timeout(5000) });
+    if (res.ok) {
+      const data = await res.json();
+      const items = data.items || [];
+
+      // 시장 관련 TOP 뉴스 (한국어 우선)
+      const marketNews = items.filter(n => n.isMarketRelated);
+      const koNews = marketNews.filter(n => n.lang === 'ko').slice(0, 3);
+      const topNews = koNews.length >= 2 ? koNews : marketNews.slice(0, 3);
+
+      // 제목: 오늘 뉴스 기반
+      if (topNews[0]) {
+        const headline = topNews[0].title.replace(/\[.*?\]/g, '').replace(/\(.*?\)/g, '').trim();
+        title = `${headline.slice(0, 33)}... | ${SITE_NAME} ${dateStr}`;
+      }
+
+      // description: TOP 3 뉴스 제목 조합
+      if (topNews.length >= 2) {
+        const pts = topNews.map(n =>
+          n.title.replace(/\[.*?\]/g, '').replace(/\(.*?\)/g, '').trim().slice(0, 28)
+        );
+        description = `${pts.join(' · ')} | ${dateStr}`;
+      }
+
+      // ── 기사 OG 이미지 추출 (TOP 3 순서로 시도) ──
+      for (const news of topNews) {
+        if (!news.link || news.link === '#') continue;
+        const img = await fetchArticleImage(news.link);
+        if (img) {
+          ogImage = img;
+          break; // 첫 번째 성공한 이미지 사용
+        }
+      }
+    }
+  } catch (e) {
+    // 기본값 사용
+  }
+
+  // 원본 HTML 가져와서 메타태그 교체
+  const response = await context.next();
+  const html = await response.text();
+
+  const injected = html
+    .replace(/<title[^>]*>.*?<\/title>/i, `<title>${escapeHtml(title)}</title>`)
+    .replace(/(<meta\s+name="description"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(description)}$2`)
+    .replace(/(<meta\s+property="og:title"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(title)}$2`)
+    .replace(/(<meta\s+property="og:description"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(description)}$2`)
+    .replace(/(<meta\s+property="og:image"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(ogImage)}$2`)
+    .replace(/(<meta\s+name="twitter:title"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(title)}$2`)
+    .replace(/(<meta\s+name="twitter:description"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(description)}$2`)
+    .replace(/(<meta\s+name="twitter:image"[^>]*content=")[^"]*(")/i, `$1${escapeHtml(ogImage)}$2`);
+
+  return new Response(injected, {
+    headers: {
+      'content-type': 'text/html; charset=utf-8',
+      'cache-control': 'public, max-age=21600',
+    },
+  });
+};
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+export const config = { path: '/' };
 
 const SUMMARY_URL = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/summary.json';
 const SITE_URL = 'https://news.wishwifi.com';
