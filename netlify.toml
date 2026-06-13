@@ -1,6 +1,8 @@
 [build]
   publish = "."
+  command = ""
 
-[[edge_functions]]
-  path = "/*"
-  function = "meta-inject"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
