@@ -1,9 +1,2 @@
 [build]
   publish = "."
-
-[build.environment]
-  NODE_VERSION = "20"
-
-[[edge_functions]]
-  path = "/*"
-  function = "meta-inject"
