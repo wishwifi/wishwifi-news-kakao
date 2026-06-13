@@ -3,334 +3,649 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>마켓피드 · 카카오 공유 링크</title>
+<title>마켓피드 · 카카오 배포 센터</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0d0f14;
+    --surface: #161a24;
+    --surface2: #1e2433;
+    --border: #2a3045;
+    --kakao: #FEE500;
+    --kakao-dark: #e6ce00;
+    --kakao-text: #191600;
+    --accent: #3B82F6;
+    --green: #10B981;
+    --red: #EF4444;
+    --text: #e8ecf4;
+    --text2: #8b95aa;
+    --text3: #4a5468;
+    --r: 12px;
+  }
   body {
+    background: var(--bg);
+    color: var(--text);
     font-family: -apple-system, 'Noto Sans KR', sans-serif;
-    background: #0d0f14;
-    color: #e8ecf4;
     min-height: 100vh;
+    padding: 0 0 80px;
+  }
+
+  /* ── 헤더 ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 24px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
-
-  .logo {
-    font-size: 22px;
-    font-weight: 800;
-    margin-bottom: 6px;
-    letter-spacing: -0.5px;
-  }
+  .logo { font-size: 18px; font-weight: 800; }
   .logo span { color: #EF4444; }
+  .news-status { font-size: 11px; color: var(--text3); }
 
-  .subtitle {
-    font-size: 13px;
-    color: #6b7280;
-    margin-bottom: 32px;
-    text-align: center;
-  }
+  .wrap { max-width: 480px; margin: 0 auto; padding: 16px; }
 
-  /* 현재 슬롯 */
-  .current-card {
-    background: #FEE500;
-    border-radius: 16px;
-    padding: 20px 24px;
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .current-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: #92741a;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 6px;
-  }
-
-  .current-time {
-    font-size: 32px;
-    font-weight: 900;
-    color: #191600;
-    margin-bottom: 4px;
-  }
-
-  .current-desc {
-    font-size: 13px;
-    color: #6b4f00;
-    margin-bottom: 16px;
-  }
-
-  .current-url {
-    background: rgba(0,0,0,0.1);
-    border-radius: 8px;
-    padding: 8px 12px;
-    font-size: 12px;
-    color: #333;
-    font-family: monospace;
+  /* ── 카드 ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--r);
     margin-bottom: 14px;
-    word-break: break-all;
+    overflow: hidden;
   }
-
-  .copy-btn {
-    background: #191600;
-    color: #FEE500;
-    border: none;
-    border-radius: 10px;
-    padding: 12px 24px;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-    width: 100%;
-    font-family: inherit;
-    transition: opacity 0.15s;
-  }
-  .copy-btn:active { opacity: 0.8; }
-
-  /* 슬롯 목록 */
-  .slots-title {
+  .card-hd {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
     font-size: 12px;
-    color: #4a5468;
-    font-weight: 600;
+    font-weight: 700;
+    color: var(--text2);
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 12px;
-    text-align: center;
-  }
-
-  .slots {
-    width: 100%;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-bottom: 24px;
-  }
-
-  .slot {
-    background: #161a24;
-    border: 1px solid #2a3045;
-    border-radius: 12px;
-    padding: 14px 16px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: space-between;
+  }
+  .card-body { padding: 16px; }
+
+  /* ── 슬롯 버튼 ── */
+  .slots { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+  .slot-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
     cursor: pointer;
     transition: all 0.15s;
+    text-align: center;
   }
+  .slot-btn.active { border-color: var(--kakao); background: rgba(254,229,0,0.08); }
+  .slot-btn:hover { border-color: var(--kakao); }
+  .slot-time { font-size: 20px; font-weight: 800; color: var(--kakao); }
+  .slot-label { font-size: 11px; color: var(--text3); margin-top: 2px; }
+  .slot-badge { font-size: 9px; font-weight: 700; background: var(--green); color: white; padding: 1px 6px; border-radius: 10px; margin-top: 4px; display: inline-block; }
 
-  .slot:hover { border-color: #FEE500; }
-
-  .slot.active {
-    border-color: #FEE500;
-    background: rgba(254,229,0,0.06);
-  }
-
-  .slot.past { opacity: 0.4; }
-
-  .slot-time {
-    font-size: 18px;
-    font-weight: 800;
-    color: #FEE500;
-    min-width: 52px;
-  }
-
-  .slot-info { flex: 1; }
-
-  .slot-label {
-    font-size: 13px;
-    font-weight: 600;
-    color: #e8ecf4;
-    margin-bottom: 2px;
-  }
-
-  .slot-url {
-    font-size: 11px;
-    color: #4a5468;
+  /* ── 현재 링크 ── */
+  .url-box {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: var(--accent);
     font-family: monospace;
+    word-break: break-all;
+    margin-bottom: 10px;
   }
 
-  .slot-badge {
-    font-size: 10px;
+  /* ── 버튼 ── */
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 13px 16px;
+    border-radius: 10px;
+    font-size: 14px;
     font-weight: 700;
-    padding: 3px 8px;
-    border-radius: 20px;
-    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    transition: all 0.15s;
+    width: 100%;
+    margin-bottom: 8px;
   }
+  .btn-kakao { background: var(--kakao); color: var(--kakao-text); }
+  .btn-kakao:active { opacity: 0.8; }
+  .btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text2); }
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-green { background: var(--green); color: white; }
+  .btn-red { background: var(--red); color: white; }
+  .btn-blue { background: var(--accent); color: white; }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-  .badge-now { background: #FEE500; color: #191600; }
-  .badge-next { background: #1e2433; color: #6b7280; border: 1px solid #2a3045; }
-  .badge-past { background: #1e2433; color: #4a5468; border: 1px solid #2a3045; }
+  /* ── 채팅방 목록 ── */
+  .room-item {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .room-item.done { border-color: var(--green); background: rgba(16,185,129,0.06); }
+  .room-item.error { border-color: var(--red); background: rgba(239,68,68,0.06); opacity: 0.7; }
+  .room-item.active { border-color: var(--kakao); background: rgba(254,229,0,0.08); }
 
-  /* 복사 완료 */
+  .room-icon { font-size: 20px; flex-shrink: 0; }
+  .room-info { flex: 1; min-width: 0; }
+  .room-name { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+  .room-url { font-size: 11px; color: var(--text3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .room-status { font-size: 11px; font-weight: 700; white-space: nowrap; }
+  .status-wait { color: var(--text3); }
+  .status-active { color: var(--kakao); }
+  .status-done { color: var(--green); }
+  .status-error { color: var(--red); }
+
+  .room-actions { display: flex; gap: 6px; flex-shrink: 0; }
+  .icon-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text3);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .icon-btn:hover { border-color: var(--red); color: var(--red); }
+
+  /* ── 방 추가 ── */
+  .add-room-form { display: flex; flex-direction: column; gap: 8px; }
+  input[type="text"], input[type="url"] {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.12s;
+  }
+  input:focus { border-color: var(--accent); }
+
+  /* ── 배포 진행 ── */
+  .deploy-progress {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 14px;
+    display: none;
+  }
+  .deploy-progress.show { display: block; }
+  .progress-bar-wrap { background: var(--border); border-radius: 4px; height: 6px; margin: 10px 0; overflow: hidden; }
+  .progress-bar { height: 6px; background: var(--kakao); border-radius: 4px; transition: width 0.3s; }
+  .progress-text { font-size: 12px; color: var(--text2); }
+  .progress-step { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+
+  /* ── 뉴스 미리보기 ── */
+  .news-preview {
+    background: var(--surface2);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: var(--text2);
+    line-height: 1.6;
+    margin-bottom: 10px;
+    max-height: 120px;
+    overflow-y: auto;
+  }
+  .news-item-preview { padding: 3px 0; border-bottom: 1px solid var(--border); }
+  .news-item-preview:last-child { border-bottom: none; }
+
+  /* ── 토스트 ── */
   .toast {
     position: fixed;
-    bottom: 32px;
+    bottom: 24px;
     left: 50%;
-    transform: translateX(-50%) translateY(80px);
-    background: #10B981;
+    transform: translateX(-50%) translateY(60px);
+    background: var(--green);
     color: white;
-    padding: 12px 24px;
+    padding: 12px 20px;
     border-radius: 24px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     opacity: 0;
     transition: all 0.3s;
     white-space: nowrap;
-    z-index: 100;
+    z-index: 999;
   }
   .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+  .toast.error { background: var(--red); }
 
-  .kst-now {
-    font-size: 12px;
-    color: #4a5468;
+  .kst-badge {
+    font-size: 11px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    padding: 3px 8px;
+    border-radius: 20px;
+    color: var(--text3);
+  }
+
+  .divider { border: none; border-top: 1px solid var(--border); margin: 4px 0 12px; }
+
+  .empty-rooms {
     text-align: center;
-    margin-top: 8px;
+    padding: 24px;
+    color: var(--text3);
+    font-size: 13px;
   }
 </style>
 </head>
 <body>
 
-<div class="logo">마켓<span>피드</span></div>
-<div class="subtitle">카카오 공유 링크 · 업데이트 시간별 자동 생성</div>
+<header>
+  <div class="logo">마켓<span>피드</span> 배포센터</div>
+  <div class="kst-badge" id="kstBadge">⏰ --:--</div>
+</header>
 
-<div class="current-card">
-  <div class="current-label">⚡ 지금 공유할 링크</div>
-  <div class="current-time" id="currentSlotTime">--:--</div>
-  <div class="current-desc" id="currentSlotDesc">로딩 중...</div>
-  <div class="current-url" id="currentUrl">https://news.wishwifi.com/?v=...</div>
-  <button class="copy-btn" onclick="copyCurrentUrl()">
-    📋 링크 복사하기
-  </button>
+<div class="wrap">
+
+  <!-- 슬롯 선택 -->
+  <div class="card">
+    <div class="card-hd">
+      📅 배포 슬롯 선택
+      <button class="icon-btn" onclick="refreshNews()" style="font-size:13px;padding:4px 10px;color:var(--green);border-color:var(--green)">↻ 뉴스 업데이트</button>
+    </div>
+    <div class="card-body">
+      <div class="slots" id="slotButtons"></div>
+      <div class="url-box" id="currentUrlBox">슬롯을 선택하세요</div>
+      <!-- 뉴스 미리보기 -->
+      <div class="news-preview" id="newsPreview">뉴스 로딩 중...</div>
+      <button class="btn btn-kakao" onclick="copyLink()">📋 링크 복사</button>
+    </div>
+  </div>
+
+  <!-- 배포 진행 상태 -->
+  <div class="deploy-progress" id="deployProgress">
+    <div class="progress-step" id="progressStep">준비 중...</div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="progressBar" style="width:0%"></div>
+    </div>
+    <div class="progress-text" id="progressText"></div>
+  </div>
+
+  <!-- 채팅방 목록 -->
+  <div class="card">
+    <div class="card-hd">
+      💬 오픈카톡 채팅방 목록
+      <span id="roomCount" style="color:var(--kakao)">0개</span>
+    </div>
+    <div class="card-body">
+      <div id="roomList"><div class="empty-rooms">➕ 아래에서 채팅방을 추가하세요</div></div>
+      <hr class="divider">
+      <!-- 배포 버튼 -->
+      <button class="btn btn-green" id="deployBtn" onclick="startDeploy()" disabled>
+        🚀 전체 채팅방 순서 배포 시작
+      </button>
+    </div>
+  </div>
+
+  <!-- 채팅방 추가 -->
+  <div class="card">
+    <div class="card-hd">➕ 채팅방 추가</div>
+    <div class="card-body">
+      <div class="add-room-form">
+        <input type="text" id="roomName" placeholder="채팅방 이름 (예: 주식투자 모임)" />
+        <input type="url" id="roomUrl" placeholder="오픈카톡 URL (예: https://open.kakao.com/o/...)" />
+        <button class="btn btn-blue" onclick="addRoom()">추가하기</button>
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<div class="slots-title">오늘의 공유 스케줄</div>
-
-<div class="slots" id="slotList"></div>
-
-<div class="kst-now" id="kstNow"></div>
-
-<div class="toast" id="toast">✅ 링크가 복사됐어요!</div>
+<div class="toast" id="toast"></div>
 
 <script>
 const BASE_URL = 'https://news.wishwifi.com';
+const NEWS_URL = 'https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/data/news.json';
 
-// 업데이트 스케줄 (KST 기준, 6시간 간격)
 const SLOTS = [
-  { hour: 6,  label: '아침 브리핑',  emoji: '☀️' },
-  { hour: 12, label: '점심 브리핑',  emoji: '🌞' },
-  { hour: 18, label: '저녁 마감',    emoji: '🌆' },
+  { hour: 6,  label: '아침 브리핑', emoji: '☀️' },
+  { hour: 12, label: '점심 브리핑', emoji: '🌞' },
+  { hour: 18, label: '저녁 마감',   emoji: '🌆' },
   { hour: 0,  label: '자정 업데이트', emoji: '🌙' },
 ];
+
+let selectedSlot = null;
+let rooms = [];
+let newsItems = [];
+let deployIndex = 0;
+let isDeploying = false;
+
+// ── 초기화 ──
+window.addEventListener('DOMContentLoaded', () => {
+  loadRooms();
+  renderSlots();
+  loadNews();
+  updateClock();
+  setInterval(updateClock, 30000);
+  autoSelectSlot();
+});
+
+function updateClock() {
+  const kst = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const hh = String(kst.getUTCHours()).padStart(2,'0');
+  const mm = String(kst.getUTCMinutes()).padStart(2,'0');
+  document.getElementById('kstBadge').textContent = `⏰ KST ${hh}:${mm}`;
+}
 
 function getKST() {
   return new Date(Date.now() + 9 * 60 * 60 * 1000);
 }
 
-// 슬롯별 버전 URL 생성
-// 예: 06시 슬롯 → ?v=20260613_06
-function getSlotUrl(date, slotHour) {
-  const y = date.getUTCFullYear();
-  const m = String(date.getUTCMonth() + 1).padStart(2, '0');
-  // 자정(0시)은 다음날이 아니라 당일 마지막 슬롯
-  let d = date.getUTCDate();
-  const hh = String(slotHour).padStart(2, '0');
-  return `${BASE_URL}/?v=${y}${m}${String(d).padStart(2,'0')}_${hh}`;
-}
-
-// 현재 어느 슬롯인지 계산
-function getCurrentSlotIndex(kst) {
-  const h = kst.getUTCHours(); // KST 시간
-  // 0~5 → 자정(0) 슬롯, 6~11 → 아침(6), 12~17 → 점심(12), 18~23 → 저녁(18)
-  if (h >= 18) return 2; // 저녁
-  if (h >= 12) return 1; // 점심
-  if (h >= 6)  return 0; // 아침
-  return 3;              // 자정
-}
-
-function render() {
+function getSlotUrl(slotHour) {
   const kst = getKST();
-  const currentIdx = getCurrentSlotIndex(kst);
-  const slot = SLOTS[currentIdx];
-
-  // 현재 슬롯 카드
-  const currentUrl = getSlotUrl(kst, slot.hour);
-  document.getElementById('currentSlotTime').textContent = `${slot.emoji} ${String(slot.hour).padStart(2,'0')}:00`;
-  document.getElementById('currentSlotDesc').textContent = slot.label + ' 업데이트 링크';
-  document.getElementById('currentUrl').textContent = currentUrl;
-
-  // KST 현재 시각
-  const hh = String(kst.getUTCHours()).padStart(2,'0');
-  const mm = String(kst.getUTCMinutes()).padStart(2,'0');
-  document.getElementById('kstNow').textContent = `현재 KST ${hh}:${mm}`;
-
-  // 슬롯 목록
-  const list = document.getElementById('slotList');
-  list.innerHTML = SLOTS.map((s, i) => {
-    const slotH = s.hour;
-    const curH = kst.getUTCHours();
-
-    // 과거/현재/미래 판단
-    let state = 'next';
-    if (i === currentIdx) state = 'now';
-    else if (
-      (slotH < curH && slotH !== 0) ||
-      (slotH === 0 && curH < 6 && i !== currentIdx) ||
-      (slotH !== 0 && slotH < curH)
-    ) state = 'past';
-
-    const url = getSlotUrl(kst, slotH);
-    const badgeText = state === 'now' ? '✅ 지금' : state === 'past' ? '완료' : '예정';
-    const badgeCls = state === 'now' ? 'badge-now' : state === 'past' ? 'badge-past' : 'badge-next';
-    const slotCls = state === 'now' ? 'slot active' : state === 'past' ? 'slot past' : 'slot';
-
-    return `
-      <div class="${slotCls}" onclick="copyUrl('${url}', '${s.label}')">
-        <div class="slot-time">${String(slotH).padStart(2,'0')}:00</div>
-        <div class="slot-info">
-          <div class="slot-label">${s.emoji} ${s.label}</div>
-          <div class="slot-url">?v=${url.split('?v=')[1]}</div>
-        </div>
-        <span class="slot-badge ${badgeCls}">${badgeText}</span>
-      </div>`;
-  }).join('');
+  const y = kst.getUTCFullYear();
+  const m = String(kst.getUTCMonth() + 1).padStart(2,'0');
+  const d = String(kst.getUTCDate()).padStart(2,'0');
+  const hh = String(slotHour).padStart(2,'0');
+  return `${BASE_URL}/?v=${y}${m}${d}_${hh}`;
 }
 
-function copyCurrentUrl() {
-  const url = document.getElementById('currentUrl').textContent;
-  copyUrl(url, '현재 슬롯');
+function getCurrentSlotIndex() {
+  const h = getKST().getUTCHours();
+  if (h >= 18) return 2;
+  if (h >= 12) return 1;
+  if (h >= 6)  return 0;
+  return 3;
 }
 
-function copyUrl(url, label) {
+function autoSelectSlot() {
+  const idx = getCurrentSlotIndex();
+  selectSlot(idx);
+}
+
+function renderSlots() {
+  const curIdx = getCurrentSlotIndex();
+  document.getElementById('slotButtons').innerHTML = SLOTS.map((s, i) => `
+    <div class="slot-btn ${i === curIdx ? 'active' : ''}" onclick="selectSlot(${i})">
+      <div class="slot-time">${String(s.hour).padStart(2,'0')}:00</div>
+      <div class="slot-label">${s.emoji} ${s.label}</div>
+      ${i === curIdx ? '<div class="slot-badge">지금</div>' : ''}
+    </div>`).join('');
+}
+
+function selectSlot(idx) {
+  selectedSlot = idx;
+  // 버튼 active 표시
+  document.querySelectorAll('.slot-btn').forEach((b, i) => {
+    b.classList.toggle('active', i === idx);
+  });
+  const url = getSlotUrl(SLOTS[idx].hour);
+  document.getElementById('currentUrlBox').textContent = url;
+  updateDeployBtn();
+}
+
+// ── 뉴스 로드 ──
+async function loadNews() {
+  document.getElementById('newsPreview').textContent = '뉴스 로딩 중...';
+  try {
+    const r = await fetch(NEWS_URL + '?t=' + Date.now());
+    const data = await r.json();
+    newsItems = (data.items || []).filter(n => n.isMarketRelated && n.lang === 'ko').slice(0, 5);
+    renderNewsPreview();
+    document.getElementById('kstBadge').title = '업데이트: ' + (data.updatedAtKST || '');
+  } catch(e) {
+    document.getElementById('newsPreview').textContent = '뉴스 로드 실패';
+  }
+}
+
+function renderNewsPreview() {
+  if (!newsItems.length) { document.getElementById('newsPreview').textContent = '뉴스 없음'; return; }
+  document.getElementById('newsPreview').innerHTML = newsItems.map((n, i) =>
+    `<div class="news-item-preview">${i+1}. ${n.title}</div>`
+  ).join('');
+}
+
+async function refreshNews() {
+  showToast('뉴스 업데이트 중...', false);
+  await loadNews();
+  showToast('✅ 뉴스 업데이트 완료!');
+}
+
+// ── 링크 복사 ──
+function copyLink() {
+  if (selectedSlot === null) { showToast('슬롯을 먼저 선택해주세요', true); return; }
+  const url = getSlotUrl(SLOTS[selectedSlot].hour);
   navigator.clipboard.writeText(url).then(() => {
-    showToast(`✅ ${label} 링크 복사됐어요!`);
+    showToast('✅ 링크 복사 완료!');
   }).catch(() => {
-    // fallback
-    const el = document.createElement('textarea');
-    el.value = url;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-    showToast(`✅ ${label} 링크 복사됐어요!`);
+    fallbackCopy(url);
+    showToast('✅ 링크 복사 완료!');
   });
 }
 
-function showToast(msg) {
-  const t = document.getElementById('toast');
-  t.textContent = msg;
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2500);
+// ── 채팅방 관리 ──
+function loadRooms() {
+  try {
+    rooms = JSON.parse(localStorage.getItem('kakaoRooms') || '[]');
+  } catch { rooms = []; }
+  renderRooms();
 }
 
-// 초기 렌더 + 1분마다 갱신
-render();
-setInterval(render, 60000);
+function saveRooms() {
+  localStorage.setItem('kakaoRooms', JSON.stringify(rooms));
+}
+
+function addRoom() {
+  const name = document.getElementById('roomName').value.trim();
+  const url = document.getElementById('roomUrl').value.trim();
+  if (!name) { showToast('채팅방 이름을 입력하세요', true); return; }
+  if (!url || !url.startsWith('https://open.kakao.com/')) {
+    showToast('올바른 오픈카톡 URL을 입력하세요', true); return;
+  }
+  rooms.push({ id: Date.now(), name, url, status: 'wait' });
+  saveRooms();
+  renderRooms();
+  document.getElementById('roomName').value = '';
+  document.getElementById('roomUrl').value = '';
+  showToast('✅ 채팅방 추가 완료!');
+  updateDeployBtn();
+}
+
+function deleteRoom(id) {
+  rooms = rooms.filter(r => r.id !== id);
+  saveRooms();
+  renderRooms();
+  updateDeployBtn();
+}
+
+function markError(id) {
+  rooms = rooms.map(r => r.id === id ? {...r, status: 'error'} : r);
+  saveRooms();
+  renderRooms();
+}
+
+function resetRoomStatus() {
+  rooms = rooms.map(r => ({...r, status: 'wait'}));
+  saveRooms();
+  renderRooms();
+}
+
+function renderRooms() {
+  const list = document.getElementById('roomList');
+  document.getElementById('roomCount').textContent = `${rooms.length}개`;
+
+  if (!rooms.length) {
+    list.innerHTML = '<div class="empty-rooms">➕ 아래에서 채팅방을 추가하세요</div>';
+    return;
+  }
+
+  list.innerHTML = rooms.map(r => {
+    const statusMap = {
+      wait:   ['⏳', 'status-wait',   '대기'],
+      active: ['📤', 'status-active', '진행중'],
+      done:   ['✅', 'status-done',   '완료'],
+      error:  ['🚫', 'status-error',  '사용불가'],
+    };
+    const [icon, cls, label] = statusMap[r.status] || statusMap.wait;
+    return `
+    <div class="room-item ${r.status}" id="room-${r.id}">
+      <div class="room-icon">${icon}</div>
+      <div class="room-info">
+        <div class="room-name">${r.name}</div>
+        <div class="room-url">${r.url}</div>
+      </div>
+      <div class="room-actions">
+        <span class="room-status ${cls}">${label}</span>
+        ${r.status === 'error' ? '' : `<button class="icon-btn" onclick="markError(${r.id})" title="사용불가 표시">🚫</button>`}
+        <button class="icon-btn" onclick="deleteRoom(${r.id})" title="삭제">🗑</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function updateDeployBtn() {
+  const btn = document.getElementById('deployBtn');
+  const activeRooms = rooms.filter(r => r.status !== 'error');
+  btn.disabled = selectedSlot === null || activeRooms.length === 0 || isDeploying;
+  btn.textContent = `🚀 전체 ${activeRooms.length}개 채팅방 순서 배포 시작`;
+}
+
+// ── 배포 프로세스 ──
+async function startDeploy() {
+  if (selectedSlot === null) { showToast('슬롯을 먼저 선택하세요', true); return; }
+  const activeRooms = rooms.filter(r => r.status !== 'error');
+  if (!activeRooms.length) { showToast('배포할 채팅방이 없어요', true); return; }
+
+  isDeploying = true;
+  deployIndex = 0;
+  resetRoomStatus();
+  updateDeployBtn();
+
+  document.getElementById('deployProgress').classList.add('show');
+  await deployNext(activeRooms);
+}
+
+async function deployNext(activeRooms) {
+  if (deployIndex >= activeRooms.length) {
+    // 완료
+    document.getElementById('progressStep').textContent = `🎉 배포 완료! ${activeRooms.length}개 채팅방`;
+    document.getElementById('progressBar').style.width = '100%';
+    document.getElementById('progressText').textContent = '모든 채팅방 배포가 완료됐어요.';
+    showToast(`✅ ${activeRooms.length}개 채팅방 배포 완료!`);
+    isDeploying = false;
+    updateDeployBtn();
+    return;
+  }
+
+  const room = activeRooms[deployIndex];
+  const total = activeRooms.length;
+  const current = deployIndex + 1;
+  const pct = Math.round((deployIndex / total) * 100);
+  const url = getSlotUrl(SLOTS[selectedSlot].hour);
+
+  // 진행 표시
+  document.getElementById('progressStep').textContent = `📤 ${current}/${total} · ${room.name}`;
+  document.getElementById('progressBar').style.width = pct + '%';
+  document.getElementById('progressText').textContent = `링크를 복사하고 채팅방을 열었어요. 붙여넣기(길게 누르기) 후 전송하세요!`;
+
+  // 해당 방 active 표시
+  rooms = rooms.map(r => ({...r, status: r.id === room.id ? 'active' : r.status}));
+  renderRooms();
+
+  // 링크 클립보드 복사
+  try {
+    await navigator.clipboard.writeText(url);
+  } catch {
+    fallbackCopy(url);
+  }
+
+  // 채팅방 열기
+  window.open(room.url, '_blank');
+
+  // 완료/다음 버튼 대기
+  showDeployConfirm(room, activeRooms);
+}
+
+function showDeployConfirm(room, activeRooms) {
+  const progress = document.getElementById('deployProgress');
+  progress.innerHTML = `
+    <div class="progress-step">📤 ${deployIndex+1}/${activeRooms.length} · ${room.name}</div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" style="width:${Math.round((deployIndex/activeRooms.length)*100)}%"></div>
+    </div>
+    <div class="progress-text" style="margin-bottom:10px">
+      링크가 클립보드에 복사됐어요!<br>
+      채팅방에서 <strong>붙여넣기 후 전송</strong>해주세요.
+    </div>
+    <div style="display:flex;gap:8px">
+      <button class="btn btn-green" style="margin:0" onclick="confirmSent('${room.id}', ${JSON.stringify(activeRooms).replace(/'/g,"\\'")} )">
+        ✅ 전송 완료 → 다음
+      </button>
+      <button class="btn btn-red" style="margin:0;flex:0 0 auto;width:auto;padding:13px 14px" onclick="markErrorAndNext('${room.id}', ${JSON.stringify(activeRooms).replace(/'/g,"\\'")} )" title="이 방에서 쫓겨났거나 오류">
+        🚫
+      </button>
+    </div>`;
+}
+
+function confirmSent(roomId, activeRooms) {
+  const id = parseInt(roomId);
+  rooms = rooms.map(r => r.id === id ? {...r, status: 'done'} : r);
+  saveRooms();
+  deployIndex++;
+
+  // progress 영역 복구
+  restoreProgress();
+  deployNext(activeRooms);
+}
+
+function markErrorAndNext(roomId, activeRooms) {
+  const id = parseInt(roomId);
+  rooms = rooms.map(r => r.id === id ? {...r, status: 'error'} : r);
+  saveRooms();
+  renderRooms();
+  deployIndex++;
+  restoreProgress();
+  deployNext(activeRooms);
+  showToast('🚫 사용불가로 표시됐어요', true);
+}
+
+function restoreProgress() {
+  document.getElementById('deployProgress').innerHTML = `
+    <div class="progress-step" id="progressStep">진행 중...</div>
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="progressBar" style="width:0%"></div>
+    </div>
+    <div class="progress-text" id="progressText"></div>`;
+}
+
+// ── 유틸 ──
+function fallbackCopy(text) {
+  const el = document.createElement('textarea');
+  el.value = text;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+}
+
+function showToast(msg, isError = false) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast' + (isError ? ' error' : '') + ' show';
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => t.classList.remove('show'), 2800);
+}
 </script>
 </body>
 </html>
