@@ -1,9 +1,309 @@
 {
-  "updatedAt": "2026-06-13T11:09:47.309Z",
-  "updatedAtKST": "2026-06-13 20:09:47 KST",
+  "updatedAt": "2026-06-13T16:09:57.318Z",
+  "updatedAtKST": "2026-06-14 01:09:57 KST",
   "totalCount": 80,
-  "marketRelatedCount": 30,
+  "marketRelatedCount": 26,
   "items": [
+    {
+      "title": "From 10% chance of success to $2 trillion market cap: SpaceX's historic IPO",
+      "summary": "After its Nasdaq debut on Friday, SpaceX was the sixth most-valuable U.S. company, despite being a fraction the size by revenue of tech's megacaps.",
+      "link": "https://www.cnbc.com/2026/06/13/from-10percent-chance-of-success-to-2-trillion-spacexs-historic-ipo.html",
+      "pubDate": "2026-06-13T15:50:43.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why TD Securities anticipates even bigger days ahead for SpaceX",
+      "summary": "Peter Haynes, TD Securities' head of index and market structure, suggests SpaceX's public debut is only a small part of the larger SpaceX timeline.",
+      "link": "https://www.cnbc.com/2026/06/13/spacex-surges-but-bigger-days-are-ahead-td-securities-.html",
+      "pubDate": "2026-06-13T15:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "This 28-year-old paid off her law school loans selling stickers and coloring books",
+      "summary": "Elyse Burns started selling her art on Etsy when she turned 18. Now she's paid off her student loans and did nearly $5 million last year.",
+      "link": "https://www.cnbc.com/2026/06/13/paid-off-law-school-student-loans-art-business.html",
+      "pubDate": "2026-06-13T14:18:45.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "U.S.-Iran peace deal could be finalized 'in the next 24 hours,' Pakistan's PM says",
+      "summary": "A senior Trump administration official had said earlier that deal to end the Iran war could be signed soon.",
+      "link": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
+      "pubDate": "2026-06-13T14:13:52.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "미국 안방 사로잡은 ‘댕댕이 월드컵’…LG전자가 ‘TV 플랫폼’에 사활 거는 이유",
+      "summary": "글로벌 TV 시장의 패러다임이 화질·크기 중심의 하드웨어 경쟁에서 운영체제(OS) 기반의 플랫폼 비즈니스로 빠르게 재편되고 있다. 가전 업황에 따라 매출 변동성이 큰 하드웨어 사업..",
+      "link": "https://www.mk.co.kr/news/business/12073477",
+      "pubDate": "2026-06-13T14:02:12.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "My elderly mother and I own a home together. Will Medicaid force its sale?",
+      "summary": "“My sister thinks Medicaid will take the house my mom and I own together.”",
+      "link": "https://www.marketwatch.com/story/my-elderly-mother-and-i-own-a-home-together-will-medicaid-force-its-sale-fdfbad4a?mod=mw_rss_topstories",
+      "pubDate": "2026-06-13T14:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
+      "summary": "Despite a large retail allocation and huge volume, volatility was moderate",
+      "link": "https://www.cnbc.com/2026/06/13/spacex-ipo-sticks-the-landing-heres-what-investors-are-saying-about-its-epic-first-trading-day.html",
+      "pubDate": "2026-06-13T13:37:31.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“설비 이상 없다면서 왜?”…日 후쿠시마 원전 오염수 방류, 이틀 만에 또 중단",
+      "summary": "일본 후쿠시마 제1원자력발전소의 오염수(일본 정부 명칭 ‘처리수’) 방류가 중단됐다 재개된 지 이틀만인 13일 또 중단됐다. 교도통신에 따르면 이날 오후 5시 5분께 후쿠시마 제1..",
+      "link": "https://www.mk.co.kr/news/world/12073474",
+      "pubDate": "2026-06-13T13:35:46.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "New student loan plan comes with higher bills for many. Tax planning can help cut your payments",
+      "summary": "With some planning, federal student loan borrowers can save on their monthly bills under the U.S. Department of Education's new repayment plan.",
+      "link": "https://www.cnbc.com/2026/06/13/rap-student-loans-tax-planning.html",
+      "pubDate": "2026-06-13T13:30:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "제주 비양도 해상서 71톤급 어선 좌초…승선원 8명 전원 구조",
+      "summary": "제주 해상에서 어선이 좌초됐다. 다행히 승선원들은 모두 구조됐다. 13일 제주해양경찰서에 따르면 이날 낮 12시 29분쯤 제주시 한림읍 비양도 인근 해상에서 71톤급 채낚기 어선 ..",
+      "link": "https://www.mk.co.kr/news/society/12073470",
+      "pubDate": "2026-06-13T13:22:24.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Memory chip shortage: How crazy could it get?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/memory-chip-shortage-how-crazy-could-it-get-4741035",
+      "pubDate": "2026-06-13T13:04:11.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "SpaceX employees now have enough wealth on paper to buy every home in this Texas city",
+      "summary": "2025 set an all-time high for first-time buyers who used financial assets to buy a home or fund a down payment, according to the National Association ",
+      "link": "https://www.marketwatch.com/story/spacex-employees-now-have-enough-wealth-on-paper-to-buy-every-home-in-this-texas-city-ce0842be?mod=mw_rss_topstories",
+      "pubDate": "2026-06-13T13:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "美 독립기념일에 하메네이 장례…'종전 협상' 와중 묘한 일정",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061345367",
+      "pubDate": "2026-06-13T12:58:24.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Moats vs. moonshots: The Warren Buffett-Elon Musk style debate",
+      "summary": "In 2018, Warren Buffett and Elon Musk indirectly debated a key question that persists for modern investors.",
+      "link": "https://www.cnbc.com/2026/06/13/moats-vs-moonshots-the-warren-buffett-elon-musk-style-debate.html",
+      "pubDate": "2026-06-13T12:57:53.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“한국 따라해도 안 되네”…日 ‘쿨 재팬’ 기구, 눈덩이 적자에 폐지 검토",
+      "summary": "일본이 자국 문화의 수출을 목표로 한류를 벤치마킹해 만든 것으로 알려진 ‘쿨 재팬’(Cool Japan) 기구가 폐지 대상으로 검토되고 있다는 현재 매체의 보도가 나와 눈길을 끈다..",
+      "link": "https://www.mk.co.kr/news/society/12073468",
+      "pubDate": "2026-06-13T12:42:12.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "I’m 55 and earn $100,000. Should I take a $2,900 monthly pension — or $2,200 with 3% annual hikes?",
+      "summary": "“I plan to continue working until age 60.”",
+      "link": "https://www.marketwatch.com/story/im-55-and-earn-100-000-should-i-take-a-2-900-monthly-pension-or-2-200-with-3-annual-hikes-c02dc525?mod=mw_rss_topstories",
+      "pubDate": "2026-06-13T12:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "The rich keep spending money on ‘unapologetic luxury’ — and it’s raising prices on everyday goods for everyone",
+      "summary": "The wealthy are unfazed by inflation, and that could complicate the Fed’s ability to fight it.",
+      "link": "https://www.marketwatch.com/story/the-rich-keep-spending-money-on-unapologetic-luxury-and-its-raising-prices-on-everyday-goods-for-everyone-cdc4546b?mod=mw_rss_topstories",
+      "pubDate": "2026-06-13T12:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Who are the winners & losers in the quantum future",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/who-are-the-winners--losers-in-the-quantum-future-4741033",
+      "pubDate": "2026-06-13T12:29:56.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 파키스탄 총리 “24시간 내 미국·이란 평화 합의 서명 예상”",
+      "summary": "미국과 이란이 종전 양해각서(MOU) 타결을 앞두고 막판 수싸움을 이어가는 가운데, 중재국 파키스탄이 ‘24시간 내 타결’을 언급했다. 셰바즈 샤리프 파키스탄 총리는 13일(현지 ..",
+      "link": "https://www.mk.co.kr/news/world/12073464",
+      "pubDate": "2026-06-13T12:25:45.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 1228회 로또 1등 11명 각 27억씩…‘24, 29, 30, 31, 35, 44’",
+      "summary": "2등 보너스 번호 ‘1’로또복권 운영사 동행복권은 제1228회 로또복권 추첨에서 ‘24, 29, 30, 31, 35, 44’가 1등 당첨번호로 뽑혔다고 13일 밝혔다. 2등 보너스..",
+      "link": "https://www.mk.co.kr/news/society/12073460",
+      "pubDate": "2026-06-13T12:00:21.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Drugmakers race to find a place in the next wave of obesity drugs",
+      "summary": "Drugmakers are betting they can crack into the obesity drug market that Novo Nordisk and Eli Lilly currently dominate.",
+      "link": "https://www.cnbc.com/2026/06/13/glp-1s-lilly-novo-pfizer-look-to-new-weight-loss-drugs.html",
+      "pubDate": "2026-06-13T12:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Rivian CEO taking different approach than Elon Musk for humanoid robotics company",
+      "summary": "Rivian CEO RJ Scaringe started a robotics company late last year called Mind Robotics that he says has has raised more than $1 billion.",
+      "link": "https://www.cnbc.com/2026/06/13/rivian-humanoid-robots.html",
+      "pubDate": "2026-06-13T12:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Defaults in debt markets are starting again, warns Pimco. Here’s the bond giant’s game plan.",
+      "summary": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
+      "link": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
+      "pubDate": "2026-06-13T12:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“K팝, 음악 축제는 일본보다 뒤처진다?” 글로벌 축제 매력도 지수 보니[제철축제]",
+      "summary": "음악축제 강세 속 日 축제 7곳 톱20 진입 톱20 진입한 한국 축제는 ‘워터밤’ 유일 1266개 축제 中 95%가 인구 감소 지역 ‘바가지’ 털고 ‘인프라’ 갖춰야 생존한다한 해..",
+      "link": "https://www.mk.co.kr/news/culture/12073459",
+      "pubDate": "2026-06-13T11:56:40.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "파키스탄 총리 \"美·이란, 24시간 내 최종 합의 예상\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061345187",
+      "pubDate": "2026-06-13T11:47:01.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "일요일 최고 31도 무더위…오후부터 곳곳 돌풍·번개 동반 소나기",
+      "summary": "일요일인 14일은 남부지방을 제외한 전국 대부분에 천둥과 번개를 동반한 거센 소나기가 쏟아질 것으로 보인다. 13일 기상청에 따르면 14일 오후부터 저녁 사이에 수도권과 강원 내륙..",
+      "link": "https://www.mk.co.kr/news/society/12073458",
+      "pubDate": "2026-06-13T11:46:08.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Gold fever sends some vintage luxury watches to the melting furnace",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/gold-fever-sends-some-vintage-luxury-watches-to-the-melting-furnace-4741014",
+      "pubDate": "2026-06-13T11:42:27.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘I feel like he may be taking advantage of us’: Our adviser pushes annuities after we already said no. Do we fire him?",
+      "summary": "“I feel like he may be taking advantage of us.”",
+      "link": "https://www.marketwatch.com/story/our-financial-adviser-keeps-pushing-annuities-even-after-we-said-no-should-we-fire-him-19188c98?mod=mw_rss_topstories",
+      "pubDate": "2026-06-13T11:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“댕댕이도 식구인데 이 정도는 써도”…그렇게 70조 된 중국의 펫 시장",
+      "summary": "반려견·반려묘 1억2600만마리 Z세대 주도 프리미엄 소비 확산 기능성 사료·고급서비스 수요 파충류 등 이색 반려동물도 급증중국의 펫 이코노미(Pet-Economy·반려동물 시장..",
+      "link": "https://www.mk.co.kr/news/world/12073453",
+      "pubDate": "2026-06-13T11:25:45.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "인도 러시아제 공군 수송기, 훈련비행 중 기지에 추락…5명 사망",
+      "summary": "인도 공군 수송기가 13일(현지시간) 공군기지에 착륙 도중 추락, 탑승자 5명이 사망했다. 인도 공군은 성명을 내고 이날 오전 10시께 인도 북동부 아삼주 조르하트 공군기지에서 정..",
+      "link": "https://www.mk.co.kr/news/world/12073451",
+      "pubDate": "2026-06-13T11:23:04.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
     {
       "title": "Switzerland is voting on whether to cap its population at 10 million. Here's what to know",
       "summary": "Switzerland votes on a population cap that could tighten immigration and put its EU free-movement agreement under pressure.",
@@ -125,26 +425,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "[속보] 北, 韓·EU성명에 “체제존중 위장 내던져…韓 적대 원칙 불변”",
-      "summary": "대남부서 ‘외무성 10국’ 대변인 담화 “‘평화적 두 국가론’은 기만극” 맹비난북한이 최근 한국·유럽연합(EU) 정상회담 공동성명에 대해 ‘평화’의 가면을 내던졌다고 비난하며 한국..",
-      "link": "https://www.mk.co.kr/news/politics/12073405",
-      "pubDate": "2026-06-13T09:20:52.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“감히 한국인을 건드려?”…월드컵 경기장서 ‘눈 찢기’ 멕시코男, 신상 털려",
-      "summary": "2026 북중미 월드컵 경기장에서 한국인 팬을 상대로 ‘눈 찢기’ 등 인종차별적 행위를 한 것으로 의심되는 멕시코 현지 남성의 신상이 사회관계망서비스(SNS)를 통해 확산, 현지에..",
-      "link": "https://www.mk.co.kr/news/world/12073397",
-      "pubDate": "2026-06-13T09:10:23.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "Two phones and an app: How Russians skirt Putin’s digital iron curtain",
       "summary": "",
       "link": "https://www.investing.com/news/stock-market-news/two-phones-and-an-app-how-russians-skirt-putins-digital-iron-curtain-4741017",
@@ -155,26 +435,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "“호르무즈 해협 정상화에 외교 노력”…다카이치 ‘日 철의 여인’ 자처",
-      "summary": "유럽 순방 앞두고 英 FT 기고 ‘호르무즈 항로 보호’ 강조다카이치 사나에 일본 총리가 유럽 순방을 앞두고 언론 기고문에서 호르무즈 해협을 “국제적 공공재”라고 부르며 선박들의 자..",
-      "link": "https://www.mk.co.kr/news/world/12073394",
-      "pubDate": "2026-06-13T08:58:51.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "미군 “해협 통과 상선 타격 시도 이란드론 격추…F16 전투기 중동 순찰중”",
-      "summary": "미국과 이란이 종전 양해각서(MOU)에 잠정 합의한 뒤에도 호르무즈 해협에서 충돌을 이어갔다. 미국 중부사령부(CENTCOM)는 12일(현지시간) 소셜미디어 엑스(X)를 통해 “이..",
-      "link": "https://www.mk.co.kr/news/world/12073389",
-      "pubDate": "2026-06-13T08:50:48.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "Exclusive-Tata’s iPhone parts factory contaminated farmland water, India pollution body alleges",
       "summary": "",
       "link": "https://www.investing.com/news/stock-market-news/exclusivetatas-iphone-parts-factory-contaminated-farmland-water-india-pollution-body-alleges-4741015",
@@ -182,46 +442,6 @@
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“기름값 얼마나 한다고, 마음껏 밟아”…다시 뜨는 경차의 이유있는 자신감 [Car]",
-      "summary": "경·소형차, 고물가 겹치며 존재감 1~4월 경차 등록 2.8만대 13%↑ ‘더 2027 모닝’ 가격 부담 낮춰 BYD는 2000만원대 ‘돌핀’ 앞세워국내 경·소형차 시장이 고유가와..",
-      "link": "https://www.mk.co.kr/news/business/12073376",
-      "pubDate": "2026-06-13T08:13:51.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Gold fever sends some vintage luxury watches to the melting furnace",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/gold-fever-sends-some-vintage-luxury-watches-to-the-melting-furnace-4741014",
-      "pubDate": "2026-06-13T08:12:29.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“8년 전 은혜 못잊죠”…멕시코가 한국 응원한 뜻밖의 이유",
-      "summary": "“꼬레아! 꼬레아!” 2026 북중미 월드컵 조별리그 첫 경기에서 한국 축구대표팀을 향한 예상 밖의 응원전이 펼쳐졌다. 공동 개최국 멕시코의 축구 팬들이 한국 대표팀을 향해 연신 ..",
-      "link": "https://www.mk.co.kr/news/world/12073375",
-      "pubDate": "2026-06-13T08:11:39.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“제 전용기 타시죠”…공항에 발묶인 교황 구한 스페인 국왕",
-      "summary": "스페인 순방을 마친 레오 14세 교황이 귀국길에 항공기 고장으로 발이 묶이는 해프닝을 겪었다. 이때 펠리페 6세 스페인 국왕이 자신의 전용기를 내주면서 교황의 귀국을 지원했다. 1..",
-      "link": "https://www.mk.co.kr/news/world/12073369",
-      "pubDate": "2026-06-13T08:04:46.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -243,46 +463,6 @@
       "lang": "en",
       "emoji": "💰",
       "isMarketRelated": true
-    },
-    {
-      "title": "“10분 안에 입장 안 내면 끝”…영국 정치 삼킨 스마트폰",
-      "summary": "정치인 하루종일 스마트폰만 쳐다봐 “뉴스 10분 내 반응 못하면 뒤처져 유권자·로비단체 요구 실시간 노출” 설득 사라지고 비공개 메신저로 논의“휴대전화가 영국 정치를 망쳤다.” 브..",
-      "link": "https://www.mk.co.kr/news/world/12073367",
-      "pubDate": "2026-06-13T07:41:04.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Former Tesla board member says SpaceX needs to achieve 2 of its 3 moonshots to keep its valuation",
-      "summary": "SpaceX has achieved its goal of becoming the largest IPO on record.",
-      "link": "https://www.cnbc.com/2026/06/12/spacex-moonshots-valuation-westly-tesla.html",
-      "pubDate": "2026-06-13T07:22:10.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "체코 잡은 韓 축구…FIFA랭킹 22위, 3계단 상승",
-      "summary": "2026 국제축구연맹(FIFA) 북중미 월드컵 A조 조별리그 1차전에서 체코를 꺾은 한국축구대표팀의 FIFA 랭킹이 3계단 상승했다. 홍명보 감독이 이끄는 한국 축구대표팀은 지난 ..",
-      "link": "https://www.mk.co.kr/news/society/12073363",
-      "pubDate": "2026-06-13T07:21:21.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "일본 사로잡은 K-참외… aT, ‘제2의 수출 효자’ 육성 나서",
-      "summary": "일본 전역서 대규모 판촉·마케팅 고가인 멜론 대신 참외 우수성 부각 시식 행사 통해 차별화 강점 알려농림축산식품부와 한국농수산식품유통공사(aT)가 한국산 참외를 일본 시장에서 알리..",
-      "link": "https://www.mk.co.kr/news/world/12073361",
-      "pubDate": "2026-06-13T07:01:49.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
     },
     {
       "title": "\"왜 여자 화장실만 줄이 길까?\"…'설계' 지침 내린 日 정부 [도쿄나우]",
@@ -425,16 +605,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Justice Department says Paramount’s Warner deal wouldn’t harm competition",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/justice-department-says-paramounts-warner-deal-wouldnt-harm-competition-4740686",
-      "pubDate": "2026-06-13T01:18:56.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
       "title": "트럼프 이름 지키려던 케네디센터 '제동'…법원, 집행정지 기각",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026061342217",
@@ -443,16 +613,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "First Brands moves ahead with liquidation plan",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/first-brands-moves-ahead-with-liquidation-plan-4740819",
-      "pubDate": "2026-06-13T00:36:48.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
     },
     {
       "title": "저커버그 \"AI 전환 과정서 실수\"…메타 조직·운영 전면 손질",
@@ -545,26 +705,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "Paramount-WBD merger wins approval from DOJ",
-      "summary": "The DOJ approval is an important milestone for the roughly $110 billion deal, though it could still face legal challenges from state attorneys general",
-      "link": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
-      "pubDate": "2026-06-12T22:54:06.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘This is not a flash in the pan’: Why value stocks are beating growth by such a wide margin",
-      "summary": "Value stocks are putting up big gains this year that widely surpass growth equities, with investors appearing optimistic about earnings growth broaden",
-      "link": "https://www.marketwatch.com/story/this-is-not-a-flash-in-the-pan-why-value-stocks-are-beating-growth-by-such-a-wide-margin-b2bddccc?mod=mw_rss_topstories",
-      "pubDate": "2026-06-12T22:50:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "\"매일 410억씩 100년 이상 써야\"…머스크 자산 1조 달러 돌파",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026061341057",
@@ -585,46 +725,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "'역대급 IPO' 스페이스X, 첫날 흥행…공모가 대비 19.3%↑",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061340877",
-      "pubDate": "2026-06-12T22:05:16.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "How Elon Musk nailed the SpaceX IPO: ‘I’m not sure that this could have gone much better’",
-      "summary": "There were a lot of ways that SpaceX’s initial public offering could have gone wrong. Instead, the company bucked Wall Street norms, pulled off the bi",
-      "link": "https://www.marketwatch.com/story/how-elon-musk-nailed-the-spacex-ipo-im-not-sure-that-this-could-have-gone-much-better-8149d479?mod=mw_rss_topstories",
-      "pubDate": "2026-06-12T21:57:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Small investors scrambled to get in on the SpaceX IPO, even as some believe the valuation is 'stupid'",
-      "summary": "SpaceX set a fixed price of $135 per share in the leadup to its IPO on Friday, placing its valuation at $1.77 trillion. Shares rallied more than 25%.",
-      "link": "https://www.cnbc.com/2026/06/12/small-investors-scrambled-to-get-in-on-the-spacex-ipo-even-as-some-believe-the-valuation-is-stupid.html",
-      "pubDate": "2026-06-12T21:48:59.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "FIFA World Cup prize money: What each USMNT player stands to earn",
-      "summary": "Thanks to a landmark 2022 agreement, U.S. women’s soccer players will get part of the World Cup prize pool, too. Here’s how it works.",
-      "link": "https://www.marketwatch.com/story/fifa-world-cup-prize-money-what-each-usmnt-player-stands-to-earn-332f8a96?mod=mw_rss_topstories",
-      "pubDate": "2026-06-12T21:44:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "Social Security COLA for 2027 may jump to 4.7%, one estimate finds. This chart shows prices driving the increase",
       "summary": "As inflation climbs, Social Security beneficiaries may see a higher cost-of-living adjustment in 2027. Here's which costs spiked most over the past 12",
       "link": "https://www.cnbc.com/2026/06/12/social-security-cola-2027-inflation-estimate.html",
@@ -635,94 +735,14 @@
       "isMarketRelated": false
     },
     {
-      "title": "Top House Republican’s family investment poised to benefit from SpaceX IPO",
-      "summary": "Republican Rep. Lisa McClain’s husband bought up to $250,000 in Elon Musk’s xAI before it was folded into SpaceX ahead of its IPO.",
-      "link": "https://www.cnbc.com/2026/06/12/lisa-mcclain-spacex-ipo-xai-investment-congress.html",
-      "pubDate": "2026-06-12T21:15:28.000Z",
+      "title": "Goldman nets a big payday for SpaceX IPO. Plus, what drove our winners and losers this week",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "link": "https://www.cnbc.com/2026/06/12/goldman-nets-a-big-payday-for-spacex-ipo-plus-what-drove-our-winners-and-losers-this-week.html",
+      "pubDate": "2026-06-12T18:52:10.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
-    },
-    {
-      "title": "Call Kevin Warsh the Fed 'chairman'",
-      "summary": "Kevin Warsh's two immediate predecessors preferred to be called the Fed \"chair.\" For Warsh, it's \"chairman\" of the Federal Reserve.",
-      "link": "https://www.cnbc.com/2026/06/12/fed-kevin-warsh-chairman-title.html",
-      "pubDate": "2026-06-12T21:11:46.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "I’m 55 and earn $100,000. Should I take a $2,900 monthly pension — or $2,200 with 3% annual hikes?",
-      "summary": "“I plan to continue working until age 60.”",
-      "link": "https://www.marketwatch.com/story/im-55-and-earn-100-000-should-i-take-a-2-900-monthly-pension-or-2-200-with-3-annual-hikes-c02dc525?mod=mw_rss_topstories",
-      "pubDate": "2026-06-12T21:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "How to decide whether a major splurge — like spending thousands on Knicks or World Cup tickets — is worth it",
-      "summary": "Ask yourself these questions when considering an extravagant purchase.",
-      "link": "https://www.marketwatch.com/story/how-to-decide-whether-a-major-splurge-like-spending-thousands-on-knicks-or-world-cup-tickets-is-worth-it-8fb46c18?mod=mw_rss_topstories",
-      "pubDate": "2026-06-12T20:35:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "SpaceX market cap tops $2 trillion after shares of Elon Musk's rocket company gain 19% on debut",
-      "summary": "SpaceX shares soared on Friday as trading commenced on the Nasdaq.",
-      "link": "https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html",
-      "pubDate": "2026-06-12T20:33:52.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘I feel like he may be taking advantage of us’: Our adviser pushes annuities after we already said no. Do we fire him?",
-      "summary": "“I feel like he may be taking advantage of us.”",
-      "link": "https://www.marketwatch.com/story/our-financial-adviser-keeps-pushing-annuities-even-after-we-said-no-should-we-fire-him-19188c98?mod=mw_rss_topstories",
-      "pubDate": "2026-06-12T20:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Trump administration: Iran deal signing likely in coming days, but not '100%' certain",
-      "summary": "A deal to end the Iran war could be signed soon, a senior Trump administration official said, following recent conflicting statements from the warring",
-      "link": "https://www.cnbc.com/2026/06/12/iran-deal-trump-pakistan-sharif.html",
-      "pubDate": "2026-06-12T20:21:14.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "As investors flock to SpaceX, one trader eyes a sleepy 'stealth' play",
-      "summary": "If you're looking for something a little more terrestrial, there's one stock that investors are overlooking.",
-      "link": "https://www.cnbc.com/2026/06/12/as-investors-flock-to-spacex-one-trader-eyes-a-sleepy-stealth-play.html",
-      "pubDate": "2026-06-12T17:33:56.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "스페이스X, 상장 첫날 22.5% 급등…시총 2조달러 돌파",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202606134010i",
-      "pubDate": "2026-06-12T16:12:46.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
     },
     {
       "title": "\"머스크의 선택\"…미래에셋, 스페이스X 공모주 4700억원 따내",
@@ -755,16 +775,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "For Warsh as Fed chair, silence may be the point",
-      "summary": "Kevin Warsh will hold his first Fed meeting, giving markets the first public look at how he'll communicate as chair of the Federal Reserve.",
-      "link": "https://www.cnbc.com/2026/06/12/warsh-fed-chair-interest-rates.html",
-      "pubDate": "2026-06-12T10:00:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "재경부 \"토큰화 주식, 가상자산 아닌 증권\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026061231096",
@@ -783,16 +793,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "Pirro's losses in Fed investigation should stay on the books, judge rules",
-      "summary": "In a scathing ruling, Judge James Boasberg denied U.S. Attorney for the District of Columbia Jeanine Pirro's request to vacate his earlier orders.",
-      "link": "https://www.cnbc.com/2026/06/11/pirro-fed-jerome-powell.html",
-      "pubDate": "2026-06-12T00:19:38.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "College sticker prices top $100,000 at 16 schools — but many students pay significantly less",
