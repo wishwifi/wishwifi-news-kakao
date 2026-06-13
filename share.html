@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마켓피드 · 카카오 공유 링크</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, 'Noto Sans KR', sans-serif;
+    background: #0d0f14;
+    color: #e8ecf4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .logo {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+  }
+  .logo span { color: #EF4444; }
+
+  .subtitle {
+    font-size: 13px;
+    color: #6b7280;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  /* 현재 슬롯 */
+  .current-card {
+    background: #FEE500;
+    border-radius: 16px;
+    padding: 20px 24px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .current-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #92741a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+
+  .current-time {
+    font-size: 32px;
+    font-weight: 900;
+    color: #191600;
+    margin-bottom: 4px;
+  }
+
+  .current-desc {
+    font-size: 13px;
+    color: #6b4f00;
+    margin-bottom: 16px;
+  }
+
+  .current-url {
+    background: rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #333;
+    font-family: monospace;
+    margin-bottom: 14px;
+    word-break: break-all;
+  }
+
+  .copy-btn {
+    background: #191600;
+    color: #FEE500;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    font-family: inherit;
+    transition: opacity 0.15s;
+  }
+  .copy-btn:active { opacity: 0.8; }
+
+  /* 슬롯 목록 */
+  .slots-title {
+    font-size: 12px;
+    color: #4a5468;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .slots {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .slot {
+    background: #161a24;
+    border: 1px solid #2a3045;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .slot:hover { border-color: #FEE500; }
+
+  .slot.active {
+    border-color: #FEE500;
+    background: rgba(254,229,0,0.06);
+  }
+
+  .slot.past { opacity: 0.4; }
+
+  .slot-time {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FEE500;
+    min-width: 52px;
+  }
+
+  .slot-info { flex: 1; }
+
+  .slot-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #e8ecf4;
+    margin-bottom: 2px;
+  }
+
+  .slot-url {
+    font-size: 11px;
+    color: #4a5468;
+    font-family: monospace;
+  }
+
+  .slot-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .badge-now { background: #FEE500; color: #191600; }
+  .badge-next { background: #1e2433; color: #6b7280; border: 1px solid #2a3045; }
+  .badge-past { background: #1e2433; color: #4a5468; border: 1px solid #2a3045; }
+
+  /* 복사 완료 */
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: #10B981;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0;
+    transition: all 0.3s;
+    white-space: nowrap;
+    z-index: 100;
+  }
+  .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+
+  .kst-now {
+    font-size: 12px;
+    color: #4a5468;
+    text-align: center;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="logo">마켓<span>피드</span></div>
+<div class="subtitle">카카오 공유 링크 · 업데이트 시간별 자동 생성</div>
+
+<div class="current-card">
+  <div class="current-label">⚡ 지금 공유할 링크</div>
+  <div class="current-time" id="currentSlotTime">--:--</div>
+  <div class="current-desc" id="currentSlotDesc">로딩 중...</div>
+  <div class="current-url" id="currentUrl">https://news.wishwifi.com/?v=...</div>
+  <button class="copy-btn" onclick="copyCurrentUrl()">
+    📋 링크 복사하기
+  </button>
+</div>
+
+<div class="slots-title">오늘의 공유 스케줄</div>
+
+<div class="slots" id="slotList"></div>
+
+<div class="kst-now" id="kstNow"></div>
+
+<div class="toast" id="toast">✅ 링크가 복사됐어요!</div>
+
+<script>
+const BASE_URL = 'https://news.wishwifi.com';
+
+// 업데이트 스케줄 (KST 기준, 6시간 간격)
+const SLOTS = [
+  { hour: 6,  label: '아침 브리핑',  emoji: '☀️' },
+  { hour: 12, label: '점심 브리핑',  emoji: '🌞' },
+  { hour: 18, label: '저녁 마감',    emoji: '🌆' },
+  { hour: 0,  label: '자정 업데이트', emoji: '🌙' },
+];
+
+function getKST() {
+  return new Date(Date.now() + 9 * 60 * 60 * 1000);
+}
+
+// 슬롯별 버전 URL 생성
+// 예: 06시 슬롯 → ?v=20260613_06
+function getSlotUrl(date, slotHour) {
+  const y = date.getUTCFullYear();
+  const m = String(date.getUTCMonth() + 1).padStart(2, '0');
+  // 자정(0시)은 다음날이 아니라 당일 마지막 슬롯
+  let d = date.getUTCDate();
+  const hh = String(slotHour).padStart(2, '0');
+  return `${BASE_URL}/?v=${y}${m}${String(d).padStart(2,'0')}_${hh}`;
+}
+
+// 현재 어느 슬롯인지 계산
+function getCurrentSlotIndex(kst) {
+  const h = kst.getUTCHours(); // KST 시간
+  // 0~5 → 자정(0) 슬롯, 6~11 → 아침(6), 12~17 → 점심(12), 18~23 → 저녁(18)
+  if (h >= 18) return 2; // 저녁
+  if (h >= 12) return 1; // 점심
+  if (h >= 6)  return 0; // 아침
+  return 3;              // 자정
+}
+
+function render() {
+  const kst = getKST();
+  const currentIdx = getCurrentSlotIndex(kst);
+  const slot = SLOTS[currentIdx];
+
+  // 현재 슬롯 카드
+  const currentUrl = getSlotUrl(kst, slot.hour);
+  document.getElementById('currentSlotTime').textContent = `${slot.emoji} ${String(slot.hour).padStart(2,'0')}:00`;
+  document.getElementById('currentSlotDesc').textContent = slot.label + ' 업데이트 링크';
+  document.getElementById('currentUrl').textContent = currentUrl;
+
+  // KST 현재 시각
+  const hh = String(kst.getUTCHours()).padStart(2,'0');
+  const mm = String(kst.getUTCMinutes()).padStart(2,'0');
+  document.getElementById('kstNow').textContent = `현재 KST ${hh}:${mm}`;
+
+  // 슬롯 목록
+  const list = document.getElementById('slotList');
+  list.innerHTML = SLOTS.map((s, i) => {
+    const slotH = s.hour;
+    const curH = kst.getUTCHours();
+
+    // 과거/현재/미래 판단
+    let state = 'next';
+    if (i === currentIdx) state = 'now';
+    else if (
+      (slotH < curH && slotH !== 0) ||
+      (slotH === 0 && curH < 6 && i !== currentIdx) ||
+      (slotH !== 0 && slotH < curH)
+    ) state = 'past';
+
+    const url = getSlotUrl(kst, slotH);
+    const badgeText = state === 'now' ? '✅ 지금' : state === 'past' ? '완료' : '예정';
+    const badgeCls = state === 'now' ? 'badge-now' : state === 'past' ? 'badge-past' : 'badge-next';
+    const slotCls = state === 'now' ? 'slot active' : state === 'past' ? 'slot past' : 'slot';
+
+    return `
+      <div class="${slotCls}" onclick="copyUrl('${url}', '${s.label}')">
+        <div class="slot-time">${String(slotH).padStart(2,'0')}:00</div>
+        <div class="slot-info">
+          <div class="slot-label">${s.emoji} ${s.label}</div>
+          <div class="slot-url">?v=${url.split('?v=')[1]}</div>
+        </div>
+        <span class="slot-badge ${badgeCls}">${badgeText}</span>
+      </div>`;
+  }).join('');
+}
+
+function copyCurrentUrl() {
+  const url = document.getElementById('currentUrl').textContent;
+  copyUrl(url, '현재 슬롯');
+}
+
+function copyUrl(url, label) {
+  navigator.clipboard.writeText(url).then(() => {
+    showToast(`✅ ${label} 링크 복사됐어요!`);
+  }).catch(() => {
+    // fallback
+    const el = document.createElement('textarea');
+    el.value = url;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    showToast(`✅ ${label} 링크 복사됐어요!`);
+  });
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// 초기 렌더 + 1분마다 갱신
+render();
+setInterval(render, 60000);
+</script>
+</body>
+</html>
