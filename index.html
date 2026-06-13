@@ -643,10 +643,6 @@ button{cursor:pointer;font-family:inherit}
         <div class="lbox"><div class="spinner"></div></div>
       </div>
 
-      <!-- ── 전문가 코멘트 ── -->
-      <div class="shd"><span class="shd-ico">💬</span><span class="shd-ttl">전문가 코멘트</span></div>
-      <div id="sum-experts"></div>
-
       <!-- 애드센스 광고 -->
       <div style="margin-bottom:16px;text-align:center">
         <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8530756154544319" data-ad-slot="9048273828"></ins>
@@ -1694,16 +1690,6 @@ async function loadSummary(){
         <div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">
           ${(p.links||[]).map(l=>`<span style="font-size:10px;padding:1px 6px;border-radius:3px;font-weight:700;color:#fff;background:${l.color||'#555'}">${l.src}</span>`).join('')}
         </div>
-      </div>
-    </div>`).join('');
-
-  // ── 전문가 코멘트 ──
-  document.getElementById('sum-experts').innerHTML = (data.experts||SUMMARY_FALLBACK.experts).map(e=>`
-    <div class="exp-block" style="cursor:pointer" onclick="window.open('${e.srcUrl||'#'}','_blank')">
-      <div class="exp-q">"${e.quote}"</div>
-      <div style="display:flex;align-items:center;gap:8px">
-        <div><div class="exp-name">${e.name}</div><div class="exp-role">${e.role}</div></div>
-        <span style="margin-left:auto;font-size:10px;color:var(--acc);font-weight:700;background:var(--acc-bg);padding:2px 7px;border-radius:4px">${e.src} →</span>
       </div>
     </div>`).join('');
 
