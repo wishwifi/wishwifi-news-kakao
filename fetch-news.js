@@ -235,30 +235,25 @@ function getUnsplashKeyword(newsItems) {
 
 async function fetchUnsplashImage(query) {
   const apiKey = process.env.UNSPLASH_ACCESS_KEY;
+  const githubToken = process.env.GITHUB_TOKEN;
   if (!apiKey) return null;
 
-  return new Promise((resolve) => {
+  // 1. Unsplash에서 이미지 URL 가져오기
+  const unsplashUrl = await new Promise((resolve) => {
     const encodedQuery = encodeURIComponent(query);
     const options = {
       hostname: 'api.unsplash.com',
       path: `/photos/random?query=${encodedQuery}&orientation=landscape&content_filter=high`,
       method: 'GET',
-      headers: {
-        'Authorization': `Client-ID ${apiKey}`,
-        'Accept-Version': 'v1'
-      }
+      headers: { 'Authorization': `Client-ID ${apiKey}`, 'Accept-Version': 'v1' }
     };
-
     const req = https.request(options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try {
           const d = JSON.parse(data);
-          // regular 사이즈 URL (1080px) — 카카오 호환
-          const imgUrl = d.urls?.regular || d.urls?.full || null;
-          console.log(`  🖼️  Unsplash 이미지: ${imgUrl?.slice(0,60) || '없음'}`);
-          resolve(imgUrl);
+          resolve(d.urls?.regular || d.urls?.full || null);
         } catch (e) { resolve(null); }
       });
     });
@@ -266,6 +261,98 @@ async function fetchUnsplashImage(query) {
     req.setTimeout(8000, () => { req.destroy(); resolve(null); });
     req.end();
   });
+
+  if (!unsplashUrl) return null;
+  console.log(`  🖼️  Unsplash URL: ${unsplashUrl.slice(0,60)}`);
+
+  // 2. 이미지를 다운로드해서 GitHub에 직접 저장 (카카오 핫링킹 차단 우회)
+  if (!githubToken) {
+    console.log('  ⚠️  GITHUB_TOKEN 없음 - Unsplash URL 직접 사용');
+    return unsplashUrl;
+  }
+
+  try {
+    // 이미지 다운로드
+    const imgBuffer = await new Promise((resolve, reject) => {
+      const urlObj = new URL(unsplashUrl);
+      const reqOpts = {
+        hostname: urlObj.hostname,
+        path: urlObj.pathname + urlObj.search,
+        method: 'GET',
+        headers: { 'User-Agent': 'WishWifi-NewsBot/1.0' }
+      };
+      const req = https.request(reqOpts, (res) => {
+        const chunks = [];
+        res.on('data', chunk => chunks.push(chunk));
+        res.on('end', () => resolve(Buffer.concat(chunks)));
+      });
+      req.on('error', reject);
+      req.setTimeout(15000, () => { req.destroy(); reject(new Error('timeout')); });
+      req.end();
+    });
+
+    // GitHub에 업로드 (assets/og-today.jpg)
+    const base64Img = imgBuffer.toString('base64');
+    const githubPath = 'assets/og-today.jpg';
+
+    // 기존 파일 SHA 확인
+    let sha = '';
+    await new Promise((resolve) => {
+      const req = https.request({
+        hostname: 'api.github.com',
+        path: `/repos/wishwifi/wishwifi-news-kakao/contents/${githubPath}`,
+        method: 'GET',
+        headers: { 'Authorization': `token ${githubToken}`, 'User-Agent': 'WishWifi-Bot' }
+      }, (res) => {
+        let d = '';
+        res.on('data', c => d += c);
+        res.on('end', () => {
+          try { sha = JSON.parse(d).sha || ''; } catch(e) {}
+          resolve();
+        });
+      });
+      req.on('error', resolve);
+      req.end();
+    });
+
+    // 파일 업로드
+    const uploadBody = JSON.stringify({
+      message: '🖼️ OG 이미지 업데이트',
+      content: base64Img,
+      ...(sha ? { sha } : {})
+    });
+
+    await new Promise((resolve) => {
+      const req = https.request({
+        hostname: 'api.github.com',
+        path: `/repos/wishwifi/wishwifi-news-kakao/contents/${githubPath}`,
+        method: 'PUT',
+        headers: {
+          'Authorization': `token ${githubToken}`,
+          'Content-Type': 'application/json',
+          'User-Agent': 'WishWifi-Bot',
+          'Content-Length': Buffer.byteLength(uploadBody)
+        }
+      }, (res) => {
+        let d = '';
+        res.on('data', c => d += c);
+        res.on('end', () => {
+          console.log('  ✅ GitHub에 이미지 저장 완료: assets/og-today.jpg');
+          resolve();
+        });
+      });
+      req.on('error', resolve);
+      req.write(uploadBody);
+      req.end();
+    });
+
+    // GitHub raw URL 반환 (카카오 크롤러 호환)
+    return `https://raw.githubusercontent.com/wishwifi/wishwifi-news-kakao/main/assets/og-today.jpg?t=${Date.now()}`;
+
+  } catch(e) {
+    console.log('  ⚠️  GitHub 저장 실패, Unsplash URL 직접 사용:', e.message);
+    return unsplashUrl;
+  }
 }
 
 // ── 카카오 템플릿 생성 ──
