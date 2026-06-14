@@ -1,15 +1,345 @@
 {
-  "updatedAt": "2026-06-14T16:17:37.881Z",
-  "updatedAtKST": "2026-06-15 01:17:37 KST",
-  "totalCount": 80,
-  "marketRelatedCount": 32,
+  "updatedAt": "2026-06-14T22:13:47.055Z",
+  "updatedAtKST": "2026-06-15 07:13:47 KST",
+  "totalCount": 79,
+  "marketRelatedCount": 44,
   "items": [
     {
-      "title": "U.S. peace deal with Iran in question as Israel strikes Lebanon, Trump warns not to 'blow it'",
-      "summary": "An initial deal to end the war and open the Strait of Hormuz was expected to be signed this week.",
-      "link": "https://www.cnbc.com/2026/06/14/iran-deal-teeters-israel-strikes-lebanon.html",
-      "pubDate": "2026-06-14T16:11:08.000Z",
+      "title": "U.S. and Iran agree on peace deal to end the war, Trump and Pakistan say",
+      "summary": "The deal follows weeks of mixed messaging from both Washington and Tehran on the trajectory of the conflict.",
+      "link": "https://www.cnbc.com/2026/06/14/us-iran-war-peace-deal.html",
+      "pubDate": "2026-06-14T22:06:43.000Z",
       "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 “호르무즈 통행료 없이 개방…미국 해상봉쇄 즉시 해제”",
+      "summary": "",
+      "link": "https://www.mk.co.kr/news/world/12073965",
+      "pubDate": "2026-06-14T22:05:02.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 \"호르무즈 통행료 없이 개방…美 해상봉쇄 즉시 해제\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061556657",
+      "pubDate": "2026-06-14T22:04:39.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 이란 파르스통신 \"호르무즈 해협 통행체계, 이란-오만 협력으로 조정\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202606155663i",
+      "pubDate": "2026-06-14T22:04:16.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 이란 파르스통신 \"협정 성명 곧 발표…레바논 국경 유지\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202606155649i",
+      "pubDate": "2026-06-14T22:02:09.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 이란 외무부 “오늘밤부터 여러 전선 전쟁 즉각적 영구중단”",
+      "summary": "",
+      "link": "https://www.mk.co.kr/news/world/12073961",
+      "pubDate": "2026-06-14T22:00:29.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 이란 외무부 \"오늘밤부터 전쟁 즉각적 영구 중단\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061556527",
+      "pubDate": "2026-06-14T22:00:03.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "매경이 전하는 세상의 지식 (매-세-지, 6월 15일)",
+      "summary": "1. 삼성이 그룹 차원에서 ‘에너지 태스크포스’를 결성했습니다. 업계에선 세계적으로 AI 데이터센터 투자 붐이 발생한 점에 삼성도 주목한 것이라고 분석했습니다. AI 산업 확장에 ..",
+      "link": "https://www.mk.co.kr/news/society/12073855",
+      "pubDate": "2026-06-14T22:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "중복상장 ‘원칙 금지’ 시대, 무거워진 이사회의 책임 [바른 컴플라이언스리포트]",
+      "summary": "최재웅 법무법인 바른 변호사대한민국 자본시장이 역사적인 제도적 이정표를 세우고 있다. 소수주주 보호와 이사회 독립성 강화라는 근본적인 체질 개선이 마침내 시장의 제도적 신뢰로 증명..",
+      "link": "https://www.mk.co.kr/news/society/12072522",
+      "pubDate": "2026-06-14T22:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "트럼프 \"이란과 협상 타결\"…106일 만에 사실상 종전 합의",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061556447",
+      "pubDate": "2026-06-14T21:57:52.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 파키스탄 총리 \"美-이란 서명식 19일 스위스서 예정\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202606155643i",
+      "pubDate": "2026-06-14T21:57:19.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“스페이스X 탑승권 사야하는데”…투자자들 ‘이 기업’ 팔아치웠다",
+      "summary": "‘자금블랙홀’ 만나 우주株 급락 기존 수혜주서 자금 빠져나가 스페이스X 한때 30% 폭등 작년 매출 38% 뛴 로켓랩 실적 우상향에 반등 기대여전역대 최대 규모 기업공개(IPO..",
+      "link": "https://www.mk.co.kr/news/stock/12073958",
+      "pubDate": "2026-06-14T21:56:26.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Trump says U.S. has reached peace deal with Iran",
+      "summary": "President Donald Trump said Sunday that the U.S. has agreed to a peace deal with Iran, ending months of hostilities that shut the Strait of Hormuz and",
+      "link": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
+      "pubDate": "2026-06-14T21:55:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 협상 완료, 호르무즈 통행료 없이 개방…美 해상봉쇄 즉시 해제\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202606155641i",
+      "pubDate": "2026-06-14T21:51:50.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 “이란과 협상 완료…호르무즈 통행료 없이 개방”",
+      "summary": "“세계 선박들, 엔진 가동하기를” 이란도 “휴전협정 성명 곧 발표” 중재 파키스탄 “평화협상 타결” 19일 스위스에서 서명식 전망도널드 트럼프 미국 대통령이 이란과 종전을 위한 양..",
+      "link": "https://www.mk.co.kr/news/world/12073957",
+      "pubDate": "2026-06-14T21:51:16.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "이 대통령, ‘잠실시위’ 관련 “사적 검문·위력 업무방해엔 엄정 대처해야”",
+      "summary": "이재명 대통령은 투표용지 부족 사태로 잠실에 운집한 시민들의 시위 관련 “사적 검문 및 위력을 동원한 업무방해 행위는 엄정 대처해야 하는 것 아니냐”고 지적했다. 이 대통령은 14..",
+      "link": "https://www.mk.co.kr/news/politics/12073955",
+      "pubDate": "2026-06-14T21:40:15.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 트럼프 “이란과의 협상 타결”…개전 106일만에 사실상 종전합의",
+      "summary": "도널드 트럼프 미국 대통령은 14일(현지시간) 이란과의 종전 협상이 타결됐다고 발표했다. 트럼프 대통령은 미 동부시간 기준으로 이날 오후 5시30분께 소셜미디어 트루스소셜에 “이란..",
+      "link": "https://www.mk.co.kr/news/world/12073954",
+      "pubDate": "2026-06-14T21:35:44.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 \"이란과 협상 타결\"…호르무즈 통행료 없이 개방",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061556227",
+      "pubDate": "2026-06-14T21:34:57.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "\"반도체 말고 아직 덜 오른 종목?…자산가치 높은 OOO\" [노정동의 어쩌다 투자자]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061448146",
+      "pubDate": "2026-06-14T21:30:06.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“머스크만 돈 버는 줄 알았는데”…스페이스X 상장 수혜자들 보니",
+      "summary": "항공우주 기업 스페이스X의 성공적인 기업공개(IPO)로 ‘조만장자’가 된 일론 머스크 최고경영자(CEO) 외에도 여러 수혜자가 주목받고 있다. 미국 일간 월스트리트저널(WSJ)은 ..",
+      "link": "https://www.mk.co.kr/news/stock/12073953",
+      "pubDate": "2026-06-14T21:30:03.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 파키스탄 “미-이란 평화협상 타결…19일 스위스서 서명”",
+      "summary": "미국과 이란이 ‘평화 협상’을 타결했으며, 오는 19일 스위스에서 공식 서명식이 열릴 예정이라고 그간 중재를 맡아온 파키스탄 셰바즈 샤리프 총리가 15일(현지시간) 밝혔다. 샤리프..",
+      "link": "https://www.mk.co.kr/news/world/12073952",
+      "pubDate": "2026-06-14T21:25:02.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 파키스탄 \"미-이란 평화협상 타결…19일 스위스서 서명\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061556127",
+      "pubDate": "2026-06-14T21:23:56.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4741115",
+      "pubDate": "2026-06-14T21:20:04.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“빌어먹을 공격 해야만 했나”…트럼프, 레바논 공습에 네타냐후 비판",
+      "summary": "도널드 트럼프 미국 대통령은 14일(현지시간) 이스라엘이 레바논 수도 베이루트 남쪽 외곽을 공습한 것을 비판하며 이스라엘을 포함한 모든 당사자의 자제를 촉구했다. 트럼프 대통령은 ..",
+      "link": "https://www.mk.co.kr/news/world/12073951",
+      "pubDate": "2026-06-14T21:12:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "\"서명 1시간 전인데 왜 때리나\"…트럼프, 이스라엘 공습에 격노",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026061555957",
+      "pubDate": "2026-06-14T21:08:05.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "오늘은 급등·내일은 폭락…AI주 투자자 마음 편히 해줄 ETF는 [이번주 찜할 ETF]",
+      "summary": "美 나스닥·韓 코스피와 어울리는 ETF는회사원 최모 씨(51)는 변동성은 낮고, 주가는 꾸준히 오르면서 미국 기업에 투자해 환율 관련 이득 까지 있는 ‘동일가중 상장지수펀드(ETF..",
+      "link": "https://www.mk.co.kr/news/stock/12073950",
+      "pubDate": "2026-06-14T21:06:19.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Will the real Kevin Warsh please stand up? Ahead of his first Fed meeting, economists honestly don’t know what to expect.",
+      "summary": "Perhaps the only thing that can be said with certainty about Kevin Warsh’s press conference following his first meeting as Federal Reserve chair this ",
+      "link": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
+      "pubDate": "2026-06-14T21:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "How ‘agentic’ is AI shopping today",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/how-agentic-is-ai-shopping-today-4741112",
+      "pubDate": "2026-06-14T20:34:16.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘It seems too good to be true’: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
+      "summary": "“He claimed that fixed-rate annuities are the sparkly, rainbow-fairyland of investments.”",
+      "link": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
+      "pubDate": "2026-06-14T20:17:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "밤샘 게임에 일어나지도 못하던 아들, 때론 ‘거리 두기’가 통했다",
+      "summary": "남매맘의 사춘기 극복 이야기사춘기는 호르몬이 벌이는 거대한 장난이다. 아이가 어린이에서 어른이 되기 위해 뇌를 전면 리모델링하는 시기. 문제는 그 공사 과정에서 가장 먼저 철거되는..",
+      "link": "https://www.mk.co.kr/news/society/12073587",
+      "pubDate": "2026-06-14T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“아파트 상승률 0.3% 넘으면 정부가 움직인다” … 폭등 뒤 폭락의 공식",
+      "summary": "부동산 사이클별로 일어나는 현상 (3) 급등기앞선 글에서 폭락기가 오기 전에 어떤 형태로 폭등기가 오는지 간략하게 설명했다. 하지만 이번에 더 자세한 과정을 설명해 볼까 한다. 먼..",
+      "link": "https://www.mk.co.kr/news/realestate/12073602",
+      "pubDate": "2026-06-14T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "일본은행 31년 만의 기준금리 1%, 이번 주 엔화를 봐야 하는 이유",
+      "summary": "코스피 수급의 열쇠 엔캐리 트레이드이번 주 동여의도가 가장 주목하는 변수는 일본은행입니다. 왜 갑자기 일본이냐고요? 이번 주 코스피 수급이 엔화와 연결돼 있기 때문입니다. 일본은행..",
+      "link": "https://www.mk.co.kr/news/stock/12073607",
+      "pubDate": "2026-06-14T19:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Lazard bids to replace Centerview as Venezuela financial adviser, source says",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/lazard-bids-to-replace-centerview-as-venezuela-financial-advisor-bloomberg-news-reports-4741100",
+      "pubDate": "2026-06-14T18:54:33.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Defaults in debt markets are starting again, warns Pimco. Here’s the bond giant’s game plan.",
+      "summary": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
+      "link": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
+      "pubDate": "2026-06-14T17:34:00.000Z",
+      "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
@@ -32,26 +362,6 @@
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Lazard bids to replace Centerview as Venezuela financial advisor, Bloomberg News reports",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/lazard-bids-to-replace-centerview-as-venezuela-financial-advisor-bloomberg-news-reports-4741100",
-      "pubDate": "2026-06-14T15:48:30.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "이명 관리도 ‘홈케어 시대’… 진단·센서로 사업 영역 넓힌다 [강원대 라이즈]",
-      "summary": "⑤ 엠아이제이골전도 헤드셋+치료 음원… CES 혁신상 수상강원 춘천의 디지털 헬스케어 기업 엠아이제이가 골전도 기술과 웹·앱 기반 데이터 관리를 결합한 ‘이명 관리 솔루션’으로 주..",
-      "link": "https://www.mk.co.kr/news/society/12072832",
-      "pubDate": "2026-06-14T15:10:00.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -85,16 +395,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "레미콘 운송료 4200원 인상 잠정합의",
-      "summary": "레미콘 제조사들과 전국레미콘운송노동조합(전운련) 측이 수도권 레미콘 운송료를 회당 4200원 올리기로 잠정 합의했다. 이 안이 조합원 투표에서 통과될 경우 빠르면 15일 오후부터 ..",
-      "link": "https://www.mk.co.kr/news/realestate/12073937",
-      "pubDate": "2026-06-14T14:09:26.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "32-year-old quit teaching and built a fidget-toy business with her dad. It brought in $428,000 last year",
       "summary": "Charlie Moreton and Victoria Baumann are the father-daughter duo behind Victoria Essie Studio, which has seen viral success selling 3D-printed fidget ",
       "link": "https://www.cnbc.com/2026/06/14/32-year-old-quit-teaching-built-fidget-toy-business-with-her-dad-that-brought-in-428k.html",
@@ -102,16 +402,6 @@
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "합의 막판에 또 뒤집혔나?…이란, 이스라엘 공습에 “미국과 협상지속 불가”",
-      "summary": "MOU 서명 앞두고 파열음미국·이란 전쟁의 종전 협상이 막바지에 이르렀다는 외신보도가 나오는 가운데 이스라엘이 14일(현지시간) 레바논 수도 베이루트 남쪽 외곽을 공습하자, 이란이..",
-      "link": "https://www.mk.co.kr/news/world/12073935",
-      "pubDate": "2026-06-14T13:55:21.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -135,16 +425,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "“난임인 것도 서러웠는데”…신혼 아니라도 신생아특공 신청가능",
-      "summary": "앞으로 2세 미만 자녀를 둔 가구는 민영주택 청약 때 혼인 기간과 관계없이 신생아특별공급을 신청할 수 있게 된다. 국토교통부는 출산 가구 지원을 위해 민영주택 청약에 신생아특별공급..",
-      "link": "https://www.mk.co.kr/news/realestate/12073930",
-      "pubDate": "2026-06-14T13:27:56.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "‘This would be a one-time event’: How can I take extra money from my 401(k) without triggering higher Medicare premiums?",
       "summary": "“I generally withdraw money from my traditional 401(k) for projects, larger expenses and sometimes just to stay ahead on upcoming bills.”",
       "link": "https://www.marketwatch.com/story/this-would-be-a-one-time-event-how-can-i-take-extra-money-from-my-401-k-without-triggering-higher-medicare-premiums-fef1586d?mod=mw_rss_topstories",
@@ -152,36 +432,6 @@
       "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“이란 상대 사이버 공격에 4개 은행 서비스 중단…공격 주체 미상”",
-      "summary": "미국과 이란의 종전이 임박한 가운데 이란을 상대로 한 사이버 공격이 발생해 일부 은행 서비스가 중단됐다. 공격 주체는 아직 알려지지 않았다. 14일(현지시간) 로이터통신 등 외신에..",
-      "link": "https://www.mk.co.kr/news/world/12073929",
-      "pubDate": "2026-06-14T13:25:45.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Defaults in debt markets are starting again, warns Pimco. Here’s the bond giant’s game plan.",
-      "summary": "Investors should increasingly seek out fixed income to anchor portfolios as equity valuations look stretched, says Pimco.",
-      "link": "https://www.marketwatch.com/story/defaults-in-debt-markets-are-starting-again-warns-pimco-heres-the-bond-giants-game-plan-16559c6d?mod=mw_rss_topstories",
-      "pubDate": "2026-06-14T13:24:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "잠실시위 다시 커졌다…성조기 휘날리며 “부정선거 재선거” 구호도",
-      "summary": "선관위 규탄 시위 길어질듯 현장 태극기·성조기 반반섞여 실시간 상황 공유 사이트 등장 합수본, 곧 선관위 관계자 소환6·3 지방선거 투표용지 부족 사태를 규탄하는 잠실 개표소 봉..",
-      "link": "https://www.mk.co.kr/news/society/12073927",
-      "pubDate": "2026-06-14T13:11:01.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -225,14 +475,14 @@
       "isMarketRelated": true
     },
     {
-      "title": "“국장 장투할거야? 난 치고 빠질래”…삼전닉스 대신 2배 ETF 갔다",
-      "summary": "내년까지 수주증가 기대 커져 구성종목 절반이 소부장 기업 일주일 수익률 6% 안팎 순항단일 종목 레버리지 상장지수펀드(ETF)가 출시된 이후 삼성전자와 SK하이닉스의 수급 지형이 ..",
-      "link": "https://www.mk.co.kr/news/stock/12073923",
-      "pubDate": "2026-06-14T12:41:14.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
+      "title": "Here are the 3 big things we're watching in the stock market in the week ahead",
+      "summary": "The Kevin Warsh era is upon us.",
+      "link": "https://www.cnbc.com/2026/06/14/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "pubDate": "2026-06-14T12:41:44.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
     },
     {
       "title": "Highly charismatic people use 5 'magnetic' phrases to be more likable, says public speaking expert",
@@ -253,16 +503,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
-    },
-    {
-      "title": "“삼성전기 주가 아직 끝난게 아니네”…AI 반도체 전력부품 핵심 3종 완성",
-      "summary": "실리콘 커패시터 본격 양산 GPU·HBM 등에 필수 탑재 MLCC·기판이은 3각축 완성삼성전기가 인공지능(AI) 반도체의 안정적인 전력 공급을 담당하는 실리콘 커패시터 양산에 본격..",
-      "link": "https://www.mk.co.kr/news/business/12073921",
-      "pubDate": "2026-06-14T12:11:01.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
     },
     {
       "title": "3 reasons why European markets are underperforming peers",
@@ -315,16 +555,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "최태원·노소영 마침내 대면…‘2년새 3.7배’ SK주식 분할시점 쟁점",
-      "summary": "재산분할 파기환송심 열려 (주)SK 지분 분할시점이 쟁점최태원 SK그룹 회장과 노소영 아트센터 나비 관장이 15일 2년 만에 법정에서 대면한다. 양측 논의의 핵심은 최근 주가가 폭..",
-      "link": "https://www.mk.co.kr/news/society/12073914",
-      "pubDate": "2026-06-14T11:27:04.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
       "title": "I’m 60, retired with $3 million. My fiancée, 55, only has $1 million and plans to keep working. Are we compatible?",
       "summary": "“Although she is quite frugal, she has not been particularly diligent with investing.”",
       "link": "https://www.marketwatch.com/story/im-60-retired-with-3-million-my-fiancee-55-has-1-million-but-plans-to-work-for-the-next-10-years-are-we-compatible-2ee04cf9?mod=mw_rss_topstories",
@@ -332,66 +562,6 @@
       "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“청년들에겐 미용 아니라 생존 문제”…‘탈모 건보 적용’ 토론회 연다",
-      "summary": "정은경 복지부 장관 간담회서 탈모·필수의료 등 과제 발표정부가 탈모 치료의 건강보험 적용 확대를 둘러싼 우려를 정면으로 돌파하고자 공론화 절차에 착수한다. 오는 7월 국민 200명..",
-      "link": "https://www.mk.co.kr/news/it/12073913",
-      "pubDate": "2026-06-14T11:20:00.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "시간당 30mm 폭우에 우박까지…서울 올해 첫 호우 특보",
-      "summary": "전국 곳곳에 산발적으로 강한 소나기가 내리면서 올해 들어 처음으로 호우특보가 발령됐다. 서울 동북·서북권에는 강풍주의보도 함께 발령했다. 14일 기상청에 따르면 이날 오후 3시를 ..",
-      "link": "https://www.mk.co.kr/news/society/12073912",
-      "pubDate": "2026-06-14T11:16:18.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "난민촌서 태어나 호주의 희망으로 우뚝",
-      "summary": "난민 가정 출신 호주 축구 신성 네스토리 이란쿤다(20)가 2026 국제축구연맹(FIFA) 월드컵 조별리그 1차전에서 호주의 영웅으로 떠올랐다. 튀르키예를 상대로 선제골을 넣은 그..",
-      "link": "https://www.mk.co.kr/news/sports/12073910",
-      "pubDate": "2026-06-14T11:15:04.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "슈퍼루키 김민솔, 내셔널 타이틀 품었다…올 시즌 첫 다승",
-      "summary": "김민솔이 '내셔널 타이틀' 메르세데스-벤츠 제40회 한국여자오픈 골프선수권대회를 제패했다. 현 국가대표 양윤서와 치열한 선두 경쟁을 펼친 끝에 우승한 김민솔은 올 시즌 국내 여자 ..",
-      "link": "https://www.mk.co.kr/news/sports/12073911",
-      "pubDate": "2026-06-14T11:15:04.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "뉴욕닉스, 53년만에 NBA 챔피언 등극",
-      "summary": "뉴욕 닉스가 반세기가 넘는 기다림 끝에 미국프로농구(NBA) 정상에 다시 올랐다. 14일(한국시간) 미국 텍사스주 프로스트 뱅크 센터에서 열린 NBA 챔피언 결정 5차전에서 뉴욕은..",
-      "link": "https://www.mk.co.kr/news/sports/12073909",
-      "pubDate": "2026-06-14T11:13:53.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "한불 외교 산증인 최정화 교수 별세",
-      "summary": "1980~2000년대 한·프랑스 정상회담 통역을 맡으며 양국 외교 현장을 지켜온 최정화 한국외대 통번역대학원 한불과 명예교수가 14일 별세했다. 향년 71세. 서울에서 태어난 고인..",
-      "link": "https://www.mk.co.kr/news/society/12073908",
-      "pubDate": "2026-06-14T11:13:38.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -425,27 +595,7 @@
       "isMarketRelated": true
     },
     {
-      "title": "Trump hosts White House cage fights amid war and political scrutiny",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/trump-hosts-white-house-cage-fights-amid-war-and-political-scrutiny-4741074",
-      "pubDate": "2026-06-14T10:06:29.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Street Calls of the Week",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-4739401",
-      "pubDate": "2026-06-14T10:00:02.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "트럼프 \"곧 이란과 합의\"…호르무즈 열리나",
+      "title": "이란 협상 돌발 변수 된 트럼프 '생일 종전'",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026061453211",
       "pubDate": "2026-06-14T09:39:03.000Z",
@@ -455,7 +605,7 @@
       "isMarketRelated": true
     },
     {
-      "title": "\"고물가에 못 살겠다\"…파업 美 전역서 임금 인상 랠리",
+      "title": "\"고물가에 못 살겠다\" 파업…美 전역서 임금 인상 랠리",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026061453191",
       "pubDate": "2026-06-14T09:38:12.000Z",
@@ -473,46 +623,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "中·러·사우디까지…'뉴 소프트파워' 게임 산업 노린다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453251",
-      "pubDate": "2026-06-14T09:37:22.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "EU '탄소 장벽' 더 높아진다…철강·알루미늄 400개 추가 규제",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453241",
-      "pubDate": "2026-06-14T09:37:05.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "'AI 환각'에 당한 KPMG…보고서에 허위 내용",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453231",
-      "pubDate": "2026-06-14T09:36:47.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "[포토] 케네디센터에서 철거되는 '트럼프 간판'",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453261",
-      "pubDate": "2026-06-14T09:36:31.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
     },
     {
       "title": "UK forces board sanctioned Russian shadow fleet oil tanker",
@@ -615,36 +725,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "화성 갈때 한다더니…IPO 서두른 머스크",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453021",
-      "pubDate": "2026-06-14T09:13:48.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "'돈값 못하면 나가' 600억 아낀 초강수…'53년 숙원' 풀었다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453541",
-      "pubDate": "2026-06-14T09:12:14.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "7만원짜리 옷이 150만원에?…싸게 팔려다 '난리' 난 이유",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453531",
-      "pubDate": "2026-06-14T09:11:15.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
       "title": "스페이스X 어디까지 오를까 [한경 프리미엄9 TODAY]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026061453521",
@@ -665,90 +745,10 @@
       "isMarketRelated": false
     },
     {
-      "title": "스페이스X, 우주 데이터센터로 날아오를까…\"목표가 165~190弗\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453031",
-      "pubDate": "2026-06-14T08:56:30.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "스페이스X 화려한 데뷔…글로벌 시총 6위 직행",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061453451",
-      "pubDate": "2026-06-14T08:54:20.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "\"삼성전자 사자\" 외국인 돌변한 이유가…'파격 전망' 나왔다 [강경주의 테크X]",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061235086",
-      "pubDate": "2026-06-14T07:30:02.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "53년 만의 우승에 '우르르'…경찰차 파손에 최루가스 터졌다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026061451617",
-      "pubDate": "2026-06-14T07:24:06.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "화성 갈 때 상장?…머스크가 스페이스X IPO 서두른 이유",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202606145090i",
-      "pubDate": "2026-06-14T05:53:57.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
       "title": "My plumber charged $160 to fix the cistern on my toilet — but created another problem. Do I pay again?",
       "summary": "“The cistern on my toilet has been constantly refilling and making a hissing noise.”",
       "link": "https://www.marketwatch.com/story/my-plumber-charged-160-to-fix-a-problem-in-my-bathroom-but-appears-to-have-created-another-one-do-i-pay-again-f64903ae?mod=mw_rss_topstories",
       "pubDate": "2026-06-14T00:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘I feel like he may be taking advantage of us’: Our adviser pushes annuities after we already said no. Do we fire him?",
-      "summary": "“I feel like he may be taking advantage of us.”",
-      "link": "https://www.marketwatch.com/story/our-financial-adviser-keeps-pushing-annuities-even-after-we-said-no-should-we-fire-him-19188c98?mod=mw_rss_topstories",
-      "pubDate": "2026-06-14T00:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘We are comfortable financially’: My husband is in his 60s and has $500,000 life insurance. Is this a good time to cancel?",
-      "summary": "“Our kids are grown and independent.”",
-      "link": "https://www.marketwatch.com/story/we-pay-100-per-month-my-husband-is-in-his-mid-60s-and-has-a-500-000-life-insurance-policy-is-it-time-to-cancel-it-4cc49ffe?mod=mw_rss_topstories",
-      "pubDate": "2026-06-13T23:23:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘It seems too good to be true’: At a steak-dinner retirement seminar, the guy said annuities can outperform the market. Is that true?",
-      "summary": "“He claimed that fixed-rate annuities are the sparkly, rainbow-fairyland of investments.”",
-      "link": "https://www.marketwatch.com/story/it-seems-too-good-to-be-true-at-a-steak-dinner-retirement-seminar-the-guy-said-annuities-can-outperform-the-market-is-that-true-33e11b0a?mod=mw_rss_topstories",
-      "pubDate": "2026-06-13T23:22:00.000Z",
       "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
@@ -763,16 +763,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "SpaceX IPO sticks the landing. Here's what investors are saying about its epic first trading day",
-      "summary": "Despite a large retail allocation and huge volume, volatility was moderate",
-      "link": "https://www.cnbc.com/2026/06/13/spacex-ipo-sticks-the-landing-heres-what-investors-are-saying-about-its-epic-first-trading-day.html",
-      "pubDate": "2026-06-13T13:37:31.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "UAE denies 'false' reports of fund transfer to Iran",
