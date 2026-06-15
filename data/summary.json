@@ -1,17 +1,43 @@
 {
-  "date": "2026년 6월 15일",
-  "headline": "[속보] 스페이스X 주관사 공모주 추가배정…조달액 857억달러로 늘어",
+  "date": "2026년 6월 16일",
+  "headline": "6만전자 쓸어담은 ‘한국의 버핏’ … 향후 10년은 금반지 시대",
   "tags": [
-    "#SpaceXI",
-    "#20growt",
-    "#U.S.cru",
-    "#Anthropi",
-    "#Factbox-",
-    "#Salesfor"
+    "#GavinNe",
+    "#6만전자쓸어담",
+    "#Micronb",
+    "#Trumpis",
+    "#Investor",
+    "#‘Itseem"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "6만전자 쓸어담은 ‘한국의 버핏’ …",
+      "desc": "이채원 라이프자산운용 의장 2편매경플러스 ‘한국의 위대한 투자자’ 시리즈 3번째 주인공은 이채원 라이프자산운용 의장이다. 그는 두말 할 필요가 없는 ‘한국의 워런 버핏’, ‘가치투..",
+      "links": [
+        {
+          "src": "매일경제",
+          "color": "#c8281f",
+          "title": "6만전자 쓸어담은 ‘한국의 버핏’ … 향후 10년은 금",
+          "url": "https://www.mk.co.kr/news/stock/12074330"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "[속보]美 \"이란 재건 위한 거액의 ",
+      "desc": "[속보]美 \"이란 재건 위한 거액의 기금조성 포함될 것...이행실적과 연계\"",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "[속보]美 \"이란 재건 위한 거액의 기금조성 포함될 것",
+          "url": "https://www.hankyung.com/article/202606168051i"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
       "title": "[속보] 스페이스X 주관사 공모주 추",
       "desc": "[속보] 스페이스X 주관사 공모주 추가배정…조달액 857억달러로 늘어",
       "links": [
@@ -24,7 +50,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "노동계, 내년 최저임금 16.3% 오",
       "desc": "노동계가 내년에 적용할 최저임금으로 시급 1만2000원을 공식 요구했다. 올해 최저임금(1만320원)보다 16.3% 높은 수준이다. 15일 전국민주노동조합총연맹(민주노총)과 한국노..",
       "links": [
@@ -37,7 +63,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "美·이란 종전 합의 소식에…뉴욕증시 ",
       "desc": "美·이란 종전 합의 소식에…뉴욕증시 상승 출발",
       "links": [
@@ -61,32 +87,6 @@
           "url": "https://www.hankyung.com/article/2026061579767"
         }
       ]
-    },
-    {
-      "icon": "📰",
-      "title": "이란 외무 \"美, 해외 동결 자금 풀",
-      "desc": "이란 외무 \"美, 해외 동결 자금 풀고 전쟁 피해 배상하기로\"",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "이란 외무 \"美, 해외 동결 자금 풀고 전쟁 피해 배상",
-          "url": "https://www.hankyung.com/article/2026061579677"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "40만전자·300만닉스 가나…종전 훈",
-      "desc": "40만전자·300만닉스 가나…종전 훈풍에 실적으로 쏠리는 눈 [종목+]",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "40만전자·300만닉스 가나…종전 훈풍에 실적으로 쏠리",
-          "url": "https://www.hankyung.com/article/2026061574896"
-        }
-      ]
     }
   ],
   "experts": [
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "[속보] 스페이스X 주관사 공모주 추가배정…조달액 857억달러로 늘어",
+      "desc": "6만전자 쓸어담은 ‘한국의 버핏’ … 향후 10년은 금반지 시대",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "SpaceX IPO raises total of $85.7 billion as underwriters exercise 'greenshoe' overallotment option",
+      "desc": "Gavin Newsom says Trump ordered DOJ to investigate him and his wife",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "Anthropic to meet with Trump administration over Mythos dispute / Why is Trump Media & Technology stock rallying today?",
+    "summary": "Gavin Newsom says Trump ordered DOJ to investigate him and his wife / Trump is giving Warsh room to reshape the Fed",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-06-15T14:57:32.088Z",
-  "updatedAtKST": "2026-06-15 23:57:32 KST",
-  "ogImage": "https://images.unsplash.com/photo-1711812396029-4bedac5af516?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1MzU0NTJ8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-06-15T19:01:25.053Z",
+  "updatedAtKST": "2026-06-16 04:01:25 KST",
+  "ogImage": "https://images.unsplash.com/photo-1689582493603-ef8a2eef5da3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE1NTAwODV8&ixlib=rb-4.1.0&q=80&w=1080"
 }
