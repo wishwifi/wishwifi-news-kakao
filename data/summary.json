@@ -1,17 +1,43 @@
 {
-  "date": "2026년 7월 3일",
-  "headline": "AI로 동물 소리 통역…고래와 대화하는 시대 올까",
+  "date": "2026년 7월 4일",
+  "headline": "엔비디아 브로드컴 다 한물 갔다고?…월가 큰손들, 왜 ‘이 주식’에 주목하나",
   "tags": [
-    "#Michael",
-    "#TheTech",
-    "#Indiast",
-    "#AI로동물소",
-    "#中'AI퀀트",
-    "#Europeb"
+    "#Spainst",
+    "#Portugal",
+    "#Netherla",
+    "#Italyst",
+    "#Germany",
+    "#Frances"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "엔비디아 브로드컴 다 한물 갔다고?…",
+      "desc": "블룸버그 통신에 따르면 미국 데이터 센터 인근 지역의 전기 요금은 5년전에 비해 267% 올랐다고 한다. 인공지능이 소모하는 전력이 엄청나기 때문이다. 미국 50개주 가운데 13개..",
+      "links": [
+        {
+          "src": "매일경제",
+          "color": "#c8281f",
+          "title": "엔비디아 브로드컴 다 한물 갔다고?…월가 큰손들, 왜 ",
+          "url": "https://www.mk.co.kr/news/stock/12090174"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "“자동차 20%할인 부족해” 뿔난 현",
+      "desc": "장기근속자 할인 최대 30%→20% 축소 복지포인트 대체지급안에도 노조 ‘부글’ “장기근속 유인줄여” 노조비판 목소리도현대자동차 임금 교섭에서 직원 차량 할인 제도 개편안을 놓고 ..",
+      "links": [
+        {
+          "src": "매일경제",
+          "color": "#c8281f",
+          "title": "“자동차 20%할인 부족해” 뿔난 현대차 노조…임금협상",
+          "url": "https://www.mk.co.kr/news/business/12090173"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
       "title": "AI로 동물 소리 통역…고래와 대화하",
       "desc": "AI로 동물 소리 통역…고래와 대화하는 시대 올까",
       "links": [
@@ -24,7 +50,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "中 'AI 퀀트 펀드'로 수조원대 머",
       "desc": "中 'AI 퀀트 펀드'로 수조원대 머니 무브",
       "links": [
@@ -37,7 +63,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "미국인 60% \"美 황금기 이미 끝나",
       "desc": "미국인 60% \"美 황금기 이미 끝나\"…정치·경제 불신 커졌다",
       "links": [
@@ -61,32 +87,6 @@
           "url": "https://www.hankyung.com/article/2026070349781"
         }
       ]
-    },
-    {
-      "icon": "📰",
-      "title": "태국·필리핀·베트남도 재정 악화…환율",
-      "desc": "태국·필리핀·베트남도 재정 악화…환율 내리막",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "태국·필리핀·베트남도 재정 악화…환율 내리막",
-          "url": "https://www.hankyung.com/article/2026070349801"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "잠깐 스친 카메오 출연, 트럼프에겐 ",
-      "desc": "잠깐 스친 카메오 출연, 트럼프에겐 1억짜리 '평생 연금'",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "잠깐 스친 카메오 출연, 트럼프에겐 1억짜리 '평생 연",
-          "url": "https://www.hankyung.com/article/2026070348197"
-        }
-      ]
     }
   ],
   "experts": [
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "AI로 동물 소리 통역…고래와 대화하는 시대 올까",
+      "desc": "엔비디아 브로드컴 다 한물 갔다고?…월가 큰손들, 왜 ‘이 주식’에 주목하나",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "Michael Burry makes a bearish bet against hot memory stock Micron: reports",
+      "desc": "Spain stocks higher at close of trade; IBEX 35 up 0.93%",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "잠깐 스친 카메오 출연, 트럼프에겐 1억짜리 '평생 연금' / 5 takeaways from President Donald Trump's interview with CNBC",
+    "summary": "Trump’s Freedom 250 draws corporate sponsors with business before his administration / As ACA enrollment falls by millions, Trump administration and policy gurus disagree on why",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-07-03T11:26:36.634Z",
-  "updatedAtKST": "2026-07-03 20:26:36 KST",
-  "ogImage": "https://images.unsplash.com/photo-1782330301061-8c4d49c13fcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwNzc5OTd8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-07-03T16:20:27.388Z",
+  "updatedAtKST": "2026-07-04 01:20:27 KST",
+  "ogImage": "https://images.unsplash.com/photo-1782330389325-b9e3aff801e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwOTU2Mjh8&ixlib=rb-4.1.0&q=80&w=1080"
 }
