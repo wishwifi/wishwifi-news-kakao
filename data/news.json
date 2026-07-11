@@ -1,9 +1,409 @@
 {
-  "updatedAt": "2026-07-11T10:09:22.592Z",
-  "updatedAtKST": "2026-07-11 19:09:22 KST",
+  "updatedAt": "2026-07-11T15:47:14.424Z",
+  "updatedAtKST": "2026-07-12 00:47:14 KST",
   "totalCount": 80,
-  "marketRelatedCount": 43,
+  "marketRelatedCount": 37,
   "items": [
+    {
+      "title": "The U.S. stock market is becoming ‘too big to fail’",
+      "summary": "Why protracted bear markets may be a thing of the past.",
+      "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-becoming-too-big-to-fail-b3473e40?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T15:45:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Only 5% of U.S. adults can ace this 8-question financial-literacy test. Can you?",
+      "summary": "Financial literacy just hit a 10-year low — and it is devastating bank accounts.",
+      "link": "https://www.marketwatch.com/story/only-5-of-u-s-adults-can-ace-this-8-question-financial-literacy-test-can-you-93a57cc6?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T15:42:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?",
+      "summary": "“It’s a loss to the economy, to jobs, to decades of institutional knowledge when a business simply turns off the lights”",
+      "link": "https://www.marketwatch.com/story/half-of-small-business-owners-hope-to-sell-their-companies-and-retire-in-the-next-decade-what-happens-to-their-workers-a03ae979?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T15:01:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "These underperforming trades could yield big returns over next six months",
+      "summary": "ETF Action's Mike Akins is encouraging investors to boost exposure to groups that underperformed compared with major artificial intelligence stocks.",
+      "link": "https://www.cnbc.com/2026/07/11/mag-7-and-software-could-boost-portfolio-in-second-half-etf-action.html",
+      "pubDate": "2026-07-11T15:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘I’ve plenty of time on my hands’: Advisers bombard me with offers of free steak dinners. Is it wrong to go for the food?",
+      "summary": "“I get hungry for a meal at a good restaurant.”",
+      "link": "https://www.marketwatch.com/story/ive-plenty-of-time-on-my-hands-advisers-bombard-me-with-offers-for-free-steak-is-it-wrong-to-go-for-the-food-1b139f98?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T15:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "China halts helium exports as renewed Middle East tensions threaten chip supplies",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/china-halts-helium-exports-as-renewed-middle-east-tensions-threaten-chip-supplies-4787283",
+      "pubDate": "2026-07-11T14:58:52.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Summer travel season is here: Make this vital purchase before your next vacation",
+      "summary": "8 things I learned about travel expenses after a family tragedy",
+      "link": "https://www.marketwatch.com/story/8-things-i-learned-about-travel-expenses-after-a-family-tragedy-1bbb024f?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T14:39:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision?",
+      "summary": "CD rates are at a standstill, but that could change after the next Fed meeting, or the one after that.",
+      "link": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T14:37:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘The money would have been life-changing’: My father told my grandmother to slash my inheritance. Is that fair?",
+      "summary": "“I could have bought a home for what I hope will be a growing family.”",
+      "link": "https://www.marketwatch.com/story/the-money-would-have-been-life-changing-my-father-told-my-grandmother-to-slash-my-inheritance-is-that-fair-3808b6d1?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T14:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "BofA names South Korea, UAE among top AI contenders beyond U.S. and China",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/bofa-names-south-korea-uae-among-top-ai-contenders-beyond-us-and-china-4787282",
+      "pubDate": "2026-07-11T14:18:13.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump Accounts: Who is eligible, how $1,000 deposits work and how to open one",
+      "summary": "Trump Accounts officially launched in July, introducing a new tax-deferred investing option for children. Here are the key features.",
+      "link": "https://www.cnbc.com/guide/trump-accounts/",
+      "pubDate": "2026-07-11T14:05:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘I’ve no idea how they got her number’: My student-loan servicer called a friend after I missed a payment. Is that legal?",
+      "summary": "“She said it’s the second message they have left.”",
+      "link": "https://www.marketwatch.com/story/ive-no-idea-how-they-got-her-number-my-student-loan-servicer-called-a-friend-after-i-missed-a-payment-is-that-legal-28ef698e?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T14:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "While Musk's Neuralink drills into skulls, China's BrainCo bets the future of brain tech is wearable",
+      "summary": "Interest in brain-computer interfaces is rising as it promises to help people with compromised neural abilities.",
+      "link": "https://www.cnbc.com/2026/07/11/chinas-brainco-bets-on-wearable-brain-tech.html",
+      "pubDate": "2026-07-11T13:47:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "New housing law targets affordability — what it means for homebuyers and sellers",
+      "summary": "While the legislation is aimed at least partly at addressing affordability, experts say the benefits of the measure will take time to show up in the m",
+      "link": "https://www.cnbc.com/2026/07/11/21st-century-road-to-housing-act-homebuyers-sellers.html",
+      "pubDate": "2026-07-11T13:41:13.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "이틀 전 대관람차 사고났는데…이번엔 24명 탄 롤러코스터 멈춘 경주월드",
+      "summary": "지난 9일 대형관람차의 빈 객차가 추락하는 사고가 난 경주월드에서 롤러코스터가 멈추는 일이 발생해 지자체가 경위 파악에 나섰다. 11일 경북 경주시에 따르면 이날 오전 10시 55..",
+      "link": "https://www.mk.co.kr/news/society/12096228",
+      "pubDate": "2026-07-11T13:31:06.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "summary": "“I have very little money, while my ex’s financial statements show assets in the millions.”",
+      "link": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T13:15:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Berkshire Hathaway gains ground, but still trails the S&P 500 as '26 enters second half",
+      "summary": "With 2026 a bit more than half over, Berkshire Hathaway's B shares are down 1.8% year-to-date and 12.4 percentage points behind the S&P 500's 10.7% ga",
+      "link": "https://www.cnbc.com/2026/07/11/berkshire-hathaway-gains-ground-but-still-trails-the-sp-500-as-26-enters-second-half.html",
+      "pubDate": "2026-07-11T13:07:41.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘파산 기로’ 왓챠, 새 주인 찾을까…홈플러스도 운명의 일주일 [M&A복덕방]",
+      "summary": "스마트팜닥터애그, 15일 예비입찰 홈플러스, 재항고시한 일주일 앞둬다음주 M&A시장에서는 1세대 토종 OTT(온라인 동영상 서비스)의 회생계획안 승인 여부에 관심이 모인다. 재항고..",
+      "link": "https://www.mk.co.kr/news/stock/12096219",
+      "pubDate": "2026-07-11T13:06:06.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "From booksmaxxing to looksmaxxing: Why the viral trends concern some mental health experts",
+      "summary": "People are self-optimizing everything — protein, skincare, fitness — to such a degree that \"maxxing\" is one of social media's most popular suffixes.",
+      "link": "https://www.cnbc.com/2026/07/11/why-viral-maxxing-trends-concern-some-mental-health-experts.html",
+      "pubDate": "2026-07-11T13:05:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "The best states to live in for 2026: No. 1 has a six-year winning streak",
+      "summary": "Return to office mandates and a decline in remote work have companies looking more closely at the quality of life in the place where they establish of",
+      "link": "https://www.cnbc.com/2026/07/11/best-states-to-live-in-america-2026.html",
+      "pubDate": "2026-07-11T13:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "These are America’s 10 worst states to live in for 2026",
+      "summary": "Some states may have low costs and light regulation, but high crime and lack of healthcare are among important factors when people choose where to liv",
+      "link": "https://www.cnbc.com/2026/07/11/worst-states-to-live-in-america-2026.html",
+      "pubDate": "2026-07-11T13:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+      "summary": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
+      "link": "https://www.cnbc.com/2026/07/11/trump-threat.html",
+      "pubDate": "2026-07-11T12:51:50.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "'Funflation' hits home: Why staying in isn't the cost-saver it used to be",
+      "summary": "Following a wave of price hikes, at-home pastimes like streaming movies or playing video games are pinching pocketbooks.",
+      "link": "https://www.cnbc.com/2026/07/11/funflation-streaming-video-games-xbox-apple-disney-netflix.html",
+      "pubDate": "2026-07-11T12:47:23.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘Day-to-day dread’ haunts frustrated job seekers in era of low hiring. When will it end?",
+      "summary": "Finding a job was easy a few years ago. Now, Americans are worried about their job prospects, even though the unemployment rate is historically low.",
+      "link": "https://www.marketwatch.com/story/day-to-day-dread-haunts-frustrated-job-seekers-in-era-of-low-hiring-when-will-it-end-76640caf?mod=mw_rss_topstories",
+      "pubDate": "2026-07-11T12:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "툭하면 ‘100년 만의 이상기후’…“보통 태풍도 대재앙된다” 기후석학의 경고",
+      "summary": "호튼 홍콩시티대 환경에너지대 학장 앞으로 ‘500년에 한번’ 현상 많아져 보통 태풍도 기후변화 만나면 재난 전 세계 곳곳에서 이상기후가 이어지고 있는 가운데 아시아 최고 권위의 ..",
+      "link": "https://www.mk.co.kr/news/world/12096207",
+      "pubDate": "2026-07-11T12:27:56.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Corporate America offers stronger proof AI is boosting profits, productivity: MS",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/corporate-america-offers-stronger-proof-ai-is-boosting-profits-productivity-ms-4787269",
+      "pubDate": "2026-07-11T12:25:07.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "'트럼프 발작증후군' 환자로 묘사된 코미디언…\"끔찍한 남자\"",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026071194237",
+      "pubDate": "2026-07-11T12:24:34.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "로또 1등 11명, 당첨금 25억3천만원씩…‘12, 15, 19, 22, 24. 36’",
+      "summary": "로또복권 운영사 동행복권은 제1232회 로또복권 추첨에서 ‘12, 15, 19, 22, 24, 36’이 1등 당첨번호로 뽑혔다고 11일 밝혔다. 2등 보너스 번호는 ‘3’이다. 당..",
+      "link": "https://www.mk.co.kr/news/society/12096199",
+      "pubDate": "2026-07-11T12:04:40.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Burnout, frustration and heartbreak: Amazon layoffs take their toll in saturated job market",
+      "summary": "In the eight-plus months since Amazon announced its most expansive job cuts ever, laid off workers have been thrust into an increasingly saturated lab",
+      "link": "https://www.cnbc.com/2026/07/11/burnout-frustration-and-heartbreak-amazon-layoffs-take-their-toll.html",
+      "pubDate": "2026-07-11T12:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "A tiny GLP-1 implant is the latest bet to help patients maintain their weight loss",
+      "summary": "Vivani Medical is developing an implant of semaglutide, the active ingredient in Novo Nordisk's obesity injection Wegovy and diabetes counterpart Ozem",
+      "link": "https://www.cnbc.com/2026/07/11/glp-1-implant-from-vivani-medical-aims-to-help-patients-stay-on-treatment.html",
+      "pubDate": "2026-07-11T12:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Jefferies flags buying opportunities as Iran conflict reshapes European energy",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/jefferies-flags-buying-opportunities-as-iran-conflict-reshapes-european-energy-4787254",
+      "pubDate": "2026-07-11T11:57:59.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“고객님 보험사가 화가 많이 났어요”…간편보험 4억 보험금 청구했더니 [어쩌다 세상이]",
+      "summary": "간편보험 고지사항 다 지켜 가입했는데 사망보험금 청구서 내밀자…“기망했다” 法 “사후에 문제 삼는건 타당하지 않아”보험업계의 영업 논리는 종종 모순적입니다. 가입자를 유치할 때는 ..",
+      "link": "https://www.mk.co.kr/news/economy/12096191",
+      "pubDate": "2026-07-11T11:49:15.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“국민들 복수 원해, 반드시 실행할 것”…이란 최고지도자의 다짐",
+      "summary": "아야톨라 모즈타바 하메네이 이란 최고지도자가 개전 초 미국과 이스라엘의 공습에 사망한 부친 아야톨라 알리 하메네이를 비롯한 이번 전쟁 희생자에 대한 복수를 다짐했다. 아야톨라 모즈..",
+      "link": "https://www.mk.co.kr/news/world/12096189",
+      "pubDate": "2026-07-11T11:45:54.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "집에서 400억대 금괴 현금 발견…반부패 스타검사의 몰락, 인니 ‘발칵’",
+      "summary": "인도네시아 반부패 수사의 최고 책임자인 검찰 고위 간부의 집에서 400억원 상당 금괴와 현금이 발견되자 해당 간부가 물러났다. 인도네시아 검찰총장실은 페브리 아드리안샤 검찰청 특수..",
+      "link": "https://www.mk.co.kr/news/world/12096186",
+      "pubDate": "2026-07-11T11:25:37.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] ‘내란 가담’ 강호필 전 육군 지상작전사령관 영장…13일 심사",
+      "summary": "권창영 2차 종합특별검사팀이 ‘내란 가담 의혹’과 관련해 강호필 전 육군 지상작전사령관의 신병 확보에 나섰다. 11일 법조계에 따르면 특검팀은 전날 강 전 사령관에 대해 내란중요임..",
+      "link": "https://www.mk.co.kr/news/society/12096184",
+      "pubDate": "2026-07-11T11:16:10.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“농촌에 60대가 막내라는데, 농사는 누가?”…밭 갈고 딸기 따는 ‘이것’의 정체",
+      "summary": "피지컬AI 농촌 일손 부족 대안 부상 대동, 작은 필지 특화된 무인 트랙터 엔씽, 모듈형 수직농장 기술 강자로 비욘드로보,야간 딸기 수확 신선도↑ 인트플로우, 돼지 출하시기 AI ..",
+      "link": "https://www.mk.co.kr/news/business/12096178",
+      "pubDate": "2026-07-11T10:56:56.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "\"돈 되는 냄새 맡았나\"…주가 급등하자 개미 들썩이는 종목 [종목+]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026071082876",
+      "pubDate": "2026-07-11T10:38:13.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "금고 열자 395억 쏟아졌다…'스타 검사'의 추락",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026071193757",
+      "pubDate": "2026-07-11T10:34:14.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "치과 진료 대기 중 갑자기 쓰러져…부석사 주지 근일 스님 입적",
+      "summary": "경북 영주 부석사 주지인 조계종 명예원로의원 근일 대종사가 11일 입적했다고 대한불교조계종이 전했다. 세수 86세, 법랍 66년. 11일 경찰과 소방당국 등에 따르면 근일 스님은 ..",
+      "link": "https://www.mk.co.kr/news/society/12096163",
+      "pubDate": "2026-07-11T10:29:10.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "100세에도 매일 연습한 日 피아니스트…105세로 영면",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026071193677",
+      "pubDate": "2026-07-11T10:08:03.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
     {
       "title": "“재산세도 할부됩니다”…카드로 세금 똑똑하게 내는 법, 따로 있다",
       "summary": "카드 납부해도 지방세 수수료 ‘0원’ 주요 카드사 무이자·부분무이자 행사 포인트 사용·실적 인정 여부는 확인해야매년 7월이면 어김없이 재산세 고지서가 날아온다. 목돈이 한 번에 빠..",
@@ -12,16 +412,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-      "summary": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
-      "link": "https://www.cnbc.com/2026/07/11/trump-threat.html",
-      "pubDate": "2026-07-11T09:36:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -65,7 +455,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "'50조 클럽' 눈앞인데…현대차 주가 전망 엇갈린 이유 [투자톡]",
+      "title": "\"로봇 믿고 쓸어담았는데\"…증권가 전망에 개미들 '대혼란' [투자톡]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026070963046",
       "pubDate": "2026-07-11T08:51:09.000Z",
@@ -75,114 +465,14 @@
       "isMarketRelated": false
     },
     {
-      "title": "“의료쇼핑에 정작 필요한 사람까지 피해”…제한 생긴 ‘도수치료’의 주요쟁점",
-      "summary": "보험사, 도수치료비 지급 보류 상담 “보험금 지급사유 조사할 수 있어” 이달부터 도수치료 진료가격 통일이달부터 도수치료의 1회당 진료비용이 4만3850원·연간 15회(주2회) 제한..",
-      "link": "https://www.mk.co.kr/news/economy/12096114",
-      "pubDate": "2026-07-11T08:37:12.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "앞차 들이받은 충격으로 5대 연쇄 추돌…1명 심정지 9명 부상",
-      "summary": "세종포천고속도로 포천 방향 고덕터널에서 11일 오후 2시20분께 승용차 2대, 스포츠유틸리티차량(SUV) 2대, 승합차 1대 등 5대가 연쇄 추돌했다. 이 사고로 K5 승용차 탑승..",
-      "link": "https://www.mk.co.kr/news/society/12096111",
-      "pubDate": "2026-07-11T08:29:30.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "20여분 만에 불 껐지만…승용차 안에 1명 숨진채 발견",
-      "summary": "주차된 승용차 안에서 1명이 숨진채 발견됐다. 11일 소방 당국에 따르면 이날 오후 2시 22분께 충남 당진시 면천면에 주차돼 있던 승용차에서 화재가 발생했다. 소방 당국은 20여..",
-      "link": "https://www.mk.co.kr/news/society/12096099",
-      "pubDate": "2026-07-11T07:55:00.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“우리도 국민이다”…공무원·교사들이 거리로 나온 이유",
-      "summary": "임금 인상과 정년 이후 연금 소득 공백 해소 등 처우 개선을 촉구하는 공무원·교원 노동조합의 대규모 도심 집회가 11일 열렸다. 전국공무원노동조합(전공노), 대한민국공무원노동조합총..",
-      "link": "https://www.mk.co.kr/news/society/12096098",
-      "pubDate": "2026-07-11T07:53:29.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“맛있는거 많고 한국인 없고 아름답다”…조민이 간 휴양지, 어디길래",
-      "summary": "조국 전 조국혁신당 대표의 딸이자 유튜버로 활동중인 조민씨가 그리스 크레타섬에서 휴가를 보내는 모습을 공개했다. 조씨는 10일 자신의 인스타그램에 “크레타섬, 맛있는거 많고 한국인..",
-      "link": "https://www.mk.co.kr/news/world/12096087",
-      "pubDate": "2026-07-11T07:11:13.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "최소 14명 남성과…라스베이거스 간 중국女, 도박자금 마련하려고 한 짓",
-      "summary": "도박 자금을 마련하기 위해 최소 14명의 남성과 결혼한 중국 여성이 유죄를 인정했다. 11일 홍콩 사우스차이나모닝포스트(SCMP)에 따르면 법원은 33세 지잉 첸이 지난 7일 라스..",
-      "link": "https://www.mk.co.kr/news/world/12096081",
-      "pubDate": "2026-07-11T06:54:34.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "추미애 “검찰개혁 9부 능선서 흔들려선 안 돼…장윤기 사건은 이해충돌 문제”",
-      "summary": "추미애 경기도지사는 11일 ‘광주 여고생 살해범’ 장윤기 사건을 둘러싼 경찰의 수사 비위·유착 논란과 관련해 “검찰개혁의 마지막 9부 능선을 앞두고 흔들려서는 안 된다”고 밝혔다...",
-      "link": "https://www.mk.co.kr/news/society/12096080",
-      "pubDate": "2026-07-11T06:51:54.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "트럼프 “이란이 내 암살 시도하면 몰살”...이란 미국 또 강대강 대치",
-      "summary": "트럼프 “수천기 미사일 이란 향해 장전” 이란 “미국 도발시 전면 방어전...항복 절대 없어”미국이 이란과의 휴전 종료를 공식 선언하면서 미국과 이란의 강대강 대치 국면이 다시 시..",
-      "link": "https://www.mk.co.kr/news/world/12096077",
-      "pubDate": "2026-07-11T06:32:38.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "\"美 명문대 안 갈래요\"…18세 베트남 영재가 한국 택한 이유",
+      "title": "\"한국 KAIST 갈래요\"…베트남 영재, 서울 아닌 대전 택한 이유",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026071192807",
       "pubDate": "2026-07-11T06:28:06.000Z",
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“집 전체가 어두워져”…도경완, ‘장윤정 친모 논란’ 후 첫 심경",
-      "summary": "방송인 도경완이 아내이자 가수인 장윤정의 모친 논란 후 솔직한 심경을 밝혔다. 11일 유튜브 채널 ‘도장TV’에는 ‘그리고 가족’이라는 제목의 영상이 업로드 됐다. 해당 영상에는 ..",
-      "link": "https://www.mk.co.kr/news/society/12096075",
-      "pubDate": "2026-07-11T06:21:26.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "[속보] 경북 경산 기온 한때 40도 육박…전국 폭염에 휩싸여",
-      "summary": "11일 경북 경산시 하양읍의 낮 기온이 한때 40도에 육박하는 등 전국이 폭염에 휩싸였다. 11일 기상청 자동기상관측장비(AWS) 기록에 따르면 이날 오후 2시 23분쯤 하양읍의 ..",
-      "link": "https://www.mk.co.kr/news/society/12096072",
-      "pubDate": "2026-07-11T06:12:48.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
+      "isMarketRelated": true
     },
     {
       "title": "'카드게임'의 고수는 어떻게 '주식투자' 고수가 됐나 [김정남의 주식투자 프레임]",
@@ -395,26 +685,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "Apple sues OpenAI for alleged theft of confidential info — and says that’s just ‘the tip of the iceberg’",
-      "summary": "The iPhone maker claims “misconduct is normalized and exemplified by leadership” at OpenAI.",
-      "link": "https://www.marketwatch.com/story/apple-sues-openai-for-institutional-misconduct-and-alleges-thats-just-the-tip-of-the-iceberg-6e803c4d?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T23:06:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Wall Street ends higher as investors turn to earnings season",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/sp-500-nasdaq-futures-slip-as-investors-eye-sk-hynix-listing-middle-east-risks-4785654",
-      "pubDate": "2026-07-10T23:00:36.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
       "title": "\"삼성은 왜 ADR 안하나요\"…증권가 \"가능성 낮을 것\" 이유 봤더니",
       "summary": "",
       "link": "https://www.hankyung.com/article/202607107976i",
@@ -445,36 +715,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "California cannot seek damages from 23andMe successor over 2023 data breach",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/california-cannot-seek-damages-from-23andme-successor-over-2023-data-breach-4787108",
-      "pubDate": "2026-07-10T22:24:37.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Meta’s stock roars back to life as it notches its best week in years",
-      "summary": "Investors are bullish on Meta’s new low-cost AI pricing and infrastructure plans.",
-      "link": "https://www.marketwatch.com/story/metas-stock-roars-back-to-life-as-it-heads-for-its-best-week-in-years-0ff0fa7d?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T22:24:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "SK Hynix’s stock sees double-digit pop in Nasdaq debut",
-      "summary": "The South Korean memory-chip company’s new American depositary receipts began trading on Friday and logged gains of nearly 13%.",
-      "link": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T22:18:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "\"휴전 끝났다\" 트럼프 통보에 이란도 \"항복 없다\"…강대강 대치",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026071189777",
@@ -485,180 +725,10 @@
       "isMarketRelated": true
     },
     {
-      "title": "Trump admin eases export controls for UAE; Warren blasts 'corrupt' provision",
-      "summary": "The Commerce Department will favorably review exports involving MGX, which used a stablecoin linked to President Trump's family for a $2B Binance inve",
-      "link": "https://www.cnbc.com/2026/07/10/trump-uae-mgx-crypto-export-commerce-warren.html",
-      "pubDate": "2026-07-10T22:02:04.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Holtec Nuclear Corporation files for US IPO",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/holtec-nuclear-corporation-files-for-us-ipo-4787063",
-      "pubDate": "2026-07-10T21:48:54.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "New York Times countersues US employment agency over DEI lawsuit",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/new-york-times-countersues-us-employment-agency-over-its-diversity-and-hiring-lawsuit-4786802",
-      "pubDate": "2026-07-10T21:42:53.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘I’d hate to end up with an unexpected tax bill’: I’m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "summary": "“I’m actually earning more each week than I ever have before.”",
-      "link": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T21:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "The AI race is shifting from bigger models to cheaper, smarter systems",
-      "summary": "Companies are starting to choose AI models by task, cost and control, not just leaderboard rank.",
-      "link": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html",
-      "pubDate": "2026-07-10T21:27:18.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘I get $1,460 in Social Security’: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
-      "summary": "“I have very little money, while my ex’s financial statements show assets in the millions.”",
-      "link": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T21:12:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "My insurance company said my roof lost a few tiles. Loss adjusters found $10,000 in storm damage. How could this happen?",
-      "summary": "“My house shook violently from the wind.”",
-      "link": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T21:11:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "OpenAI power consolidates under co-founder Greg Brockman ahead of prospective IPO",
-      "summary": "With Fidji Simo's official departure from OpenAI due to a chronic medical issue, Greg Brockman's role has become clearer.",
-      "link": "https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html",
-      "pubDate": "2026-07-10T20:51:09.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "SK Hynix rises 13% in Nasdaq debut. Chairman tells CNBC 'demand is enormous'",
-      "summary": "SK Hynix has soared to a trillion-dollar market cap by serving some of the biggest names in technology, including Nvidia and Apple.",
-      "link": "https://www.cnbc.com/2026/07/10/sk-hynix-skhy-stock-nasdaq.html",
-      "pubDate": "2026-07-10T20:34:32.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%",
-      "summary": "Stablecoin issuer Circle surged in premarket trading after the U.S. Office of the Comptroller of the Currency granted it approval to operate as a trus",
-      "link": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
-      "pubDate": "2026-07-10T20:01:29.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Summer travel season is here: Make this vital purchase before your next vacation",
-      "summary": "8 things I learned about travel expenses after a family tragedy",
-      "link": "https://www.marketwatch.com/story/8-things-i-learned-about-travel-expenses-after-a-family-tragedy-1bbb024f?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T19:40:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision?",
-      "summary": "CD rates are at a standstill, but that could change after the next Fed meeting, or the one after that.",
-      "link": "https://www.marketwatch.com/story/should-you-lock-in-a-4-cd-rate-now-heres-how-to-decide-on-the-next-move-for-your-cash-41a7ef4c?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T19:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "Trump says he won't sign housing bill, which would become law automatically",
       "summary": "Congress passed the housing bill in June with strong bipartisan support amid concerns of rising home prices and institutional investors affecting the ",
       "link": "https://www.cnbc.com/2026/07/10/trump-housing-bill-save-act-law.html",
       "pubDate": "2026-07-10T19:04:32.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "A hedge-fund trade blamed for a massive market blowup in 2024 has made a big comeback, Goldman Sachs says",
-      "summary": "The currency-market carry trade is back — and bigger than it’s been in many years.",
-      "link": "https://www.marketwatch.com/story/a-hedge-fund-trade-blamed-for-a-massive-market-blowup-in-2024-has-made-a-big-comeback-goldman-sachs-says-f2308a78?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T19:04:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Prepare for the Fed to undo rate cuts that stabilized the economy, expert cautions",
-      "summary": "The Federal Reserve likely will take back all the 2025 ‘insurance cuts’ or not raise interest rates at all, according to RBC Wealth Management.",
-      "link": "https://www.marketwatch.com/story/prepare-for-the-fed-to-undo-rate-cuts-that-stabilized-the-economy-expert-cautions-bc36ea76?mod=mw_rss_topstories",
-      "pubDate": "2026-07-10T19:02:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Trump purges Election Assistance Commission members, months before midterms",
-      "summary": "The White House said the Supreme Court's ruling allowing President Trump to fire FTC Commissioner Louise Slaughter provided the precedent for the remo",
-      "link": "https://www.cnbc.com/2026/07/10/trump-purges-election-assistance-commission.html",
-      "pubDate": "2026-07-10T18:05:24.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Senate Democrats want hearings on Trump’s crypto holdings and foreign investors",
-      "summary": "Democratic Senators cited $1.4 billion in Trump family crypto income, unidentified investors and a reported UAE-backed stake in World Liberty Financia",
-      "link": "https://www.cnbc.com/2026/07/10/trump-crypto-senate-democrats.html",
-      "pubDate": "2026-07-10T17:44:17.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Traders fall back in love with Meta. Here's where bulls see it going",
-      "summary": "Meta Platform's AI efforts are looking like the recipe for a comeback after an almost year-long drought in shares of the $1.7 trillion market-cap comp",
-      "link": "https://www.cnbc.com/2026/07/10/traders-fall-back-in-love-with-meta-heres-where-bulls-see-it-going.html",
-      "pubDate": "2026-07-10T17:40:29.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
@@ -695,66 +765,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "초강수 둔 트럼프 \"이란에 휴전 끝났다고 통보했다\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202607118896i",
-      "pubDate": "2026-07-10T15:18:14.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "최태원 \"AI 메모리 수요, 기하급수적 증가…생산 두 배 늘려도 부족\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202607108890i",
-      "pubDate": "2026-07-10T15:08:09.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "[속보] 트럼프 \"이란과 휴전 끝났다\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202607118895i",
-      "pubDate": "2026-07-10T15:07:40.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "These are America's 10 cheapest states for 2026, where you can still beat inflation",
-      "summary": "These are America's cheapest states to live in for 2026, where residents can still beat inflation.",
-      "link": "https://www.cnbc.com/2026/07/10/americas-10-cheapest-places-to-live-top-states-for-business.html",
-      "pubDate": "2026-07-10T14:50:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "These are America's 10 most expensive states for 2026, where inflation is punishing residents",
-      "summary": "These 10 U.S. states are the most expensive places to live in America in 2026, with inflation punishing residents to an extreme degree.",
-      "link": "https://www.cnbc.com/2026/07/10/10-most-expensive-places-to-live-america-top-states-for-business.html",
-      "pubDate": "2026-07-10T13:56:43.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "The Club's top 10 things to watch in the stock market Friday",
-      "summary": "Stocks futures are flat after Thursday's rally, while SK Hynix is set to debut on the Nasdaq.",
-      "link": "https://www.cnbc.com/2026/07/10/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
-      "pubDate": "2026-07-10T13:30:28.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "JP모간 뉴욕본사 태극기로 덮었다…월가 홀린 SK하이닉스 [종목+]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026071083056",
@@ -789,16 +799,6 @@
       "summary": "",
       "link": "https://www.hankyung.com/article/2026071085751",
       "pubDate": "2026-07-10T09:18:30.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "DS운용 첫 '코스닥 액티브 ETF' 출시",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026071085761",
-      "pubDate": "2026-07-10T09:17:03.000Z",
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
