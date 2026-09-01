@@ -1,17 +1,30 @@
 {
-  "date": "2026년 9월 1일",
-  "headline": "유로존 8월 물가 3.3%로 급등…3년來 최고 … 금리인상 압박",
+  "date": "2026년 9월 2일",
+  "headline": "유로존 인플레 3년만에 최고",
   "tags": [
-    "#10-year",
-    "#Livestre",
-    "#유로존8월물",
-    "#FAAprop",
-    "#Appleal",
-    "#Vanguard"
+    "#U.S.str",
+    "#Buythes",
+    "#‘It’sno",
+    "#S&Pshar",
+    "#WhyMicr",
+    "#WhyisE"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "유로존 인플레 3년만에 최고",
+      "desc": "유로존 인플레 3년만에 최고",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "유로존 인플레 3년만에 최고",
+          "url": "https://www.hankyung.com/article/2026090178091"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
       "title": "유로존 8월 물가 3.3%로 급등…3",
       "desc": "유로존(유로화 사용 21개국)의 지난달 물가 상승률이 중동 전쟁에 따른 에너지 가격 급등으로 3년 만에 최고치를 기록했다. 1일(현지시간) 유럽연합(EU) 통계기구 유로스타트에 따..",
       "links": [
@@ -37,7 +50,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "도쿄서 마주 앉은 韓·日…AI·핵심광",
       "desc": "제5차 경제안보대화 개최한일 양국은 1일 일본 도쿄에서 제5차 한일 경제안보대화를 열고 양국 간 경제 안보 협력 강화 방안을 논의했다고 청와대가 밝혔다. 이번 회의에는 한국 측 김..",
       "links": [
@@ -74,19 +87,6 @@
           "url": "https://www.hankyung.com/article/2026090173701"
         }
       ]
-    },
-    {
-      "icon": "📰",
-      "title": "빅테크 AI투자 광풍…무이자 전환사채",
-      "desc": "빅테크 AI투자 광풍…무이자 전환사채 '역대 최대'",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "빅테크 AI투자 광풍…무이자 전환사채 '역대 최대'",
-          "url": "https://www.hankyung.com/article/2026090174321"
-        }
-      ]
     }
   ],
   "experts": [
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "유로존 8월 물가 3.3%로 급등…3년來 최고 … 금리인상 압박",
+      "desc": "유로존 인플레 3년만에 최고",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+      "desc": "U.S. strikes Iran after new Hormuz Strait shipping attacks: Centcom",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "FAA proposes flight restrictions near Trump Palm Beach airport / Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+    "summary": "Canada's Carney slaps Trump admin for 'doing memes ... throwing shade' / 횡설수설 트럼프…\"경제 상황 좋으니 기준금리 낮추자\"",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-09-01T13:48:46.546Z",
-  "updatedAtKST": "2026-09-01 22:48:46 KST",
-  "ogImage": "https://images.unsplash.com/photo-1678070838781-18aeac8389f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgyNzA1MjZ8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-09-01T18:04:52.044Z",
+  "updatedAtKST": "2026-09-02 03:04:52 KST",
+  "ogImage": "https://images.unsplash.com/photo-1756083895945-a37995995b2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgyODU4OTJ8&ixlib=rb-4.1.0&q=80&w=1080"
 }
