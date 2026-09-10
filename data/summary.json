@@ -1,17 +1,69 @@
 {
-  "date": "2026년 9월 10일",
-  "headline": "[속보] 국제유가 고공행진…WTI도 배럴당 100달러 돌파",
+  "date": "2026년 9월 11일",
+  "headline": "Fed가 금리 올린다면 뉴욕 증시에서 벌어질 일 [김현석의 퀵 브리프]",
   "tags": [
-    "#Canadian",
-    "#Amazong",
-    "#U.S.cru",
-    "#Mymothe",
-    "#Wealthy",
-    "#Chemours"
+    "#Humansn",
+    "#Fordpla",
+    "#OpenAIl",
+    "#Investor",
+    "#OpenAId",
+    "#OpenAIt"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "Fed가 금리 올린다면 뉴욕 증시에서",
+      "desc": "Fed가 금리 올린다면 뉴욕 증시에서 벌어질 일 [김현석의 퀵 브리프]",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "Fed가 금리 올린다면 뉴욕 증시에서 벌어질 일 [김현",
+          "url": "https://www.hankyung.com/article/202609117709i"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "중동發 인플레…ECB, 올해 두 번째",
+      "desc": "중동發 인플레…ECB, 올해 두 번째 금리 인상",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "중동發 인플레…ECB, 올해 두 번째 금리 인상",
+          "url": "https://www.hankyung.com/article/2026091076751"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "이란 전쟁에 물가 다시 뛰자…ECB,",
+      "desc": "이란 전쟁에 물가 다시 뛰자…ECB, 올해 두 번째 금리 인상",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "이란 전쟁에 물가 다시 뛰자…ECB, 올해 두 번째 금",
+          "url": "https://www.hankyung.com/article/202609107669i"
+        }
+      ]
+    },
+    {
+      "icon": "📰",
+      "title": "[속보] 美 30년물 국채금리 5.3",
+      "desc": "미국의 장기 국채금리가 치솟고 있다. 국제유가가 배럴당 100달러를 넘어선 가운데 생산자물가까지 크게 오르면서 인플레이션 우려가 다시 커진 영향이다. 10일(현지시간) 미 국채 3..",
+      "links": [
+        {
+          "src": "매일경제",
+          "color": "#c8281f",
+          "title": "[속보] 美 30년물 국채금리 5.35%로 급등…200",
+          "url": "https://www.mk.co.kr/news/world/12149915"
+        }
+      ]
+    },
+    {
+      "icon": "📰",
       "title": "[속보] 국제유가 고공행진…WTI도 ",
       "desc": "미국과 이란 간 무력 충돌이 격화하면서 브렌트유에 이어 서부 텍사스산 원유(WTI)도 10일(현지시간) 배럴당 100달러를 넘어섰다. 이날 오전 8시 32분 기준 뉴욕상업거래소에서..",
       "links": [
@@ -24,7 +76,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "베선트 약발 안먹힌다…60억달러 바이",
       "desc": "발표 불구 채권금리 일제히 상승 “투자자들, 3배 늘렸어도 실망” 유가급등에 인플레 우려 확산미국 재무부가 종전보다 3배 늘어난 60억달러 규모의 바이백(조기 매입) 방침을 밝혔지..",
       "links": [
@@ -33,58 +85,6 @@
           "color": "#c8281f",
           "title": "베선트 약발 안먹힌다…60억달러 바이백 언급에도 국채금",
           "url": "https://www.mk.co.kr/news/economy/12149897"
-        }
-      ]
-    },
-    {
-      "icon": "📊",
-      "title": "관세전쟁으로 번 돈, 트럼프 탄핵막는",
-      "desc": "예산 최소 1조달러 넘을 가능성 ‘역대 최저 지지율’ 판세 반영한듯 연설서 1시간50여분간 자화자찬 NYT “트럼프, 선거자금 투입 본격화” 민주당도 댈러스서 맞불행사 이어가도널드..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "관세전쟁으로 번 돈, 트럼프 탄핵막는 데 쓴다…‘1조달",
-          "url": "https://www.mk.co.kr/news/world/12149896"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "[속보] ECB 금리 인상…예금금리 ",
-      "desc": "유럽중앙은행(ECB)이 10일(현지시간) 에너지 가격을 비롯한 물가 상승에 대응해 3대 정책금리를 0.25%포인트씩 인상했다. ECB는 이날 독일 베를린에서 통화정책회의를 열고 예..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "[속보] ECB 금리 인상…예금금리 연 2.50%로 0",
-          "url": "https://www.mk.co.kr/news/world/12149880"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "삼전닉스 있는데 한국이 불리?…203",
-      "desc": "메모리반도체 초과 공급 시나리오‘멸망전’이라는 단어를 아시나요? e스포츠에서 자주 쓰이는 이 단어는 ‘상대방이 완전히 멸망할때까지 하는 게임’이라는 뜻입니다. 주로 게임계에서 쓰이..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "삼전닉스 있는데 한국이 불리?…2030년 반도체 멸망전",
-          "url": "https://www.mk.co.kr/news/business/12149832"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "'대어' 무신사, 내년 코스피 입성 ",
-      "desc": "'대어' 무신사, 내년 코스피 입성 추진…'10조 몸값' 가능할까 [분석+]",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "'대어' 무신사, 내년 코스피 입성 추진…'10조 몸값",
-          "url": "https://www.hankyung.com/article/2026091058036"
         }
       ]
     }
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "[속보] 국제유가 고공행진…WTI도 배럴당 100달러 돌파",
+      "desc": "Fed가 금리 올린다면 뉴욕 증시에서 벌어질 일 [김현석의 퀵 브리프]",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "Canadian whisky on the rocks? Crown Royal is set to avoid Trump’s new ban.",
+      "desc": "Humans need to 'surf the wave' of AI rather than get swallowed by it, Chesky says at Communacopia",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "Canadian whisky on the rocks? Crown Royal is set to avoid Trump’s new ban. / Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback",
+    "summary": "Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback / 관세전쟁으로 번 돈, 트럼프 탄핵막는 데 쓴다…‘1조달러 돈선거’ 예고",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-09-10T13:13:38.676Z",
-  "updatedAtKST": "2026-09-10 22:13:38 KST",
-  "ogImage": "https://images.unsplash.com/photo-1678070838786-10c44b149089?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkwNDYwMTl8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-09-10T17:58:34.948Z",
+  "updatedAtKST": "2026-09-11 02:58:34 KST",
+  "ogImage": "https://images.unsplash.com/photo-1782330301019-5fc4ab9710a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkwNjMxMTV8&ixlib=rb-4.1.0&q=80&w=1080"
 }
