@@ -1,173 +1,273 @@
 {
-  "updatedAt": "2026-09-14T15:28:17.091Z",
-  "updatedAtKST": "2026-09-15 00:28:17 KST",
-  "totalCount": 80,
-  "marketRelatedCount": 43,
+  "updatedAt": "2026-09-14T19:41:57.695Z",
+  "updatedAtKST": "2026-09-15 04:41:57 KST",
+  "totalCount": 70,
+  "marketRelatedCount": 38,
   "items": [
     {
-      "title": "Novo Nordisk rebrands to 'Novo,' CEO tells CNBC drugmaker needs to 'rethink' strategy amid obesity race",
-      "summary": "The Danish drugmaker called the changes the beginning of a new chapter for the company, which faces stiff competition from Eli Lilly.",
-      "link": "https://www.cnbc.com/2026/09/14/novo-nordisk-rebrands-to-novo-ceo-mike-doustdar.html",
-      "pubDate": "2026-09-14T15:21:47.000Z",
+      "title": "The stock market could do something strange this week after the Fed decision",
+      "summary": "Odds of more interest rate hikes coming this year have grown.",
+      "link": "https://www.cnbc.com/2026/09/14/the-stock-market-could-do-something-strange-this-week-after-the-fed-decision.html",
+      "pubDate": "2026-09-14T19:34:18.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "10-year Treasury yield tops 5% for the first time since 2007 as bond-market selloff deepens",
-      "summary": "The benchmark 10-year Treasury yield touched the crucial 5% threshold on Monday, with oil prices marching higher, jitters about artificial intelligenc",
-      "link": "https://www.marketwatch.com/story/10-year-treasury-yield-tops-5-for-the-first-time-since-2007-as-bond-market-selloff-deepens-14c81f75?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T15:21:00.000Z",
-      "source": "MarketWatch",
+      "title": "“아프니까 청춘, 수라장 겪어야 사장” … CEO 벼려내는 일본",
+      "summary": "[JAPAN CLOSER] 30대부터 후보군 관리…연공서열 넘은 승계전쟁일본 기업들이 ‘사장을 만드는 법’을 바꾸고 있다. 과거에는 한 회사에 오래 몸담으며 주요 보직을 거친 인물..",
+      "link": "https://www.mk.co.kr/news/business/12152143",
+      "pubDate": "2026-09-14T19:30:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Why is Roblox stock surging today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-roblox-stock-surging-today-93CH-4900261",
+      "pubDate": "2026-09-14T19:25:09.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why is Pinterest stock rising today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-pinterest-stock-rising-today-93CH-4900259",
+      "pubDate": "2026-09-14T19:24:21.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "AVGO, ORCL and MU: comparing three AI infrastructure stocks after a sector selloff",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/avgo-orcl-and-mu-comparing-three-ai-infrastructure-stocks-after-a-sector-selloff-93CH-4900255",
+      "pubDate": "2026-09-14T19:20:47.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Alphabet C breaks Ichimoku cloud near Fibonacci resistance: Live",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/alphabet-c-stuck-in-chop-zone-at-341-hourly-levels-93CH-4899897",
+      "pubDate": "2026-09-14T19:18:21.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Tesla wedged at $359 as bull flag nears resolution: Live levels",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/tesla-trapped-in-350370-range-bull-flag-70-done-live-levels-93CH-4899895",
+      "pubDate": "2026-09-14T19:18:14.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Nasdaq 100 coils below 29,750 resistance: Live breakout levels",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/nasdaq-100-coils-in-tight-range-near-doji-live-levels-93CH-4899896",
+      "pubDate": "2026-09-14T19:18:12.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Dow Jones hits triple resistance at 52,901: Live levels",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/dow-jones-tests-50sma-resistance-at-52931-live-levels-93CH-4899894",
+      "pubDate": "2026-09-14T19:18:08.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "AI wind-down risks: the stocks most exposed if frontier labs pull back",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/ai-winddown-risks-the-stocks-most-exposed-if-frontier-labs-pull-back-93CH-4900254",
+      "pubDate": "2026-09-14T19:18:06.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "S&P 500 hits 50% Fib wall at 7,712: Hourly levels",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/sp-500-tests-7710-resistance-in-bullbear-trap-zone-live-93CH-4899890",
+      "pubDate": "2026-09-14T19:17:55.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "SanDisk clings above cloud support amid bearish pressure: Live",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/sandisk-bounces-to-1557-but-double-top-looms-live-levels-93CH-4899888",
+      "pubDate": "2026-09-14T19:17:46.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Apple releases test of redesigned Siri AI before iPhone 18 hits stores this week",
+      "summary": "Following Apple's iPhone launch event last week, the company is releasing a redesigned Siri AI, though users may have to sign up for a waitlist.",
+      "link": "https://www.cnbc.com/2026/09/14/apple-releases-ios-27-redesigned-siri-ai.html",
+      "pubDate": "2026-09-14T19:05:40.000Z",
+      "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "Nasdaq leads U.S. stocks lower on AI development slowdown calls",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-slide-on-calls-to-slow-ai-development-meast-escalation-4898779",
-      "pubDate": "2026-09-14T15:15:31.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
+      "title": "“GTX 생긴다고 덥석 샀다간” … A·B·C 역세권 진짜 수혜지역 어디 [교통망 2편]",
+      "summary": "입지 바꿀 교통망 100가지 사실(29~48)수도권 광역급행철도GTX(A·B·C)는 지난 10년간 수도권 부동산 시장에서 마법의 단어로 통했다. ‘30분 생활권’이라는 구호 하나에..",
+      "link": "https://www.mk.co.kr/news/realestate/12152459",
+      "pubDate": "2026-09-14T19:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
     },
     {
       "title": "Trump says no need for more AI regulation, slams Anthropic CEO Dario Amodei",
       "summary": "The Trump administration has encouraged AI's rapid growth and the development of data centers as it seeks an insurmountable tech edge over China.",
       "link": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html",
-      "pubDate": "2026-09-14T15:13:50.000Z",
+      "pubDate": "2026-09-14T18:59:33.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "Exclusive-Kimberly-Clark prepares asset sales to win EU nod for Kenvue deal, sources say",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/exclusivekimberlyclark-readies-eu-remedies-in-bid-for-kenvue-deal-sources-say-4899229",
-      "pubDate": "2026-09-14T15:13:49.000Z",
-      "source": "Investing.com",
+      "title": "Trump agrees to ethics requirements in crypto Clarity Act as GOP seeks Democratic votes",
+      "summary": "Community banks fear customers will withdraw deposits to buy stablecoin crypto assets that could pay higher yields.",
+      "link": "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html",
+      "pubDate": "2026-09-14T18:56:26.000Z",
+      "source": "CNBC",
       "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Global AI stocks fall as industry chiefs call for slowing development",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/ailinked-asian-stocks-slump-after-top-lab-ceos-call-for-slowing-down-technologys-development-4898809",
-      "pubDate": "2026-09-14T15:13:34.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
+      "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "BYD to produce trucks in Europe in bid to become \"European company\"",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/byd-to-produce-trucks-in-europe-in-bid-to-become-european-company-4899759",
-      "pubDate": "2026-09-14T15:13:01.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Palantir, Nvidia curb AI model use over data fears, The Information reports",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/palantir-nvidia-curb-ai-model-use-over-data-fears-the-information-reports-4899995",
-      "pubDate": "2026-09-14T15:12:37.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Morocco stocks lower at close of trade; Moroccan All Shares down 1.16%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-lower-at-close-of-trade-moroccan-all-shares-down-116-4899991",
-      "pubDate": "2026-09-14T15:10:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Mister Car Wash outlook cut to negative by S&P on dividend debt",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/mister-car-wash-outlook-cut-to-negative-by-sp-on-dividend-debt-93CH-4899987",
-      "pubDate": "2026-09-14T15:07:22.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "CVC-backed Bamboo Insurance targets $3.24 billion valuation in US IPO",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/cvcbacked-bamboo-insurance-targets-313-billion-valuation-in-us-ipo-4899358",
-      "pubDate": "2026-09-14T15:06:33.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "NextEra, Dominion unveil Virginia benefits to win merger approval",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/nextera-dominion-unveil-virginia-benefits-to-win-merger-approval-93CH-4899981",
-      "pubDate": "2026-09-14T15:04:20.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Brent crude tops $109 after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
+      "title": "Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz",
       "summary": "Saudi Arabia has faced escalating attacks from Iran-allied militant groups in recent days.",
       "link": "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html",
-      "pubDate": "2026-09-14T15:01:18.000Z",
+      "pubDate": "2026-09-14T18:55:38.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "‘My total balance should be worth $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
-      "summary": "“I invested on the recommendation of an executive vice president of a major New York investment bank.”",
-      "link": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T15:01:00.000Z",
-      "source": "MarketWatch",
+      "title": "What Amodei's AI slowdown could mean for Anthropic's imminent IPO",
+      "summary": "As Anthropic meets with prospective investors ahead of its potentially historic market debut, CEO Dario Amodei is pushing for a slowdown in AI.",
+      "link": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html",
+      "pubDate": "2026-09-14T18:54:51.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+      "summary": "Traders were pricing in a better than 92% probability of a rate increase, as well as a more than 75% chance for another one in December.",
+      "link": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
+      "pubDate": "2026-09-14T18:50:32.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
+      "summary": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
+      "link": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+      "pubDate": "2026-09-14T18:39:08.000Z",
+      "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
     },
     {
-      "title": "AirBaltic files for Chapter 11 bankruptcy as Iran war costs bite",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/airbaltic-files-for-chapter-11-bankruptcy-in-new-york-4898855",
-      "pubDate": "2026-09-14T15:00:53.000Z",
-      "source": "Investing.com",
+      "title": "Ukraine says it's open to halting attacks on Russian energy after Trump's claims of deal",
+      "summary": "\"The World's Diesel price rise is mostly caused by the Russia/Ukraine War, not Iran,\" Trump said in a social media post.",
+      "link": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-energy-oil-iran.html",
+      "pubDate": "2026-09-14T18:21:45.000Z",
+      "source": "CNBC",
       "lang": "en",
-      "emoji": "💰",
+      "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "현대자동차, AI로 고객 문의 분석 … 지능형 고객센터 전환",
-      "summary": "현대자동차가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 15년 연속 자동차 업종 최우수기업에 선정됐다. 인공지능(AI)을 활용한 고객 문의 분석과..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152163",
-      "pubDate": "2026-09-14T15:00:00.000Z",
-      "source": "매일경제",
+      "title": "Which matters more to stocks: the bond market or AI risks? The volatility gauge might offer an answer",
+      "summary": "Volatility measured by the Cboe VIX Index jumped to 18 Monday.",
+      "link": "https://www.cnbc.com/2026/09/14/which-matters-more-to-stocks-the-bond-market-or-ai-risks-the-volatility-gauge-might-offer-an-answer.html",
+      "pubDate": "2026-09-14T18:01:37.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "The Fed is likely to raise interest rates as inflation persists. What that means for consumers",
+      "summary": "The Federal Reserve is widely expected to raise its benchmark interest rate by a quarter percentage point at its September meeting.",
+      "link": "https://www.cnbc.com/2026/09/14/fed-rate-hike-anticipated-what-it-means-for-your-money.html",
+      "pubDate": "2026-09-14T17:42:05.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
+      "summary": "Michael Khouw breaks down how he's trading this energy name.",
+      "link": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html",
+      "pubDate": "2026-09-14T17:16:23.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Microsoft sets limits for future AI models as industry throttles frontier development",
+      "summary": "Microsoft wants to be seen as a responsible AI entity as it ramps up model development alongside partners Anthropic and OpenAI.",
+      "link": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html",
+      "pubDate": "2026-09-14T16:31:00.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "급부상한 \"AI 규제\" 주장…투자자 대응법 [김현석의 퀵 브리프]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609154310i",
+      "pubDate": "2026-09-14T16:10:37.000Z",
+      "source": "한국경제",
       "lang": "ko",
-      "emoji": "💹",
+      "emoji": "📈",
       "isMarketRelated": true
     },
     {
-      "title": "챗봇부터 사후 코칭까지 전 과정 AI 혁신 … LG유플러스, 상담사·품질관리 AX 확대",
-      "summary": "LG유플러스가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)'에서 AX컨택센터혁신상을 수상했다. LG유플러스가 인공지능(AI)을 활용해 상담부터 품질관리까지 컨..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152148",
+      "title": "보이스봇 상담 완결률 75% 달성 … KT, 생성형 AI로 AICC 고도화",
+      "summary": "KT가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)'에서 AX컨택센터혁신상을 수상했다. KT는 자체 인공지능(AI) 기술에 글로벌 대규모언어모델(LLM)을 결..",
+      "link": "https://www.mk.co.kr/news/special-edition/12152149",
       "pubDate": "2026-09-14T15:00:00.000Z",
       "source": "매일경제",
       "lang": "ko",
@@ -188,6 +288,16 @@
       "title": "LG전자, AX로 진화하는 LG전자 AI 컨택센터",
       "summary": "LG전자가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 7년 연속 가전제품 업종 최우수기업에 선정됐으며, 신설된 가전 구독 업종에서도 업계 최초로 ..",
       "link": "https://www.mk.co.kr/news/special-edition/12152164",
+      "pubDate": "2026-09-14T15:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "현대자동차, AI로 고객 문의 분석 … 지능형 고객센터 전환",
+      "summary": "현대자동차가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 15년 연속 자동차 업종 최우수기업에 선정됐다. 인공지능(AI)을 활용한 고객 문의 분석과..",
+      "link": "https://www.mk.co.kr/news/special-edition/12152163",
       "pubDate": "2026-09-14T15:00:00.000Z",
       "source": "매일경제",
       "lang": "ko",
@@ -235,6 +345,16 @@
       "isMarketRelated": true
     },
     {
+      "title": "카카오뱅크, AI 고도화로 '나의 첫 번째 AI 은행' 완성",
+      "summary": "카카오뱅크가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 3년 연속 인터넷전문은행 업종 우수기업으로 선정됐다. 기술·혁신을 통해 금융과 고객을 연결..",
+      "link": "https://www.mk.co.kr/news/special-edition/12152158",
+      "pubDate": "2026-09-14T15:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
       "title": "시몬스, 상담사 존중 기반 진정성 있는 고객응대 강화",
       "summary": "시몬스가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 2년 연속 침대 업종 우수기업으로 선정됐다. 시몬스는 상담사가 존중받고 정서적으로 안정을 느낄..",
       "link": "https://www.mk.co.kr/news/special-edition/12152157",
@@ -245,29 +365,19 @@
       "isMarketRelated": false
     },
     {
-      "title": "보이스봇 상담 완결률 75% 달성 … KT, 생성형 AI로 AICC 고도화",
-      "summary": "KT가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)'에서 AX컨택센터혁신상을 수상했다. KT는 자체 인공지능(AI) 기술에 글로벌 대규모언어모델(LLM)을 결..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152149",
+      "title": "LX하우시스, 24시간 내 방문 배정부터 영상 상담 · 원스톱 케어",
+      "summary": "LX하우시스가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 6년 연속 인테리어 업종 우수기업으로 선정됐다. KS-CQI 조사에서 인테리어 업종이 신..",
+      "link": "https://www.mk.co.kr/news/special-edition/12152156",
       "pubDate": "2026-09-14T15:00:00.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
+      "isMarketRelated": false
     },
     {
-      "title": "대출상품의 안내와 서류 발급도 AI가 처리 … 신한은행 보이스봇 '완결형 AI 금융상담' 구현",
-      "summary": "신한은행이 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 AI 보이스봇 부문 우수기업으로 선정됐다. 신한은행은 인공지능(AI) 보이스봇을 활용해 금융..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152150",
-      "pubDate": "2026-09-14T15:00:00.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "AI로 더 가까이, 금융상담 서비스 고도화 … KB증권, 챗봇 '깨비AI'로 비대면 접점 혁신",
-      "summary": "KB증권이 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 AI 챗봇 부문 우수기업으로 선정됐다. KB증권은 비대면 금융 거래가 빠르게 늘어나는 흐름에..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152151",
+      "title": "삼성생명, AI 협업형 컨택센터로 고객경험 혁신",
+      "summary": "삼성생명이 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 14년 연속 생명보험 업종 우수기업으로 선정됐다. 상담사의 업무 효율과 상담 품질을 동시에..",
+      "link": "https://www.mk.co.kr/news/special-edition/12152155",
       "pubDate": "2026-09-14T15:00:00.000Z",
       "source": "매일경제",
       "lang": "ko",
@@ -285,66 +395,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "삼성생명, AI 협업형 컨택센터로 고객경험 혁신",
-      "summary": "삼성생명이 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 14년 연속 생명보험 업종 우수기업으로 선정됐다. 상담사의 업무 효율과 상담 품질을 동시에..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152155",
-      "pubDate": "2026-09-14T15:00:00.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "LX하우시스, 24시간 내 방문 배정부터 영상 상담 · 원스톱 케어",
-      "summary": "LX하우시스가 한국표준협회(KSA) 주최 '2026 콜센터품질지수(KS-CQI)' 조사에서 6년 연속 인테리어 업종 우수기업으로 선정됐다. KS-CQI 조사에서 인테리어 업종이 신..",
-      "link": "https://www.mk.co.kr/news/special-edition/12152156",
-      "pubDate": "2026-09-14T15:00:00.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "What Amodei's AI slowdown could mean for Anthropic's imminent IPO",
-      "summary": "As Anthropic meets with prospective investors ahead of its potentially historic market debut, CEO Dario Amodei is pushing for a slowdown in AI.",
-      "link": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html",
-      "pubDate": "2026-09-14T14:52:38.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Clarity Act faces make-or-break Senate vote on Tuesday as crypto industry pushes for bill",
-      "summary": "Community banks fear customers will withdraw deposits to buy stablecoin crypto assets that could pay higher yields.",
-      "link": "https://www.cnbc.com/2026/09/14/clarity-act-senate-vote-crypto-regulation.html",
-      "pubDate": "2026-09-14T14:45:42.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Why the election could make Washington's looming next fiscal crisis harder",
-      "summary": "Some in the GOP are already disavowing raising the debt ceiling absent deep spending cuts as the national debt balloons past $40 trillion.",
-      "link": "https://www.cnbc.com/2026/09/14/election-debt-limit-fiscal-crisis-congress.html",
-      "pubDate": "2026-09-14T14:36:49.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "10-year Treasury yield hits 5% for first time since 2023 as traders brace for Fed decision this week",
-      "summary": "The 10-year U.S. Treasury note yield rose to a multi-year high on Monday ahead of this week's Federal Reserve interest rate decision.",
-      "link": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html",
-      "pubDate": "2026-09-14T14:33:54.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "[속보] 美 10년 만기 국채 금리 5.00% 터치",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026091442927",
@@ -353,26 +403,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record",
-      "summary": "U.S. diesel prices have surpassed $6 a gallon for the first time ever as the Ukraine and Iran wars drive broader energy supply concerns.",
-      "link": "https://www.cnbc.com/2026/09/14/trump-ukraine-russia-diesel-prices-oil.html",
-      "pubDate": "2026-09-14T14:25:00.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Couples with a big age gap need more money — they have to plan for two retirements",
-      "summary": "These are the biggest issues to consider when there’s more than a 10-year age difference.",
-      "link": "https://www.marketwatch.com/story/couples-with-a-big-age-gap-need-more-money-they-have-to-plan-for-two-retirements-1454b8c2?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T14:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "[속보] 트럼프 \"AI에 대한 역겨운 음모…中만 기뻐할 것\"",
@@ -385,64 +415,14 @@
       "isMarketRelated": true
     },
     {
-      "title": "Novo Nordisk is changing its name and its culture to try to compete in the GLP-1 diet-drug wars",
-      "summary": "The Danish drug giant behind Ozempic is competing with Eli Lilly in the market for weight-loss drugs.",
-      "link": "https://www.marketwatch.com/story/novo-drops-nordisk-in-corporate-refresh-to-take-on-lilly-in-the-weight-loss-wars-a406161a?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T14:05:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Here’s how to prepare your portfolio for the Fed’s next interest-rate moves",
-      "summary": "History suggests the bull market in stocks will continue if the Fed raises interest rates this week, but there are things investors can do to take som",
-      "link": "https://www.marketwatch.com/story/heres-how-to-prepare-your-portfolio-for-the-feds-next-interest-rate-moves-ac306c90?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T13:45:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "OpenAI boss Sam Altman spells out how and why the AI industry wants to slow down: 'We could lose control'",
-      "summary": "OpenAI's chief has made comments detailing how AI safety frameworks and a slowdown could work, as the industry unites behind concerns.",
-      "link": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html",
-      "pubDate": "2026-09-14T13:38:48.000Z",
+      "title": "China says AI CEOs' call for a slowdown is 'fear mongering'",
+      "summary": "Chinese state media's reports of the daily press conference also noted that all groups should work together for AI openness and inclusivity.",
+      "link": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html",
+      "pubDate": "2026-09-14T13:18:23.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "Microsoft sets limits for future AI models as industry throttles frontier development",
-      "summary": "Microsoft wants to be seen as a responsible AI entity as it ramps up model development alongside partners Anthropic and OpenAI.",
-      "link": "https://www.cnbc.com/2026/09/14/microsoft-ai-model-limits-anthropic-openai.html",
-      "pubDate": "2026-09-14T13:38:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Micron, Nvidia and other chip stocks fall after tech leaders call for an AI slowdown. Here’s what to know.",
-      "summary": "Analysts don’t expect the push for more responsible AI development to derail data-center spending.",
-      "link": "https://www.marketwatch.com/story/how-investors-are-reacting-to-the-ai-pause-calls-from-anthropic-and-other-frontier-labs-f69391b8?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T13:37:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘He does not have a spouse or children’: My son has a serious genetic disease. What should I do with my $1.3 million estate?",
-      "summary": "“He is also the sole beneficiary of my 403(b) accounts.”",
-      "link": "https://www.marketwatch.com/story/he-does-not-have-a-spouse-or-children-my-son-has-a-serious-genetic-disease-what-should-i-do-with-my-1-3-million-estate-98cdccf9?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T13:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "KRX vs NXT, 첫날 성적표 나왔다…애프터마켓 1.8조씩 '박빙'",
@@ -475,46 +455,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "AI stocks tumble on safety warnings. How to proceed — including 2 names on our shopping list",
-      "summary": "Jim Cramer offers a roadmap to navigate Monday's sell-off in AI stocks.",
-      "link": "https://www.cnbc.com/2026/09/14/ai-stocks-tumble-on-safety-warnings-how-to-proceed-including-2-names-on-our-shopping-list.html",
-      "pubDate": "2026-09-14T12:59:41.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Car ownership costs an average of $5,851 a year on top of auto loan payments, analysis finds",
-      "summary": "The cost of insurance, gas, and maintenance or repairs can add thousands of dollars a year to the price of owning a car.",
-      "link": "https://www.cnbc.com/2026/09/14/car-ownership-costs-insurance-gas-maintenance-auto-loan-payments.html",
-      "pubDate": "2026-09-14T12:15:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "AI has been carrying the stock market. An industry pause could pull the rug out, warns this Wall Street giant.",
-      "summary": "Citigroup warns that if artificial-intelligence model developments slow, earnings revisions could follow, and those have been a crucial factor in stoc",
-      "link": "https://www.marketwatch.com/story/ai-has-carried-the-stock-market-an-industry-pause-could-pull-the-rug-out-warns-this-wall-street-giant-3272c960?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T12:11:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Iran says it destroyed U.S. advanced drone over Hormuz as Middle East conflict intensifies",
-      "summary": "Iran said it downed an advanced American drone over the Strait of Hormuz, as Tehran and Washington trade warnings and strikes with no sign of de-escal",
-      "link": "https://www.cnbc.com/2026/09/14/us-iran-trump-hormuz-gulf-oil-crude-talks-.html",
-      "pubDate": "2026-09-14T12:02:21.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "\"개구리 살려라\" 이 배우 한마디에…480억 사업 '올스톱'",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026091439821",
@@ -525,16 +465,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Oil over $100 has JPMorgan strategists warning stock-market investors against missing out on a sudden turnaround",
-      "summary": "Brent crude and West Texas Intermediate’s front-month contracts rose on Monday after Saudi Arabia closed its East-West pipeline, citing damage cause b",
-      "link": "https://www.marketwatch.com/story/oil-over-100-has-jpmorgan-stock-market-strategists-fearing-a-missing-out-on-a-swift-decline-ba32bfd4?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T11:59:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "\"퇴치한 병 아니었어?\" 30년 만에 최악…사망자까지 나왔다",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026091442077",
@@ -542,16 +472,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "LA Clippers owner Steve Ballmer apologizes over team sanctions",
-      "summary": "Ballmer said that the team is complying with the penalties, has paid the fines, and is \"moving forward.\"",
-      "link": "https://www.cnbc.com/2026/09/14/la-clippers-steve-ballmer-apologizes-kawhi-leonard.html",
-      "pubDate": "2026-09-14T11:34:58.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -565,17 +485,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
-      "summary": "The 10-year Treasury yield is sitting on the doorstep of 5%, and that’s a warning sign for stocks.",
-      "link": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories",
-      "pubDate": "2026-09-14T10:35:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "KRX 애프터마켓 첫날 일부 증권사 앱 '먹통'",
+      "title": "KRX 애프터마켓 첫날 앱 오류나고, 변동성 극심",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026091438961",
       "pubDate": "2026-09-14T09:10:19.000Z",
@@ -625,7 +535,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "김영환 \"박스피 장세…반도체주 비중 50% 지켜야\"",
+      "title": "\"박스피 장세…반도체주 비중 50% 지켜야\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026091438931",
       "pubDate": "2026-09-14T09:06:41.000Z",
@@ -635,14 +545,14 @@
       "isMarketRelated": true
     },
     {
-      "title": "퇴직연금 지키는 핵심 체크리스트 [한경 프리미엄9 TODAY]",
+      "title": "눈높이 올라간 중소형주 5선 [한경 프리미엄9 TODAY]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026091440231",
       "pubDate": "2026-09-14T08:58:08.000Z",
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": true
+      "isMarketRelated": false
     },
     {
       "title": "AI '속도 조절론'…빅샷들 \"개발 늦춰야\"",
@@ -763,16 +673,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "코스피 짓누른 '금리 5% 악몽'…17일 새벽 운명 갈린다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609143176i",
-      "pubDate": "2026-09-14T07:50:28.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
     },
     {
       "title": "닭고기 소비 늘자 식품업계 바빠졌다",
