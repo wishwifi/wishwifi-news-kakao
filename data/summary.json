@@ -1,17 +1,30 @@
 {
-  "date": "2026년 9월 17일",
-  "headline": "트럼프 '에너지 공격 중단' 무색…러·우크라 공방 지속",
+  "date": "2026년 9월 18일",
+  "headline": "[포토] 英 찰스3세, 젠슨황·허사비스와 AI 회의 참석",
   "tags": [
-    "#Whathap",
-    "#Trumpsa",
-    "#Oilpric",
-    "#WallSt",
-    "#U.S.sto",
-    "#Stifeli"
+    "#WhyisT",
+    "#WhyisD",
+    "#FAAwaiv",
+    "#WhyisB",
+    "#Securiti",
+    "#Trumpph"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "[포토] 英 찰스3세, 젠슨황·허사비",
+      "desc": "[포토] 英 찰스3세, 젠슨황·허사비스와 AI 회의 참석",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "[포토] 英 찰스3세, 젠슨황·허사비스와 AI 회의 참",
+          "url": "https://www.hankyung.com/article/2026091724131"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
       "title": "트럼프 '에너지 공격 중단' 무색…러",
       "desc": "트럼프 '에너지 공격 중단' 무색…러·우크라 공방 지속",
       "links": [
@@ -37,19 +50,6 @@
       ]
     },
     {
-      "icon": "📊",
-      "title": "영국, 기준금리 연 3.75%로 동결",
-      "desc": "영국 중앙은행인 잉글랜드은행(BOE)이 17일(현지시간) 기준금리를 연 3.75%로 동결했다. 잉글랜드은행은 지난해 12월 0.25%포인트(p) 인하를 마지막으로, 올해 여섯 차례..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "영국, 기준금리 연 3.75%로 동결...BOE 총재 ",
-          "url": "https://www.mk.co.kr/news/world/12155821"
-        }
-      ]
-    },
-    {
       "icon": "📰",
       "title": "[속보] 영국, 기준금리 연 3.75",
       "desc": "[속보] 영국, 기준금리 연 3.75%로 동결",
@@ -64,19 +64,6 @@
     },
     {
       "icon": "📰",
-      "title": "'20년 아성' 신한銀, 인천시금고 ",
-      "desc": "신한은행이 인천시 제1금고 금고지기 자리를 지켜냈다. 2007년부터 인천시 금고를 관리해 온 신한은행은 이번 재선정으로 2027년부터 2030년까지 4년간 인천시 핵심 재정을 다시..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "'20년 아성' 신한銀, 인천시금고 지켰다",
-          "url": "https://www.mk.co.kr/news/society/12155812"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
       "title": "베선트, 미중 경제수장 회동 앞두고 ",
       "desc": "베선트, 미중 경제수장 회동 앞두고 \"AI 공통 위험 논의 열려 있어\"",
       "links": [
@@ -85,6 +72,19 @@
           "color": "#c8281f",
           "title": "베선트, 미중 경제수장 회동 앞두고 \"AI 공통 위험 ",
           "url": "https://www.hankyung.com/article/2026091723117"
+        }
+      ]
+    },
+    {
+      "icon": "📰",
+      "title": "中 틱톡 운영사의 AI 신약개발사, ",
+      "desc": "中 틱톡 운영사의 AI 신약개발사, 2억9000만달러 투자유치",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "中 틱톡 운영사의 AI 신약개발사, 2억9000만달러 ",
+          "url": "https://www.hankyung.com/article/202609172087i"
         }
       ]
     }
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "트럼프 '에너지 공격 중단' 무색…러·우크라 공방 지속",
+      "desc": "[포토] 英 찰스3세, 젠슨황·허사비스와 AI 회의 참석",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "What happens if you never buy a house? What renters are gaining — and giving up.",
+      "desc": "Why is T-Mobile stock sliding today?",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "Trump says U.S. ‘hopefully’ nearing end of Iran war as Saudi Arabia, Houthis trade strikes / Carney says Canada will decide its own partnerships after Trump calls EU proposal ‘laughable’",
+    "summary": "Trump photo seems to reference Kennedy Center demolition, judge denies emergency hearing bid / 'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-09-17T13:58:00.929Z",
-  "updatedAtKST": "2026-09-17 22:58:00 KST",
-  "ogImage": "https://images.unsplash.com/photo-1567165997981-de4c38f020ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk2NTM0ODF8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-09-17T18:42:53.659Z",
+  "updatedAtKST": "2026-09-18 03:42:53 KST",
+  "ogImage": "https://images.unsplash.com/photo-1782015855555-b4efec15b5dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk2NzA1NzR8&ixlib=rb-4.1.0&q=80&w=1080"
 }
