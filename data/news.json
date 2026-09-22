@@ -1,87 +1,457 @@
 {
-  "updatedAt": "2026-09-22T13:47:30.935Z",
-  "updatedAtKST": "2026-09-22 22:47:30 KST",
+  "updatedAt": "2026-09-22T18:26:18.456Z",
+  "updatedAtKST": "2026-09-23 03:26:18 KST",
   "totalCount": 80,
-  "marketRelatedCount": 38,
+  "marketRelatedCount": 47,
   "items": [
     {
-      "title": "Palo Alto Networks unveils AI-powered cybersecurity service using Claude, GPT models",
+      "title": "Trump administration is examining whether a diesel export ban is feasible, Treasury Secretary says",
+      "summary": "\"We're examining whether it's feasible in terms of the overall refining capacity and whether a full or partial ban would work,\" Bessent said.",
+      "link": "https://www.cnbc.com/2026/09/22/trump-diesel-export-ban-urkaine-russia-iran.html",
+      "pubDate": "2026-09-22T18:25:45.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump slams Iran and Cuba, defends AI growth and recounts record in UN speech",
+      "summary": "The U.S. \"will no longer permit threats to America to gain a foothold anywhere in the Western Hemisphere,\" Trump told the UN leaders.",
+      "link": "https://www.cnbc.com/2026/09/22/trump-un-speech-today.html",
+      "pubDate": "2026-09-22T18:24:57.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+      "summary": "Trump sold tech stocks including Amazon and Microsoft when the Mag 7 stocks popped on July 20, adding $291 billion in market value in one day.",
+      "link": "https://www.cnbc.com/2026/09/22/trump-trades-microsoft-amazon-july-financial-disclosure.html",
+      "pubDate": "2026-09-22T18:24:43.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "No new stock highs, no problem: Options traders bet they're coming in these names",
+      "summary": "Options activity shows traders anticipate fresh highs are around the corner for a handful of names.",
+      "link": "https://www.cnbc.com/2026/09/22/no-new-stock-highs-no-problem-options-traders-bet-theyre-coming-in-these-names.html",
+      "pubDate": "2026-09-22T18:09:32.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Amgen, Vicor among market cap stock movers on Tuesday",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/palo-alto-networks-unveils-aipowered-cybersecurity-service-using-claude-gpt-models-4911064",
-      "pubDate": "2026-09-22T13:44:22.000Z",
+      "link": "https://www.investing.com/news/stock-market-news/amgen-vicor-among-market-cap-stock-movers-on-tuesday-93CH-4911439",
+      "pubDate": "2026-09-22T18:07:14.000Z",
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
       "isMarketRelated": true
     },
     {
-      "title": "Wall Street expects Meta’s AI agent to shape into a new revenue engine",
+      "title": "Goldman Sachs Names Top AI Stock Pick",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-expects-metas-ai-agent-to-shape-into-a-new-revenue-engine-4910768",
-      "pubDate": "2026-09-22T13:43:59.000Z",
+      "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-names-top-ai-stock-pick-93CH-4911438",
+      "pubDate": "2026-09-22T18:06:13.000Z",
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
       "isMarketRelated": true
     },
     {
-      "title": "Nasdaq leads Wall St higher as investors weigh Mideast developments",
+      "title": "US Treasury yields edge up as rate hike bets weigh on markets",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-leads-wall-st-higher-as-investors-weigh-mideast-developments-4911058",
-      "pubDate": "2026-09-22T13:43:04.000Z",
+      "link": "https://www.investing.com/news/stock-market-news/us-treasury-yields-edge-up-as-rate-hike-bets-weigh-on-markets-93CH-4911436",
+      "pubDate": "2026-09-22T18:03:25.000Z",
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
       "isMarketRelated": true
     },
     {
-      "title": "[속보] ‘유가 하락속’ 뉴욕증시 3대 지수 초반 일제히 상승",
+      "title": "Pirelli approves $1.2bn US plant expansion in Georgia",
       "summary": "",
-      "link": "https://www.mk.co.kr/news/world/12159859",
-      "pubDate": "2026-09-22T13:39:24.000Z",
+      "link": "https://www.investing.com/news/stock-market-news/pirelli-approves-12bn-us-plant-expansion-in-georgia-93CH-4911435",
+      "pubDate": "2026-09-22T18:03:07.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Ex-Google safety chief warns AI could harm children more than social media did",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/exgoogle-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-4911398",
+      "pubDate": "2026-09-22T18:01:34.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "PMI data and crude oil inventories highlight Wednesday’s economic calendar",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/pmi-data-and-crude-oil-inventories-highlight-wednesdays-economic-calendar-93CH-4911432",
+      "pubDate": "2026-09-22T18:01:26.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Exclusive-Nth Cycle inks $1 billion minerals offtake with Glencore ahead of public listing",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiventh-cycle-inks-1-billion-minerals-offtake-with-glencore-ahead-of-public-listing-4911393",
+      "pubDate": "2026-09-22T18:01:14.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Autonomous trucking company Aurora looks to accelerate toward profitability",
+      "summary": "Aurora's founder and CEO told CNBC the company is targeting positive free cash flow by 2028, driven by a substantial increase in the number autonomous",
+      "link": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html",
+      "pubDate": "2026-09-22T17:57:36.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Defending against dangerous AI should be a national priority — and we need more AI to do it",
+      "summary": "A rogue state or terrorist organization has little reason to observe an AI slowdown.",
+      "link": "https://www.marketwatch.com/story/defending-against-dangerous-ai-should-be-a-national-priority-and-we-need-more-ai-to-do-it-049e1c88?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T17:52:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Quantum stocks are getting hot again after a brutal summer. Can the rally last?",
+      "summary": "This week’s Quantum World Congress could trigger a ‘sentiment reversal’ for quantum stocks after a rough summer, an analyst said.",
+      "link": "https://www.marketwatch.com/story/quantum-stocks-are-getting-hot-again-after-a-brutal-summer-can-the-rally-last-a8244a66?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T17:42:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "AngloGold Ashanti rating outlook raised to positive by Moody’s",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/anglogold-ashanti-rating-outlook-raised-to-positive-by-moodys-93CH-4911400",
+      "pubDate": "2026-09-22T17:37:32.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Moody’s cuts Mondi rating on weak paper market performance",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/moodys-cuts-mondi-rating-on-weak-paper-market-performance-93CH-4911399",
+      "pubDate": "2026-09-22T17:37:14.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia options are doing something unusual ahead of two catalysts. Here's how one trader is playing it",
+      "summary": "A curious dynamic is happening in shares of Nvidia ahead of two potential catalysts this month.",
+      "link": "https://www.cnbc.com/2026/09/22/nvidia-options-are-doing-something-unusual-ahead-of-two-catalysts-heres-how-one-trader-is-playing-it.html",
+      "pubDate": "2026-09-22T17:36:28.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump snaps at CNN at United Nations: 'You should not be here covering me'",
+      "summary": "CNN, MS NOW and Politico are challenging Trump's ban of them from the White House with a lawsuit alleging he violated their First Amendment rights.",
+      "link": "https://www.cnbc.com/2026/09/22/trump-cnn-un-white-house-media-ban.html",
+      "pubDate": "2026-09-22T17:32:47.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why is Celldex Therapeutics stock sliding today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-celldex-therapeutics-stock-sliding-today-93CH-4911396",
+      "pubDate": "2026-09-22T17:32:22.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Altman and Amodei expected to join UN Security Council meeting about AI",
+      "summary": "President Donald Trump addressed the U.N. General Assembly on Tuesday and pledged to support AI, despite calls to pace advanced models.",
+      "link": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html",
+      "pubDate": "2026-09-22T17:30:27.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "How to avoid the ‘widow tax’ and other financial headaches if your spouse dies",
+      "summary": "A surviving spouse is sometimes left with less income and a higher tax bill. These tax-saving strategies can soften the impact.",
+      "link": "https://www.marketwatch.com/story/how-to-avoid-the-widow-tax-and-other-financial-headaches-if-your-spouse-dies-e51f2af6?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T17:09:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "I have $125,000 in credit-card debt. Will $17,000 a month in income, including disability, affect my bankruptcy?",
+      "summary": "“I racked up this debt to cover my living expenses for two years without an income stream.”",
+      "link": "https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T17:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Want to retire with more money? Leave the country for work early in your career.",
+      "summary": "Gain experiences, memories and a substantial contribution to your future nest egg.",
+      "link": "https://www.marketwatch.com/story/want-to-retire-with-more-money-leave-the-country-for-work-early-in-your-career-7e568d03?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T16:40:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
+      "summary": "Meta’s new assistant is topping App Store charts and beating ChatGPT’s early download pace, spurring renewed confidence in the company’s AI strategy",
+      "link": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T16:24:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+      "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T16:15:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Here's who we know is going to the Trump-Xi dinner so far",
+      "summary": "Very little is known about which Chinese business executives, if any, are expected to attend.",
+      "link": "https://www.cnbc.com/2026/09/22/heres-who-we-know-is-going-to-the-trump-xi-dinner-so-far.html",
+      "pubDate": "2026-09-22T16:13:06.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Sullivan: Wall Street admits it doesn't know where oil is headed. There's one stock they do agree on",
+      "summary": "JPMorgan’s commodity team admitted what many are thinking on the Iran situation and oil: We just don't know.",
+      "link": "https://www.cnbc.com/2026/09/22/sullivan-wall-street-admits-it-doesnt-know-where-oil-is-headed-theres-one-stock-they-do-agree-on.html",
+      "pubDate": "2026-09-22T16:05:57.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Democrats lead the polls. Republicans lead in cash heading into the midterms",
+      "summary": "Republicans hold a $103 million cash advantage across national party committees as the fight for control of Congress enters its final six weeks.",
+      "link": "https://www.cnbc.com/2026/09/22/republicans-democrats-election-fundraising-2026.html",
+      "pubDate": "2026-09-22T15:58:45.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
+      "summary": "Larger AI models and inference are turning NAND from a commodity into a critical component, a Rosenblatt analyst said.",
+      "link": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T15:48:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "This GLP-1 drug helped people maintain their weight loss in a clinical trial — even for those taking it once a month",
+      "summary": "Viking Therapeutics is developing VK2735, a GLP-1/GIP drug that could compete with Eli Lilly’s Zepbound. Its stock is soaring.",
+      "link": "https://www.marketwatch.com/story/this-glp-1-drug-helped-people-maintain-their-weight-loss-in-a-clinical-trial-even-for-those-taking-it-once-a-month-f70929b5?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T15:46:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘She gave a neighbor $2,000’: Social Security overpaid my mother, 82, by $20,000. What else is hiding in her finances?",
+      "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
+      "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
+      "pubDate": "2026-09-22T15:45:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 “이란과 합의할지 소멸시킬지 큰 결정할 것”…북한 거론은 안해",
+      "summary": "도널드 트럼프 미국 대통령이 이란과의 전쟁 상황과 관련해 협상을 통한 합의와 이란의 ‘소멸’을 선택지로 거론했다. 다만 오는 11월 중간선거 직후에는 이란과 합의가 이뤄질 것으로 ..",
+      "link": "https://www.mk.co.kr/news/world/12159884",
+      "pubDate": "2026-09-22T15:34:13.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": true
     },
     {
-      "title": "Wall Street rises at the open as oil falls, Nasdaq hits new record intraday high",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-upbeat-after-ai-rally-falling-oil-boost-wall-st-4909802",
-      "pubDate": "2026-09-22T13:37:19.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
+      "title": "트럼프 “AI 통제하려는 음모시도, 철저하게 거부”",
+      "summary": "“AI, 이제 ‘초지능’으로 불릴 것” 이란 경제고립엔 각국 동참 촉구도널드 트럼프 미국 대통령은 22일(현지시간) “인공지능(AI)을 통제하려는 어떤 세계주의적 음모 시도도 철저..",
+      "link": "https://www.mk.co.kr/news/world/12159883",
+      "pubDate": "2026-09-22T15:15:52.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
       "isMarketRelated": true
     },
     {
-      "title": "Why is Peloton stock rallying today?",
+      "title": "트럼프 \"이란 압박, 단합된 모습 보여야…중간선거 후 합의 이뤄질 것\"",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-peloton-stock-rallying-today-93CH-4911045",
-      "pubDate": "2026-09-22T13:37:12.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
+      "link": "https://www.hankyung.com/article/202609222141i",
+      "pubDate": "2026-09-22T14:56:09.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
       "isMarketRelated": true
     },
     {
-      "title": "Why is Amgen stock surging today?",
+      "title": "[속보] 트럼프 \"선거 직후에 이란과 합의하게 되리라 믿어\"",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-amgen-stock-surging-today-93CH-4911038",
-      "pubDate": "2026-09-22T13:34:31.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
+      "link": "https://www.hankyung.com/article/2026092221447",
+      "pubDate": "2026-09-22T14:47:08.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
       "isMarketRelated": true
     },
     {
-      "title": "Why is Lexeo Therapeutics stock gaining today?",
+      "title": "[속보] 트럼프 \"이란과 합의할지 소멸시킬지 큰 결정할 것\"",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-lexeo-therapeutics-stock-gaining-today-93CH-4911036",
-      "pubDate": "2026-09-22T13:34:14.000Z",
-      "source": "Investing.com",
+      "link": "https://www.hankyung.com/article/2026092221437",
+      "pubDate": "2026-09-22T14:46:28.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] 트럼프 \"다음 대선에 도전 안한다\"…3선 도전 포기",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609222137i",
+      "pubDate": "2026-09-22T14:42:56.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "글로벌 자금은 美·中 가리지 않았다 [박신영의 개장전 요것만]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609222132i",
+      "pubDate": "2026-09-22T14:39:50.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "트럼프 유엔연설서 \"美 핵심국익 수호 위해 군사력 사용할 것\" [이상은의 워싱턴나우]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609222128i",
+      "pubDate": "2026-09-22T14:38:12.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Peloton is revamping its treadmills with new features in the next phase of its turnaround",
+      "summary": "With its new treadmills, Peloton aims to appeal to customers from casual workers to more serious athletes.",
+      "link": "https://www.cnbc.com/2026/09/22/peloton-announces-new-tread-peloton-iq-features.html",
+      "pubDate": "2026-09-22T14:31:21.000Z",
+      "source": "CNBC",
       "lang": "en",
-      "emoji": "💰",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "美주식 주문도 ‘프로처럼’…현지 온라인증권사 플랫폼 담은 다올 Fi PRO",
+      "summary": "글로벌 주문집행 인프라 연결 중간가 주문 등 8종 주문 지원 뉴스 80곳·애널평가 5500개 글로벌 정보·기능 풍부 강점다올투자증권이 미국 온라인 증권사 인터랙티브브로커스(IBKR..",
+      "link": "https://www.mk.co.kr/news/stock/12159873",
+      "pubDate": "2026-09-22T14:27:31.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
+      "summary": "The reports raised hopes of renewed U.S.-Iran diplomacy, with U.S. stock futures mixed and oil prices lower.",
+      "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
+      "pubDate": "2026-09-22T14:05:04.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "'뇌물 혐의' 기소 문재인… 내년 1월 국민참여재판",
+      "summary": "문재인 전 대통령 재판이 내년 1월 국민참여재판으로 진행된다. 문 전 대통령은 전 사위가 항공사에서 받은 급여와 주거비를 뇌물로 수수한 혐의로 기소된 바 있다. 재판부는 문 전 대..",
+      "link": "https://www.mk.co.kr/news/society/12159866",
+      "pubDate": "2026-09-22T14:01:29.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "부담되는 데이터센터 전력비…카카오는 확 낮췄다, 비결이?",
+      "summary": "카카오가 별도의 설비 교체나 증설 없이 데이터센터의 냉방용 전력비를 유의미한 수준으로 감축했다. 카카오가 보유한 데이터센터 운영 요령과 에너지 효율 개선 노력을 바탕으로 장비 가동..",
+      "link": "https://www.mk.co.kr/news/business/12159865",
+      "pubDate": "2026-09-22T13:59:23.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 나스닥 장중 ‘사상 최고치’ 찍었다…미·이란 회담 기대에 4개월만",
+      "summary": "미국 뉴욕증시가 22일(현지시간) 상승세로 출발했다. 기술주 중심의 나스닥지수는 장중 사상 최고치를 갈아치웠다. 투자자들은 6개월째 이어진 미국과 이란 간 전쟁을 끝낼 돌파구가 마..",
+      "link": "https://www.mk.co.kr/news/stock/12159859",
+      "pubDate": "2026-09-22T13:39:24.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
       "isMarketRelated": true
     },
     {
@@ -95,26 +465,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Trump to press Zelenskyy for energy truce, says Russia has ‘lost control’ of oil due to Ukraine war",
-      "summary": "U.S. President Donald Trump said Russia has “lost control” of its diesel oil industry due to the Ukraine war, as he presses Kyiv to agree to an energy",
-      "link": "https://www.cnbc.com/2026/09/22/trump-zelenskyy-ukraine-russia-putin-diesel-oil.html",
-      "pubDate": "2026-09-22T13:30:53.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Peloton stock rises on new foldable treadmill launch",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/peloton-stock-rises-on-new-foldable-treadmill-launch-93CH-4911018",
-      "pubDate": "2026-09-22T13:29:51.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
       "title": "[속보] “트럼프, 조건 맞으면 뉴욕서 이란측과 회담하고 싶어해”",
       "summary": "도널드 트럼프 미국 대통령이 22일(현지시간) 유엔총회가 열리는 뉴욕에서 이란 측과 회담하고 싶어 한다고 CNN이 미 당국자를 인용해 보도했다. 트럼프 대통령은 다만 회담 개최에 ..",
       "link": "https://www.mk.co.kr/news/world/12159854",
@@ -122,26 +472,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
-      "summary": "The reports raised hopes of renewed U.S.-Iran diplomacy, with U.S. stock futures mixed and oil prices lower.",
-      "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
-      "pubDate": "2026-09-22T13:27:53.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Lexeo stock rises on $21.3M Mantle deal for FA therapies",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/lexeo-stock-rises-on-213m-mantle-deal-for-fa-therapies-93CH-4911012",
-      "pubDate": "2026-09-22T13:27:22.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
       "isMarketRelated": true
     },
     {
@@ -155,16 +485,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "With new Macs, Apple aims to take on Microsoft, Nvidia in a rush to lower AI costs",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/with-new-macs-apple-aims-to-take-on-microsoft-nvidia-in-a-rush-to-lower-ai-costs-4910955",
-      "pubDate": "2026-09-22T13:24:48.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
       "title": "[속보] \"트럼프, 조건 맞으면 뉴욕서 이란측과 회담하고 싶어해\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092220967",
@@ -175,43 +495,13 @@
       "isMarketRelated": true
     },
     {
-      "title": "Santoli: The S&P 500 is within striking distance of record as bull relies on familiar leadership",
-      "summary": "Rerun generation, Gen X, seems obsessed with finding parallels between today's market and past cycles, Mike Santoli writes.",
-      "link": "https://www.cnbc.com/2026/09/22/santoli-the-sp-500-is-within-striking-distance-of-record-as-bull-relies-on-familiar-leadership.html",
-      "pubDate": "2026-09-22T13:21:55.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
-      "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
-      "link": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T13:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "380m 화산재 기둥 '펑'…스키 즐기던 칠레 리조트 발칵",
+      "title": "\"스키 타는데 거대한 기둥이…\" 칠레 화산 380m 폭발 '공포'",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092220757",
       "pubDate": "2026-09-22T13:11:09.000Z",
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Circle lands $100 million from Binance to ramp up global USDC expansion",
-      "summary": "Binance will invest $100 million in stablecoin issuer Circle and agreed to promote the stablecoin issuer's flagship USDC on its platform.",
-      "link": "https://www.cnbc.com/2026/09/22/circle-lands-100-million-from-binance-to-ramp-up-global-usdc-expansion-.html",
-      "pubDate": "2026-09-22T13:08:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -275,16 +565,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
-      "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T12:53:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "작지만 빨랐다 … 송세라, 금빛 찌르기",
       "summary": "'왼손 검객' 송세라가 2026 아이치·나고야 아시안게임에서 한국 펜싱 첫 금빛 찌르기에 성공했다. 아시안게임, 올림픽 등 종합 스포츠 대회에서 유독 개인전 금메달 운이 없었던 송..",
       "link": "https://www.mk.co.kr/news/sports/12159834",
@@ -293,96 +573,6 @@
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": true
-    },
-    {
-      "title": "“죽을 때까지 재미있게”…‘네팔의 슈바이처’ 이근후 이화여대 명예교수 별세",
-      "summary": "국내 최초로 사이코드라마 치료법을 시도하고 네팔 오지에서 의료봉사를 펼쳐 ‘네팔의 슈바이처’로 불린 이근후 이화여대 의대 명예교수가 21일 오후 10시10분 서울 종로구 자택에서 ..",
-      "link": "https://www.mk.co.kr/news/society/12159833",
-      "pubDate": "2026-09-22T12:51:25.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Oil prices fall after report Saudi Arabia aims to restart critical pipeline this week",
-      "summary": "Oil prices reversed early gains on Tuesday amid optimism that prospects for a diplomatic solution to the U.S.-Iran war are improving.",
-      "link": "https://www.cnbc.com/2026/09/22/oil-iran-us-bessent-un-crude.html",
-      "pubDate": "2026-09-22T12:43:53.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Princeton’s 15-year run as the nation’s top-ranked university is over. MIT is now No. 1.",
-      "summary": "A change in methodology in the U.S. News rankings helped boost schools where students have high earnings",
-      "link": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T12:43:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“돈 못 벌어 유언비어 퍼뜨렸나?”…여수시, 택시기사 ‘입단속’ 논란",
-      "summary": "전남광주 여수시가 2026 여수세계섬박람회를 둘러싼 비판과 관련해 지역 택시기사들을 유언비어 유포의 진원지로 지목하고, 택시업체에 관련 발언을 자제하도록 교육해달라는 공문을 보내 ..",
-      "link": "https://www.mk.co.kr/news/society/12159824",
-      "pubDate": "2026-09-22T12:39:33.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Novo defends diversification push as CEO eyes deals beyond obesity",
-      "summary": "Novo CEO Mike Doustdar told CNBC that it is considering M&A opportunities as it faces growing competition in the weight-loss market.",
-      "link": "https://www.cnbc.com/2026/09/22/novo-nordisk-ceo-interview-weight-loss-drugs-strategy.html",
-      "pubDate": "2026-09-22T12:32:16.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Kalshi asks CFTC to allow margin trading on its platform, letting users buy with borrowed funds",
-      "summary": "It's the latest move by the company as it and other event contract exchanges seek to gain greater participation by institutional traders.",
-      "link": "https://www.cnbc.com/2026/09/22/kalshi-asks-cftc-to-allow-margin-trading-on-its-platform-letting-users-buy-with-borrowed-funds.html",
-      "pubDate": "2026-09-22T12:28:51.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "[속보] ‘연기 발생’ 이대역 2호선 지하철 운행 재개…인명피해 없어",
-      "summary": "",
-      "link": "https://www.mk.co.kr/news/society/12159816",
-      "pubDate": "2026-09-22T12:26:21.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Wall Street and AI ruined your ‘diversified’ portfolio",
-      "summary": "AI is everywhere, leaving investors exposed if the technology doesn’t pan out as expected.",
-      "link": "https://www.marketwatch.com/story/wall-street-and-ai-ruined-your-diversified-portfolio-f1255373?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T12:24:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "“강력 스티커는 심하잖아” 김구라, 경차 구역 주차 논란에 해명",
-      "summary": "방송인 김구라(55)가 경차 전용 주차구역에 주차했다가 경고스티커를 받은 일화를 둘러싼 논란에 대해 해명했다. 김구라는 지난 21일 유튜브 채널 ‘그리구라’ 라이브 방송을 통해 “..",
-      "link": "https://www.mk.co.kr/news/society/12159814",
-      "pubDate": "2026-09-22T12:20:34.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
     },
     {
       "title": "유가 하락에 8.8% 오른 대한항공...증권가 \"3분기 실적 개선 기대\"",
@@ -395,26 +585,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "“서울 집값·전월세 내년엔 더 오른다”…부동산전문가 50명 만장일치",
-      "summary": "추석 이후 집값… 전문가 설문 ‘3% 이상 상승’ 대세… “내년 상반기까지 집값 상승” 92% 가격영향 요인으로 금리변동·전세 불안수요 증가順 꼽아서울의 집값 상승세가 1년7개월째..",
-      "link": "https://www.mk.co.kr/news/realestate/12159810",
-      "pubDate": "2026-09-22T12:12:36.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
-      "summary": "Muse is gaining popularity and helping convince investors that Meta’s AI bets are paying off.",
-      "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T12:02:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "지드래곤 소속사 대표가 왜?…\"내년 로봇 아이돌도 데뷔\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092218321",
@@ -423,56 +593,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "How this market-beating fund is constantly shifting to keep up with the AI trade",
-      "summary": "An exchange-traded fund that is rebalanced quarterly is doing a better job of keeping up with the artificial-intelligence trade than the broader index",
-      "link": "https://www.marketwatch.com/story/how-this-market-beating-fund-is-constantly-shifting-to-keep-up-with-the-ai-trade-cf8536e0?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T11:55:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Financial conditions are tightening. Here’s why stock investors should pay attention.",
-      "summary": "Widening credit spreads worldwide are a sign that how stocks are valued may be changing for the worse.",
-      "link": "https://www.marketwatch.com/story/financial-conditions-are-tightening-heres-why-stock-investors-should-pay-attention-a7d12134?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T11:48:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Flight disruptions ease at Newark, Philadelphia airports following equipment outage",
-      "summary": "Flight delays continued Tuesday but were far fewer compared with Monday, when an FAA flight data system failed and a damaged cable severed a backup sy",
-      "link": "https://www.cnbc.com/2026/09/22/flight-disruptions-ease-at-newark-philadelphia-after-equipment-outage.html",
-      "pubDate": "2026-09-22T11:47:00.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Autonomous trucking company Aurora looks to accelerate toward profitability",
-      "summary": "Aurora's founder and CEO told CNBC the company is targeting positive free cash flow by 2028, driven by a substantial increase in the number autonomous",
-      "link": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html",
-      "pubDate": "2026-09-22T11:30:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Oil could top $150 a barrel if supplies tighten further, Bank of America warns",
-      "summary": "If disruptions caused by fighting in the Middle East persist into spring 2027, Brent crude could spike above $150 a barrel, strategists at the bank sa",
-      "link": "https://www.marketwatch.com/story/oil-could-top-150-a-barrel-if-supplies-further-tighten-bank-of-america-warns-2fcd5bd3?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T11:26:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "일본 목욕탕 80% 사라져…한국도 3248곳 문 닫았다",
@@ -495,29 +615,9 @@
       "isMarketRelated": false
     },
     {
-      "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-      "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
-      "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T11:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "McDonald's is hosting an investor day as its U.S. business struggles. Here are 4 things to expect",
       "summary": "The presentation comes as McDonald's U.S. business disappointed in its most recent quarter.",
       "link": "https://www.cnbc.com/2026/09/22/mcdonalds-mcd-hosts-investor-day.html",
-      "pubDate": "2026-09-22T11:00:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Peloton is revamping its treadmills with new features in the next phase of its turnaround",
-      "summary": "With its new treadmills, Peloton aims to appeal to customers from casual workers to more serious athletes.",
-      "link": "https://www.cnbc.com/2026/09/22/peloton-announces-new-tread-peloton-iq-features.html",
       "pubDate": "2026-09-22T11:00:01.000Z",
       "source": "CNBC",
       "lang": "en",
@@ -532,16 +632,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
-      "summary": "The lack of clarity around crypto’s regulatory framework hasn’t stopped bitcoin from surging, as investors haven’t abandoned hopes for clearer U.S. ru",
-      "link": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
-      "pubDate": "2026-09-22T10:51:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -585,7 +675,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "AI신약 개발 아이앰빅 뉴욕 증시 IPO 신청",
+      "title": "AI신약 개발 아이앰빅…뉴욕 증시 IPO 신청",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092217151",
       "pubDate": "2026-09-22T09:02:30.000Z",
@@ -665,26 +755,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "美 \"中과 무역휴전 연장 논의\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092217411",
-      "pubDate": "2026-09-22T08:56:36.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "美, 중간선거 앞두고 경유값 '사상 최고'",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092217421",
-      "pubDate": "2026-09-22T08:56:21.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
       "title": "삼아알미늄, AI데이터센터 '숨은 수혜주' 부상",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092217611",
@@ -725,80 +795,10 @@
       "isMarketRelated": false
     },
     {
-      "title": "\"눈이나 제대로 떠\"…황인범, 인종차별 댓글에 사이다 응수",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609221628H",
-      "pubDate": "2026-09-22T08:20:00.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "호르무즈에 묶인 유조선…유가 내려도 휘발유값은 요지부동",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609221551i",
-      "pubDate": "2026-09-22T07:52:57.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "\"한국 팬들 싹 빠졌다\"…'망측 의상' 입었다가 난리 난 日 가수",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609221453H",
-      "pubDate": "2026-09-22T07:24:08.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "제재 뚫은 러 'A7'…글로벌 은행망 통해 69억달러 세탁",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609229830i",
-      "pubDate": "2026-09-22T04:47:09.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Texas Gov. Abbott orders data center permit halt weeks after issuing moratorium",
-      "summary": "Data centers have been a flash point in the 2026 midterm elections, including Abbott's bid for reelection against Democratic state Rep. Gina Hinojosa.",
-      "link": "https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html",
-      "pubDate": "2026-09-21T22:46:26.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
       "summary": "Trump, facing low approval on the economy ahead of the midterm election, has an added incentive to emerge from the summit with China's Xi touting trad",
       "link": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
       "pubDate": "2026-09-21T22:25:33.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Stocks had a great day on the surface. But something alarming occurred not seen since 1999",
-      "summary": "The market just posted major gains, but the latest performance is not as strong as it may seem.",
-      "link": "https://www.cnbc.com/2026/09/21/stocks-had-a-great-day-on-the-surface-but-something-alarming-occurred-not-seen-since-1999.html",
-      "pubDate": "2026-09-21T21:20:41.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Much of Trump’s promised midterm election spending has yet to surface, new filing shows",
-      "summary": "MAGA Inc. entered September with $415.8 million as much of Trump’s promised midterm spending had yet to surface publicly.",
-      "link": "https://www.cnbc.com/2026/09/21/trump-maga-midterm-spending-war-chest.html",
-      "pubDate": "2026-09-21T20:34:33.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
