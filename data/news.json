@@ -1,17 +1,357 @@
 {
-  "updatedAt": "2026-09-23T13:58:51.336Z",
-  "updatedAtKST": "2026-09-23 22:58:51 KST",
+  "updatedAt": "2026-09-23T18:45:22.263Z",
+  "updatedAtKST": "2026-09-24 03:45:22 KST",
   "totalCount": 80,
-  "marketRelatedCount": 39,
+  "marketRelatedCount": 33,
   "items": [
+    {
+      "title": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
+      "summary": "Treasury yields traded higher on Wednesday as new services and manufacturing sector data increased worry of further Federal Reserve rate hikes.",
+      "link": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+      "pubDate": "2026-09-23T18:42:58.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
+      "summary": "A group that advocates for Epstein victims applauded the news that Richard Kahn and Darren Indyke are facing an investigation. No charges have been be",
+      "link": "https://www.cnbc.com/2026/09/23/jeffrey-epstein-estate-executors-investigation.html",
+      "pubDate": "2026-09-23T18:41:23.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "As Trump and Xi meet, Chinese automakers could be a Pandora's box for U.S. auto industry",
+      "summary": "Trump’s meeting with Xi comes as U.S. automakers and lawmakers push to keep restrictions on Chinese vehicles and manufacturers.",
+      "link": "https://www.cnbc.com/2026/09/23/trump-xi-chinese-automakers-us-access.html",
+      "pubDate": "2026-09-23T18:36:11.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Palantir’s stock is heading for its highest close of the year, in a dramatic comeback",
+      "summary": "Palantir’s last earnings report reignited investor enthusiasm, and now the company is basking in the glow of a real-world AI boom.",
+      "link": "https://www.marketwatch.com/story/palantirs-stock-is-heading-for-its-highest-close-of-the-year-in-a-dramatic-comeback-a5fd451d?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T18:31:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "The ingredients for a financial reckoning are all in place",
+      "summary": "A witch’s brew of rising debt levels, higher costs of capital and contagion risks is bubbling.",
+      "link": "https://www.marketwatch.com/story/the-ingredients-for-a-financial-reckoning-are-all-in-place-07520a5d?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T18:24:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Anthropic’s Claude finds new enzyme system",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/anthropics-claude-finds-new-enzyme-system-4913724",
+      "pubDate": "2026-09-23T18:16:36.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval",
+      "summary": "Grail’s Galleri test looks for 50 cancers from a blood draw, but a major study failed to prove it could detect later-stage cancers.",
+      "link": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T18:15:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Google, Wayfair among market cap stock movers on Wednesday",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/google-wayfair-among-market-cap-stock-movers-on-wednesday-93CH-4913716",
+      "pubDate": "2026-09-23T18:07:05.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Businesses are growing at the fastest pace in over four years. Why war and inflation aren’t slowing the U.S. economy down.",
+      "summary": "Expensive gas, higher inflation, a stalemate with Iran and rising interest rates — no matter. The U.S. economy appears to have sped up in the early fa",
+      "link": "https://www.marketwatch.com/story/businesses-are-growing-at-the-fastest-pace-in-over-four-years-why-war-and-inflation-isnt-slowing-the-u-s-economy-down-2e39e7c7?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T18:06:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "McDonald’s is making a historic bet on chicken — and AI — to bring back customers",
+      "summary": "Investors aren’t sold on plans to introduce new McNugget flavors, and an analyst recently noted that McDonald’s has struggled to break through on chic",
+      "link": "https://www.marketwatch.com/story/mcdonalds-is-making-a-historic-bet-on-chicken-and-ai-to-bring-back-customers-43468a53?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T18:02:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Jobless claims, building permits, and new home sales due Thursday",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/jobless-claims-building-permits-and-new-home-sales-due-thursday-93CH-4913711",
+      "pubDate": "2026-09-23T18:00:41.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+      "summary": "“On each of these weekends away, she’s probably spending $500.”",
+      "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T18:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "New Social Security bill would lower retirement age to 60 for some workers",
+      "summary": "Rep. Haley Stevens introduced a bill that would let some workers in physically demanding jobs claim full Social Security retirement benefits at age 60",
+      "link": "https://www.cnbc.com/2026/09/23/social-security-retirement-age-physical-jobs.html",
+      "pubDate": "2026-09-23T17:58:47.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "BHP’s Escondida copper mine in Chile reports fatal accident",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/bhps-escondida-copper-mine-in-chile-reports-fatal-accident-93CH-4913703",
+      "pubDate": "2026-09-23T17:53:33.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes",
+      "summary": "Stocks fall, with the Nasdaq and S&P 500 retreating from record territory as bond yields suddenly jump.",
+      "link": "https://www.marketwatch.com/story/bond-yields-surge-as-wall-street-fears-more-potential-federal-reserve-rate-hikes-eabcd3da?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T17:52:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Fuel prices keep rising — and so do Democrats’ chances of winning both the House and Senate",
+      "summary": "Losses for President Donald Trump’s Republican Party in the midterms are expected in large part because of voters’ frustrations with the elevated cost",
+      "link": "https://www.marketwatch.com/story/fuel-prices-keep-rising-and-so-do-democrats-chances-for-winning-both-the-house-and-senate-c4541380?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T17:49:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Conagra shareholders vote for proposed changes to executive pay",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/conagra-shareholders-vote-for-proposed-changes-to-executive-pay-4913696",
+      "pubDate": "2026-09-23T17:48:27.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Boeing pushes suppliers to adopt automation over craftsman methods",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/boeing-pushes-suppliers-to-adopt-automation-over-craftsman-methods-4913692",
+      "pubDate": "2026-09-23T17:46:15.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "McDonald’s CEO says low traffic and high inflation are here to stay",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/mcdonalds-ceo-says-low-traffic-and-high-inflation-are-here-to-stay-4913687",
+      "pubDate": "2026-09-23T17:40:05.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
+      "summary": "Recent weeks have seen AI safety fears reach new heights. That will be a key focus for the U.S. and Chinese leaders, analysts told CNBC.",
+      "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
+      "pubDate": "2026-09-23T17:39:36.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Iran's president blames U.S., Israel for global instability in defiant UN speech",
+      "summary": "Pezeshkian began his address to the U.N. General Assembly in New York City by holding up photos of children he said were killed by U.S. and Israeli bo",
+      "link": "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+      "pubDate": "2026-09-23T17:38:47.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "TSMC stock analysis: fundamentals, valuation, and key risks",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/tsmc-stock-analysis-fundamentals-valuation-and-key-risks-93CH-4913682",
+      "pubDate": "2026-09-23T17:34:13.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Undervalued tech giants with $1T+ market caps: Samsung leads on fair value upside",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/undervalued-tech-giants-with-1t-market-caps-samsung-leads-on-fair-value-upside-93CH-4913681",
+      "pubDate": "2026-09-23T17:33:33.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Single-client hedge funds attract growing share of capital, Goldman report says",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/singleclient-hedge-funds-attract-growing-share-of-capital-goldman-report-says-4913144",
+      "pubDate": "2026-09-23T17:31:34.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "McDonald's CEO expects high inflation, fewer diner visits are here to stay",
+      "summary": "McDonald's CEO Chris Kempczinski said that he expects that high inflation and flat traffic will continue to weigh on the restaurant industry.",
+      "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-ceo-chris-kempczinksi-inflation.html",
+      "pubDate": "2026-09-23T17:25:26.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
+      "summary": "“She currently has about 15 sitters, all independent contractors.”",
+      "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T17:16:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+      "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "pubDate": "2026-09-23T17:15:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "McDonald's stock falls as it unveils plan to spend big on restaurant upgrades",
+      "summary": "The plans are part of the fast-food giant's new growth strategy, called McDonald's > NEXT.",
+      "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html",
+      "pubDate": "2026-09-23T17:09:22.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[포토] 유엔총회 뜬 이란 외무장관과 트럼프 사위",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092344351",
+      "pubDate": "2026-09-23T16:56:59.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump faces Xi as strains with allies complicate U.S. pressure on China",
+      "summary": "As Trump prepares to meet Xi, strains with U.S. allies are complicating Washington’s efforts to marshal pressure against an increasingly resilient Chi",
+      "link": "https://www.cnbc.com/2026/09/23/trump-xi-china-summit-allies.html",
+      "pubDate": "2026-09-23T16:47:21.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
     {
       "title": "Activist Toms Capital urges Devon Energy in letter to explore alternatives, including a sale",
       "summary": "Toms, which manages just over $4 billion in assets, says in the letter it is now one of Devon's top five shareholders.",
       "link": "https://www.cnbc.com/2026/09/23/activist-toms-capital-urges-devon-energy-in-letter-to-explore-alternatives-including-a-sale.html",
-      "pubDate": "2026-09-23T13:56:06.000Z",
+      "pubDate": "2026-09-23T16:34:36.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "IonQ shares rise after company says it made a major quantum computing breakthrough",
+      "summary": "Shares of quantum computing company IonQ rose following its successful test of the industry's first real-time end-to-end error decoder.",
+      "link": "https://www.cnbc.com/2026/09/23/ionq-shares-rally-after-company-says-it-made-a-major-quantum-computing-breakthrough.html",
+      "pubDate": "2026-09-23T15:37:43.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Surging yields and big bond losses may offer sizable tax savings opportunity to investors right now",
+      "summary": "Don’t wait until December: The bond market selloff has opened a tax-loss harvesting opportunity for investors to offset big gains from stocks.",
+      "link": "https://www.cnbc.com/2026/09/23/bond-yields-taxes-capital-gains-losses.html",
+      "pubDate": "2026-09-23T15:23:21.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Affordability concerns loom large for advisors' clients ahead of midterm elections, survey finds",
+      "summary": "Advisors' clients are worried about both short- and long-term costs and whether Social Security and Medicare will be there when they retire, a new sur",
+      "link": "https://www.cnbc.com/2026/09/23/social-security-medicare-affordability-cfp-survey.html",
+      "pubDate": "2026-09-23T15:18:45.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "자동매매로 코인 시세조종…거래량 90% 이상 부풀린 운영사도 덜미",
+      "summary": "금융위, 불공정거래 4건 고발·수사기관 통보 친형제 각각 시세조종…타인 계정 동원 사례도자동매매 프로그램으로 가상자산 거래가 활발한 것처럼 꾸며 투자자를 유인하고, 가격을 끌어올린..",
+      "link": "https://www.mk.co.kr/news/stock/12160717",
+      "pubDate": "2026-09-23T15:09:51.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -25,16 +365,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Nearly half of adults under 30 live with their parents. The financial fallout could last for decades.",
-      "summary": "Young people are increasingly living with their parents instead of establishing their own households.",
-      "link": "https://www.marketwatch.com/story/nearly-half-of-adults-under-30-live-with-their-parents-the-financial-fallout-could-last-for-decades-5d9f059d?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T13:51:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "\"트럼프 요구대로 금리 내리면…\" 전문가들 섬뜩한 '경고'",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092344637",
@@ -43,16 +373,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "Want to retire with more money? Leave the U.S. early in your career — and then come back.",
-      "summary": "Gain experiences, memories and a substantial contribution to your future nest egg.",
-      "link": "https://www.marketwatch.com/story/want-to-retire-with-more-money-leave-the-country-for-work-early-in-your-career-7e568d03?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T13:43:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "“우리 집 한강뷰 가리지마”…재벌가 ‘조망권’ 법정다툼 2라운드",
@@ -65,26 +385,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "‘I don’t begrudge them their money’: My husband and I have friends who spend, spend, spend. How do we keep up?",
-      "summary": "“A weekend away isn’t a weekend away. It’s a luxury hotel, expensive meals and a last-minute upgrade.”",
-      "link": "https://www.marketwatch.com/story/i-dont-begrudge-them-their-money-my-husband-and-i-have-friends-who-spend-spend-spend-how-do-we-keep-up-e10164dc?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T13:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Trump-Xi meeting: Why China's self-sufficiency changes the calculus",
-      "summary": "Persistent growth of Chinese exports to the U.S. is helping the world's second-largest economy ride out ongoing domestic challenges.",
-      "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-why-chinas-self-sufficiency-changes-the-calculus.html",
-      "pubDate": "2026-09-23T13:29:08.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "IMF 총재 \"선진국들 공공부채 줄여야…필요한 일 하는 용기 가져야\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092344587",
@@ -92,6 +392,16 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "72% of Americans would slow financial progress to enjoy life now, SoFi survey finds",
+      "summary": "SoFi found 72% of Americans are willing to make slower progress on financial goals to prioritize family, travel and meaningful experiences.",
+      "link": "https://www.cnbc.com/2026/09/23/lifemaxxing-financial-goals-spending-saving.html",
+      "pubDate": "2026-09-23T13:19:37.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -105,16 +415,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "Typical job search advice isn't working in today's market. Experts' new rules for landing a role right now",
-      "summary": "AI and the economy are reshaping hiring. These are the new strategies for finding a job in today's tough market.",
-      "link": "https://www.cnbc.com/2026/09/23/new-rules-of-finding-a-job-right-now.html",
-      "pubDate": "2026-09-23T13:15:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "“일주일만 3kg 감량?”…서울아산병원·우창윤, 이름 도용에 경고",
       "summary": "서울아산병원과 유명 의학 유튜버 우창윤 원장이 자신들의 이름을 무단으로 도용한 다이어트 광고가 확산하자 주의를 당부했다. 서울아산병원은 22일 공식 SNS에 ‘불법 명의 도용 및 ..",
       "link": "https://www.mk.co.kr/news/society/12160678",
@@ -122,66 +422,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Our top 10 things to watch in the stock market Wednesday",
-      "summary": "Microsoft lands an analyst upgrade, and Meta Connect is here.",
-      "link": "https://www.cnbc.com/2026/09/23/our-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-      "pubDate": "2026-09-23T13:08:43.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "McDonald's will spend big on restaurant upgrades, training to drive growth",
-      "summary": "The plans are part of the fast-food giant's new growth strategy, called McDonald's > NEXT.",
-      "link": "https://www.cnbc.com/2026/09/23/mcdonalds-investor-day-remodels-training-chicken-growth-plans.html",
-      "pubDate": "2026-09-23T13:05:24.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Alkami Technology stock tumbles after ending strategic review",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/alkami-technology-stock-tumbles-after-ending-strategic-review-93CH-4913140",
-      "pubDate": "2026-09-23T13:05:05.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "European equities slide as Tehran threatens \"crushing\" response to Trump rhetoric",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/european-shares-advance-on-saudi-pipeline-restart-and-un-middle-east-diplomacy-4912162",
-      "pubDate": "2026-09-23T13:02:09.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Beneficient stock surges on plan to eliminate $130M debt",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/beneficient-stock-surges-on-plan-to-eliminate-130m-debt-93CH-4913119",
-      "pubDate": "2026-09-23T13:01:34.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Tuesday’s insider activity: Major buys at Group 1 Automotive",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/tuesdays-insider-activity-major-buys-at-group-1-automotive-93CH-4913118",
-      "pubDate": "2026-09-23T13:01:31.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
       "isMarketRelated": false
     },
     {
@@ -195,26 +435,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "The AI-infrastructure trade is still not over, says this top-performing fund manager. Here’s where he’s investing.",
-      "summary": "Brock Campbell, BNY Mellon’s Global Infrastructure Income exchange-traded fund manager, said some investors mistakenly believe the artificial-intellig",
-      "link": "https://www.marketwatch.com/story/the-ai-infrastructure-trade-is-still-not-over-says-this-top-performing-fund-manager-where-hes-investing-8c61f6da?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T13:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "This test screens for 50 cancers — but whether Medicare and other health insurers will cover it hinges on FDA approval",
-      "summary": "Grail’s Galleri test looks for 50 cancers from a blood draw, but a major study failed to prove it could detect later-stage cancers.",
-      "link": "https://www.marketwatch.com/story/fda-advisers-are-reviewing-a-multicancer-detection-test-medicare-coverage-could-follow-77cb8817?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T12:58:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "“귀성길 운전 유의하세요”…추석 연휴 첫날 내륙·서해안 짙은 안개",
       "summary": "추석 연휴 첫날 아침 내륙과 서해안에 안개가 끼겠으니 귀성길 운전 시 각별한 유의가 요구된다. 23일에서 24일로 넘어가는 밤, 하늘이 맑아 복사냉각이 활발히 이뤄지면서 기온이 떨..",
       "link": "https://www.mk.co.kr/news/society/12160673",
@@ -222,66 +442,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "IM Cannabis stock tumbles on $1.31M offering amid hardship",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/im-cannabis-stock-tumbles-on-131m-offering-amid-hardship-93CH-4913097",
-      "pubDate": "2026-09-23T12:55:58.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Gold prices drop amid stronger dollar, higher-for-longer rate outlook",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/gold-rises-as-oil-slide-eases-fed-hike-fears-iran-talks-stay-in-focus-4911978",
-      "pubDate": "2026-09-23T12:55:19.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Immunovant stock sliding today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-immunovant-stock-sliding-today-93CH-4913096",
-      "pubDate": "2026-09-23T12:54:50.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Geely turns to 4-minute EV charging, AI in battle with BYD",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/geely-turns-to-4minute-ev-charging-ai-in-battle-with-byd-4912979",
-      "pubDate": "2026-09-23T12:54:29.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Morgan Stanley employee leaks Asia deal pipeline document - Bloomberg",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/morgan-stanley-employee-leaks-asia-deal-pipeline-document--bloomberg-93CH-4913080",
-      "pubDate": "2026-09-23T12:51:39.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "BofA backs SigmaRoc on lime pricing strength and acquisition potential",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/bofa-backs-sigmaroc-on-lime-pricing-strength-and-acquisition-potential-4913075",
-      "pubDate": "2026-09-23T12:50:26.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
       "isMarketRelated": false
     },
     {
@@ -295,16 +455,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down",
-      "summary": "Recent weeks have seen AI safety fears reach new heights. That will be a key focus for the U.S. and Chinese leaders, analysts told CNBC.",
-      "link": "https://www.cnbc.com/2026/09/23/trump-xi-meeting-ai-safety-chips-us-china-dialogue.html",
-      "pubDate": "2026-09-23T12:42:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "“5분도 안돼서 상어가”…사진 찍으려다 ‘풍덩’ 시민에 벌어진 아찔한 일 [영상]",
       "summary": "부산 동구 북항 친수공원에 들어 온 상어를 보기 위해 연일 많은 인파가 몰리고 있는 가운데 한 시민이 물에 빠진 휴대전화를 건지기 위해 직접 수로로 들어가는 모습이 공개돼 논란이 ..",
       "link": "https://www.mk.co.kr/news/society/12160665",
@@ -315,16 +465,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "IonQ shares rally after company says it made a major quantum computing breakthrough",
-      "summary": "Shares of quantum computing company IonQ surged in premarket following its successful test of the industry's first real time end-to-end error decoder.",
-      "link": "https://www.cnbc.com/2026/09/23/ionq-shares-rally-after-company-says-it-made-a-major-quantum-computing-breakthrough.html",
-      "pubDate": "2026-09-23T12:35:15.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "AI가 범인 찍어줬는데, 검증할 사람 없네…682억 투자했는데 ‘빈틈’이",
       "summary": "경찰 연구용역 보고서 분석 AI 결과 누가 확인할지 공백 미 FBI는 사람이 최종 확인경찰이 인공지능(AI) 수사 시스템 도입을 서두르고 있지만 AI 분석 결과를 검증할 절차는 미..",
       "link": "https://www.mk.co.kr/news/society/12160661",
@@ -332,16 +472,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "HSBC addresses the concerns that are gripping the stock market — and dismisses most of them",
-      "summary": "Strategists at the bank recommend leaning into technology stocks, especially in the U.S. and Asia, and European banks.",
-      "link": "https://www.marketwatch.com/story/hsbc-addresses-the-concerns-that-are-gripping-the-stock-market-and-dismisses-most-of-them-f9b34a8d?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T12:32:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -362,16 +492,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-      "summary": "“On each of these weekends away, she’s probably spending $500.”",
-      "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T12:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -405,46 +525,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "What the Trump-Xi meeting could do to strengthen the guardrails for AI",
-      "summary": "Beyond discussions about artificial intelligence, other key topics are likely to be the Iran war, an ongoing trade truce and Chinese cars.",
-      "link": "https://www.marketwatch.com/story/what-the-trump-xi-meeting-coulddo-to-strengthen-the-guardrails-for-ai-298a5432?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T12:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Iran says Trump’s threats a sign of ‘strategic desperation,’ floats conditions for Hormuz reopening",
-      "summary": "Tehran's proposal could pave the way for restoring traffic through the Strait of Hormuz, reviving fragile hopes for a diplomatic off-ramp.",
-      "link": "https://www.cnbc.com/2026/09/23/us-iran-war-trump-hormuz.html",
-      "pubDate": "2026-09-23T11:56:04.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Meta's Muse reignites AI disruption fears. Traders are targeting this brokerage stock as next casualty",
-      "summary": "Meta's latest consumer AI product is sending such big shockwaves through the market that it's even inflaming a long-time rivalry in the brokerage busi",
-      "link": "https://www.cnbc.com/2026/09/23/metas-muse-ai-causes-schwab-selloff.html",
-      "pubDate": "2026-09-23T11:51:23.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Nearly 10% of borrowers opted for riskier mortgages last week, as rates soared over 7%",
-      "summary": "As mortgage rates rise, borrowers are seeking savings in riskier, adjustable-rate mortgages that offer lower rates.",
-      "link": "https://www.cnbc.com/2026/09/23/nearly-10percent-of-borrowers-opted-for-riskier-mortgages-last-week.html",
-      "pubDate": "2026-09-23T11:44:32.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "후티 고문 \"사우디 지원하면 역내 미국 시설 타격\" 경고",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092344187",
@@ -475,26 +555,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "Why CoreWeave’s beaten-down stock could be due for a major comeback",
-      "summary": "CoreWeave shares have tumbled almost 40% from their May highs as debt fears spooked investors. But one analyst believes the selloff has been overblown",
-      "link": "https://www.marketwatch.com/story/why-coreweaves-beaten-down-stock-could-be-due-for-a-major-comeback-46068534?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T11:18:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
-      "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-      "pubDate": "2026-09-23T11:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "엔비디아GPU칩 선물거래 ‘일단 멈춤’…당국 “가격 투명하지않아”",
       "summary": "월가가 인공지능(AI) 시대 핵심 자산인 그래픽처리장치(GPU)를 주식이나 원유처럼 거래할 수 있도록 추진한 ‘GPU 선물’ 출시가 미국 규제당국 제동에 걸렸다. 22일(현지시간)..",
       "link": "https://www.mk.co.kr/news/world/12160618",
@@ -515,16 +575,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "“적 도발시 단호히 대응”…강신철, ‘지뢰폭발’ 서부전선서 군사대비태세 점검",
-      "summary": "강신철 국방부 장관이 23일 최근 비무장지대(DMZ) 수색작전 도중 지뢰 추정 폭발사고가 발생한 서부전선 최전방 부대를 방문해 군사대비태세를 점검했다. 강 장관은 취임 후 첫 공식..",
-      "link": "https://www.mk.co.kr/news/politics/12160616",
-      "pubDate": "2026-09-23T11:11:11.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "\"후티 반군의 홍해 장악 작전에 이란 혁명수비대 깊이 관여\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092343557",
@@ -533,26 +583,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "Texas turning blue may hinge on Democrats harnessing data center opposition",
-      "summary": "Data center opposition is reshaping Texas' 2026 governor and Senate races as voters raise concerns over power, water and utility costs.",
-      "link": "https://www.cnbc.com/2026/09/23/texas-data-centers-election.html",
-      "pubDate": "2026-09-23T10:00:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "AI drone maker hits $6.4 billion valuation as Ukraine war spurs defense tech",
-      "summary": "Tekever is one of a number of European defense tech startups raising sizable rounds amid a rearmament campaign from countries in the region.",
-      "link": "https://www.cnbc.com/2026/09/23/ai-drone-maker-ukraine-war-defense-tech.html",
-      "pubDate": "2026-09-23T09:47:31.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "코스피 7000선 되찾자…'증시 대기자금'도 100조원대 회복",
@@ -665,26 +695,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "[포토] 최신장비 무장한 후티 반군",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092338991",
-      "pubDate": "2026-09-23T07:37:24.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Fed's Collins warns inflation could be 'notably' higher after backing rate hike",
-      "summary": "There is \"an increased likelihood\" of inflation staying \"notably\" above the Federal Reserve's 2% target, Boston Federal Reserve President Susan Collin",
-      "link": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
-      "pubDate": "2026-09-23T07:33:14.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "\"더 싼 데 있네? 당장 바꿔줘\"…AI 한마디에 주가 '출렁'",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092339841",
@@ -783,16 +793,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "DOJ defends Trump ban of 3 news outlets, says White House access is a 'privilege — not a right'",
-      "summary": "The Department of Justice also argued President Trump was motivated by national security concerns in banning MS NOW, CNN and Politico from the White H",
-      "link": "https://www.cnbc.com/2026/09/23/trump-white-house-ban-media-doj-cnn-msnow-politico.html",
-      "pubDate": "2026-09-23T05:49:57.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "Qantas to start selling tickets next year for its New York to Sydney nonstop flight",
