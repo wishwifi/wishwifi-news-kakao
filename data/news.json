@@ -1,51 +1,621 @@
 {
-  "updatedAt": "2026-09-28T09:15:58.766Z",
-  "updatedAtKST": "2026-09-28 18:15:58 KST",
+  "updatedAt": "2026-09-28T17:11:35.184Z",
+  "updatedAtKST": "2026-09-29 02:11:35 KST",
   "totalCount": 80,
-  "marketRelatedCount": 36,
+  "marketRelatedCount": 35,
   "items": [
     {
-      "title": "‘I feel like he’s holding me back’: I have $8 million. My husband resents my success. Should I pay for more things?",
-      "summary": "“I’d rather be on a beach in Bali than watching my spouse sit at the computer.”",
+      "title": "Oil prices off highs after reports Saudi pipeline ramping back up",
+      "summary": "The Saudis shutdown the pipeline earlier this month after it sustained damage in a drone strike launched form Iraq.",
+      "link": "https://www.cnbc.com/2026/09/28/oil-price-today-wti-brent-trump-iran.html",
+      "pubDate": "2026-09-28T17:01:00.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Micron has a chance to set the record straight with its earnings report",
+      "summary": "Micron is no longer the company it was before the AI boom, and one analyst says it’s time that investors fully appreciate that.",
+      "link": "https://www.marketwatch.com/story/micron-has-a-chance-to-set-the-record-straight-with-its-earnings-report-a98fb935?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T16:58:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump to announce plan for $15 billion steel plant, would be largest in U.S. history",
+      "summary": "Trump's announcement with Mesabi Metallics comes as Americans' souring views of the economy are poised to shape the upcoming midterm election.",
+      "link": "https://www.cnbc.com/2026/09/28/trump-steel-plant-iowa.html",
+      "pubDate": "2026-09-28T16:48:36.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Jim Cramer says Nvidia’s record buyback could ‘change the trajectory’ of the stock",
+      "summary": "Nvidia's $150 billion worth of additional buyback firepower is a major step in the right direction.",
+      "link": "https://www.cnbc.com/2026/09/28/jim-cramer-says-nvidias-record-buyback-could-change-the-trajectory-of-the-stock.html",
+      "pubDate": "2026-09-28T16:44:44.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Stocks fall, squeezed by rising oil prices and Treasury yields",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/stocks-cautious-in-asia-as-oil-gains-yields-rise-4919224",
+      "pubDate": "2026-09-28T16:36:49.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia is right: Its stock is a bargain by this measure",
+      "summary": "Nvidia’s stock has gotten cheaper even as the company has sustained robust levels of growth.",
+      "link": "https://www.marketwatch.com/story/nvidia-is-right-its-stock-is-a-bargain-95cee6ca?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T16:33:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "European shares reverse gains amid oil rebound",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/european-bourses-slip-after-trump-rejects-iran-proposal-tech-stocks-slip-4919474",
+      "pubDate": "2026-09-28T16:27:31.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "FTSE 100 today: Stocks close lower despite housebuilder surge",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-up-as-iran-diplomacy-hopes-persist-4919476",
+      "pubDate": "2026-09-28T16:21:46.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "China’s Gotion invests $1.25 billion in Volkswagen battery plant in Spain",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/volkswagen-gotion-deepen-battery-ties-in-europe-as-vw-sells-53-stake-4920541",
+      "pubDate": "2026-09-28T16:19:28.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Meta hires MongoDB CEO CJ Desai to lead enterprise unit. MongoDB shares crater",
+      "summary": "Desai will lead the new Meta Enterprise Platform unit and report to CEO Mark Zuckerberg.",
+      "link": "https://www.cnbc.com/2026/09/28/mongodb-meta-cj-desai.html",
+      "pubDate": "2026-09-28T16:16:47.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Germany’s Evonik rejects BASF’s $11.7 billion bid, sources say",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/evonik-rejects-117-billion-basf-takeover-bid-sources-say-4920812",
+      "pubDate": "2026-09-28T16:13:09.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "U.K. stocks lower at close of trade; Investing.com United Kingdom 100 down 0.11%",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/uk-stocks-lower-at-close-of-trade-investingcom-united-kingdom-100-down-011-4920873",
+      "pubDate": "2026-09-28T16:08:48.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Spain stocks lower at close of trade; IBEX 35 down 0.51%",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/spain-stocks-lower-at-close-of-trade-ibex-35-down-051-4920872",
+      "pubDate": "2026-09-28T16:08:24.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Portugal stocks higher at close of trade; PSI up 0.08%",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/portugal-stocks-higher-at-close-of-trade-psi-up-008-4920871",
+      "pubDate": "2026-09-28T16:07:59.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Netherlands stocks higher at close of trade; AEX up 0.36%",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/netherlands-stocks-higher-at-close-of-trade-aex-up-036-4920870",
+      "pubDate": "2026-09-28T16:07:31.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Italy stocks lower at close of trade; Investing.com Italy 40 down 0.18%",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/italy-stocks-lower-at-close-of-trade-investingcom-italy-40-down-018-4920869",
+      "pubDate": "2026-09-28T16:07:06.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle",
+      "summary": "Former Disney CEO Bob Chapek was ousted from his role as CEO in late 2022, less than three years after taking the post, and replaced by Iger.",
+      "link": "https://www.cnbc.com/2026/09/28/disney-bob-chapek-bob-iger-power-battle-board.html",
+      "pubDate": "2026-09-28T16:02:17.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "SpaceX launches its massive Starship rocket into orbit for the first time",
+      "summary": "Elon Musk's SpaceX launched a historic test flight of its massive Starship rocket early Monday.",
+      "link": "https://www.cnbc.com/2026/09/28/spacex-prepares-to-send-starship-rocket-to-orbit-for-first-time.html",
+      "pubDate": "2026-09-28T16:01:50.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
+      "summary": "“We have an ironclad prenup.”",
       "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-      "pubDate": "2026-09-28T09:15:00.000Z",
+      "pubDate": "2026-09-28T16:00:00.000Z",
       "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
     },
     {
-      "title": "[단독] 서민금융 받고 또 빚…‘대출 4건 이상’ 차주 1년여 만에 2배 급증",
-      "summary": "추가대출 4건 이상 2.9만명 햇살론유스 절반 넘게 또 빚저소득·저신용자의 자금난을 덜기 위해 정책서민금융을 공급하고 있지만, 지원을 받은 뒤에도 추가로 여러 건의 대출을 보유하는..",
-      "link": "https://www.mk.co.kr/news/economy/12163012",
-      "pubDate": "2026-09-28T09:06:05.000Z",
+      "title": "그래도 高배당 매력…'우선주 ETF' 속속 등장",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092804051",
+      "pubDate": "2026-09-28T15:21:33.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "These Gen Z-ers are choosing ETFs over sports bets. How younger investors told us they’re building wealth.",
+      "summary": "Gen Z is entering the market unusually young, with easier access to investing than previous generations but vastly different amounts of money to put t",
+      "link": "https://www.marketwatch.com/story/how-is-gen-z-investing-their-money-over-a-dozen-share-their-strategies-for-todays-market-c8a418da?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T15:13:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Five arrested over alleged bomb plot at UK air base used by U.S.; Iran denies link",
+      "summary": "U.K. counterterrorism police are understood to be investigating a potential link with Iran after an alleged bomb threat against an air base hosting U.",
+      "link": "https://www.cnbc.com/2026/09/28/iran-war-trump-hormuz.html",
+      "pubDate": "2026-09-28T15:04:31.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+      "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
+      "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T15:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
+      "summary": "Rising prices have been crushing consumer confidence and biting at Americans’ wallets for more than five years now.",
+      "link": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T14:57:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Choosing these AI-exposed college majors could dent your job prospects — and lower your pay",
+      "summary": "At a time when many college students say they are rethinking their academic focus because of AI, new findings supply hard data on the potential costs ",
+      "link": "https://www.marketwatch.com/story/choosing-these-ai-exposed-college-majors-could-dent-your-job-prospects-and-lower-your-pay-b80576cb?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T14:55:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "AI 증시, 체력 시험 주간…뮤즈AI가 뱅크런 촉발?[박신영의 개장전 요것만]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609280534i",
+      "pubDate": "2026-09-28T14:51:02.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia share buyback plan gets $150 billion boost",
+      "summary": "Nvidia said the buyback boost marks the largest share repurchase authorization increase in history.",
+      "link": "https://www.cnbc.com/2026/09/28/nvidia-share-buyback-plan-gets-150-billion-boost.html",
+      "pubDate": "2026-09-28T14:46:36.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
+      "summary": "“As a country, we have grown dangerously comfortable.”",
+      "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T14:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Treasury yields edge higher amid pressure on global government bonds",
+      "summary": "Treasury yields edged higher on Monday as investors look ahead to fresh economic data releases this week.",
+      "link": "https://www.cnbc.com/2026/09/28/treasury-yields-bonds-selloff.html",
+      "pubDate": "2026-09-28T14:28:25.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia makes a statement with historic $150 billion buyback announcement",
+      "summary": "The company intends to repurchase a large amount of shares through January 2028, reflecting its “confidence in the long-term opportunity ahead.”",
+      "link": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T14:28:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "New grads say employers set the bar too high for entry-level roles: 'No job is willing to give you that first experience'",
+      "summary": "77% of new grads believe businesses call for too much experience when hiring for entry-level jobs, shutting them out of an increasingly competitive ma",
+      "link": "https://www.cnbc.com/2026/09/28/new-grads-entry-level-job-experience.html",
+      "pubDate": "2026-09-28T14:26:51.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "손흥민, A매치 통산 58번째 골… 마침내 차범근과 어깨 나란히",
+      "summary": "손흥민이 한국 축구대표팀 유니폼을 입고 58번째 골을 터뜨리며 차범근 전 감독과 A매치 최다골 타이 기록을 세웠다. 우루과이에 완패했지만 손흥민은 몇 차례 번뜩이는 움직임을 선보인..",
+      "link": "https://www.mk.co.kr/news/sports/12163225",
+      "pubDate": "2026-09-28T14:17:33.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "男 400m계주, 실격 위기 딛고 '한국 新' 동메달",
+      "summary": "실격 판정을 받으며 결선 진출이 무산될 뻔했던 한국 육상 남자 400m 계주 대표팀이 극적으로 동메달을 목에 걸었다. 하나로 똘똘 뭉쳐 시상대에 오른 남자 400m 계주 대표팀 선..",
+      "link": "https://www.mk.co.kr/news/sports/12163224",
+      "pubDate": "2026-09-28T14:17:27.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Treasury Secretary Scott Bessent hires Wall Street economist David Zervos",
+      "summary": "Zervos is joining the Treasury Department as counselor to Bessent, adding a prominent markets voice to the administration's economic policy team.",
+      "link": "https://www.cnbc.com/2026/09/28/david-zervos-treasury-department-scott-bessent.html",
+      "pubDate": "2026-09-28T14:14:45.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "These surprising risk factors may explain why some older people are more vulnerable to scams",
+      "summary": "Criminals use sophisticated techniques to form deep emotional attachments to their victims",
+      "link": "https://www.marketwatch.com/story/these-under-the-radar-risk-factors-may-explain-why-some-older-people-are-more-vulnerable-to-scams-865182dc?mod=mw_rss_topstories",
+      "pubDate": "2026-09-28T14:12:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Meta's Muse agent is attacking one of the economy's most profitable weak spots",
+      "summary": "Meta's Muse AI personal agent will work over your credit card spending if you don't mind the invasion. How big a threat is it to the subscription econ",
+      "link": "https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html",
+      "pubDate": "2026-09-28T14:03:43.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "中, 엔비디아 신형칩 구매 추진…AI칩 공급난에 1년 만에 백기",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092805051",
+      "pubDate": "2026-09-28T13:24:48.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Meta, Google, Amazon, Microsoft draw Sen. Warren questions about AI tax subsidies",
+      "summary": "Sen. Elizabeth Warren is asking the leaders of Meta, Google, Amazon and Microsoft about AI and data center subsidies authorized by GOP legislation.",
+      "link": "https://www.cnbc.com/2026/09/28/warren-senate-ai-subsidies-meta-google-amazon-microsoft.html",
+      "pubDate": "2026-09-28T13:24:39.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "\"한국이 패트리엇 안 줘서\"…젤렌스키 '北포로 공개' 이유는?",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092804827",
+      "pubDate": "2026-09-28T13:17:56.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘경찰의 별’ 경무관도 고향 못간다…48명에 향피제 적용 전보인사",
+      "summary": "연고지 배제원칙 전면 적용경찰이 경무관 48명에 대한 전보 인사를 28일 단행했다. 군인으로 치면 장군급에 해당해 ‘경찰의 별’이라 불리는 경무관은 치안총감·치안정감·치안감에 이은..",
+      "link": "https://www.mk.co.kr/news/society/12163203",
+      "pubDate": "2026-09-28T13:11:57.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Trump ‘very seriously’ considering diesel export ban as global supply crunch worsens",
+      "summary": "Analysts warn an export ban could backfire, pushing up global diesel prices and potentially triggering higher U.S. gasoline prices as refiners adjust.",
+      "link": "https://www.cnbc.com/2026/09/28/diesel-oil-trump-export-ban-fuel-prices.html",
+      "pubDate": "2026-09-28T13:09:26.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "하이닉스 돌연 5% 급락…주주들 놀란 '204조 상장설' 정체 [분석+]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092899256",
+      "pubDate": "2026-09-28T13:00:03.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“치료해도 회복 어렵다면 중단 검토”…日, 생명유지치료 새 지침",
+      "summary": "2014년 이후 12년 만에 지침 개정일본에서 응급 이송된 중증 환자를 치료하더라도 회복 가능성이 낮다고 판단될 경우 환자의 평소 의사 등을 토대로 생명유지치료 중단을 검토할 수 ..",
+      "link": "https://www.mk.co.kr/news/world/12163187",
+      "pubDate": "2026-09-28T12:57:43.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 손흥민, A매치 한국인 최다 58호골…차범근과 어깨 나란히",
+      "summary": "손흥민(34·LAFC)이 A매치 58호 골을 터뜨렸다. 28일 손흥민은 서울 마포구 서울월드컵경기장에서 열린 우루과이와의 축구 국가대표팀 친선경기에서 0-4로 끌려가던 후반 35분..",
+      "link": "https://www.mk.co.kr/news/society/12163175",
+      "pubDate": "2026-09-28T12:48:23.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "대통령 호언장담한 이 무역협정…가입만 하면 8조원 경제효과라는데",
+      "summary": "정부, 경제효과 잠정치 분석 향후 10년 GDP 0.38%P 상승 농림수산업은 年 8천억 타격 12개국 참여…세계 GDP 14% 美교두보 멕시코와 FTA효과 中 먼저 가입땐 조건 ..",
+      "link": "https://www.mk.co.kr/news/economy/12163145",
+      "pubDate": "2026-09-28T12:15:35.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“수습만 말고 예방도 잘하자” 이 여성 한마디에…통신사 사장들 집합",
+      "summary": "SKT “정보보호 7000억 투자” KT “IT 인프라 2.2조 투입” LGU+ “개인정보 보호는 책임경영” 통신3사 CEO 보안 강화 한목소리송경희 개인정보보호위원회 위원장이 이..",
+      "link": "https://www.mk.co.kr/news/business/12163136",
+      "pubDate": "2026-09-28T12:08:16.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“‘하마스 공격 온다’ 이집트가 세 번 경고했다”…마지막엔 네타냐후에 직접 전화",
+      "summary": "WSJ “2023년 6월·9월·10월 세 차례 경고” 정보수장 직접 이스라엘 찾아가고 전화까지 네타냐후 측 “그런 통화 없었다” 부인팔레스타인 무장 정파 하마스가 2023년 10월..",
+      "link": "https://www.mk.co.kr/news/world/12163125",
+      "pubDate": "2026-09-28T12:01:54.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "태국 홍수 휩쓸린 뒤 사흘 만에 발견된 시신…한국인이었다",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092804537",
+      "pubDate": "2026-09-28T11:55:39.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "중학생 제자랑 성관계 합의했다고?…선생님의 거짓말, 딱 걸렸다",
+      "summary": "중학생인 제자의 동의를 받아서 성관계를 맺었다는 교사의 파렴치한 거짓말이 검찰청 수사팀의 재수사에 덜미가 잡혔다. 28일 대검찰청은 전주지검 군산지청 형사2부(홍지예 부장검사)를 ..",
+      "link": "https://www.mk.co.kr/news/society/12163101",
+      "pubDate": "2026-09-28T11:28:47.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "임윤아, AI 임신 합성사진에…SM “이미 형사고소, 선처 없다”",
+      "summary": "가수 겸 배우 윤아(임윤아)가 임신한 것처럼 꾸민 AI 합성 이미지가 온라인에서 확산한 가운데 소속사 SM엔터테인먼트가 형사고소에 나섰다. 최근 SNS와 온라인 커뮤니티에는 윤아가..",
+      "link": "https://www.mk.co.kr/news/society/12163092",
+      "pubDate": "2026-09-28T11:23:05.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": true
     },
     {
-      "title": "[단독] 소상공인 빚 4조 또 탕감하겠단 정부…다 갚은 22만명 “후회막심”",
-      "summary": "부채 성실상환자 수십만인데 새도약기금 이어 또 채무조정 20만명 빚 4.2조 탕감 추진 형평성 논란에 사후관리 부실 “성실상환자 인센티브 필요”코로나19 때 만기 연장·상환 유예 ..",
-      "link": "https://www.mk.co.kr/news/economy/12163011",
-      "pubDate": "2026-09-28T09:05:25.000Z",
+      "title": "하태경 “아시안게임 병역혜택 폐지해야…특히 야구는 불공정 승부”",
+      "summary": "한국 야구 대표팀이 2026 아이치·나고야 아시안게임에서 5회 연속 금메달을 따낸 가운데 하태경 보험연수원장이 아시안게임 금메달에 따른 병역 혜택을 폐지해야 한다고 주장했다. 하 ..",
+      "link": "https://www.mk.co.kr/news/sports/12163087",
+      "pubDate": "2026-09-28T11:18:39.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
     },
     {
-      "title": "핑거, 150억 원 규모 전환사채 발행",
-      "summary": "코스닥 상장사 핑거가 제9회 150억 원 규모의 전환사채를 발행한다고 2026년 9월 23일 공시했다. 전환가액은 1만 1904원이며, 전환 청구 기간은 2027년 10월 1일부터..",
-      "link": "https://www.mk.co.kr/news/stock/12163009",
-      "pubDate": "2026-09-28T09:03:23.000Z",
+      "title": "이형일, 한은 총재 만나 \"경제위험 선제대응\"",
+      "summary": "이형일 부총리 겸 재정경제부 장관이 취임한 지 6일 만에 신현송 한국은행 총재와 처음 만났다. 두 경제 수장은 금융시장의 변동성과 대외 불확실성이 커지는 상황에서 위험 요인에 선제..",
+      "link": "https://www.mk.co.kr/news/economy/12163078",
+      "pubDate": "2026-09-28T11:11:55.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
     },
     {
-      "title": "美·中 600억弗 규모, 관세인하 품목 공개",
+      "title": "\"한반도 상황 악화\" 우크라서 '경고음'…북한군 파병 여파는?",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092804287",
+      "pubDate": "2026-09-28T11:09:19.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "금융위, 고빈도매매 규율방안 검토…레버리지·신용·미수도 조인다",
+      "summary": "고빈도매매 2월 거래대금 3927조원·전체 58% 6~7월 증시 급변동 계기 시장안정 대응체계 재정비 베어허그·코스닥 개편도 지속 추진금융당국이 최근 국내 증시의 급격한 변동을 키..",
+      "link": "https://www.mk.co.kr/news/stock/12163073",
+      "pubDate": "2026-09-28T11:09:18.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "北적대감 역대 최고 … 국민 39%만 \"통일 필요\"",
+      "summary": "북한 정권과 대화하거나 타협하기 어렵다고 생각하는 국민이 10명 중 8명에 육박한다는 조사 결과가 나왔다. 반면 통일이 필요하다는 응답은 40%에도 미치지 못했다. 28일 서울대 ..",
+      "link": "https://www.mk.co.kr/news/politics/12163069",
+      "pubDate": "2026-09-28T11:04:50.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "손흥민·오현규 투톱, 이강인 오른쪽 측면 배치…우루과이전 선발 명단 발표",
+      "summary": "로베르트 모레노 한국 축구대표팀 임시 감독이 우루과이를 제압하기 위한 베스트11를 확정했다. 모레노 임시 감독이 지휘하는 한국은 28일 오후 8시 서울월드컵경기장에서 남미의 강호 ..",
+      "link": "https://www.mk.co.kr/news/sports/12163061",
+      "pubDate": "2026-09-28T11:00:14.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "33일째 우산 마를 일 없는 도쿄 시민들…日 도쿄, 역사 최장 강우",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092803947",
+      "pubDate": "2026-09-28T10:32:27.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“거긴 가면 안 돼”…엔비디아, AI 에이전트 보안 플랫폼 전격 공개",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609280312i",
+      "pubDate": "2026-09-28T10:17:40.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "8명 사망 '태국 홍수'…여객기 운항 지연에 한국인 수백명 발 묶였다",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092803147",
+      "pubDate": "2026-09-28T09:37:54.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "中 증시, '제약·소프트웨어 우수 종목'만 모은 새 지수 선보여",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202609280081i",
+      "pubDate": "2026-09-28T09:19:58.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "맹탕 美·中회담에…韓 태양광·배터리주 동반 반사익",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092800891",
+      "pubDate": "2026-09-28T09:05:19.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "美·中 600억달러 규모, 관세인하 품목 공개",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092801871",
       "pubDate": "2026-09-28T09:03:22.000Z",
@@ -65,7 +635,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "주택난에 87세 노인 쫓겨나…성난 스페인 시민들, 거리로",
+      "title": "\"71년 살던 집에서 쫓겨났다\"…87세 노인 사연에 '분노 폭발'",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026092801851",
       "pubDate": "2026-09-28T09:02:24.000Z",
@@ -75,14 +645,14 @@
       "isMarketRelated": false
     },
     {
-      "title": "Simone Biles and Jonathan Owens list a $1.2 million Texas home near Houston",
-      "summary": "Olympic gymnast Simone Biles and her NFL star husband, Jonathan Owens, are bidding farewell to the Texas home they lived in while putting the finishin",
-      "link": "https://www.marketwatch.com/story/simone-biles-and-jonathan-owens-list-a-1-2-million-texas-home-near-houston-0c3a7700?mod=mw_rss_topstories",
-      "pubDate": "2026-09-28T09:02:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
+      "title": "AI투자가 바꾼 '금리 상승=주가 하락' 공식",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092800881",
+      "pubDate": "2026-09-28T09:02:08.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
     },
     {
       "title": "인도네시아, 이상기후에 커피 생산 타격",
@@ -95,283 +665,63 @@
       "isMarketRelated": false
     },
     {
-      "title": "Nvidia releases software platform to stop AI agents from misbehaving",
-      "summary": "Nvidia says its news software could have prevented OpenAI's HuggingFace incident.",
-      "link": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
-      "pubDate": "2026-09-28T09:00:02.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘Sex and the City’ star Chris Noth is selling his ‘breathtaking’ Greenwich Village apartment for $1.5 million",
-      "summary": "“Sex and the City” star Chris Noth is moving on from his longtime New York City apartment, listing the luxe Greenwich Village dwelling for nearly $1.5",
-      "link": "https://www.marketwatch.com/story/sex-and-the-city-star-chris-noth-is-selling-his-breathtaking-greenwich-village-apartment-for-1-5-million-e9685111?mod=mw_rss_topstories",
-      "pubDate": "2026-09-28T08:58:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "78년 만에 역사 속으로…검찰 간판 내리고 로고 지워",
-      "summary": "대검찰청, 청사 입구 ‘검찰 로고’ 제거 광주지검도 외벽에 ‘검찰청’ 간판 내려 공소청 로고는 아직 미정…현판식 안해오는 10월 2일 검찰청 폐지와 공소청 출범을 앞두고 검찰이 청..",
-      "link": "https://www.mk.co.kr/news/society/12163004",
-      "pubDate": "2026-09-28T08:52:56.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Telecom Italia shares fall as Poste misses 90% threshold to delist stock",
+      "title": "\"개미, 20% 손실땐 냉정한 점검 뒤 손절매 필요\"",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/telecom-italia-shares-fall-as-poste-misses-90-threshold-to-delist-stock-4919591",
-      "pubDate": "2026-09-28T08:52:54.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "U.S. Treasury yields edge higher amid pressure on global government bonds",
-      "summary": "Treasury yields edged higher on Monday as investors look ahead to fresh economic data releases this week.",
-      "link": "https://www.cnbc.com/2026/09/28/treasury-yields-bonds-selloff.html",
-      "pubDate": "2026-09-28T08:49:06.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Suedzucker stock gaining today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-suedzucker-stock-gaining-today-93CH-4919586",
-      "pubDate": "2026-09-28T08:48:55.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "\"선배 사업가 노하우 배우자\"…젊은 한상 100여명 뭉쳤다",
-      "summary": "\"세계한상대회를 계기로 한상 선배님들께 더 많이 배우고 싶습니다.\"(김미성 WJK디스트리뷰션 대표) 28일 인천 송도에서 열린 제24차 세계한상대회는 젊은 한상들이 외연을 넓히는 ..",
-      "link": "https://www.mk.co.kr/news/economy/12163000",
-      "pubDate": "2026-09-28T08:48:37.000Z",
-      "source": "매일경제",
+      "link": "https://www.hankyung.com/article/2026092800941",
+      "pubDate": "2026-09-28T09:01:12.000Z",
+      "source": "한국경제",
       "lang": "ko",
-      "emoji": "💹",
+      "emoji": "📈",
       "isMarketRelated": false
     },
     {
-      "title": "[포토] '한국은행 넥타이' 매고…신현송 찾은 이형일",
+      "title": "HLB 그룹주 상한가…담관암 신약 FDA 허가",
       "summary": "",
-      "link": "https://www.mk.co.kr/news/economy/12162996",
-      "pubDate": "2026-09-28T08:48:30.000Z",
-      "source": "매일경제",
+      "link": "https://www.hankyung.com/article/2026092800951",
+      "pubDate": "2026-09-28T08:59:04.000Z",
+      "source": "한국경제",
       "lang": "ko",
-      "emoji": "💹",
+      "emoji": "📈",
       "isMarketRelated": false
     },
     {
-      "title": "1년만에… 中, 엔비디아 칩 수입 터줄 듯",
-      "summary": "중국 정부가 자국 기업에 엔비디아 신형 인공지능(AI) 칩 구매를 허용할 방침이다. 미·중 무역 갈등으로 중국 빅테크의 엔비디아 칩 구매가 중단된 지 약 1년 만이다. 27일(..",
-      "link": "https://www.mk.co.kr/news/world/12162993",
-      "pubDate": "2026-09-28T08:48:29.000Z",
-      "source": "매일경제",
+      "title": "몸값 낮추고 특례유형 변경…기업들, 잇달아 IPO 재도전",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092800901",
+      "pubDate": "2026-09-28T08:55:19.000Z",
+      "source": "한국경제",
       "lang": "ko",
-      "emoji": "💹",
+      "emoji": "📈",
       "isMarketRelated": false
     },
     {
-      "title": "[알립니다] 토목·건축 기술대상 주인공을 찾습니다",
-      "summary": "매일경제신문사와 MBN이 대한건축학회·대한토목학회와 제22회 대한민국 토목·건축 기술대상을 진행합니다. 탁월한 디자인과 시공으로 도시를 빛낸 토목·건축 수작을 공모합니다. 아울러 ..",
-      "link": "https://www.mk.co.kr/news/notice/12162994",
-      "pubDate": "2026-09-28T08:48:29.000Z",
-      "source": "매일경제",
+      "title": "엔화예금 1.1조…엔저 베팅 늘었다 [한경 프리미엄9 TODAY]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092802271",
+      "pubDate": "2026-09-28T08:53:44.000Z",
+      "source": "한국경제",
       "lang": "ko",
-      "emoji": "💹",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "우선주, 의결권 없는 대신 배당 우대",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092801731",
+      "pubDate": "2026-09-28T08:37:14.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
       "isMarketRelated": false
     },
     {
-      "title": "담합 극약처방…'2S 아웃' 도입",
-      "summary": "앞으로 5년 내에 두 차례 이상 담합을 벌인 사업자는 시장에서 퇴출시킬 수 있도록 제재 수위가 대폭 강화된다. 최근 민생 분야에서 고질적인 담합이 이어지자 과징금 부과를 넘어 상습..",
-      "link": "https://www.mk.co.kr/news/economy/12162992",
-      "pubDate": "2026-09-28T08:48:28.000Z",
-      "source": "매일경제",
+      "title": "금융위, 증시 흔드는 '외국인 초단타' 손본다",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026092801761",
+      "pubDate": "2026-09-28T08:36:35.000Z",
+      "source": "한국경제",
       "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "VinFast unit plans merger with Future Investment - report",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/vinfast-unit-plans-merger-with-future-investment--report-93CH-4919584",
-      "pubDate": "2026-09-28T08:48:09.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "코스닥 빚투 반도체株 쏠림 …레버리지 투자 '주의보'",
-      "summary": "코스닥 개인투자자의 '빚투(빚내서 투자)' 지도가 바이오에서 반도체·로봇 중심으로 다시 그려지고 있다. 신용잔액 상위 종목의 전체 빚투 규모는 줄었지만 반도체 종목에 몰린 잔액은 ..",
-      "link": "https://www.mk.co.kr/news/stock/12162988",
-      "pubDate": "2026-09-28T08:48:08.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "美상장땐 '몸값 200조' 솔리다임…하닉 주가엔 '글쎄'",
-      "summary": "SK하이닉스의 미국 낸드플래시 손자회사인 솔리다임과 관련해 뉴욕 증시 상장설이 다시 불거지면서 SK하이닉스 주가가 28일 정규장에서 요동쳤다. 외신들이 이르면 내년에 기업가치 20..",
-      "link": "https://www.mk.co.kr/news/stock/12162986",
-      "pubDate": "2026-09-28T08:48:07.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "美전략물자화 기대감…태양광株 모처럼 '쑥'",
-      "summary": "추석 연휴 전 하락했던 태양광 산업 주가가 가파른 반등세를 보였다. 연휴기간 개최된 미·중 정상회담에서 중국산 태양광 규제가 완화될 수 있다는 우려가 해소됐기 때문이다. 연말에 미..",
-      "link": "https://www.mk.co.kr/news/stock/12162987",
-      "pubDate": "2026-09-28T08:48:07.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "에몬스, 전속모델 전도연과 ‘18년 동행 감사 페스타’ 개최",
-      "summary": "18년 연속 인연, 가구 업계 최장수 파트너십 2026 TV CF 속 대표 가구 라인업 포함, 전국 매장 최대 30% 할인종합 가구 브랜드 에몬스(회장 김경수)가 오랜 기간 파트너..",
-      "link": "https://www.mk.co.kr/news/business/12162983",
-      "pubDate": "2026-09-28T08:47:46.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "당정, 담합 과징금 넘어 '퇴출' 초강수 … 재계선 과잉제재 우려",
-      "summary": "당정이 반복 담합 업체에 대해 등록취소와 영업정지라는 초강수를 둔 배경에는 과징금 중심의 제재만으로는 담합 관행을 뿌리 뽑는 데 한계가 있다는 판단이 깔려 있다. 설탕·밀가루 등 ..",
-      "link": "https://www.mk.co.kr/news/economy/12162977",
-      "pubDate": "2026-09-28T08:46:59.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "\"국민연금에 반도체 초과세수 활용을 … 초기 투입땐 복리효과 극대화\"",
-      "summary": "올해 50조원이 넘을 것으로 예상되는 반도체 초과세수를 국민연금과 기초연금 재정 지원에 활용해야 한다는 제안이 나왔다. 사전에 국고를 투입해 수익을 늘린다면 기금 고갈 없이 미래 ..",
-      "link": "https://www.mk.co.kr/news/economy/12162976",
-      "pubDate": "2026-09-28T08:46:58.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "FTSE 100 today: Stocks rise as housing scheme lifts builders",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-up-as-iran-diplomacy-hopes-persist-4919476",
-      "pubDate": "2026-09-28T08:40:09.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Stocks fall as Middle East stalemate boosts oil",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/stocks-cautious-in-asia-as-oil-gains-yields-rise-4919224",
-      "pubDate": "2026-09-28T08:36:25.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "U.S., China to lower tariffs on $60 billion of goods. Here's what qualifies",
-      "summary": "The lists included U.S. imports of toys, sports equipment and Christmas decorations, while U.S. farm products appeared on the list of Chinese imports.",
-      "link": "https://www.cnbc.com/2026/09/28/us-china-lower-tariffs-trump-xi-meeting.html",
-      "pubDate": "2026-09-28T08:31:33.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Indonesia stocks lower at close of trade; IDX Composite Index down 1.45%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/indonesia-stocks-lower-at-close-of-trade-idx-composite-index-down-145-4919548",
-      "pubDate": "2026-09-28T08:30:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Capricorn Energy stock sliding today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-capricorn-energy-stock-sliding-today-93CH-4919542",
-      "pubDate": "2026-09-28T08:28:51.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "UK Housebuilders surge on new scheme to cut homebuyer deposits",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/uk-housebuilders-surge-on-new-scheme-to-cut-homebuyer-deposits-4919540",
-      "pubDate": "2026-09-28T08:26:08.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Trump ‘very seriously’ considering diesel export ban as global supply crunch worsens",
-      "summary": "Analysts warn an export ban could backfire, pushing up global diesel prices and potentially triggering higher U.S. gasoline prices as refiners adjust.",
-      "link": "https://www.cnbc.com/2026/09/28/diesel-oil-trump-export-ban-fuel-prices.html",
-      "pubDate": "2026-09-28T08:24:19.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Suedzucker raises revenue outlook on biofuel demand growth",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/suedzucker-raises-revenue-outlook-on-biofuel-demand-growth-93CH-4919519",
-      "pubDate": "2026-09-28T08:15:05.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Capricorn Energy stock falls after DNO declines to raise bid",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/capricorn-energy-stock-falls-after-dno-declines-to-raise-bid-93CH-4919517",
-      "pubDate": "2026-09-28T08:13:01.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Police 'investigate Iran link' to suspected bomb plot at UK air base used by U.S.",
-      "summary": "U.K. counter-terrorism police are understood to be investigating a potential link with Iran after an alleged bomb threat against an air base hosting U",
-      "link": "https://www.cnbc.com/2026/09/28/iran-war-trump-hormuz.html",
-      "pubDate": "2026-09-28T08:10:34.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
+      "emoji": "📈",
       "isMarketRelated": true
     },
     {
@@ -425,76 +775,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold",
-      "summary": "U.S. President Donald Trump and Chinese President Xi Jinping met in Washington, D.C., last week and signaled plans to meet two more times this year.",
-      "link": "https://www.cnbc.com/2026/09/28/trump-xi-summit-tangible-outcomes-us-china-truce.html",
-      "pubDate": "2026-09-28T07:22:06.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "한 달 만에 주가 90% 급등, 삼성 덕에 웃는 이 회사",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289845i",
-      "pubDate": "2026-09-28T07:19:39.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "보통주 날 때 기어간 우선주…할인율 50% 넘어서며 역대급 '디스카운트",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289776i",
-      "pubDate": "2026-09-28T07:12:38.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Northern Star shares pop as Australia's largest gold miner rejects $27 billion takeover proposal",
-      "summary": "Northern Star shares jumped after the Australian gold miner rejected a takeover proposal from Gold Fields.",
-      "link": "https://www.cnbc.com/2026/09/28/northern-star-shares-gold-fields-takeover-bid.html",
-      "pubDate": "2026-09-28T07:12:06.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "외인·기관 4조 매도 폭탄…삼전닉스 5% 폭락에 6900선 붕괴",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092898206",
-      "pubDate": "2026-09-28T07:10:29.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "신한투자증권, 도시 숲 가꿔 탄소 줄이고 취약계층엔 맞춤 나눔 실천",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092885001",
-      "pubDate": "2026-09-28T07:08:13.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "한화투자증권, 임직원이 어르신 AI 교육 나서…자체 개발한 건강 앱도 안내",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092884961",
-      "pubDate": "2026-09-28T07:07:19.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
       "title": "\"아내가 신고\"…사카구치 켄타로, 결혼 10일 만에 무슨 일이",
       "summary": "",
       "link": "https://www.hankyung.com/article/202609289678H",
@@ -503,46 +783,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "연휴 직후 7천 깨진 코스피…\"저가 매수 골든타임\" 믿어도 될까",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289612i",
-      "pubDate": "2026-09-28T06:51:59.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "“호텔주, 보유 자산가치 대비 저평가”…서부T&D·GS피앤엘 강세",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289213i",
-      "pubDate": "2026-09-28T06:46:48.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "금융위원회 \"초고빈도 매매 규율책 마련하겠다\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289632i",
-      "pubDate": "2026-09-28T06:40:51.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "코스피, 2.70% 내린 6889.74 종료…코스닥 0.25% 오른 846.58",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092897286",
-      "pubDate": "2026-09-28T06:36:23.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
     },
     {
       "title": "방콕 가족여행 갔다가 '멘붕'…한국인 관광객 공항서 '발동동'",
@@ -555,250 +795,10 @@
       "isMarketRelated": false
     },
     {
-      "title": "서학개미가 1조원 사들인 DRAM…'한국판' ETF 나온다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289392i",
-      "pubDate": "2026-09-28T05:37:28.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "[공모주 분석] 'ASML 뚫은' 멜콘·'K뷰티 훈풍' 진코스텍…코스닥 입성 릴레이 도전",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609233416i",
-      "pubDate": "2026-09-28T05:00:04.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "\"차 없어도 되는데 굳이\"…日 면허시험장 줄폐업",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289346i",
-      "pubDate": "2026-09-28T04:53:08.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "이러다 2022년처럼 폭락?…'섬뜩한 신호'에 개미들 혼란",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609288945i",
-      "pubDate": "2026-09-28T04:49:21.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "中관영지 \"중미 합의 '역사적 성과'…美, 약속 실제 행동으로 옮겨야\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092892897",
-      "pubDate": "2026-09-28T04:48:49.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "\"반도체 생산량 4배\"…日레조낙 300㎜ SiC 개발 성공",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289292i",
-      "pubDate": "2026-09-28T04:42:24.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "유조선 잠행 증가에 호르무즈 통과 원유량 60% 수준 회복",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092892587",
-      "pubDate": "2026-09-28T04:29:05.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "SpaceX prepares to send Starship rocket to orbit for first time",
-      "summary": "Elon Musk's SpaceX is poised to launch a historic test flight of its massive Starship rocket early Monday.",
-      "link": "https://www.cnbc.com/2026/09/28/spacex-prepares-to-send-starship-rocket-to-orbit-for-first-time.html",
-      "pubDate": "2026-09-28T04:12:20.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "[속보] BTS, 美 MTV VMA '대상' 올해의 노래 수상…3관왕",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092892027",
-      "pubDate": "2026-09-28T03:27:28.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "美 법무장관, CNN 취재 배제 옹호…\"오보는 국가안보 문제\"",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026092891297",
-      "pubDate": "2026-09-28T02:54:51.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "유조선 위치 끄고 호르무즈 '잠행'…원유 공급 60%까지 회복",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202609289016i",
-      "pubDate": "2026-09-28T02:13:14.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
-      "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
-      "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T22:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
-      "summary": "“As a country, we have grown dangerously comfortable.”",
-      "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T21:45:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Taxpayer-funded Trump ads draw bipartisan scrutiny ahead of midterms",
-      "summary": "TV ads featuring Trump are expanding nationally, prompting bipartisan questions over whether they comply with restrictions on taxpayer-funded publicit",
-      "link": "https://www.cnbc.com/2026/09/27/trump-government-funded-ads-midterms.html",
-      "pubDate": "2026-09-27T21:38:59.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
-      "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial",
-      "link": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T19:21:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Anthropic CEO Amodei set to meet with Trump after missing state dinner",
-      "summary": "As top tech CEOs rubbed elbows at President Trump's glitzy dinner for Chinese President Xi on Thursday, Anthropic's CEO was noticeably absent.",
-      "link": "https://www.cnbc.com/2026/09/27/dario-amodei-set-to-have-dinner-with-trump-after-missing-state-dinner.html",
-      "pubDate": "2026-09-27T19:13:27.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
-      "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
-      "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T16:45:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
-      "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
-      "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T16:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
-      "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
-      "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T16:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Debt-hungry AI companies face increased risk as bond yields spike",
-      "summary": "The AI infrastructure buildout shows no sign of slowing, but the surge in Treasury yields means it's at least going to cost more.",
-      "link": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
-      "pubDate": "2026-09-27T15:35:34.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "At NFL games this season, drone defense tech aims to bring down disruptions",
-      "summary": "The NFL told CNBC it recorded 10,852 drone violations over stadiums between 2021 and 2025. The Jaguars became the first team to sign a drone defense f",
-      "link": "https://www.cnbc.com/2026/09/27/nfl-drone-defense-tech-game-disruptions.html",
-      "pubDate": "2026-09-27T15:22:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "My friend is terminally ill. Should she sell her rental home and pay $100,000 in capital gains?",
-      "summary": "“Her younger son lives in the condo, but wants to move elsewhere with friends.”",
-      "link": "https://www.marketwatch.com/story/my-friend-is-terminally-ill-should-she-sell-her-rental-home-and-pay-100-000-in-capital-gains-8568aada?mod=mw_rss_topstories",
-      "pubDate": "2026-09-27T15:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Meta's Muse agent is attacking one of the economy's most profitable weak spots",
-      "summary": "Meta's Muse AI personal agent will work over your credit card spending if you don't mind the invasion. How big a threat is it to the subscription econ",
-      "link": "https://www.cnbc.com/2026/09/27/meta-muse-ai-personal-agent.html",
-      "pubDate": "2026-09-27T14:33:22.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "'Funflation' is on the rise as hobbies get pricier, but consumers keep spending anyway",
-      "summary": "Consumers are spending more on hobbies like arts and crafts and outdoor sports, as it gets more expensive to travel due to increased airfare.",
-      "link": "https://www.cnbc.com/2026/09/27/funflation-consumer-spending-pricier-hobbies.html",
-      "pubDate": "2026-09-27T05:00:02.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Supply glut, lab-grown alternatives: What's behind the fall of diamond prices to record lows",
-      "summary": "Diamond prices are falling, leading investors and others to wonder whether the gemstones are losing their luster.",
-      "link": "https://www.cnbc.com/2026/09/26/whats-behind-the-fall-of-diamond-prices-to-record-lows.html",
-      "pubDate": "2026-09-26T13:09:33.000Z",
+      "title": "Many homeowners have a big insurance coverage gap — and don't even know it",
+      "summary": "Many consumers have a gap in their homeowners insurance coverage. This puts them at financial risk, and they are likely unaware, experts said.",
+      "link": "https://www.cnbc.com/2026/09/26/homeowners-insurance-coverage-gap.html",
+      "pubDate": "2026-09-26T13:30:01.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
