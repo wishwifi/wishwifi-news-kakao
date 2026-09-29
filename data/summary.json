@@ -2,12 +2,12 @@
   "date": "2026년 9월 30일",
   "headline": "삼성전자, AI가 옷감·오염도 분석해 다량을 한 번에 세탁",
   "tags": [
-    "#삼성전자,AI",
-    "#SK텔레콤,고",
-    "#삼성전자,\"가",
-    "#삼성전자,더",
-    "#우정사업본부,",
-    "#Norways"
+    "#Trumpto",
+    "#Entertai",
+    "#LMT,GD",
+    "#Nasdaq1",
+    "#Targets",
+    "#S&P500"
   ],
   "points": [
     {
@@ -25,19 +25,6 @@
     },
     {
       "icon": "📊",
-      "title": "SK텔레콤, 고객 접점 넓히고 AI ",
-      "desc": "SK텔레콤이 고객과의 소통을 상품과 서비스 개선은 물론 경영 전반으로 확대하고 있다. 고객의 목소리를 직접 듣는 접점을 늘리는 한편 전문가와 실제 이용자의 의견을 함께 반영하고, ..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "SK텔레콤, 고객 접점 넓히고 AI 고도화해 변화 만들",
-          "url": "https://www.mk.co.kr/news/special-edition/12163788"
-        }
-      ]
-    },
-    {
-      "icon": "📊",
       "title": "삼성전자, \"가격 부담 낮추고 AI ",
       "desc": "삼성전자가 한국능률협회컨설팅(KMAC)이 주관하는 2026년 한국산업의 고객만족도(KCSI) 조사에서 PC 부문 25년 연속 1위에 선정됐다. 장기간 이어진 1위 기록을 통해 PC..",
       "links": [
@@ -50,7 +37,7 @@
       ]
     },
     {
-      "icon": "📰",
+      "icon": "📊",
       "title": "삼성전자, 더 얇고 똑똑해진 폴더블 ",
       "desc": "삼성전자가 폴더블 스마트폰 라인업을 3종으로 확대하고 인공지능(AI)을 중심으로 모바일 경험 강화에 나섰다. 삼성전자는 지난 7월 22일 영국 런던에서 열린 '갤럭시 언팩 2026..",
       "links": [
@@ -64,19 +51,6 @@
     },
     {
       "icon": "📰",
-      "title": "우정사업본부, 우편 넘어 복지·금융까",
-      "desc": "우정사업본부는 전국 우체국 네트워크를 바탕으로 기존 우편·금융 서비스를 보다 가까운 생활권으로 확대하고 있다. '국민의 오늘을 연결하며 내일의 가치를 더하는 한국우정'을 비전으로 ..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "우정사업본부, 우편 넘어 복지·금융까지 '생활 플랫폼'",
-          "url": "https://www.mk.co.kr/news/special-edition/12163824"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
       "title": "일본, 전기요금 1만엔 돌파…가정집 ",
       "desc": "일본, 전기요금 1만엔 돌파…가정집 '비명' 터졌다",
       "links": [
@@ -85,6 +59,32 @@
           "color": "#c8281f",
           "title": "일본, 전기요금 1만엔 돌파…가정집 '비명' 터졌다",
           "url": "https://www.hankyung.com/article/2026092930387"
+        }
+      ]
+    },
+    {
+      "icon": "📰",
+      "title": "\"트럼프 비서관은 '애착담요' 같아\"",
+      "desc": "\"트럼프 비서관은 '애착담요' 같아\"…SNS 정치로 대선주자 된 오소프",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "\"트럼프 비서관은 '애착담요' 같아\"…SNS 정치로 대",
+          "url": "https://www.hankyung.com/article/2026092927841"
+        }
+      ]
+    },
+    {
+      "icon": "📰",
+      "title": "日, 디지털 지방채 발행…개인 투자자",
+      "desc": "日, 디지털 지방채 발행…개인 투자자 자금 조달",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "日, 디지털 지방채 발행…개인 투자자 자금 조달",
+          "url": "https://www.hankyung.com/article/2026092927821"
         }
       ]
     }
@@ -109,7 +109,7 @@
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "Norway stocks lower at close of trade; Oslo OBX down 1.05%",
+      "desc": "Trump touts AI self regulation, data center benefits in meeting with top tech leaders",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "Trump to host Anthropic’s Amodei, Nvidia’s Huang, other execs, as AI fears mount / Trump’s municipal bond portfolio reaches as much as $1 billion as policy overlaps mount",
+    "summary": "Trump touts AI self regulation, data center benefits in meeting with top tech leaders / Trump government ads were funded by Homeland Security, WSJ reports",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-09-29T15:14:44.037Z",
-  "updatedAtKST": "2026-09-30 00:14:44 KST",
-  "ogImage": "https://images.unsplash.com/photo-1782330136391-843fb49da650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA2OTQ4ODR8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-09-29T19:43:34.661Z",
+  "updatedAtKST": "2026-09-30 04:43:34 KST",
+  "ogImage": "https://images.unsplash.com/photo-1645913362528-516d2715bf1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA3MTEwMTV8&ixlib=rb-4.1.0&q=80&w=1080"
 }
