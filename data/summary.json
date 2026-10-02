@@ -1,17 +1,43 @@
 {
   "date": "2026년 10월 3일",
-  "headline": "[속보] 마크롱 \"G7, 4개월 걸쳐 경유·원유 1억배럴 방출키로\"",
+  "headline": "트럼프 압박에…G7, 비축유 1억배럴 푼다",
   "tags": [
-    "#Fordfen",
-    "#Trumpex",
-    "#Norways",
-    "#Greeces",
+    "#DoesAI",
     "#G7natio",
-    "#‘Complet"
+    "#Whybond",
+    "#Fitchre",
+    "#Nasdaq1",
+    "#S&P500"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "트럼프 압박에…G7, 비축유 1억배럴",
+      "desc": "트럼프 압박에…G7, 비축유 1억배럴 푼다",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "트럼프 압박에…G7, 비축유 1억배럴 푼다",
+          "url": "https://www.hankyung.com/article/2026100213561"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "[속보] 마크롱 \"G7, 회원국 간 ",
+      "desc": "[속보] 마크롱 \"G7, 회원국 간 경유 수출 금지 않기로 합의\"",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "[속보] 마크롱 \"G7, 회원국 간 경유 수출 금지 않",
+          "url": "https://www.hankyung.com/article/2026100213437"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
       "title": "[속보] 마크롱 \"G7, 4개월 걸쳐",
       "desc": "[속보] 마크롱 \"G7, 4개월 걸쳐 경유·원유 1억배럴 방출키로\"",
       "links": [
@@ -24,7 +50,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "트럼프 \"한국과 협상 좋아져…84억弗",
       "desc": "트럼프 \"한국과 협상 좋아져…84억弗 석유 프로젝트 확정\"",
       "links": [
@@ -37,7 +63,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "[속보] 트럼프 \"유럽, 비축 경유 ",
       "desc": "[속보] 트럼프 \"유럽, 비축 경유 방출하기로 합의…즉시 시작될 것\"",
       "links": [
@@ -61,32 +87,6 @@
           "url": "https://www.mk.co.kr/news/politics/12167582"
         }
       ]
-    },
-    {
-      "icon": "📰",
-      "title": "트럼프 \"韓과 협상 좋아져…석유 증산",
-      "desc": "트럼프 \"韓과 협상 좋아져…석유 증산 프로젝트에 84억불 투입\"",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "트럼프 \"韓과 협상 좋아져…석유 증산 프로젝트에 84억",
-          "url": "https://www.hankyung.com/article/2026100212977"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "AI가 돈을 쓸 때 필요한 것...스",
-      "desc": "안녕하세요 엠블록레터의 AI 인턴입니다. 세계 최대 자산운용사 블랙록이 AI 에이전트의 확산을 가상자산과 블록체인 인프라의 새로운 구조적 수요 촉발 요인으로 지목했어요. 블랙록은 ..",
-      "links": [
-        {
-          "src": "매일경제",
-          "color": "#c8281f",
-          "title": "AI가 돈을 쓸 때 필요한 것...스테이블코인이 ‘기계",
-          "url": "https://www.mk.co.kr/news/stock/12167560"
-        }
-      ]
     }
   ],
   "experts": [
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "[속보] 마크롱 \"G7, 4개월 걸쳐 경유·원유 1억배럴 방출키로\"",
+      "desc": "트럼프 압박에…G7, 비축유 1억배럴 푼다",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "Ford fends off Hyundai to retain No. 3 U.S. sales position in third quarter",
+      "desc": "Does AI have a soul? Pope Leo and Anthropic clash.",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "Trump expected to name Jay Clayton as AI czar / Europe agrees to release diesel stocks, Trump says",
+    "summary": "트럼프 압박에…G7, 비축유 1억배럴 푼다 / 트럼프 \"한국과 협상 좋아져…84억弗 석유 프로젝트 확정\"",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-10-02T15:12:22.356Z",
-  "updatedAtKST": "2026-10-03 00:12:22 KST",
-  "ogImage": "https://images.unsplash.com/photo-1649184046649-f380f7dbf064?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA5NTM5NDJ8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-10-02T19:42:02.809Z",
+  "updatedAtKST": "2026-10-03 04:42:02 KST",
+  "ogImage": "https://images.unsplash.com/photo-1600176842565-4eb9eafc9bf6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTA5NzAxMjN8&ixlib=rb-4.1.0&q=80&w=1080"
 }
