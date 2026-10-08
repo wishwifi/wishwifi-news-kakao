@@ -1,15 +1,365 @@
 {
-  "updatedAt": "2026-10-08T15:57:54.912Z",
-  "updatedAtKST": "2026-10-09 00:57:54 KST",
+  "updatedAt": "2026-10-08T20:25:43.126Z",
+  "updatedAtKST": "2026-10-09 05:25:43 KST",
   "totalCount": 80,
-  "marketRelatedCount": 39,
+  "marketRelatedCount": 32,
   "items": [
     {
-      "title": "U.S. suspends Microsoft, Adobe from green-card labor program in foreign worker crackdown",
+      "title": "Major League Baseball proposes shortening its regular season as it pushes for a salary cap",
+      "summary": "Major League Baseball proposed a return to a shorter 154-game regular season schedule as it attempts to convince players to approve a salary cap.",
+      "link": "https://www.cnbc.com/2026/10/08/major-league-baseball-proposes-shorter-season-amid-salary-cap-push.html",
+      "pubDate": "2026-10-08T20:16:21.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Nasdaq ends over 1% lower as tech stocks take a hit on OpenAI revenue report",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-wall-st-retreats-from-records-yields-climb-4937789",
+      "pubDate": "2026-10-08T20:14:57.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/lawmakers-raise-alarm-at-google-plan-to-acquire-spirit-airlines-data-for-ai-models-4939672",
+      "pubDate": "2026-10-08T20:12:53.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+      "summary": "Starbucks has reportedly been working with advisers on a takeover proposal for Chipotle, but a potential deal comes with pros and cons for investors.",
+      "link": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+      "pubDate": "2026-10-08T20:12:33.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Coca-Cola looks to sell Costa Coffee, Semafor reports",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/cocacola-looks-to-sell-costa-coffee-semafor-reports-4939724",
+      "pubDate": "2026-10-08T20:12:27.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Gap sees executive exit as catalyst to rebuild struggling Athleta unit - Bloomberg",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/gap-sees-executive-exit-as-catalyst-to-rebuild-struggling-athleta-unit--bloomberg-4939723",
+      "pubDate": "2026-10-08T20:11:44.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Disney pitches rival studios on Infinity Vision to challenge Imax - Bloomberg",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/disney-pitches-rival-studios-on-infinity-vision-to-challenge-imax--bloomberg-4939705",
+      "pubDate": "2026-10-08T20:08:21.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
+      "summary": "Traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction.",
+      "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
+      "pubDate": "2026-10-08T20:06:52.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+      "summary": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
+      "link": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
+      "pubDate": "2026-10-08T20:06:31.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Explainer-The skilled foreign tech workers’ green card program under attack from Trump",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/explainerthe-skilled-foreign-tech-workers-green-card-program-under-attack-from-trump-4939632",
+      "pubDate": "2026-10-08T20:06:28.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "고아원 소년이 만든 ‘회장님 차’ … 벤츠보다 비싼 명품차의 탄생",
+      "summary": "마이바흐벤츠 위에 벤츠, 마이바흐메르세데스-벤츠에서도 가장 비싼 차에는 삼각별만 붙지 않는다. 라디에이터 그릴과 차체 곳곳에 겹쳐진 두 개의 ‘M’이 새겨진다. 메르세데스-마이바흐..",
+      "link": "https://www.mk.co.kr/news/business/12171570",
+      "pubDate": "2026-10-08T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "격화된 AI반도체 패권전쟁 … 삼성반도체 출신이 말하는 승리전략",
+      "summary": "이관후 아메리칸대 코고드경영대학원 교수 인터뷰AI(인공지능) 패권 경쟁이 전 세계적으로 숨 가쁘게 진행되고 있다. AI 모델 성능을 둘러싼 기업 간 경쟁이 치열하게 전개되는 한편,..",
+      "link": "https://www.mk.co.kr/news/world/12171552",
+      "pubDate": "2026-10-08T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "summary": "OpenAI has told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed.",
+      "link": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "pubDate": "2026-10-08T19:49:23.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Apple names insider Steve Smith as new M&A chief, memo shows",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/apple-names-insider-steve-smith-as-new-ma-chief-memo-shows-4939661",
+      "pubDate": "2026-10-08T19:48:18.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+      "summary": "Seven tips for painlessly moving in retirement.",
+      "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T19:47:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Florida is voting on whether to slash property taxes. Here’s who it would benefit — and hurt.",
+      "summary": "Amendment 3’s passage could add momentum to other states’ efforts to slash property taxes",
+      "link": "https://www.marketwatch.com/story/florida-is-voting-on-whether-to-slash-property-taxes-heres-who-it-would-benefit-and-hurt-6c34b470?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T19:41:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Canada bond yields edge higher as investors assess rate outlook",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/canada-bond-yields-edge-higher-as-investors-assess-rate-outlook-4939655",
+      "pubDate": "2026-10-08T19:24:09.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Tesla consolidates at $372 above key support: Live levels",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/tesla-reclaims-200ma-eyes-386-resistance-hourly-levels-93CH-4932452",
+      "pubDate": "2026-10-08T19:19:08.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Alphabet C stuck in $335-$350 chop zone: Live levels",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/alphabet-c-consolidates-332350-breakout-levels-live-93CH-4932453",
+      "pubDate": "2026-10-08T19:19:07.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+      "summary": "“Both properties will be solely in his name.”",
+      "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T19:15:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
+      "summary": "President Donald Trump and his national security team have talked about possibly restarting large-scale U.S. military operations in Iran, according to",
+      "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
+      "pubDate": "2026-10-08T19:00:49.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "My husband inherited $3 million. He wants a vacation home, but I want to save for retirement. Who’s right?",
+      "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
+      "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T19:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
       "summary": "Labor Secretary Keith Sonderling cited \"multiple active federal investigations\" around the two companies' involvement in the program Thursday.",
       "link": "https://www.cnbc.com/2026/10/08/microsoft-adobe-green-card-labor-suspension.html",
-      "pubDate": "2026-10-08T15:51:21.000Z",
+      "pubDate": "2026-10-08T18:52:59.000Z",
       "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "The options market is reminding investors there’s a cure for rising bond yields — higher yields",
+      "summary": "The MOVE Index — the Treasury market’s “fear gauge” — has reached heights that in the past suggested yields may have peaked, at least for now.",
+      "link": "https://www.marketwatch.com/story/the-options-market-is-reminding-investors-theres-a-cure-for-rising-bond-yields-higher-yields-2dcac640?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T18:51:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
+      "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
+      "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T18:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Bond yields fall as the Treasury market passes a crucial test of investor confidence",
+      "summary": "The 30-year Treasury bond still matters, as it can be a measure of trust in the U.S. government.",
+      "link": "https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T18:19:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Ken Paxton is right. Tax cuts will mean Social Security and Medicare cuts.",
+      "summary": "It doesn’t matter if you are a Republican or Democrat. Math is math.",
+      "link": "https://www.marketwatch.com/story/ken-paxton-is-right-tax-cuts-will-mean-social-security-and-medicare-cuts-2befed72?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T18:08:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "America shut out Chinese EVs. Britain welcomed them — and now faces a difficult choice",
+      "summary": "Britain faces a finely balanced choice over whether to follow the EU in imposing tariffs on Chinese EVs.",
+      "link": "https://www.cnbc.com/2026/10/08/autos-china-evs-uk-tariffs-hybrid-cars.html",
+      "pubDate": "2026-10-08T18:04:08.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+      "summary": "Gas prices are expected to remain above $4 per gallon on Nov. 3, according to traders on prediction market platform Kalshi.",
+      "link": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html",
+      "pubDate": "2026-10-08T17:51:51.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Rising interest rates: The good, the bad and the ugly for retirees",
+      "summary": "Unlike higher gas prices, which hurt almost everyone, higher borrowing costs have an uneven impact.",
+      "link": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T17:45:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump says U.S. will not attack Iran before midterm election",
+      "summary": "Trump said talks with Tehran were “productive” as the Iran war pushes oil and gas prices higher and support for the conflict falls.",
+      "link": "https://www.cnbc.com/2026/10/08/iran-war-trump-midterm-election.html",
+      "pubDate": "2026-10-08T17:41:20.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+      "summary": "Tariffs added 2.9 percentage points to inflation in 67 categories of goods by February 2026, researchers at the New York Federal Reserve found.",
+      "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+      "pubDate": "2026-10-08T17:31:03.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked",
+      "summary": "CNBC's Financial Advisor 100 ranks the best financial advisors and top firms for 2026. Here's how to pick the best financial planner for you and your ",
+      "link": "https://www.cnbc.com/2026/10/08/best-financial-advisors.html",
+      "pubDate": "2026-10-08T17:27:54.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "AI부터 금융·여행까지…월가 매수 의견 잇따라 [월가 업&다운]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610092235i",
+      "pubDate": "2026-10-08T17:26:37.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Treasury sanctions 17 tankers linked to Iran's 'shadow fleet' in economic pressure campaign",
+      "summary": "The additional sanctions are part of the Trump administration's military and economic campaign against Iran.",
+      "link": "https://www.cnbc.com/2026/10/08/iran-treasury-sanctions-shadow-fleet.html",
+      "pubDate": "2026-10-08T17:13:32.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "How to provide guaranteed retirement income while paying no commissions",
+      "summary": "Unlike the stock market, whose future returns are anything but assured, a TIPS ladder’s payout is guaranteed.",
+      "link": "https://www.marketwatch.com/story/how-to-provide-guaranteed-retirement-income-while-paying-no-commissions-b2085511?mod=mw_rss_topstories",
+      "pubDate": "2026-10-08T16:57:00.000Z",
+      "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
@@ -18,171 +368,11 @@
       "title": "Skydance's David Ellison tells CNBC combined company is 'positioned to win in every single vertical'",
       "summary": "Skydance includes two film studios, the CBS broadcast network, a sprawling pay TV portfolio and streaming services Paramount+ and HBO Max.",
       "link": "https://www.cnbc.com/2026/10/08/skydance-co-ceos-ellison-kreiz.html",
-      "pubDate": "2026-10-08T15:50:00.000Z",
+      "pubDate": "2026-10-08T16:25:40.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
-    },
-    {
-      "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
-      "summary": "Tariffs added 2.9 percentage points to inflation in 67 categories of goods by February 2026, researchers at the New York Federal Reserve found.",
-      "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
-      "pubDate": "2026-10-08T15:49:36.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "This chart shows the No. 1 reason why the cost of raising kids jumped 60% in eight years",
-      "summary": "“The birth-rate crisis is really an affordability crisis.”",
-      "link": "https://www.marketwatch.com/story/this-chart-shows-the-no-1-reason-why-the-cost-of-raising-kids-jumped-60-in-eight-years-175a2309?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T15:46:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "10-year Treasury yield rises as Fed's Waller says more hikes needed, investors await 30-year auction",
-      "summary": "U.S. Treasury yields climbed higher on Thursday as investors eagerly awaited the long-dated bond auction later in the day, after strong sales of 10-ye",
-      "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
-      "pubDate": "2026-10-08T15:42:32.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Analysis-AI pricing lawsuit against McDonald’s raises new antitrust questions",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/analysisai-pricing-lawsuit-against-mcdonalds-raises-new-antitrust-questions-4939446",
-      "pubDate": "2026-10-08T15:42:29.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Poland stocks lower at close of trade; WIG30 down 0.70%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/poland-stocks-lower-at-close-of-trade-wig30-down-070-4939444",
-      "pubDate": "2026-10-08T15:40:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "The Treasury market is facing a crucial vote of investor confidence",
-      "summary": "Higher bond yields aren’t only about inflation and the Iran war. But it means a higher cost of capital.",
-      "link": "https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T15:37:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Turkey stocks higher at close of trade; BIST 100 up 0.75%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/turkey-stocks-higher-at-close-of-trade-bist-100-up-075-4939440",
-      "pubDate": "2026-10-08T15:35:29.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Denmark stocks lower at close of trade; OMX Copenhagen 20 down 0.92%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/denmark-stocks-lower-at-close-of-trade-omx-copenhagen-20-down-092-4939439",
-      "pubDate": "2026-10-08T15:35:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "American Airlines extends Starlink Wi-Fi roll-out to entire mainline fleet",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/american-airlines-extends-starlink-wifi-rollout-to-entire-mainline-fleet-4939429",
-      "pubDate": "2026-10-08T15:30:26.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "My husband inherited $3 million. He wants a vacation home, but I want to save for retirement. Who’s right?",
-      "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
-      "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T15:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Trump discloses Nvidia stock trades as he prepares to honor CEO Huang",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/trump-discloses-nvidia-stock-trades-as-he-prepares-to-honor-ceo-huang-4939425",
-      "pubDate": "2026-10-08T15:25:14.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "US suspends Microsoft, major IT firms from key green card program",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/us-suspending-permanent-residency-program-formicrosoft-vance-says-4939365",
-      "pubDate": "2026-10-08T15:24:58.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Starbucks has explored Chipotle takeover, FT reports",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/starbucks-explored-chipotle-takeover-ft-reports-4939307",
-      "pubDate": "2026-10-08T15:24:24.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Oil prices jump 4% as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
-      "summary": "President Donald Trump and his national security team have talked about possibly restarting large-scale U.S. military operations in Iran, according to",
-      "link": "https://www.cnbc.com/2026/10/08/oil-prices-today-brent-wti-hormuz.html",
-      "pubDate": "2026-10-08T15:22:39.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Seviora Group to merge three asset management units",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/seviora-group-to-merge-three-asset-management-units-93CH-4939424",
-      "pubDate": "2026-10-08T15:17:12.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Morocco stocks lower at close of trade; Moroccan All Shares down 0.87%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-lower-at-close-of-trade-moroccan-all-shares-down-087-4939421",
-      "pubDate": "2026-10-08T15:15:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
     },
     {
       "title": "“애국가 공부하며 태극마크 뜻 되새겨, 내 유도는 이제 다시 시작”",
@@ -195,26 +385,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Amazon overhauls aging devices lineup with higher-priced Alexa tablet, dumping the budget Fire",
-      "summary": "The company said the Alexa tablet's improved speed and performance, artificial intelligence features, and upgraded design warrant a higher price tag.",
-      "link": "https://www.cnbc.com/2026/10/08/amazon-alexa-tablet-release.html",
-      "pubDate": "2026-10-08T14:51:27.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
-      "summary": "Trump disclosed 517 August trades, including up to $5 million in debt from SpaceX, a major Pentagon contractor and NASA launch provider.",
-      "link": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html",
-      "pubDate": "2026-10-08T14:47:05.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "Gen Zers are now the biggest spenders in the art market, survey finds",
       "summary": "Gen Zers have become the most active buyers of high-end art, changing the face of a market long dominated by Baby Boomers, according to a new survey.",
       "link": "https://www.cnbc.com/2026/10/08/gen-zers-are-now-the-biggest-spenders-in-the-art-market-survey-finds-.html",
@@ -223,36 +393,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
-      "summary": "Pepsi's North American business continues to lag behind its international markets.",
-      "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
-      "pubDate": "2026-10-08T14:43:05.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Layoffs haven’t been this low since the 1960s. It’s great if you have a job — but not if you don’t.",
-      "summary": "It isn’t easy for anyone looking for work now to find a job. Yet people who already have jobs probably don’t have to worry much about losing them.",
-      "link": "https://www.marketwatch.com/story/layoffs-havent-been-this-low-since-the-1960s-its-great-if-you-have-a-job-but-not-if-you-dont-74cbdf55?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T14:35:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
-      "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
-      "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T14:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "프랑스, 어리석음의 불길에 휩싸이다 [이번주 WSJ]",
@@ -283,16 +423,6 @@
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
-    },
-    {
-      "title": "Trump's former defense secretary sees no end in sight for Iran war — to the benefit of America's 'greatest adversary'",
-      "summary": "Mark Esper, who served as U.S. Secretary of Defense during Trump's first presidential term, said he did not see the conflict ending in the foreseeable",
-      "link": "https://www.cnbc.com/2026/10/08/trump-iran-war-mark-esper.html",
-      "pubDate": "2026-10-08T14:12:10.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "최태원, 광주 반도체팹 예정지 찾는다 … 용지·전력 등 점검",
@@ -335,16 +465,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "French bonds are suffering through their worst decade since 1803 — and investors are bracing for more pain",
-      "summary": "The spread between France’s 10-year government bond and Germany’s equivalent reached its widest last week in available Bloomberg data, dating back to ",
-      "link": "https://www.marketwatch.com/story/french-bonds-are-suffering-through-its-worst-decade-since-1803-and-investors-are-bracing-for-more-pain-63df8fe7?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T13:52:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "앤두릴의 미국 잠수함 승부수 [이번주 WSJ]",
       "summary": "",
       "link": "https://www.hankyung.com/article/202610082106i",
@@ -372,46 +492,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "College students have to use credit cards just to cover basic living expenses. Here’s what it’s costing them.",
-      "summary": "Nearly 9 out of every 10 students who use credit cards report doing so to pay for basic living expenses such as food, housing and gas.",
-      "link": "https://www.marketwatch.com/story/more-college-students-have-to-use-credit-cards-just-to-cover-basic-living-expenses-heres-what-its-costing-them-cfd82561?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T13:43:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
-      "summary": "Fourteen of the 20 biggest donor groups CNBC analyzed are Republican-aligned as crypto, AI and betting money reshapes 2026 midterm spending.",
-      "link": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html",
-      "pubDate": "2026-10-08T13:40:12.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "After a 33% gain in the first half, this fund manager grew tired of the AI trade. Here’s where he’s looking now.",
-      "summary": "Bill Hench, of First Eagle, stepped away from the artificial-intelligence trade with small-capitalization bets on a recovery of the U.S. housing const",
-      "link": "https://www.marketwatch.com/story/after-a-33-gain-in-the-first-half-this-fund-manager-grew-tired-of-the-ai-trade-heres-where-hes-looking-now-1783b3a4?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T13:34:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Options traders start calling bottom on bond rout after 'bullet bid' 10-year auction",
-      "summary": "Calling a bottom in the nonstop U.S. Treasury bond sell-off might seem crazy, but a handful of options traders look increasingly willing to do it.",
-      "link": "https://www.cnbc.com/2026/10/08/options-traders-start-calling-bottom-on-bond-rout-after-bullet-bid-10-year-auction.html",
-      "pubDate": "2026-10-08T13:29:52.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -475,26 +555,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Who will benefit more from AI agents when it comes to spending – companies or you?",
-      "summary": "There’s an agent arms race unfolding, supercharging the battle for your wallet",
-      "link": "https://www.marketwatch.com/story/who-will-benefit-more-from-ai-agents-when-it-comes-to-spending-companies-or-you-cec597ed?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T12:47:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
-      "summary": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shini",
-      "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
-      "pubDate": "2026-10-08T12:32:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "고전과 현대의 경계 지우고, 장르 구분을 허물어버리다 [2026 노벨문학상]",
       "summary": "2026 노벨문학상에 캐나다 작가 앤 카슨올해 노벨문학상의 월계관은 캐나다 작가 앤 카슨에게 돌아갔다. 앤 카슨은 고대 그리스 신화와 그리스 비극을 현대적인 시선에서 재해석하고, ..",
       "link": "https://www.mk.co.kr/news/culture/12171993",
@@ -515,36 +575,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "제주 ‘실종사건 허위종결’ 경찰관 파면됐다",
-      "summary": "실종자와 연락한 것처럼 기록을 꾸며 사건을 종결한 혐의로 구속기소된 제주 경찰관에 대해 파면이 의결됐다. 8일 경찰 등에 따르면 제주서부경찰서는 이날 징계위원회에서 전 실종수사팀 ..",
-      "link": "https://www.mk.co.kr/news/society/12171984",
-      "pubDate": "2026-10-08T12:12:41.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“같은 보수라도 기본은 지켜야”…트럼프 ‘손절’하는 공화당 후보들",
-      "summary": "고물가에 ‘텃밭’ 텍사스도 불안 트럼프, 선거지원 확 늘렸지만 후보들, 사진 지우고 거리두기도널드 트럼프 미국 대통령이 한 달 새 세 번째로 텍사스를 찾았다. 전통적인 공화당 텃밭..",
-      "link": "https://www.mk.co.kr/news/world/12171982",
-      "pubDate": "2026-10-08T12:07:23.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Trump says he doesn't want Iran deal as U.S. reportedly prepares for 'massive bombing'",
-      "summary": "The U.S. president and his national security team have discussed possibly resuming large-scale U.S. military operations in the coming weeks, NBC News ",
-      "link": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
-      "pubDate": "2026-10-08T11:42:48.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "[속보] 노벨문학상에 캐나다 작가 앤 카슨",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026100820837",
@@ -552,16 +582,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "CNBC's Financial Advisor 100: Best financial advisors, top firms for 2026 ranked",
-      "summary": "CNBC's Financial Advisor 100 ranks the best financial advisors and top firms for 2026. Here's how to pick the best financial planner for you and your ",
-      "link": "https://www.cnbc.com/2026/10/08/best-financial-advisors.html",
-      "pubDate": "2026-10-08T10:07:13.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -755,16 +775,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "America shut out Chinese EVs. Britain welcomed them — and now faces a difficult choice",
-      "summary": "Britain faces a finely balanced choice over whether to follow the EU in imposing tariffs on Chinese EVs.",
-      "link": "https://www.cnbc.com/2026/10/08/autos-china-evs-uk-tariffs-hybrid-cars.html",
-      "pubDate": "2026-10-08T05:30:49.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "기름값 잡겠다며 이란 때리나…트럼프, 중간선거 전 공습 검토",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026100808637",
@@ -793,16 +803,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "美, 남미에 '카르텔 저격 드론' 배치한다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610080250i",
-      "pubDate": "2026-10-08T01:37:35.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
     }
   ]
 }
