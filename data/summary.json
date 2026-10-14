@@ -1,17 +1,30 @@
 {
-  "date": "2026년 10월 14일",
-  "headline": "35년 뒷바라진 한 아내에게 “연금은 내 돈, 못 준다” 선 그은 남편",
+  "date": "2026년 10월 15일",
+  "headline": "\"아내는 처음이어야 한다\" 무슨 광고길래…2억원 벌금 폭탄",
   "tags": [
-    "#SocialS",
-    "#Factbox-",
-    "#35년뒷바라진",
     "#CoreWeav",
-    "#CoreWeav",
-    "#10-year"
+    "#Whatto",
+    "#Trumpto",
+    "#EightUS",
+    "#WhyisA",
+    "#Didthis"
   ],
   "points": [
     {
       "icon": "📌",
+      "title": "\"아내는 처음이어야 한다\" 무슨 광고",
+      "desc": "\"아내는 처음이어야 한다\" 무슨 광고길래…2억원 벌금 폭탄",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "\"아내는 처음이어야 한다\" 무슨 광고길래…2억원 벌금 ",
+          "url": "https://www.hankyung.com/article/2026101426037"
+        }
+      ]
+    },
+    {
+      "icon": "📊",
       "title": "35년 뒷바라진 한 아내에게 “연금은",
       "desc": "35년간 아이를 키우며 살림을 도맡아 온 아내에게 졸혼을 선언한 남편의 사연이 전해졌다. 공무원인 남편은 정년퇴직을 했고, 졸혼과 함께 생활비를 주지 않겠다고 주장한다. 여성은 이..",
       "links": [
@@ -25,6 +38,19 @@
     },
     {
       "icon": "📊",
+      "title": "스페이스X 숨은 성장동력은 AI 클라",
+      "desc": "스페이스X 숨은 성장동력은 AI 클라우드…모건스탠리 긍정 평가 [월가 업&다운]",
+      "links": [
+        {
+          "src": "한국경제",
+          "color": "#c8281f",
+          "title": "스페이스X 숨은 성장동력은 AI 클라우드…모건스탠리 긍",
+          "url": "https://www.hankyung.com/article/202610142550i"
+        }
+      ]
+    },
+    {
+      "icon": "📰",
       "title": "“이 시국에 상장을 어떻게 하나”…유",
       "desc": "美 금리인상 여파 카드 지출 작년보다 13% 늘어 3분기 글로벌 M&A 41% 급감미국에서 높은 금리가 이어지고 있지만 대출과 카드 지출은 아직 견조한 흐름을 보이고 있다. 반면 ..",
       "links": [
@@ -37,7 +63,7 @@
       ]
     },
     {
-      "icon": "📊",
+      "icon": "📰",
       "title": "반도체 만들듯 드론도 찍어낸다…물량 ",
       "desc": "설계는 美서, 생산은 대만서 1년새 드론 협력계약만 13건 대만 자체 제조 능력 키우고 美, 중국산 배제 공급망 확보 서로 요구 맞아떨어져 ‘윈윈’미국 방산 스타트업들이 중국산 부..",
       "links": [
@@ -61,32 +87,6 @@
           "url": "https://www.hankyung.com/article/2026101422311"
         }
       ]
-    },
-    {
-      "icon": "📰",
-      "title": "민주 잠룡 아내·트럼프 장남 약혼녀…",
-      "desc": "민주 잠룡 아내·트럼프 장남 약혼녀…美 '정치계 스타'의 추락",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "민주 잠룡 아내·트럼프 장남 약혼녀…美 '정치계 스타'",
-          "url": "https://www.hankyung.com/article/2026101422281"
-        }
-      ]
-    },
-    {
-      "icon": "📰",
-      "title": "'AI 스스로 가전 공격' 경고한 앤",
-      "desc": "'AI 스스로 가전 공격' 경고한 앤트로픽",
-      "links": [
-        {
-          "src": "한국경제",
-          "color": "#c8281f",
-          "title": "'AI 스스로 가전 공격' 경고한 앤트로픽",
-          "url": "https://www.hankyung.com/article/2026101422301"
-        }
-      ]
     }
   ],
   "experts": [
@@ -102,14 +102,14 @@
     {
       "icon": "✅",
       "title": "오늘의 주요 뉴스 확인",
-      "desc": "35년 뒷바라진 한 아내에게 “연금은 내 돈, 못 준다” 선 그은 남편",
+      "desc": "\"아내는 처음이어야 한다\" 무슨 광고길래…2억원 벌금 폭탄",
       "url": "https://news.wishwifi.com",
       "urlLabel": "마켓피드"
     },
     {
       "icon": "✅",
       "title": "글로벌 시장 동향",
-      "desc": "Social Security’s COLA will be 3.6% in 2027 as inflation persists",
+      "desc": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
       "url": "https://www.reuters.com/markets/",
       "urlLabel": "Reuters"
     },
@@ -122,7 +122,7 @@
     }
   ],
   "trump": {
-    "summary": "Trump's diesel dilemma — by the numbers / How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
+    "summary": "Trump to appeal order blocking White House from banning MS NOW, CNN and Politico / Lisa Cook lawyer doubts Trump committee's fairness as president calls her 'automatic no vote'",
     "keywords": [
       "관세",
       "Fed",
@@ -133,7 +133,7 @@
     "sentiment": "neut",
     "tip": "트럼프 관련 뉴스는 시장 변동성 확대 요인. 포지션 관리에 유의하세요."
   },
-  "updatedAt": "2026-10-14T14:12:44.872Z",
-  "updatedAtKST": "2026-10-14 23:12:44 KST",
-  "ogImage": "https://images.unsplash.com/photo-1782338938780-634332fa0c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTE5ODcxNjV8&ixlib=rb-4.1.0&q=80&w=1080"
+  "updatedAt": "2026-10-14T19:06:22.700Z",
+  "updatedAtKST": "2026-10-15 04:06:22 KST",
+  "ogImage": "https://images.unsplash.com/photo-1662437516619-c0b2c57f1a3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDU4ODB8MHwxfHJhbmRvbXx8fHx8fHx8fDE3OTIwMDQ3ODN8&ixlib=rb-4.1.0&q=80&w=1080"
 }

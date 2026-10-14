@@ -1,48 +1,368 @@
 {
-  "updatedAt": "2026-10-14T14:12:44.871Z",
-  "updatedAtKST": "2026-10-14 23:12:44 KST",
+  "updatedAt": "2026-10-14T19:06:22.698Z",
+  "updatedAtKST": "2026-10-15 04:06:22 KST",
   "totalCount": 80,
-  "marketRelatedCount": 29,
+  "marketRelatedCount": 35,
   "items": [
     {
-      "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
-      "summary": "Bank of America’s stock falls as investor disappointment over the $1.2 billion government fine added to the bank’s downbeat earnings report.",
-      "link": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T14:08:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Bank of America shares drop 8% after third-quarter revenue miss and regulatory penalty",
-      "summary": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
-      "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-      "pubDate": "2026-10-14T14:07:44.000Z",
+      "title": "CoreWeave shares tumble as bond yields near 15% on concern about AI borrowing binge",
+      "summary": "Shares of CoreWeave sank 15%, while yields in its bonds blew out further.",
+      "link": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+      "pubDate": "2026-10-14T19:04:29.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
-      "isMarketRelated": false
+      "isMarketRelated": true
     },
     {
-      "title": "Social Security’s COLA will be 3.6% in 2027 as inflation persists",
-      "summary": "The increase is aimed at helping about 68 million beneficiaries keep pace with inflation.",
-      "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T14:07:00.000Z",
+      "title": "What to expect at the next Fed meeting now that rate-hike odds are rising",
+      "summary": "Market participants and economists are split on the question of whether or not the Federal Reserve will raise interest rates by another quarter-point ",
+      "link": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T19:04:00.000Z",
       "source": "MarketWatch",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "Netflix is laying off roughly 6% of its workforce",
-      "summary": "Netflix will lay off roughly 6% of its workforce, according to a memo obtained by CNBC.",
-      "link": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
-      "pubDate": "2026-10-14T14:06:57.000Z",
+      "title": "Trump to appeal order blocking White House from banning MS NOW, CNN and Politico",
+      "summary": "U.S. District Judge Timothy Kelly had ruled that the three outlets targeted by President Donald Trump can keep their access to the White House complex",
+      "link": "https://www.cnbc.com/2026/10/14/trump-appeals-white-house-ban-judge.html",
+      "pubDate": "2026-10-14T19:01:39.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Japan to invest $21 billion in up to two GlobalFoundries chip factories in New York",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/japan-to-invest-up-to-21-billion-in-two-us-chip-factories-to-be-run-by-globalfoundries-4949222",
+      "pubDate": "2026-10-14T19:01:18.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/eight-us-states-sue-openai-claiming-chatgpt-harms-children-4949879",
+      "pubDate": "2026-10-14T19:00:49.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why is Affirm stock sliding today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-affirm-stock-sliding-today-93CH-4949881",
+      "pubDate": "2026-10-14T18:58:35.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "US individual health insurance enrollment fell to 20.5 million people as of June, KFF says",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/obamacare-enrollment-fell-to-205-million-people-as-of-junekff-says-4949773",
+      "pubDate": "2026-10-14T18:54:26.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
+      "summary": "The cost-of-living adjustment for 2027 will be 3.6%, which will give Social Security recipients an average of $75 more per month.",
+      "link": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T18:53:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Treasury says largest U.S. banks let politics influence who received banking services",
+      "summary": "New Treasury Department findings may lend weight to President Donald Trump’s long-running grievance that major banks have discriminated against conser",
+      "link": "https://www.cnbc.com/2026/10/14/treasury-banks-debanking-trump-reputation-risk.html",
+      "pubDate": "2026-10-14T18:51:42.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
+    },
+    {
+      "title": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic's Mythos",
+      "summary": "Bank of America hired 1,000 contractors to patch software flaws exposed by Anthropic’s Mythos, offering a rare look at costs involved in defending aga",
+      "link": "https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+      "pubDate": "2026-10-14T18:48:44.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Coca-Cola options flow shows put-heavy activity as stock nears 52-week high",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/cocacola-options-flow-shows-putheavy-activity-as-stock-nears-52week-high-93CH-4949877",
+      "pubDate": "2026-10-14T18:46:50.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why is NVIDIA stock sliding today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-nvidia-stock-sliding-today-93CH-4949876",
+      "pubDate": "2026-10-14T18:45:26.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why is Wolfspeed stock sliding today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-wolfspeed-stock-sliding-today-93CH-4949875",
+      "pubDate": "2026-10-14T18:42:35.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "GlobalFoundries options surge on $21B U.S.-Japan chip deal",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/globalfoundries-options-surge-on-21b-usjapan-chip-deal-93CH-4949872",
+      "pubDate": "2026-10-14T18:35:18.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
+      "summary": "‘I don’t think you should jack up rates into this environment right now,’ says head of fixed-income at Aptus Capital Advisors",
+      "link": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T18:27:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "As EU debates local-content rules, Chinese automakers are already adapting",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/as-eu-debates-localcontent-rules-chinese-automakers-are-already-adapting-4946783",
+      "pubDate": "2026-10-14T18:24:37.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Top biotechnology stock pick from Guggenheim",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/top-biotechnology-stock-pick-from-guggenheim-4949865",
+      "pubDate": "2026-10-14T18:24:25.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
+      "summary": "Iran has escalated its strikes on commercial ships transiting Hormuz in recent weeks, as it tries to choke off a rebound in crude oil exports.",
+      "link": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html",
+      "pubDate": "2026-10-14T18:18:43.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "These unpopular solutions could rescue Social Security’s finances. Here’s who could pay the most.",
+      "summary": "Social Security is projected to become insolvent in six years. These are some of the creative solutions that are on the table, beyond raising payroll ",
+      "link": "https://www.marketwatch.com/story/taxing-stocks-estates-and-employee-benefits-could-keep-social-security-from-running-out-of-money-heres-who-could-pay-the-most-616be82c?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T18:06:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Lisa Cook lawyer doubts Trump committee's fairness as president calls her 'automatic no vote'",
+      "summary": "White House spokesman Matthew Middleton said in response to Cook's lawyer that Trump \"is performing his constitutional duty.\"",
+      "link": "https://www.cnbc.com/2026/10/14/lisa-cook-trump-committee-hearing.html",
+      "pubDate": "2026-10-14T18:02:17.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Will mortgage rates stay above 7% in 2027?",
+      "summary": "Two new forecasts spell bad news for home buyers and sellers",
+      "link": "https://www.marketwatch.com/story/will-mortgage-rates-stay-above-7-in-2027-437873bd?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T18:01:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Social Security Administration announces 3.6% cost-of-living adjustment for 2027",
+      "summary": "With a 3.6% COLA for 2027, Social Security retirement benefit checks will go up by $75 per month, on average, the agency said.",
+      "link": "https://www.cnbc.com/2026/10/14/social-security-cola-2027.html",
+      "pubDate": "2026-10-14T17:54:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Investing, not homeownership, is the No. 1 milestone that makes Gen Z renters feel successful",
+      "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+      "link": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T17:54:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "OpenAI’s Sachin Katti to leave infrastructure role, stay on as advisor",
+      "summary": "Katti said in a post on LinkedIn that he \"decided to move on to build something new.\"",
+      "link": "https://www.cnbc.com/2026/10/14/openais-sachin-katti-to-leave-infrastructure-role-stay-on-as-advisor.html",
+      "pubDate": "2026-10-14T17:25:34.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "The steel stock that has the shorts and options traders on edge",
+      "summary": "",
+      "link": "https://www.cnbc.com/2026/10/14/the-steel-stock-that-has-the-shorts-and-options-traders-on-edge.html",
+      "pubDate": "2026-10-14T17:22:55.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "How high inflation became a 'fact of life' in the U.S.",
+      "summary": "U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.",
+      "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
+      "pubDate": "2026-10-14T17:20:23.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Fannie Mae sharply raises mortgage rate forecast for 2027",
+      "summary": "Fannie Mae just put out its latest forecast for mortgage rates, and they are much higher than previous estimates.",
+      "link": "https://www.cnbc.com/2026/10/14/fannie-mae-sharply-raises-mortgage-rate-forecast-for-2027-.html",
+      "pubDate": "2026-10-14T17:08:07.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "3 things that are driving inflation higher",
+      "summary": "Struggling with elevated prices? You don’t have to look much further than your local gas station.",
+      "link": "https://www.marketwatch.com/story/3-things-that-are-driving-inflation-higher-26bda9a9?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T16:50:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump's diesel dilemma — by the numbers",
+      "summary": "Conflicts in Ukraine and Iran have created major ripple effects across global energy markets causing major price swings.",
+      "link": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
+      "pubDate": "2026-10-14T16:45:26.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "BlackRock's Larry Fink warns a data center moratorium could trigger a recession",
+      "summary": "Local opposition to data center construction has been a feature of the midterm elections set for Tuesday, Nov. 3.",
+      "link": "https://www.cnbc.com/2026/10/14/blackrocks-fink-warns-data-center-moratorium-could-spark-a-recession.html",
+      "pubDate": "2026-10-14T16:27:12.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+      "summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T16:20:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Rising diesel prices have helped fuel inflation — and we’re about to see how much worse it could get",
+      "summary": "Consumer inflation just came in hot. Thursday will provide more clues on the impact of record diesel prices ahead of the midterm elections.",
+      "link": "https://www.marketwatch.com/story/rising-diesel-prices-have-helped-fuel-inflation-and-were-about-to-see-how-much-worse-it-could-get-430f36d1?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T16:07:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "The truth about being a landlord in retirement",
+      "summary": "Investing in rental property isn’t easy or ‘passive’",
+      "link": "https://www.marketwatch.com/story/the-truth-about-being-a-landlord-in-retirement-5d1daf4c?mod=mw_rss_topstories",
+      "pubDate": "2026-10-14T16:05:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
+      "summary": "Netflix will lay off roughly 6% of its workforce, according to a memo obtained by CNBC.",
+      "link": "https://www.cnbc.com/2026/10/14/netflix-layoffs.html",
+      "pubDate": "2026-10-14T15:03:59.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Here's the inflation breakdown for September 2026 — in one chart",
+      "summary": "The consumer price index rose by 3.7% in September, on the back of higher gasoline and energy prices largely due to the Iran war.",
+      "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
+      "pubDate": "2026-10-14T14:56:25.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "\"아내는 처음이어야 한다\" 무슨 광고길래…2억원 벌금 폭탄",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/2026101426037",
+      "pubDate": "2026-10-14T14:16:59.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
     },
     {
       "title": "\"호랑이 나와라\"…'가을야구 DNA' LG, 준PO 진출",
@@ -65,26 +385,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Social Security Administration announces 3.6% cost-of-living adjustment for 2027",
-      "summary": "With a 3.6% COLA for 2027, Social Security retirement benefit checks will go up by $75 per month, on average, the agency said.",
-      "link": "https://www.cnbc.com/2026/10/14/social-security-cola-2027.html",
-      "pubDate": "2026-10-14T13:54:42.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Factbox-Tech leaders, governments split over ’AI doom’ fears",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/factboxtech-leaders-governments-split-over-ai-doom-fears-4949457",
-      "pubDate": "2026-10-14T13:54:25.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
       "title": "35년 뒷바라진 한 아내에게 “연금은 내 돈, 못 준다” 선 그은 남편",
       "summary": "35년간 아이를 키우며 살림을 도맡아 온 아내에게 졸혼을 선언한 남편의 사연이 전해졌다. 공무원인 남편은 정년퇴직을 했고, 졸혼과 함께 생활비를 주지 않겠다고 주장한다. 여성은 이..",
       "link": "https://www.mk.co.kr/news/society/12176242",
@@ -92,76 +392,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
-      "summary": "The consumer price index was expected to increase 0.6% in September on a monthly basis and 3.6% from a year ago, according to the Dow Jones consensus ",
-      "link": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
-      "pubDate": "2026-10-14T13:53:28.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "CoreWeave shares sink 13% as Musk’s ‘Yikes’ highlights AI debt concerns",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/coreweave-shares-sink-13-as-musks-yikes-highlights-ai-debt-concerns-4949553",
-      "pubDate": "2026-10-14T13:50:06.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "CoreWeave stock falls sharply: Key support levels and buy the dip outlook",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/coreweave-stock-falls-sharply-key-support-levels-and-buy-the-dip-outlook-93CH-4949550",
-      "pubDate": "2026-10-14T13:49:09.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "10-year Treasury yield jumps as September core inflation comes in hotter than expected",
-      "summary": "Treasury yields moved higher after the latest inflation reading.",
-      "link": "https://www.cnbc.com/2026/10/14/us-treasury-yields-cpi-inflation-report.html",
-      "pubDate": "2026-10-14T13:48:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "BlackRock now manages assets equal to half the size of the U.S. economy after 15% growth",
-      "summary": "Fund-management giant BlackRock said Wednesday that assets under management are nearly $15.5 trillion after growth of 15%.",
-      "link": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:46:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "ServiceNow denies interest in acquiring Decagon",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/servicenow-denies-interest-in-acquiring-decagon-4949535",
-      "pubDate": "2026-10-14T13:45:08.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "I lost my home in the Great Recession. I still rent in my 50s. Why is that judged as failure?",
-      "summary": "”I earn $110,000 a year.”",
-      "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:45:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -175,66 +405,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Why is DNO stock surging today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-dno-stock-surging-today-93CH-4949521",
-      "pubDate": "2026-10-14T13:42:49.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Panoro Energy stock rallying today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-panoro-energy-stock-rallying-today-93CH-4949520",
-      "pubDate": "2026-10-14T13:42:26.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Technoprobe stock slipping today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-technoprobe-stock-slipping-today-93CH-4949516",
-      "pubDate": "2026-10-14T13:41:15.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Netflix cuts about 6% of jobs in biggest layoff since 2022, WSJ reports",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/netflix-cuts-about-6-of-jobs-wsj-reports-4949456",
-      "pubDate": "2026-10-14T13:37:24.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Japan to invest up to $21 billion in two US chip factories to be run by GlobalFoundries",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/japan-to-invest-up-to-21-billion-in-two-us-chip-factories-to-be-run-by-globalfoundries-4949222",
-      "pubDate": "2026-10-14T13:36:50.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Wall St opens lower after hot CPI data fuels rate-hike bets",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/wall-st-opens-lower-after-hot-cpi-data-fuels-ratehike-bets-4949503",
-      "pubDate": "2026-10-14T13:36:34.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
       "title": "만취 여성 집단 성폭행한 20대 남성 3명…전원 구속 기소",
       "summary": "술에 취한 여성을 집단 성폭행한 혐의로 친구 사이인 20대 남성 3명이 재판에 넘겨졌다. 대구지방공소청 포항지청은 14일 성폭력처벌법 위반(특수준강간) 혐의로 A씨 등 남성 3명을..",
       "link": "https://www.mk.co.kr/news/society/12176227",
@@ -245,87 +415,17 @@
       "isMarketRelated": false
     },
     {
-      "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
-      "summary": "Third-quarter earnings growth is expected to be driven by energy and semiconductor companies, but what if the rest of the market shows up? HSBC envisa",
-      "link": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:36:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
+      "title": "스페이스X 숨은 성장동력은 AI 클라우드…모건스탠리 긍정 평가 [월가 업&다운]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610142550i",
+      "pubDate": "2026-10-14T13:35:25.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
       "isMarketRelated": true
     },
     {
-      "title": "Trump's diesel dilemma — by the numbers",
-      "summary": "Conflicts in Ukraine and Iran have created major ripple effects across global energy markets causing major price swings.",
-      "link": "https://www.cnbc.com/2026/10/14/trumps-diesel-dilemma-by-the-numbers.html",
-      "pubDate": "2026-10-14T13:35:46.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
-      "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
-      "link": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:31:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Gen Z renters are the only group more likely to feel successful by investing than buying a house",
-      "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
-      "link": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:28:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-      "summary": "The Tuesday incident comes as the ChatGPT-maker, along with competitors, faces heightened scrutiny over its safety practices.",
-      "link": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
-      "pubDate": "2026-10-14T13:25:24.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Midterm voters haven’t seen this many housing proposals on the ballot in 20 years",
-      "summary": "Ballot measures aim to fix the housing crisis in various ways, from making it easier to build new homes, to cutting property taxes.",
-      "link": "https://www.marketwatch.com/story/midterm-voters-havent-seen-this-many-housing-proposals-on-the-ballot-in-20-years-8cdf1405?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:23:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "This one move will save $20,000 on our wedding",
-      "summary": "Plus: Where we’re cutting back to free up space in our wedding budget for the things we really want on our big day",
-      "link": "https://www.marketwatch.com/story/this-one-move-will-save-20-000-on-our-wedding-d22e4d24?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T13:17:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
-      "summary": "Morgan Stanley topped expectations on the top and bottom lines for the third quarter.",
-      "link": "https://www.cnbc.com/2026/10/14/morgan-stanley-ms-q3-2026-earnings.html",
-      "pubDate": "2026-10-14T13:11:07.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "\"더 물타기 할 돈도 없다\"…개미 실탄 고갈에 6천피 붕괴 '초읽기' [분석+]",
+      "title": "이대로 가면 '육천피' 붕괴…\"개미들, 물타기 할 돈도 없다\" [분석+]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026101418086",
       "pubDate": "2026-10-14T13:00:02.000Z",
@@ -342,16 +442,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Iran says it’s ‘counting the moments’ until it can attack U.S. warships; Saudi Aramco facilities attacked",
-      "summary": "Meanwhile, Saudi Arabia's Aramco reportedly came under fresh attack overnight.",
-      "link": "https://www.cnbc.com/2026/10/14/us-iran-war-trump-hormuz-saudi.html",
-      "pubDate": "2026-10-14T12:43:45.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -405,16 +495,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "My sister moved in with our mother, 78, and now says she deserves the $925,000 family home. Is she right?",
-      "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
-      "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
-      "pubDate": "2026-10-14T12:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "“이 시국에 상장을 어떻게 하나”…유망 기업들, 美 증시 변동성에 ‘기겁’",
       "summary": "美 금리인상 여파 카드 지출 작년보다 13% 늘어 3분기 글로벌 M&A 41% 급감미국에서 높은 금리가 이어지고 있지만 대출과 카드 지출은 아직 견조한 흐름을 보이고 있다. 반면 ..",
       "link": "https://www.mk.co.kr/news/world/12176165",
@@ -423,16 +503,6 @@
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": true
-    },
-    {
-      "title": "Delta's business-class revamp: New seats, menus, plates and more Porsches",
-      "summary": "Delta is upgrading its top-tier Delta One cabin with new suites for its largest A350 plane, starting next year.",
-      "link": "https://www.cnbc.com/2026/10/14/delta-one-revamp.html",
-      "pubDate": "2026-10-14T12:10:03.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "\"그때 그 여자 맞아?\"…손흥민 경기 '수영복 난입女' 반전 근황",
@@ -495,16 +565,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Tech giants race to get AI gadgets on shelves for holiday rush",
-      "summary": "With the holidays just a couple months away, tech companies are betting this is finally the year that AI gadgets make the shopping list.",
-      "link": "https://www.cnbc.com/2026/10/14/tech-giants-race-to-get-ai-gadgets-on-shelves-for-holiday-rush.html",
-      "pubDate": "2026-10-14T11:00:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "“잠 안 자고 울어서 때렸다”…생후 2개월 딸 숨지게한 친부 구속",
       "summary": "잠을 자지 않고 보챈다는 이유로 생후 2개월 된 딸을 때려 숨지게 한 친부가 구속됐다. 수원지법 김홍섭 부장판사는 14일 아동학대치사 혐의를 받는 40대 A씨에 대한 구속영장을 발..",
       "link": "https://www.mk.co.kr/news/society/12176109",
@@ -513,16 +573,6 @@
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
-    },
-    {
-      "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
-      "summary": "Republicans are largely leaving Trump out of general election ads, with some battleground candidates breaking from him on tariffs and Iran.",
-      "link": "https://www.cnbc.com/2026/10/14/mike-rogers-trump-tariffs-michigan-senate-election.html",
-      "pubDate": "2026-10-14T10:30:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "美 대학원 동료 음료에 '독'…질투심에 범행한 中 유학생 체포",
@@ -555,7 +605,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "BYD, 유럽서 4만명 채용…세계 일자리 판도 흔드는 中",
+      "title": "유럽서 4만명 채용하는 中 BYD",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026101422291",
       "pubDate": "2026-10-14T09:23:29.000Z",
@@ -595,7 +645,7 @@
       "isMarketRelated": true
     },
     {
-      "title": "[포토] 최루탄 연기 속 프랑스 학생 시위대",
+      "title": "[포토] 최루탄 연기 속 격화하는 프랑스 학생 시위",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026101422261",
       "pubDate": "2026-10-14T09:21:02.000Z",
@@ -603,16 +653,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "Ukraine warns Starlink limits are disrupting military operations as Russia pounds its energy infrastructure",
-      "summary": "A ballistic missile has struck energy infrastructure supposedly covered by the \"energy ceasefire\" announced by Trump on Sunday, Zelenskyy said.",
-      "link": "https://www.cnbc.com/2026/10/14/russia-ukraine-energy-ceasefire-power-outages.html",
-      "pubDate": "2026-10-14T09:18:18.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "올해 200조 넘게 판 외국인…브라질로 갔다",
@@ -653,16 +693,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "ASML says it's getting order interest through 2030 as profit smashes expectations",
-      "summary": "ASML said some customers are \"expressing an interest\" in placing orders with the company in 2029 and 2030, giving investors a view into longer-term de",
-      "link": "https://www.cnbc.com/2026/10/14/asml-3q-earnings-ai-demand-orders-capacity.html",
-      "pubDate": "2026-10-14T08:45:13.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "오늘의 프리미엄9 콘텐츠 다이제스트(10월 14일)",
@@ -772,36 +802,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "변동장에도 꾸준한 수익…파킹형 ETF 잡아라",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026101405591",
-      "pubDate": "2026-10-14T07:14:11.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "호주 30년만 최대 IPO 무산…늦어지는 AI기업 상장 시계",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026101416457",
-      "pubDate": "2026-10-14T06:22:12.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
-      "summary": "TIPS are looking attractive but they aren't the only way to get inflation protection.",
-      "link": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
-      "pubDate": "2026-10-13T20:52:22.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     }
   ]
