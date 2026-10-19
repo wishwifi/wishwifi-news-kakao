@@ -1,125 +1,345 @@
 {
-  "updatedAt": "2026-10-19T16:01:46.407Z",
-  "updatedAtKST": "2026-10-20 01:01:46 KST",
+  "updatedAt": "2026-10-19T20:18:17.596Z",
+  "updatedAtKST": "2026-10-20 05:18:17 KST",
   "totalCount": 80,
-  "marketRelatedCount": 28,
+  "marketRelatedCount": 26,
   "items": [
     {
-      "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
-      "summary": "The SpaceX boss said Monday that he'll give one of his company shares to every child in the U.S. next year. He didn't say how the share giveaway would",
-      "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
-      "pubDate": "2026-10-19T16:00:23.000Z",
+      "title": "City Therapeutics raises $230M in upsized Nasdaq IPO",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/city-therapeutics-raises-230m-in-upsized-nasdaq-ipo-432SI-4958204",
+      "pubDate": "2026-10-19T20:13:01.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
+      "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "pubDate": "2026-10-19T20:12:45.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Germany’s Merz urges AI investment ahead of Nvidia deal",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/germanys-merz-urges-ai-investment-ahead-of-nvidia-deal-4958229",
+      "pubDate": "2026-10-19T20:12:23.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "S&P rises and Nasdaq jumps over 1%, rebounding after their worst week since June",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-climb-as-investors-return-to-ai-trade-after-selloff-4956195",
+      "pubDate": "2026-10-19T20:10:58.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "머스크도 웃지 못한 뉴럴링크 상용화, 중국은 어떻게 뚫어냈나",
+      "summary": "中 뇌·컴퓨터 인터페이스(BCI)업체 보루이캉올해 뇌·컴퓨터 인터페이스(BCI) 업계에 큰 뉴스가 있었다. 지난 3월 외과 수술 기반(침습형) BCI 치료 기기가 전 세계 최초로 ..",
+      "link": "https://www.mk.co.kr/news/world/12179526",
+      "pubDate": "2026-10-19T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
       "isMarketRelated": false
     },
     {
-      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
-      "summary": "Iran-backed Houthi militants have launched repeated volleys of missiles and drones at Saudi Arabia since a deadly airport attack earlier this month.",
-      "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
-      "pubDate": "2026-10-19T15:59:13.000Z",
+      "title": "강남 집값만 잡으면 된다고? … ‘상향평준화’ 멈출 기미 안보인다",
+      "summary": "서울 아파트값이 88주 연속 오르며 역대 최장 상승 기록을 한 주 더 늘렸다. 한국부동산원 10월 둘째 주 아파트 가격 동향에서 서울 매매가는 0.16% 올라 오름폭이 2주 연속 ..",
+      "link": "https://www.mk.co.kr/news/realestate/12179478",
+      "pubDate": "2026-10-19T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "불확실성 시대 당신의 투자 전략은 [김승호의 투자전망] 2부",
+      "summary": "서울머니쇼 스페셜 에디션매일경제가 국내 최고 투자 그루의 재테크 특별 세미나 ‘서울머니쇼 스페셜 에디션: 김승호의 투자전망’을 매경플러스(매플) 구독자에게 단독 공개합니다. 이 특..",
+      "link": "https://www.mk.co.kr/news/stock/12179599",
+      "pubDate": "2026-10-19T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "마침내 개통한 신압록강대교 … 12년 지연에 담긴 北中동상이몽",
+      "summary": "北·中 경제·무역 협력 본격화지난 15일 북한 신의주와 중국 단둥을 연결하는 신압록강대교가 완공 12년 만에 정식 개통했다. 중국 관영 신화통신은 이날 개통식이 열렸다고 전하며 “..",
+      "link": "https://www.mk.co.kr/news/world/12179535",
+      "pubDate": "2026-10-19T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
+      "summary": "President Donald Trump said he would meet with Russian President Vladimir Putin and Chinese President Xi Jinping and criticized Ukraine's Volodymyr Ze",
+      "link": "https://www.cnbc.com/2026/10/19/trump-putin-xi-zelenskyy.html",
+      "pubDate": "2026-10-19T19:58:17.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Estee Lauder options see heavy call volume with April 2027 spread structure",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/estee-lauder-options-see-heavy-call-volume-with-april-2027-spread-structure-93CH-4958035",
-      "pubDate": "2026-10-19T15:49:00.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "France urges curfews in some areas after weekend of riots",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666",
-      "pubDate": "2026-10-19T15:48:24.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-nvidia-4957531",
-      "pubDate": "2026-10-19T15:43:21.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
       "isMarketRelated": true
     },
     {
-      "title": "Match Group shares jump as Evercore ISI upgrades stock on Tinder recovery",
+      "title": "First Solar leads green energy stocks on value and free cash flow",
       "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/match-group-shares-jump-as-evercore-isi-upgrades-stock-on-tinder-recovery-4958033",
-      "pubDate": "2026-10-19T15:38:18.000Z",
+      "link": "https://www.investing.com/news/stock-market-news/first-solar-leads-green-energy-stocks-on-value-and-free-cash-flow-93CH-4958197",
+      "pubDate": "2026-10-19T19:56:47.000Z",
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Poland stocks lower at close of trade; WIG30 down 0.82%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/poland-stocks-lower-at-close-of-trade-wig30-down-082-4958029",
-      "pubDate": "2026-10-19T15:35:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Ithaca Energy may reportedly stop UK investment without Rosebank approval",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/ithaca-energy-may-reportedly-stop-uk-investment-without-rosebank-approval-93CH-4958025",
-      "pubDate": "2026-10-19T15:31:18.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Turkey stocks lower at close of trade; BIST 100 down 2.49%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/turkey-stocks-lower-at-close-of-trade-bist-100-down-249-4958023",
-      "pubDate": "2026-10-19T15:30:33.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Denmark stocks lower at close of trade; OMX Copenhagen 20 down 0.90%",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/denmark-stocks-lower-at-close-of-trade-omx-copenhagen-20-down-090-4958022",
-      "pubDate": "2026-10-19T15:30:04.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?",
-      "summary": "“They insist that the details will be provided after they have carried out a soft credit check.”",
-      "link": "https://www.marketwatch.com/story/im-naturally-skeptical-i-receive-10-calls-a-day-offering-me-15-000-loans-at-8-interest-is-this-a-scam-825c3431?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T15:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
       "title": "Colleges raced to build massive computer-science departments. Now the boom is turning to bust.",
       "summary": "“Computer science isn’t the ticket to the American dream like people thought it was.”",
       "link": "https://www.marketwatch.com/story/colleges-raced-to-build-massive-computer-science-departments-now-the-boom-is-turning-to-bust-692cfe37?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T15:26:00.000Z",
+      "pubDate": "2026-10-19T19:56:00.000Z",
       "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Aeromexico eyes new US flights after Washington lifts Mexico City restrictions",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/aeromexico-eyes-new-us-flights-after-washington-lifts-mexico-city-restrictions-4958196",
+      "pubDate": "2026-10-19T19:54:30.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Aeromexico eyes US expansion after Washington lifts flight curbs",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/aeromexico-eyes-us-expansion-after-washington-lifts-flight-curbs-93CH-4958194",
+      "pubDate": "2026-10-19T19:54:00.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Fintech Ramp applies for OCC trust bank charter to expand asset services",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/fintech-ramp-applies-for-occ-trust-bank-charter-to-expand-asset-services-4958193",
+      "pubDate": "2026-10-19T19:52:29.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "France imposes curfews in parts of Paris, other cities after weekend of riots",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/as-france-reels-from-violence-macron-points-to-security-failings-4956666",
+      "pubDate": "2026-10-19T19:49:24.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Nscale, Anthropic in talks for $45 billion cloud computing deal, Bloomberg News reports",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
+      "pubDate": "2026-10-19T19:48:45.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "LiveRamp stock rises as FTC clears Publicis acquisition",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/liveramp-stock-rises-as-ftc-clears-publicis-acquisition-4958192",
+      "pubDate": "2026-10-19T19:48:07.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "SpaceX earnings will be all about AI — for better or for worse",
+      "summary": "SpaceX has been renting out access to computing power, which is a big source of revenue growth but also one that comes at a high cost.",
+      "link": "https://www.marketwatch.com/story/spacex-earnings-will-be-all-about-ai-for-better-or-for-worse-89bbc772?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T19:47:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Apple announces product launch event for Oct. 28. Analysts expect touchscreen laptop",
+      "summary": "Apple sent invitations for an event next week, calling it \"Pro and tell.\"",
+      "link": "https://www.cnbc.com/2026/10/19/apple-product-launch-event-oct-28-analysts-expect-touchscreen-laptop.html",
+      "pubDate": "2026-10-19T19:46:07.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
+      "summary": "Google says its Minnesota AI data center will add clean energy to the grid and protect ratepayers. Experts question whether grid upgrades are needed.",
+      "link": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
+      "pubDate": "2026-10-19T19:45:28.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Why the Treasury’s financing plans are sparking anxiety on Wall Street",
+      "summary": "Yields on 10-year and 30-year bonds were rising again Monday after falling sharply last week.",
+      "link": "https://www.marketwatch.com/story/why-the-treasurys-financing-plans-are-sparking-anxiety-on-wall-street-b49b5e17?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T19:45:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "\"특수·일반 교사 훈련과 협력이 핵심\"… 뉴욕이 증명한 자폐 통합교육의 조건",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610201852i",
+      "pubDate": "2026-10-19T19:38:10.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Saudi Arabia postpones big investor conference to 2027 as Iran-backed Houthis escalate attacks on kingdom",
+      "summary": "Iran-backed Houthi militants have launched repeated volleys of missiles and drones at Saudi Arabia since a deadly airport attack earlier this month.",
+      "link": "https://www.cnbc.com/2026/10/19/saudi-arabia-postpones-fii-investor-conference-to-2027.html",
+      "pubDate": "2026-10-19T19:37:51.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "코어위브가 남긴 교훈 … AI서열 가르는 새 기준 생겼다",
+      "summary": "AI 투자 붐 속에 시장이 보낸 경고지난 14일(현지시간) 뉴욕증시에서 AI 데이터센터 업체 코어위브의 주가가 15% 넘게 급락했다. 엔비디아 칩을 대량으로 사들여 빅테크와 AI ..",
+      "link": "https://www.mk.co.kr/news/business/12179634",
+      "pubDate": "2026-10-19T19:30:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Why Elon Musk, Anthropic and other AI titans are giving away shares",
+      "summary": "Gifts of stock can help with public relations and offer financial advantages to wealthy individuals.",
+      "link": "https://www.marketwatch.com/story/why-elon-musk-anthropic-and-other-ai-titans-are-giving-away-shares-a6709d24?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T19:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "CoreWeave’s selloff is a lesson in ‘Finance 101’ — and Wall Street says the stock can recover",
+      "summary": "Analysts argue CoreWeave’s underlying economics are far sturdier than nervous debt and equity investors realize.",
+      "link": "https://www.marketwatch.com/story/coreweaves-selloff-is-a-lesson-in-finance-101-and-wall-street-says-the-stock-can-recover-23ca5377?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T19:17:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "아마존 목표가 350달러…엔비디아도 비중확대 유지 [월가 업&다운]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610201850i",
+      "pubDate": "2026-10-19T18:42:59.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
+      "summary": "The history of technological progress suggests that as AI spreads, the employment impact will hit women more than men.",
+      "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
+      "pubDate": "2026-10-19T18:36:21.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "골드만삭스 \"코어위브 급락 과도…73% 상승 여력\" [월가 업&다운]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202610201849i",
+      "pubDate": "2026-10-19T18:35:04.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": false
+    },
+    {
+      "title": "One of this year’s most important relationships in global financial markets is falling apart",
+      "summary": "One of the most important relationships in global markets has started to unravel over the past couple of weeks. Investors are scrambling to figure out",
+      "link": "https://www.marketwatch.com/story/one-of-this-years-most-important-relationships-in-global-financial-markets-is-falling-apart-2cf58121?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T17:43:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "When should you dump your target-date funds?",
+      "summary": "Target-date funds aren’t necessarily built to handle many of the decisions retirees face.",
+      "link": "https://www.marketwatch.com/story/when-should-you-dump-your-target-date-funds-18082148?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T17:31:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘My husband suffered a massive stroke at 53’: I’m 64 and will rent for the rest of my life — but I’m still hopeful",
+      "summary": "“Ill-timed circumstances can change our financial future in unexpected ways.”",
+      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T17:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Micron and other chip stocks spring back to life after bruising selloff",
+      "summary": "It’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings.",
+      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T16:59:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
+      "summary": "The SpaceX boss said Monday that he'll give one of his company shares to every child in the U.S. next year. He didn't say how the share giveaway would",
+      "link": "https://www.cnbc.com/2026/10/19/elon-musk-spacex-shares-giveaway-kids.html",
+      "pubDate": "2026-10-19T16:58:20.000Z",
+      "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
@@ -128,51 +348,31 @@
       "title": "Anthropic is AI trade's last big hope for a major IPO this year",
       "summary": "On Kalshi, Anthropic is seen as the last major IPO in 2026 after OpenAI delayed its public market debut. Others have postponed too.",
       "link": "https://www.cnbc.com/2026/10/19/anthropic-ipo-ai-trade.html",
-      "pubDate": "2026-10-19T15:25:27.000Z",
+      "pubDate": "2026-10-19T16:42:14.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push (Oct 15)",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-grants-outside-evaluator-metr-employeelevel-access-in-ai-safety-push-oct-15-4958014",
-      "pubDate": "2026-10-19T15:19:18.000Z",
-      "source": "Investing.com",
+      "title": "Why a former Intel skeptic is giving up his negative call on the stock after four years",
+      "summary": "Intel’s manufacturing and chip design have improved, according to a J.P. Morgan analyst.",
+      "link": "https://www.marketwatch.com/story/why-a-former-intel-skeptic-is-giving-up-his-negative-call-on-the-stock-after-four-years-47c2fab6?mod=mw_rss_topstories",
+      "pubDate": "2026-10-19T16:42:00.000Z",
+      "source": "MarketWatch",
       "lang": "en",
-      "emoji": "💰",
+      "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "Uber wins bid to throw out UK mass lawsuit by black cab drivers",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/uber-wins-bid-to-throw-out-uk-mass-lawsuit-by-black-cab-drivers-4956748",
-      "pubDate": "2026-10-19T15:19:01.000Z",
-      "source": "Investing.com",
+      "title": "Cornell sexual assault case has some prospective students rethinking plans, consultants say",
+      "summary": "Some prospective Cornell University students are rethinking applications amid the Jane Doe sexual assault lawsuit, college admissions consultants say.",
+      "link": "https://www.cnbc.com/2026/10/19/cornell-sexual-assault-case-concerns-applicants.html",
+      "pubDate": "2026-10-19T16:17:37.000Z",
+      "source": "CNBC",
       "lang": "en",
-      "emoji": "💰",
+      "emoji": "📊",
       "isMarketRelated": false
-    },
-    {
-      "title": "Credit stress is threatening to unwind the AI bull. All eyes are on Oracle to hold the line",
-      "summary": "Investors are pushing up the cost of insurance against an Oracle default.",
-      "link": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html",
-      "pubDate": "2026-10-19T15:15:43.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "OpenAI bugging suspect's conduct could pose danger to U.S. national security, feds warn",
-      "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
-      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
-      "pubDate": "2026-10-19T15:10:54.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "이제는 골프가 재밌어…30대 은퇴 생각 지웠다",
@@ -182,16 +382,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T15:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -205,16 +395,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "‘My husband suffered a massive stroke at 53’: I’m 64 and will rent for the rest of my life — but I’m still hopeful",
-      "summary": "“Ill-timed circumstances can change our financial future in unexpected ways.”",
-      "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T14:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "\"저가 매수 기회\" vs \"내년까지 하락\"…현금 탄탄한 방어주 어디? [박신영의 개장 전 요것만]",
       "summary": "",
       "link": "https://www.hankyung.com/article/202610191806i",
@@ -222,16 +402,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Women may be at greater risk of AI job losses. Telephone switch operators and PCs show why",
-      "summary": "The history of technological progress suggests that as AI spreads, the employment impact will hit women more than men.",
-      "link": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html",
-      "pubDate": "2026-10-19T14:20:08.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -262,16 +432,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Builders slash prices on new homes as buyer traffic drops to 14-year low",
-      "summary": "Four in 10 home builders are cutting prices to boost demand, even as they face rising construction costs.",
-      "link": "https://www.marketwatch.com/story/builders-slash-prices-on-new-homes-as-buyer-traffic-drops-to-14-year-low-3dd8caea?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T14:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": false
     },
     {
@@ -345,16 +505,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Google says it can build data centers the right way. Some experts and residents are skeptical",
-      "summary": "Google says its Minnesota AI data center will add clean energy to the grid and protect ratepayers. Experts question whether grid upgrades are needed.",
-      "link": "https://www.cnbc.com/2026/10/19/how-data-centers-are-reshaping-americas-aging-grid-pine-island-minnesota-google.html",
-      "pubDate": "2026-10-19T13:36:41.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "기술유출 걸리면 개발비부터 전부 배상…산업스파이 처벌수위 확 높이기로",
       "summary": "수사기관과 공조해 신속 대응 범죄수익 몰수대상 확 넓히고 기업R&D 비용도 손배에 반영정부가 반도체 등 첨단산업의 기술 유출에 대응하기 위해 산업통상부에 특별사법경찰 권한을 부여하..",
       "link": "https://www.mk.co.kr/news/economy/12180077",
@@ -365,60 +515,10 @@
       "isMarketRelated": false
     },
     {
-      "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
-      "summary": "Individual investors and second-home buyers accounted for 1 in 5 home purchases in September — the highest share in a little over a year.",
-      "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T13:33:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Micron and other chip stocks spring back to life after bruising selloff",
-      "summary": "It’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings.",
-      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T13:22:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "“내일도 우산 챙기세요”…전국 흐리고 경기 남부·충청엔 비 소식",
       "summary": "화요일인 20일은 전국이 대체로 흐린 가운데 경기 남부와 충청권 등 일부 지역에 비가 내리겠다. 기상청에 따르면 수도권에서는 특히 경기 남부 지역을 중심으로 저녁부터 비가 내리는 ..",
       "link": "https://www.mk.co.kr/news/society/12180072",
       "pubDate": "2026-10-19T13:21:16.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "France and the U.S. share the same debt trap. Why the U.S. has an escape valve.",
-      "summary": "France and the U.S. have similar debt dynamics.",
-      "link": "https://www.marketwatch.com/story/france-and-the-u-s-share-the-same-debt-trap-only-one-has-a-global-lifeline-3ae61b42?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T13:19:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "지으면 안 남고 멈추면 경제가 망한다…‘10조’ 베팅 美데이터센터의 그늘",
-      "summary": "15개주 DC 건설 중단 검토 연쇄 실직·경기침체 경고등 코어위브 등 차입 위험 부각 투자회수 밀리며 불안 확산 “철도·인터넷 붐 전철 우려”미국 경제를 떠받쳐온 인공지능(AI) ..",
-      "link": "https://www.mk.co.kr/news/world/12180057",
-      "pubDate": "2026-10-19T13:05:04.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "현대차, 하청 급식업체와 원청교섭 나서나",
-      "summary": "중노위, 근로조건 사용자성 인정중앙노동위원회가 현대자동차 구내식당 근무자들이 속한 현대그린푸드 노조의 산업안전 관련 근로조건에 대한 현대차의 사용자성이 인정된다고 판단했다. 중노위..",
-      "link": "https://www.mk.co.kr/news/economy/12180056",
-      "pubDate": "2026-10-19T13:03:33.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
@@ -445,16 +545,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "전북 완주서 경차 가로수 들이받아…50대 여성 운전자 숨져",
-      "summary": "19일 오후 3시 50분께 전북 완주군 소양면의 한 도로를 달리던 경차가 가로수를 들이받는 일이 벌어졌다. 이 사고로 경차 운전자 A(50대·여)씨가 심정지 상태로 인근 병원으로 ..",
-      "link": "https://www.mk.co.kr/news/society/12180049",
-      "pubDate": "2026-10-19T12:58:36.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "Boomers are buying into the promise of monthly income from options ETFs, but there's a tax catch",
       "summary": "Covered call ETFs have been widely adopted by baby boomers to meet monthly income needs, but unlike most ETFs, the tax implications can be significant",
       "link": "https://www.cnbc.com/2026/10/18/retirement-income-funds-taxes.html",
@@ -475,16 +565,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "사관생도도 지정 장소서 흡연…‘3금 제도’ 완화에도 혼인·임신은 불허",
-      "summary": "군 당국이 국가인권위원회의 권고에 따라 육·해·공군 사관생도들의 흡연을 제한적으로 허용하기로 했다. 19일 국방부가 국회 국방위원회 소속 더불어민주당 송영길 의원실에 제출한 자료에..",
-      "link": "https://www.mk.co.kr/news/politics/12180043",
-      "pubDate": "2026-10-19T12:48:35.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
       "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
       "summary": "With $5 billion already deployed off its balance sheet, JPMorgan Chase is racing ahead on direct investments in defense tech, hardware and supply chai",
       "link": "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html",
@@ -493,46 +573,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
-    },
-    {
-      "title": "Anthropic commits 5% of shares to new public benefit fund that could address AI job disruption",
-      "summary": "The Claude maker said that establishing the fund as an LLC will provide greater flexibility in how the money is used.",
-      "link": "https://www.cnbc.com/2026/10/18/anthropic-ai-public-benefit-fund.html",
-      "pubDate": "2026-10-19T12:33:07.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘아크메르 동탄’ 견본주택 사흘간 2만7000여 명 방문",
-      "summary": "경기 화성시 동탄구 반송동에 공급되는 ‘아크메르 동탄’ 견본주택에 주말 새 긴 대기줄이 형성됐다. 19일 아크메르 동탄 분양관계자는 지난 16~18일 사흘간 견본주택에 총 2만70..",
-      "link": "https://www.mk.co.kr/news/realestate/12180036",
-      "pubDate": "2026-10-19T12:27:09.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
-      "summary": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
-      "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T11:53:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Tech stocks stumbled. Now comes a crucial week for Wall Street.",
-      "summary": "A wave of corporate results that could help determine whether the stock-market rally has more room to run — or whether investors are growing wary of t",
-      "link": "https://www.marketwatch.com/story/tech-stocks-stumbled-now-comes-a-crucial-week-for-wall-street-2a093abe?mod=mw_rss_topstories",
-      "pubDate": "2026-10-19T11:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "머스크 \"미국 모든 어린이에 스페이스X 1주씩 나눠줄 것\"",
@@ -565,6 +605,16 @@
       "isMarketRelated": false
     },
     {
+      "title": "Putin reportedly proposes three-way summit with Trump and Xi on Ukraine war — without Zelenskyy",
+      "summary": "The report comes amid mounting tensions between Ukraine and the United States, its largest military backer.",
+      "link": "https://www.cnbc.com/2026/10/19/putin-trump-xi-ukraine-war-energy.html",
+      "pubDate": "2026-10-19T10:36:47.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
       "title": "KB증권, 베트남 교육 인프라 개선",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026101915491",
@@ -575,7 +625,7 @@
       "isMarketRelated": false
     },
     {
-      "title": "소방 인건비 재원 '안전교부세' 3000억 삭감된 까닭",
+      "title": "소방 인건비 재원 '안전교부세' 3000억 줄어든 까닭",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026101915051",
       "pubDate": "2026-10-19T09:15:59.000Z",
@@ -745,26 +795,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "코스피 9% 빠질 때 조용히 올랐다…급락장 피난처 된 이 업종",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610191159i",
-      "pubDate": "2026-10-19T07:45:58.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "'채찍효과'에 더 흔들리는 코스피…SOX 대비 '초과 수익' 반납",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610190090i",
-      "pubDate": "2026-10-19T07:39:22.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
       "title": "2시간 만에 200억 팔았다…이다해 등장한 中 방송 '대박'",
       "summary": "",
       "link": "https://www.hankyung.com/article/202610191106H",
@@ -773,36 +803,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "\"중국에 개인정보 다 넘어갈라\"…日 결국 '특단의 조치' [도쿄나우]",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/202610190964i",
-      "pubDate": "2026-10-19T07:07:38.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Roth conversions: When the ‘juice isn't really worth the squeeze,’ according to a top-ranked advisor",
-      "summary": "If you're considering a year-end Roth conversion for 2026, there are some key things to know, experts say.",
-      "link": "https://www.cnbc.com/2026/10/18/roth-conversion-2026.html",
-      "pubDate": "2026-10-18T13:30:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Why hedge funds could be making a bond market shock more likely",
-      "summary": "The Bank of England's deputy governor has warned that hedge funds' activities could raise the risk of a global bond market shock.",
-      "link": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
-      "pubDate": "2026-10-18T06:13:05.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     }
   ]
 }
