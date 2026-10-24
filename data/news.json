@@ -1,48 +1,278 @@
 {
-  "updatedAt": "2026-10-24T07:49:38.843Z",
-  "updatedAtKST": "2026-10-24 16:49:38 KST",
+  "updatedAt": "2026-10-24T13:00:52.852Z",
+  "updatedAtKST": "2026-10-24 22:00:52 KST",
   "totalCount": 80,
-  "marketRelatedCount": 35,
+  "marketRelatedCount": 37,
   "items": [
     {
-      "title": "[속보] 여권 관계자 “김정은, 오늘 방중 일정 끝내고 귀국할 듯”",
+      "title": "Why popular airplanes are getting scrapped years early",
+      "summary": "Airplanes are getting dismantled for parts years ahead of schedule because engines and other components are in short supply.",
+      "link": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+      "pubDate": "2026-10-24T12:59:59.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“SK하닉 고점서 절반넘게 날아갔는데 중복상장?”…분노 잇따르자 철회",
+      "summary": "SK하이닉스 솔리다임 IPO 철회 주주 우려·당국 지적 잇따르자 발표 79일 만에 검토중단 발표 ‘주주가치 훼손’ 우려 줄어들어“오늘부터 상승인거야.” SK하이닉스 손자회사인 솔리..",
+      "link": "https://www.mk.co.kr/news/stock/12184884",
+      "pubDate": "2026-10-24T12:40:50.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "김시우 “한국팬들 앞에서 우승하면 꿈 같을 것…마지막 날 후회 없는 경기하겠다”",
+      "summary": "김시우가 DP월드투어 제네시스 챔피언십 우승 욕심을 숨기지 않았다. 김시우는 24일 충남 천안시 우정힐스 컨트리클럽에서 열린 대회 3라운드에서 4언더파 67타를 쳤다. 중간합계 1..",
+      "link": "https://www.mk.co.kr/news/sports/12184883",
+      "pubDate": "2026-10-24T12:40:40.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?",
+      "summary": "“My late father bought our house for $250,000 in the 1990s.”",
+      "link": "https://www.marketwatch.com/story/shes-living-the-dream-my-stepmother-said-i-can-buy-my-childhood-home-for-850-000-is-she-taking-advantage-of-me-1fdda7b5?mod=mw_rss_topstories",
+      "pubDate": "2026-10-24T12:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Moderna’s cancer vaccine is ‘likely’ to get approved. Skeptics question if it will be the best option.",
+      "summary": "The first Phase 3 data for a custom cancer vaccine has raised questions about whether the potential new treatment is needed.",
+      "link": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
+      "pubDate": "2026-10-24T12:25:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] ‘당일치기 방중’ 김정은, 中서열 4위 왕후닝과 만나…북·중 경제협력 논의",
+      "summary": "신압록강대교 개통 직후 中단둥시 당일치기 방문 신화통신 “車공장 시찰” 金 일정 마친뒤 단둥 떠나김정은 북한 국무위원장이 24일 중국 랴오닝성 단둥을 방문했다. 지난해 9월 이후..",
+      "link": "https://www.mk.co.kr/news/world/12184881",
+      "pubDate": "2026-10-24T12:21:14.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 1247회 로또 1등 8명, ‘36억 대박’…‘8, 14, 21, 22, 42, 45’",
+      "summary": "24일 진행된 제1247회 동행복권 로또 추첨 결과, 1등 당첨번호로 ‘8, 14, 21, 22, 42, 45’이 결정됐다. 2등 보너스 번호는 ‘24’다. 6개 번호가 모두 일치..",
+      "link": "https://www.mk.co.kr/news/society/12184879",
+      "pubDate": "2026-10-24T12:03:02.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
+      "summary": "The runaway success of the artificial-intelligence trade has left investors hungry for the next big market theme. Wall Street fund managers are happil",
+      "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
+      "pubDate": "2026-10-24T12:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+      "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+      "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+      "pubDate": "2026-10-24T12:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
+      "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy",
+      "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+      "pubDate": "2026-10-24T11:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "[속보] “김정은, 중국 단둥 떠나…왕후닝 신압록강대교서 배웅”",
       "summary": "",
-      "link": "https://www.mk.co.kr/news/politics/12184831",
-      "pubDate": "2026-10-24T07:37:00.000Z",
+      "link": "https://www.mk.co.kr/news/politics/12184874",
+      "pubDate": "2026-10-24T11:16:30.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
     },
     {
-      "title": "역전 우승 발판 마련한 김시우, 제네시스 챔피언십 셋째날 공동 3위 도약",
-      "summary": "김시우가 DP월드투어 제네시스 챔피언십 역전 우승의 발판을 마련했다. 김시우는 24일 충남 천안시 우정힐스 컨트리클럽에서 열린 대회 3라운드에서 4언더파 67타를 쳤다. 중간합계 ..",
-      "link": "https://www.mk.co.kr/news/sports/12184830",
-      "pubDate": "2026-10-24T07:35:10.000Z",
+      "title": "[속보] “김정은, 中단둥서 ‘서열 4위’ 왕후닝과 회담”",
+      "summary": "",
+      "link": "https://www.mk.co.kr/news/politics/12184872",
+      "pubDate": "2026-10-24T11:07:53.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
     },
     {
-      "title": "FC서울, 10년 만에 K리그1 제패…통산 7번째 우승",
-      "summary": "FC서울이 프로축구 K리그1 정상에 올랐다. 10년 만에 우승을 차지한 FC서울 선수들은 서로를 얼싸앉고 기뻐했다. 서울은 24일 서울월드컵경기장에서 열린 K리그1 정규라운드 최종..",
-      "link": "https://www.mk.co.kr/news/sports/12184829",
-      "pubDate": "2026-10-24T07:33:27.000Z",
+      "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+      "summary": "As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.",
+      "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+      "pubDate": "2026-10-24T11:00:01.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Do machines have feelings? AI has philosophers and tech leaders rethinking consciousness.",
+      "summary": "As AI models become more advanced, tech leaders and philosophers are mulling the relationship between humanity and technology.",
+      "link": "https://www.marketwatch.com/story/do-machines-have-feelings-ai-has-philosophers-and-tech-leaders-rethinking-consciousness-00e5ad78?mod=mw_rss_topstories",
+      "pubDate": "2026-10-24T11:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+      "summary": "A new CNBC survey finds broad voter opposition to nearby AI data centers, creating a political challenge for Trump and Republicans ahead of the midter",
+      "link": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html",
+      "pubDate": "2026-10-24T10:59:16.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“나 살아있다”…‘깜짝 방중’ 김정은, 시진핑과 정상회담 없이 당일 귀국?",
+      "summary": "사망설이 나돌던 김정은 북한 국무위원장이 건재함을 과시하려는 듯이 24일 1년여 만에 깜짝 방중했다. 김 위원장의 방문 목적은 최근 개통한 신압록강대교 시찰과 경제협력 확대에 방점..",
+      "link": "https://www.mk.co.kr/news/politics/12184870",
+      "pubDate": "2026-10-24T10:51:34.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
     },
     {
-      "title": "같은 날, 같은 곳 ‘충격’…1층선 현여친과 결혼, 2층선 전여친과 아들 백일잔치",
-      "summary": "같은 날 같은 장소에서 현 여자친구와 결혼식을 올린 뒤 전 여자친구와 아들 백일잔치도 연 중국 남성을 향해 비난이 쏟아졌다. 24일 홍콩사우스차이나모닝포스트(SCMP)와 베이징 뉴..",
-      "link": "https://www.mk.co.kr/news/world/12184826",
-      "pubDate": "2026-10-24T07:11:36.000Z",
+      "title": "한성숙 총리 “이태원 참사, 정부 대표해 깊이 사과…진상 명백히 밝혀야”",
+      "summary": "한성숙 국무총리가 24일 서울시청 광장에서 열린 이태원 참사 4주기 시민추모대회에 참석해 “국가는 국민의 소중한 생명과 일상을 지키기 위해 존재한다”며 “정부를 대표해 다시 한번 ..",
+      "link": "https://www.mk.co.kr/news/society/12184867",
+      "pubDate": "2026-10-24T10:37:40.000Z",
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 김정은 중국 방문에 단둥은 ‘비상경계’…“도로 통제, 장갑차도 배치”",
+      "summary": "김정은 북한 국무위원장이 중국 랴오닝성 단둥을 방문한 24일 단둥 도심 주요 지역의 도로를 통제하고 일부 지역에는 장갑차를 배치하는 등 ‘비상경계’ 태세에 돌입한 것으로 확인됐다...",
+      "link": "https://www.mk.co.kr/news/politics/12184865",
+      "pubDate": "2026-10-24T10:27:37.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "쌍둥이 빌딩이 아직 서 있는 뉴욕…트럭 기사가 21년간 만든 ‘기억의 도시’",
+      "summary": "사라진 식당부터 새 마천루까지 한자리에 나무로 깎은 80만 개 구조물, 박물관 전시로2001년 테러로 무너진 세계무역센터 쌍둥이 빌딩 옆에 원월드트레이드센터가 서 있다. 고층 건물..",
+      "link": "https://www.mk.co.kr/news/world/12184864",
+      "pubDate": "2026-10-24T10:21:55.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 김정은, ‘중국 경제총괄’ 리창 총리와 회동…북미정상회담 논의 여부도 관심",
+      "summary": "김정은 북한 국무위원장이 24일 1년여 만에 중국을 찾아 중국의 경제 분야를 총괄하는 리창 국무원 총리와 회동한 것으로 알려졌다. 정부 소식통은 이날 연합뉴스에 “김 위원장이 신압..",
+      "link": "https://www.mk.co.kr/news/politics/12184860",
+      "pubDate": "2026-10-24T09:36:42.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "France’s luxury stores board up windows ahead of fresh protests",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/frances-luxury-stores-board-up-windows-ahead-of-fresh-protests-4970670",
+      "pubDate": "2026-10-24T09:24:17.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“백제고분 밟고 웨딩 촬영, 처음 본다”…‘울타리 무시’ 예비부부 논란",
+      "summary": "고분 봉분 위 촬영 모습 포착백제시대 문화유산인 고분 봉분 위에 버젓이 올라가 웨딩 촬영을 한 예비부부와 촬영작가의 모습이 포착돼 온라인상에서 논란이 일고 있다. 지난 21일 소셜..",
+      "link": "https://www.mk.co.kr/news/society/12184857",
+      "pubDate": "2026-10-24T09:16:31.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "[속보] 與 정보위 간사 “김정은, 중국서 리창 총리와 만난 것 확인”",
+      "summary": "",
+      "link": "https://www.mk.co.kr/news/politics/12184854",
+      "pubDate": "2026-10-24T09:05:43.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "벤츠 차량, 전주서 가로수 들이받은 뒤 전도…30대 운전자 사망",
+      "summary": "24일 오후 2시33분께 전북 전주시 완산구 효자동 한 도로에서 벤츠 승용차가 가로수를 들이받은 뒤 전도됐다. 이 사고로 30대 운전자는 숨졌다. 30대 동승자는 팔 등의 통증을 ..",
+      "link": "https://www.mk.co.kr/news/society/12184853",
+      "pubDate": "2026-10-24T09:04:23.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“브랜드 문주·외관 디자인 특화”…‘계양신도시 카이브 유보라’·브랜드 상업시설 ‘시간’ 인파 북적",
+      "summary": "AC3·AC4블록 공동주택 주차공간 1665대 차량 2대 보유 가구들도 주차 여건 확인 계절창고·코인세탁실·건식세차장 등 방문객들 생활지원시설 호평반도건설이 지난 23일 개관한 ..",
+      "link": "https://www.mk.co.kr/news/realestate/12184850",
+      "pubDate": "2026-10-24T08:53:16.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Johnson & Johnson’s prostate cancer drug shrinks tumors in early-stage trial",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/johnson--johnsons-prostate-cancer-drug-shrinks-tumors-in-earlystage-trial-4970719",
+      "pubDate": "2026-10-24T08:24:21.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Swiss stocks outperform Europe as investors retreat from AI trade - Bloomberg",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/swiss-stocks-outperform-europe-as-investors-retreat-from-ai-trade--bloomberg-4970705",
+      "pubDate": "2026-10-24T08:07:38.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
     },
     {
       "title": "중국계 AI 해킹 도구 확산…韓日 금융기관도 공격받았다",
@@ -65,16 +295,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "France’s luxury stores board up windows ahead of fresh protests",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/frances-luxury-stores-board-up-windows-ahead-of-fresh-protests-4970670",
-      "pubDate": "2026-10-24T06:54:22.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
       "title": "코스피 빠질 때 혼자 37% '불기둥'…실적 두 배 터진 이 회사 [종목+]",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026102309936",
@@ -83,16 +303,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "[속보] 北김정은, 6·25전쟁 中참전기념일 맞아 전격 방중…新압록강대교 통해 단둥 도착",
-      "summary": "북중 혈맹관계 과시하며 ‘깜짝 행보‘ 단둥 내 항미원조기념관 방문 가능성 習과 만나 미북대화前 지지확보할듯김정은 북한 국무위원장이 중국의 6·25전쟁 참전기념일 전날인 24일 전격..",
-      "link": "https://www.mk.co.kr/news/politics/12184821",
-      "pubDate": "2026-10-24T06:47:01.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
     },
     {
       "title": "Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
@@ -105,26 +315,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "‘아저씨’ 이후 16년째 공백…원빈, 청담 목격담 떴다 “진짜 잘생겨”",
-      "summary": "그룹 동방신기 최강창민이 배우 원빈을 우연히 목격한 일화를 공개했다. 지난 21일 사회탐구 강사 이지영의 유튜브 채널에는 최강창민이 출연한 영상이 공개됐다. LG 트윈스의 열성 팬..",
-      "link": "https://www.mk.co.kr/news/society/12184820",
-      "pubDate": "2026-10-24T06:34:04.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“아줌마, 애 교육 똑바로 시켜”…문콕에 놀랐다며 30만원 요구, 대인보험 접수까지",
-      "summary": "아이 잘못은 인정하지만 고성 속상 상대방 “새차라 수리는 안 하겠다”어린아이가 주차된 옆 차량에 이른바 ‘문콕’ 사고를 내자 상대 차량 탑승자들이 현금 30만원과 대인 보험 접수까..",
-      "link": "https://www.mk.co.kr/news/society/12184819",
-      "pubDate": "2026-10-24T06:30:53.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "What next for France as riots rattle markets? Three questions facing investors ahead of more protests",
       "summary": "French unrest pushed bond yields to a 24-year high as investors weigh budget, growth and sectors risks ahead of more protests.",
       "link": "https://www.cnbc.com/2026/10/24/france-riots-paris-unrest-debt-budget.html",
@@ -133,56 +323,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "삼전닉스 성과급 7억 vs 대만 마이크론 1.5억.. 차이 큰 이유는 [반도체플러스]",
-      "summary": "한국은 영업이익 10% 성과급으로 대만은 세후이익서 설비투자금 제외 후 N% 한국기준으로 환산 시 2~3% 정도 추정 노조의 협상력 차이가 성과급 차이로경쟁회사인 한국 메모리 반도..",
-      "link": "https://www.mk.co.kr/news/business/12184815",
-      "pubDate": "2026-10-24T06:20:49.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "[속보] ‘사망설’ 돌던 북한 김정은 방중…오늘 신압록대교 통해 단둥 도착",
-      "summary": "사망설이 돌던 김정은 북한 국무위원장이 24일 1년여 만에 전격 방중한 것으로 확인됐다. 정부 소식통은 이날 연합뉴스에 “김 위원장이 신압록강대교를 통해 중국 랴오닝성 단둥에 도착..",
-      "link": "https://www.mk.co.kr/news/politics/12184814",
-      "pubDate": "2026-10-24T06:14:39.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "개리, 연예인에서 일반인 됐다더니…뜻밖의 근황 공개",
-      "summary": "가수 개리가 유튜브로 활동을 재개한 소감을 밝혔다. 지난 23일 개리의 유튜브 채널 ‘강개리 KANG GARY’에는 ‘[개리로그] 학원 대기는 힘들어’라는 제목의 영상이 올라왔다...",
-      "link": "https://www.mk.co.kr/news/society/12184812",
-      "pubDate": "2026-10-24T06:14:28.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“예쁜 색 내려고, 간식에 ‘납’ 넣어”…유치원생 247명 중독, 원장 미친 짓에 중국 발칵",
-      "summary": "중금속 납에 어린이 247명 중독 유치원 운영자와 집행원자 잡혀 간식 색 다채롭게 하기 위해 범행어린이와 교직원이 먹는 간식에 독성 중금속인 납을 넣어 어린이 247명을 중독시킨..",
-      "link": "https://www.mk.co.kr/news/world/12184811",
-      "pubDate": "2026-10-24T06:13:07.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘유재석 미담’ 또 터졌다…주우재, 3년째 간직한 ‘100만원 수표’ 사연 밝혀",
-      "summary": "방송인 유재석은 국민MC이자 ‘미담 제조기’로도 유명하다. 생색을 내지 않고, 주위에도 알리지 않은 선행이 뒤늦게 밝혀질 때도 많다. 이번에는 후배를 알뜰하게 챙겼던 사연이 나왔다..",
-      "link": "https://www.mk.co.kr/news/society/12184810",
-      "pubDate": "2026-10-24T06:06:05.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
     },
     {
       "title": "Moonshot curbs hacking ability in new Kimi model as fears grow over AI-powered cyberattacks",
@@ -212,36 +352,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“중국갈 땐 ‘빈손’이었는데”…돌아올 땐 캐리어에 꽉꽉, ‘차이나 하울’ 뭐길래",
-      "summary": "중국서 산 상품 소개 콘텐츠 유행 관광객, 여행 가방 여러개 챙겨가중국을 방문하는 외국인 관광객들 사이에서 빈 여행 가방을 들고 입국한 뒤 중국의 현지 제품을 가득 채워 돌아가는 ..",
-      "link": "https://www.mk.co.kr/news/society/12184807",
-      "pubDate": "2026-10-24T05:31:38.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“부캉이, 이젠 진짜 떠났나”…이틀째 안보이자, 전문가 “외해로 나갔을 수도”",
-      "summary": "부산 북항 친수공원 인공 수로에 한 달 넘게 머물다가 당국의 유도작업으로 밖으로 나갔던 흑상어 ‘부캉이’가 이틀째 보이지 않고 있다. 전문가들은 부캉이가 수로 밖 깊은 곳을 잠영하..",
-      "link": "https://www.mk.co.kr/news/society/12184805",
-      "pubDate": "2026-10-24T05:26:06.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“한국까지 와서 이걸 한다고?”…외국인 관광객 여행법 달라졌다",
-      "summary": "크리에이트립, 방한 외래관광객 예약 데이터 분석 영미권 여행객 요가·필라테스 등 예약 3배 높아 日 관광객 찜질방·사우나 관심…회복형 웰니스↑#1. 영국인 에밀리(34)는 북한산,..",
-      "link": "https://www.mk.co.kr/news/culture/12184803",
-      "pubDate": "2026-10-24T05:23:48.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": false
     },
     {
@@ -465,16 +575,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "Amazon cloud capacity sold out through 2027, CEO Jassy says",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-4970506",
-      "pubDate": "2026-10-23T23:12:17.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
       "title": "비과세 배당 매력 부각에...외국인 한 달간 4600억 쓸어담은 '이 종목'",
       "summary": "",
       "link": "https://www.hankyung.com/article/202610232050i",
@@ -523,16 +623,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "Instacart in talks with DoorDash and Uber for sale, The Information reports",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/instacart-in-talks-for-sale-the-information-reports-4970302",
-      "pubDate": "2026-10-23T22:12:41.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
     },
     {
       "title": "\"곧 코스피 반등 기회 온다…급락 시 조금씩 매수해야\"",
@@ -585,36 +675,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fue",
-      "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-      "pubDate": "2026-10-23T21:13:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-      "summary": "Reports of Starlink’s discussions with cell-tower owners were noticed by shareholders of Verizon, AT&T and T-Mobile.",
-      "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
-      "pubDate": "2026-10-23T21:11:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
-      "summary": "The first Phase 3 data for a cancer vaccine has raised questions about whether the potential new treatment is needed.",
-      "link": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-      "pubDate": "2026-10-23T21:06:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "In hunt for Starlink alternative, Ukraine partners with Nokia and satellite maker ICEYE",
       "summary": "With SpaceX imposing speed limits on Starlink in Ukraine and hampering military operations, Kyiv is looking for alternatives.",
       "link": "https://www.cnbc.com/2026/10/23/ukraine-partners-with-nokia-and-iceye-for-starlink-alternative.html",
@@ -625,31 +685,11 @@
       "isMarketRelated": true
     },
     {
-      "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
-      "summary": "As she faces a tough midterm race, the five-term GOP senator is touting her successful lobbying effort against certain tariffs on Canada",
-      "link": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
-      "pubDate": "2026-10-23T20:50:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?",
-      "summary": "A once-in-a-generation investment boom has created lots of winners — but many Americans are feeling left out.",
-      "link": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db?mod=mw_rss_topstories",
-      "pubDate": "2026-10-23T20:19:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
-      "summary": "Oil has climbed back to an Iran-war high and may soon go higher, if the U.S. and Israel strike Iran after their respective voters go to the polls in t",
-      "link": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
-      "pubDate": "2026-10-23T20:19:00.000Z",
-      "source": "MarketWatch",
+      "title": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
+      "summary": "There are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both ",
+      "link": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
+      "pubDate": "2026-10-23T20:20:41.000Z",
+      "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
@@ -669,26 +709,6 @@
       "summary": "Since last week, Ukraine has reported restrictions on Starshield, a version of SpaceX's Starlink, hampering its military operations against Russia.",
       "link": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html",
       "pubDate": "2026-10-23T19:50:26.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Meta shares are down 9% this week. Here's why Mike Khouw is buying now",
-      "summary": "Meta shares just had their worst week in four years. Here's why Mike Khouw is buying now",
-      "link": "https://www.cnbc.com/2026/10/23/meta-shares-rough-week-mike-khouw-is-buying.html",
-      "pubDate": "2026-10-23T19:25:18.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Qatar deal to buy U.S. natural gas shows how Iran war has redrawn global energy markets",
-      "summary": "The Iran war is transforming global energy markets and benefiting U.S. companies, especially liquefied natural gas exporters.",
-      "link": "https://www.cnbc.com/2026/10/23/cheniere-qatar-energy-lng-natural-gas-iran-war-strait-hormuz.html",
-      "pubDate": "2026-10-23T19:19:08.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
@@ -773,26 +793,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "France is flashing euro crisis signals. This time, the fault lines are different",
-      "summary": "French borrowing costs have surged as debt and political risks mount, raising questions over whether the stress could spread across the euro zone.",
-      "link": "https://www.cnbc.com/2026/10/23/france-debt-euro-zone-contagion.html",
-      "pubDate": "2026-10-23T11:12:38.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Democratic socialist set to become D.C. mayor — and face Trump's pushback",
-      "summary": "Following Zohran Mamdani's election as New York City mayor, another democratic socialist is set to become mayor of Washington, D.C.",
-      "link": "https://www.cnbc.com/2026/10/23/janeese-lewis-george-democratic-socialist-washington-dc-mayor.html",
-      "pubDate": "2026-10-23T10:30:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "美 금리 결정에 구글·아마존·삼전닉스 실적까지...코스피 운명가를 슈퍼위크[다음주 변수 미리보기]",
