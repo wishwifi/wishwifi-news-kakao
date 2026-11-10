@@ -1,28 +1,388 @@
 {
-  "updatedAt": "2026-11-10T16:40:54.449Z",
-  "updatedAtKST": "2026-11-11 01:40:54 KST",
+  "updatedAt": "2026-11-10T21:07:43.185Z",
+  "updatedAtKST": "2026-11-11 06:07:43 KST",
   "totalCount": 80,
-  "marketRelatedCount": 35,
+  "marketRelatedCount": 39,
   "items": [
     {
-      "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
-      "summary": "Treasury yields moved higher after hotter-than-expected CPI report.",
-      "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-      "pubDate": "2026-11-10T16:37:47.000Z",
+      "title": "증시 흔들리자 금펀드 수익률 1위…내년 금값 전망은",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202611107475i",
+      "pubDate": "2026-11-10T21:00:10.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“자리잡으면 결혼하자” 하더니 ‘노산’ 됐다…이 보험 하나로 다 대비",
+      "summary": "한화손보 보험료수입 1조 돌파 생애주기 보장에 보험수요 쑥 2030세대 女고객 비중도 올라올해 첫 자녀를 출산한 30대 여성 직장인 전 모씨는 한화손해보험으로부터 보험금 100만원..",
+      "link": "https://www.mk.co.kr/news/economy/12204683",
+      "pubDate": "2026-11-10T20:59:01.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Ignore the wild swings in chip stocks until they reach these ‘lines in the sand’",
+      "summary": "Investors shouldn’t pay much attention to how the SOX chip-sector index trades until it reaches key technical battleground areas above and below curre",
+      "link": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T20:53:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia selloff deepens, adding to AI jitters",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-selloff-deepens-adding-toai-jitters-5016732",
+      "pubDate": "2026-11-10T20:49:36.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Hims & Hers to offer peptides as soon as November after US eases curbs",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/hims--hers-narrows-2026-revenue-forecast-as-margins-contract-5013239",
+      "pubDate": "2026-11-10T20:48:38.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Analysis-Nvidia’s clubby board faces a sticky ’honey pot’ test",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/analysisnvidias-clubby-board-faces-a-sticky-honey-pot-test-5014779",
+      "pubDate": "2026-11-10T20:42:40.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "“10년 뒤엔 이렇게” … 美·中 양강으로 재편되는 로봇 공급망 지도 [맥킨지·매경 산업분석]",
+      "summary": "피지컬AI 패권경쟁 (1)최근 중국 정부가 ABB 로봇 사업 부문을 54억달러(약 7조4000억원)에 인수하려던 일본 소프트뱅크의 계획에 제동을 걸었다. 파이낸셜타임스(FT) 등 ..",
+      "link": "https://www.mk.co.kr/news/business/12204264",
+      "pubDate": "2026-11-10T20:40:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Why is JBS stock sliding today?",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-jbs-stock-sliding-today-93CH-5016719",
+      "pubDate": "2026-11-10T20:38:23.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia could soon face tougher export rules, making it harder to sell chips to China after scandal",
+      "summary": "“There is growing momentum for these bills in light of the Jensen Huang spy scandal,” one analyst says.",
+      "link": "https://www.marketwatch.com/story/nvidia-could-soon-face-tougher-export-rules-making-it-harder-to-sell-chips-to-china-69c88cc8?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T20:37:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Brazil stocks lower at close of trade; Bovespa down 0.52%",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/brazil-stocks-lower-at-close-of-trade-bovespa-down-052-5016716",
+      "pubDate": "2026-11-10T20:35:03.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
+      "summary": "Rep. John Moolenaar, R-Mich., the Republican chairman of the Select Committee on China and told CNBC he expects answers about Jensen Huang's relations",
+      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "pubDate": "2026-11-10T20:33:52.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
     },
     {
-      "title": "Here's the inflation breakdown for October 2026 — in one chart",
-      "summary": "The consumer price index rose 0.4% in October, a reduction from September but a level economists said is still uncomfortably high.",
-      "link": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
-      "pubDate": "2026-11-10T16:36:40.000Z",
+      "title": "Nvidia hires Wachtell Lipton to lead independent review into Jensen Huang affair",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-hires-wachtell-lipton-to-lead-independent-review-into-jensen-huang-affair-5016701",
+      "pubDate": "2026-11-10T20:29:24.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "White House vows to press ahead with tariffs despite midterm backlash over rising prices",
+      "summary": "Business executives warned at a Washington summit of rising costs and shifting supply chains as polls showed growing opposition to Trump's tariffs.",
+      "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+      "pubDate": "2026-11-10T20:28:02.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
+    },
+    {
+      "title": "美 물가 예상 웃돌자 국채금리 급등…12월 '빅스텝' 부상 [월가 업&다운]",
+      "summary": "",
+      "link": "https://www.hankyung.com/article/202611118709i",
+      "pubDate": "2026-11-10T20:27:56.000Z",
+      "source": "한국경제",
+      "lang": "ko",
+      "emoji": "📈",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Aggressive Fed rate hikes are quickly becoming the biggest risk to stocks in 2027, says economist",
+      "summary": "The Fed remains too optimistic on its ability to tame inflation, and markets may be too complacent, economist Neil Dutta warns.",
+      "link": "https://www.marketwatch.com/story/an-overzealous-fed-is-quickly-becoming-the-biggest-risk-to-stocks-in-2027-ba28e51d?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T20:27:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Nvidia-backed AI cloud firm Nscale considers delaying $35 billion listing, the Telegraph reports",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/ai-cloud-firm-nscale-considers-delaying-35-billion-listing-the-telegraph-reports-5016636",
+      "pubDate": "2026-11-10T20:25:24.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Jim Jordan elected House GOP leader",
+      "summary": "House Speaker Mike Johnson, R-La., announced the day after Election Day he would not run for minority leader in the 120th Congress.",
+      "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+      "pubDate": "2026-11-10T20:24:45.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Schumer says Congress must have answers on Trump defense of Nvidia CEO",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/schumer-says-congress-must-have-answers-on-trump-defense-of-nvidia-ceo-5016683",
+      "pubDate": "2026-11-10T20:24:24.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Coty plans business restructuring in France",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/coty-plans-business-restructuring-in-france-93CH-5016697",
+      "pubDate": "2026-11-10T20:24:14.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+      "summary": "On Sunday, Huang admitted to having an affair with a woman who has been connected to Chinese intelligence by reports in The New York Times and Financi",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+      "pubDate": "2026-11-10T20:01:18.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "S&P raises GEO Group rating to ’BB+’ on debt reduction and 1x leverage goal",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/sp-raises-geo-group-rating-to-bb-on-debt-reduction-and-1x-leverage-goal-5016661",
+      "pubDate": "2026-11-10T19:56:33.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Traders bet on a pop for Anthropic's historic IPO",
+      "summary": "Perpetual futures traders see Anthropic popping on its IPO",
+      "link": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
+      "pubDate": "2026-11-10T19:51:18.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
+      "summary": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
+      "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T19:47:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+      "summary": "Amazon's $250 Ring Drone Cam flies from room to room to investigate suspicious activity, and can capture footage at night.",
+      "link": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+      "pubDate": "2026-11-10T19:43:59.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
+      "summary": "In the AI era, our economic competitiveness, military capabilities, and intelligence edge can be taken down by one man. We aren't prepared. Congress m",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
+      "pubDate": "2026-11-10T19:40:41.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Homeowners tap equity as HELOC balances post biggest jump since 2005: New York Fed report",
+      "summary": "The rise in balances on HELOCs marks the 18th consecutive quarterly increase, according to a new report from the Federal Reserve Bank of New York.",
+      "link": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html",
+      "pubDate": "2026-11-10T19:30:12.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“당장 안 팔면 ‘폭탄’ 맞나요? … 상속받은 농지, 전수조사에 ‘고민’",
+      "summary": "상속받은 농지, 세금 절감하는 법최근 상속세 무료상담에서는 세금 계산에 앞서 농지 전수조사를 걱정하는 상속인들의 문의가 이어지고 있다. 부모가 남긴 논밭을 물려받았지만 도시에서 직..",
+      "link": "https://www.mk.co.kr/news/economy/12204059",
+      "pubDate": "2026-11-10T19:30:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "‘블루쓰나미’ 직격탄 반도체, 본격 반등은 언제? … “이란 전쟁 끝나야”",
+      "summary": "美 중간선거 이후 시장 전망과 대응전략11월 3일 미국 중간선거에서 민주당이 상·하원에서 압승했다. 주지사 선거에서도 민주당은 공화당이 장악했던 텍사스·조지아·오하이오를 가져갔다...",
+      "link": "https://www.mk.co.kr/news/world/12204079",
+      "pubDate": "2026-11-10T19:30:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘속도’에 성패 갈린다는 재개발 … 공공 vs 민간, 어느 쪽이 정말 빠를까",
+      "summary": "공공·민간 재개발 장단점 분석‘검은 고양이든 흰 고양이든 쥐만 잘 잡으면 된다.’ 중국 덩샤오핑의 흑묘백묘(黑猫白猫)론. 요즘 서울 재개발에도 통하는 말이다. 정부는 공공재개발에 ..",
+      "link": "https://www.mk.co.kr/news/realestate/12204036",
+      "pubDate": "2026-11-10T19:30:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+      "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T19:30:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Corporate America is making a trillion-dollar mistake about retirement",
+      "summary": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+      "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T19:29:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+      "summary": "It’s one thing for money to shift between stocks, but it’s another thing for customers to shift their supplier relationships.",
+      "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T19:17:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘It feels like he’s quietly building a separate life’: My husband inherited $500,000, but he refuses to spend it on our home",
+      "summary": "“Our kitchen dates from 1999 and the oven only works if you hit the door a certain way.”",
+      "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T19:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
+      "summary": "There is already a demographic ‘run’ on Social Security.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T18:45:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Americans are more concerned about retirement than ever. Politicians should pay attention.",
+      "summary": "Retirement is now part of the affordability crisis, and it can’t be fixed by individual behavior alone",
+      "link": "https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories",
+      "pubDate": "2026-11-10T18:41:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Alphabet shares appear to have bottomed. How to play it for a quick rebound",
+      "summary": "After a brutal sell-off, Alphabet appears to be showing signs of a floor. Here's how to trade it with options",
+      "link": "https://www.cnbc.com/2026/11/10/alphabet-shares-appear-to-have-bottomed-how-to-play-it-for-a-quick-rebound.html",
+      "pubDate": "2026-11-10T18:15:24.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Credit card debt climbs to a record $1.29 trillion, New York Fed research finds",
+      "summary": "As high prices continue to strain household budgets, many consumers have turned to credit cards to help make ends meet.",
+      "link": "https://www.cnbc.com/2026/11/10/credit-card-debt-record.html",
+      "pubDate": "2026-11-10T18:08:40.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "Pete Hegseth decries impeachment push, defends Iran war handling",
+      "summary": "GOP Rep. Thomas Massie, who has clashed with President Donald Trump, kicked off the Hegseth impeachment fight days after a blue wave midterm election.",
+      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
+      "pubDate": "2026-11-10T17:48:47.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
     },
     {
       "title": "U.S. gas prices fall below $4 for the first time since July",
@@ -35,26 +395,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Why stocks are falling and the 10-year Treasury yield is back near 5% after Tuesday’s inflation report",
-      "summary": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T16:28:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "JPMorgan reaffirms its top mid-cap pick in telecom",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/jpmorgan-reaffirms-its-top-midcap-pick-in-telecom-5016280",
-      "pubDate": "2026-11-10T16:23:43.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
       "title": "물가불안에 빅스텝까지...연준 월러 “12월 0.5%p 인상”",
       "summary": "10월 CPI 전달보다 0.4% 페드워치, 12월 인상 100%미국 내 유가발 인플레이션 우려가 여전한 데다 최근 고용 시장이 안정되면서 12월 추가 금리 인상 전망이 힘을 얻고 ..",
       "link": "https://www.mk.co.kr/news/economy/12204627",
@@ -62,146 +402,6 @@
       "source": "매일경제",
       "lang": "ko",
       "emoji": "💹",
-      "isMarketRelated": true
-    },
-    {
-      "title": "House Oversight calls on DOJ to interview key Epstein witnesses, says govt. ‘failed’ survivors",
-      "summary": "\"The federal government has failed the survivors of Jeffrey Epstein and Ghislaine Maxwell's horrific crimes for decades,\" Rep. James Comer, R-Ky., sai",
-      "link": "https://www.cnbc.com/2026/11/10/jeffrey-epstein-house-oversight-doj.html",
-      "pubDate": "2026-11-10T16:17:20.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
-      "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
-      "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T16:15:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "NY Fed finds troubled debt levels ticked up in third quarter",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/ny-fed-finds-troubled-debt-levels-ticked-up-in-third-quarter-5016249",
-      "pubDate": "2026-11-10T16:12:52.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Analysis-Nvidia’s clubby board faces a sticky ’honey pot’ test",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/analysisnvidias-clubby-board-faces-a-sticky-honey-pot-test-5014779",
-      "pubDate": "2026-11-10T16:12:28.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Why is RUM stock sliding today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-rum-stock-sliding-today-93CH-5016260",
-      "pubDate": "2026-11-10T16:09:43.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is SanDisk stock sliding today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-sandisk-stock-sliding-today-93CH-5016252",
-      "pubDate": "2026-11-10T16:07:18.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Boeing jet deliveries drop 14% in October",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/boeing-jet-deliveries-drop-14-in-october-5016251",
-      "pubDate": "2026-11-10T16:07:06.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Toyota to bring mini trucks to US market",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/toyota-to-bring-mini-trucks-to-us-market-5016250",
-      "pubDate": "2026-11-10T16:06:53.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Strategy stock sliding today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-strategy-stock-sliding-today-93CH-5016247",
-      "pubDate": "2026-11-10T16:04:44.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Why is Bloom Energy stock sliding today?",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-bloom-energy-stock-sliding-today-93CH-5016241",
-      "pubDate": "2026-11-10T16:02:25.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "‘Boneless couches’ are the new futons",
-      "summary": "They’ve gone viral on Amazon and TikTok for being cheap and convenient, as well as cute and cozy.",
-      "link": "https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T16:01:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
-      "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
-      "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T16:01:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "MARA vs RIOT: comparing two bitcoin miners on fundamentals",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/mara-vs-riot-comparing-two-bitcoin-miners-on-fundamentals-93CH-5016232",
-      "pubDate": "2026-11-10T15:59:59.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-      "summary": "“Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
-      "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T15:45:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -225,36 +425,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-      "summary": "There’s already a demographic ‘run’ on Social Security.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T15:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Elon Musk was half right in his comment last week about SoftBank backpedaling on a gas-turbine order",
-      "summary": "Elon Musk in a social-media post last week said that SoftBank “defaulted” on a gas-turbine order. The truth, revealed Tuesday in the Japanese’s invest",
-      "link": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T15:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Rivian CEO says new R2 SUV, autonomy make 2027 an ‘inflection year’ as EV maker marks five years since IPO",
-      "summary": "Rivian CEO RJ Scaringe says 2027 will be an “inflection year” as the EV maker scales R2 and invests in autonomy.",
-      "link": "https://www.cnbc.com/2026/11/10/rivian-r2-autonomy-2027-rj-scaringe.html",
-      "pubDate": "2026-11-10T15:11:48.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
       "summary": "The allegations against Jensen Huang have brought new attention to the Nvidia CEO's potential influence over U.S. policy on chip sales to China.",
       "link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
@@ -263,46 +433,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "CoreWeave earnings put debt-fueled AI build-out under scrutiny",
-      "summary": "CoreWeave’s earnings after the bell could calm fears about its debt-fueled AI buildout — or stoke more fear.",
-      "link": "https://www.cnbc.com/2026/11/10/coreweave-earnings-preview-debt-capex.html",
-      "pubDate": "2026-11-10T15:01:21.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Forget happy hour. ‘Money parties’ are having a moment.",
-      "summary": "There’s evidence showing that talking about finances with your friends can help you save money.",
-      "link": "https://www.marketwatch.com/story/forget-happy-hour-money-parties-are-having-a-moment-6bc6f02a?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T14:58:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Pete Hegseth decries impeachment push, defends Iran war handling",
-      "summary": "GOP Rep. Thomas Massie, who has clashed with President Donald Trump, kicked off the Hegseth impeachment fight days after a blue-wave midterm election.",
-      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
-      "pubDate": "2026-11-10T14:48:34.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
-      "summary": "The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and di",
-      "link": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
-      "pubDate": "2026-11-10T14:43:30.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "앤트로픽, AI 악재에도 IPO 강행⋯최대 1.4조달러 목표",
@@ -333,16 +463,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": true
-    },
-    {
-      "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
-      "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
-      "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T14:10:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
     },
     {
       "title": "“55세인데 연봉 최대 5억 준답니다”…‘인생2막’ 가능한 도선사",
@@ -383,26 +503,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "China panel chair Moolenaar demands answers on Nvidia CEO's alleged affair with a Chinese spy",
-      "summary": "Rep. John Moolenaar, R-Mich., is the chairman of the Select Committee on China and told CNBC he expects answers about Jensen Huang's relationship.",
-      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-      "pubDate": "2026-11-10T13:41:57.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Fed’s Waller puts half-point rate hike into the mix for December",
-      "summary": "U.S. central bank official had put a half-point discussion into the mix ahead of Labor Department data, which came in as hot as he feared.",
-      "link": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
-      "pubDate": "2026-11-10T13:41:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "비단뱀에 먹힐뻔한 아기 코알라, 호주 여성이 맨손으로 구했다",
@@ -475,26 +575,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
-      "summary": "Amazon's $250 Ring Drone Cam flies from room to room to investigate suspicious activity, and can capture footage at night.",
-      "link": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
-      "pubDate": "2026-11-10T13:30:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
-      "summary": "The cliche is one of those smart-sounding rules of thumb that proves true just often enough to remain a Wall Street cliché in good standing.",
-      "link": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
-      "pubDate": "2026-11-10T13:19:13.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "“누가 간첩을 들이래”...‘불륜랠리’에 젠슨황 키스캠 밈까지, 패러디 쏟아진다",
       "summary": "공연장 전광판에 포옹하는 남녀가 비친다. 카메라에 잡힌 걸 알아챈 두 사람이 황급히 몸을 숨긴다. 지난해 콜드플레이 공연에서 화제가 된 ‘키스캠’ 장면을 젠슨 황 엔비디아 최고경영..",
       "link": "https://www.mk.co.kr/news/society/12204460",
@@ -535,26 +615,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "불륜녀와 볼뽀뽀 나눈 젠슨 황...그 모습 찍은 이는 다름아닌 딸이었다",
-      "summary": "젠슨 황 엔비디아 최고경영자(CEO)와 앨리스 황의 불륜 관계가 알려지자, 그들의 사진을 젠슨 황의 딸이 찍어주고 있는 모습이 다시금 화제되고 있다. 10일 엑스(X·옛 트위터) ..",
-      "link": "https://www.mk.co.kr/news/society/12204404",
-      "pubDate": "2026-11-10T12:13:57.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“더욱 착실하게 살게요”…부부 나란히 10억씩, 총 20억 복권 당첨된 사연",
-      "summary": "복권 1등에 당첨되는 꿈을 꾸고 제삿날 조상님께 기도를 드린 후 즉석복권을 구매한 부부가 나란히 10억원씩, 총 20억원에 당첨된 사실이 알려져 화제다. 10일 복권 수탁사업자 동..",
-      "link": "https://www.mk.co.kr/news/society/12204381",
-      "pubDate": "2026-11-10T12:04:05.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
       "title": "\"美·이란, 우라늄 농축 제한·동결자금 해제 등 합의 근접\"",
       "summary": "",
       "link": "https://www.hankyung.com/article/2026111086027",
@@ -562,36 +622,6 @@
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
-      "isMarketRelated": true
-    },
-    {
-      "title": "“아내에게 충실하지 못했다”더니…1년전부터 ‘성추문 해결사’ 고용한 젠슨 황",
-      "summary": "젠슨 황 엔비디아 최고경영자(CEO)가 혼외관계를 인정하기 약 1년 전부터 유명 인사들의 성추문 대응으로 이름을 알린 미국 위기관리 홍보업체의 지원을 받아온 것으로 드러났다. 특히..",
-      "link": "https://www.mk.co.kr/news/world/12204374",
-      "pubDate": "2026-11-10T11:57:05.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "이선균 수사정보 빼돌린 전직 경찰관, 2심도 징역형 집유",
-      "summary": "배우 이선균의 마약 투약 혐의 수사 과정에서 내부 자료를 외부로 흘린 전직 경찰관이 항소심에서도 징역형의 집행유예를 선고받았다. 자료를 전달받아 다시 다른 기자에게 건넨 기자에게도..",
-      "link": "https://www.mk.co.kr/news/society/12204372",
-      "pubDate": "2026-11-10T11:54:44.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "“이란전쟁 사실상 끝” 트럼프 이번엔 참말?…유가는 일단 속아줬다",
-      "summary": "“전쟁 끝낼 긍정적 흐름 보여” 군사 압박·항구 봉쇄는 여지 WTI 80달러대, 8월 후 최저 선거 패배 승복했던 트럼프 6일 만에 부정선거론 ‘시동’도널드 트럼프 미국 대통령이 ..",
-      "link": "https://www.mk.co.kr/news/world/12204357",
-      "pubDate": "2026-11-10T11:40:26.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
       "isMarketRelated": true
     },
     {
@@ -613,16 +643,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": false
-    },
-    {
-      "title": "Trump's 2028 successors are already fighting over who to blame for GOP midterm wipeout",
-      "summary": "JD Vance, Marco Rubio and Ron DeSantis offer competing explanations for the GOP's midterm defeat as Trump keeps his potential successors guessing.",
-      "link": "https://www.cnbc.com/2026/11/10/trump-vance-rubio-republican-desantis-midterms.html",
-      "pubDate": "2026-11-10T11:00:01.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "문지기도 뚫렸다…금융보안원, 해킹으로 정보유출",
@@ -749,26 +769,6 @@
       "summary": "",
       "link": "https://www.hankyung.com/article/2026111083271",
       "pubDate": "2026-11-10T08:48:46.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "[단독] 코스닥 승강제 우량기업, 코스닥150과 80% 겹친다",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026111083281",
-      "pubDate": "2026-11-10T08:47:42.000Z",
-      "source": "한국경제",
-      "lang": "ko",
-      "emoji": "📈",
-      "isMarketRelated": false
-    },
-    {
-      "title": "'50%+1주'라도 우선 시행 vs 100% 매수 의무화해야",
-      "summary": "",
-      "link": "https://www.hankyung.com/article/2026111083621",
-      "pubDate": "2026-11-10T08:46:47.000Z",
       "source": "한국경제",
       "lang": "ko",
       "emoji": "📈",
