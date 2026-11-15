@@ -1,9 +1,129 @@
 {
-  "updatedAt": "2026-11-15T15:58:13.643Z",
-  "updatedAtKST": "2026-11-16 00:58:13 KST",
-  "totalCount": 79,
-  "marketRelatedCount": 34,
+  "updatedAt": "2026-11-15T20:03:29.896Z",
+  "updatedAtKST": "2026-11-16 05:03:29 KST",
+  "totalCount": 80,
+  "marketRelatedCount": 33,
   "items": [
+    {
+      "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
+      "summary": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
+      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
+      "pubDate": "2026-11-15T20:01:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“사적연금 1500만원 넘으면 세금폭탄?” … ‘진실’을 알려드립니다",
+      "summary": "평생 성실하게 연금을 준비한 사람이 정작 연금을 받을 때 세금 때문에 낭패를 보는 경우가 있다. 연금을 모으고 불리는 공부만 했지, 연금을 수령하는 공부는 안 했기 때문이다. 58..",
+      "link": "https://www.mk.co.kr/news/economy/12209263",
+      "pubDate": "2026-11-15T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "“금리 내리면 집값 오른다” … 이 공식이 서울에서 자꾸 빗나가는 이유 [손품100]",
+      "summary": "아파트 수요와 공급 100가지 사실 (1~31)수요자 입장에서 요즘 서울 아파트 시장은 혼란스럽다. 강남이 상대적으로 저평가돼 갈아타기 적기라는 목소리가 있고, 내년에 더 떨어질 ..",
+      "link": "https://www.mk.co.kr/news/realestate/12209247",
+      "pubDate": "2026-11-15T20:00:00.000Z",
+      "source": "매일경제",
+      "lang": "ko",
+      "emoji": "💹",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
+      "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+      "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+      "pubDate": "2026-11-15T20:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Diamondback nears $5 billion deal to buy drilling portfolio from Double Eagle, FT says",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067",
+      "pubDate": "2026-11-15T19:42:18.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065",
+      "pubDate": "2026-11-15T19:30:22.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": false
+    },
+    {
+      "title": "'We slept here': Flight delays linger but schedule is back on track for Monday",
+      "summary": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
+      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+      "pubDate": "2026-11-15T18:22:23.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
+      "summary": "The FAA ground stop came after updates to an older communication system managed by L3Harris Technologies, Transportation Secretary Sean Duffy said.",
+      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+      "pubDate": "2026-11-15T18:15:14.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+      "summary": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the mat",
+      "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+      "pubDate": "2026-11-15T18:10:18.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
+    {
+      "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+      "summary": "Trump blamed the Biden administration for the FAA’s aging system after a nationwide ground stop disrupted air travel and urged Congress to approve mor",
+      "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
+      "pubDate": "2026-11-15T16:56:40.000Z",
+      "source": "CNBC",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": true
+    },
+    {
+      "title": "US air travel disruptions continue into third day",
+      "summary": "",
+      "link": "https://www.investing.com/news/stock-market-news/us-air-travel-disruptions-continue-into-third-day-5028023",
+      "pubDate": "2026-11-15T16:54:18.000Z",
+      "source": "Investing.com",
+      "lang": "en",
+      "emoji": "💰",
+      "isMarketRelated": true
+    },
+    {
+      "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
+      "summary": "“We have $2.6 million, most of it in his 401(k) and IRAs, plus $450,000 in a brokerage account.”",
+      "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
+      "pubDate": "2026-11-15T16:00:00.000Z",
+      "source": "MarketWatch",
+      "lang": "en",
+      "emoji": "📊",
+      "isMarketRelated": false
+    },
     {
       "title": "Trump urges Congress to fund air traffic overhaul as flight chaos drags on",
       "summary": "",
@@ -15,7 +135,7 @@
       "isMarketRelated": true
     },
     {
-      "title": "Bessent says Nvidia needs dramatic leadership shakeup",
+      "title": "Bessent says Nvidia needs \"dramatic\" leadership shakeup",
       "summary": "",
       "link": "https://www.investing.com/news/stock-market-news/bessent-says-nvidia-needs-dramatic-leadership-shakeup-5027992",
       "pubDate": "2026-11-15T15:39:58.000Z",
@@ -63,16 +183,6 @@
       "lang": "en",
       "emoji": "📊",
       "isMarketRelated": false
-    },
-    {
-      "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
-      "summary": "Flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours.",
-      "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
-      "pubDate": "2026-11-15T14:24:18.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
     },
     {
       "title": "Megaspeed says ex-Nvidia CEO-linked executive left in 2025 amid U.S. scrutiny",
@@ -205,16 +315,6 @@
       "isMarketRelated": true
     },
     {
-      "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-      "summary": "“I know older people can easily feel patronized, and I don’t want that to happen.”",
-      "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-      "pubDate": "2026-11-15T13:00:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": true
-    },
-    {
       "title": "600톤급 배에 승조원 0명…한미합작 무인수상함 1년만에 물에 띄웠다",
       "summary": "HD현대·안두릴 합작 ‘ASV 알파’ 진수 승조원 공간없애고 무장·연료 적재량↑ HD현대 자율화 시스템+안두릴 AI 결합 계약 1년만에 초고속 진수…안두릴 감탄지난 12일 울산 ..",
       "link": "https://www.mk.co.kr/news/business/12209528",
@@ -242,16 +342,6 @@
       "source": "Investing.com",
       "lang": "en",
       "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
-      "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
-      "summary": "Charts show the potential for more pain ahead",
-      "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
-      "pubDate": "2026-11-15T12:30:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
       "isMarketRelated": true
     },
     {
@@ -375,16 +465,6 @@
       "isMarketRelated": false
     },
     {
-      "title": "European stocks face 10% underperformance risk as rally loses momentum",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-face-10-underperformance-risk-as-rally-loses-momentum-5027803",
-      "pubDate": "2026-11-15T10:16:22.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
-    },
-    {
       "title": "승조원 '0명'… HD현대, 600t급 자율수상함 띄웠다",
       "summary": "지난 12일 울산 HD현대중공업 조선소. 거대한 액화천연가스(LNG) 운반선 여러 대가 건조되고 있는 현장을 지나 함정을 짓는 7도크에 도착하니 검은색 배 한 척이 눈에 들어왔다...",
       "link": "https://www.mk.co.kr/news/economy/12209481",
@@ -393,36 +473,6 @@
       "lang": "ko",
       "emoji": "💹",
       "isMarketRelated": false
-    },
-    {
-      "title": "Street Calls of the Week",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-93CH-5027529",
-      "pubDate": "2026-11-15T10:00:03.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": false
-    },
-    {
-      "title": "테러도 해킹도 아닌데 9·11수준 재앙…미국 항공편 셧다운 대체 왜",
-      "summary": "주말 1만편이상 결항 대혼란 네트워크 케이블 교체가 원인 테러나 AI 연관성 일단 없어 정상화에 시간 더 소요될 듯13일(현지시간) 미국 전역의 항공기 운항이 전면 중단된 ‘셧다운..",
-      "link": "https://www.mk.co.kr/news/world/12209478",
-      "pubDate": "2026-11-15T09:51:30.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
-    },
-    {
-      "title": "Ireland’s AI data center boom faces legal challenge over power demand",
-      "summary": "",
-      "link": "https://www.investing.com/news/stock-market-news/irelands-ai-data-center-boom-faces-legal-challenge-over-power-demand-5027782",
-      "pubDate": "2026-11-15T09:37:57.000Z",
-      "source": "Investing.com",
-      "lang": "en",
-      "emoji": "💰",
-      "isMarketRelated": true
     },
     {
       "title": "앤트로픽 상장일 시총에 관심 [한경 프리미엄9 TODAY]",
@@ -463,16 +513,6 @@
       "lang": "ko",
       "emoji": "📈",
       "isMarketRelated": true
-    },
-    {
-      "title": "음주운전으로 환경미화원 숨지게 하고 도주…50대 운전자 구속영장",
-      "summary": "“사람인줄 모르고 그냥 가”술을 마시고 운전하다 환경미화원을 치어 숨지게 한 뒤 달아난 50대 여성이 경찰에 붙잡혀 구속영장이 신청됐다. 15일 연합뉴스에 따르면 경기 광명경찰서는..",
-      "link": "https://www.mk.co.kr/news/society/12209462",
-      "pubDate": "2026-11-15T09:17:37.000Z",
-      "source": "매일경제",
-      "lang": "ko",
-      "emoji": "💹",
-      "isMarketRelated": false
     },
     {
       "title": "\"신예 정치인·빅테크 CEO 마음 훔쳐라\"…美 뒤흔드는 中 색계",
@@ -705,40 +745,10 @@
       "isMarketRelated": false
     },
     {
-      "title": "Nationwide ground stop followed contractor upgrade to L3Harris telecommunication system: DOT’s Duffy",
-      "summary": "The FAA ground stop came after updates to an older communication system managed by L3Harris Technologies, Transportation Secretary Sean Duffy said Sat",
-      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
-      "pubDate": "2026-11-15T02:53:59.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
-      "summary": "The historic first gets SpaceX closer to “rapid reusability” of rockets.",
-      "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
-      "pubDate": "2026-11-15T00:33:00.000Z",
-      "source": "MarketWatch",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
       "title": "SpaceX catches upper stage of Starship rocket in historic first",
       "summary": "Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
       "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
       "pubDate": "2026-11-14T23:10:14.000Z",
-      "source": "CNBC",
-      "lang": "en",
-      "emoji": "📊",
-      "isMarketRelated": false
-    },
-    {
-      "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
-      "summary": "Routers and networking equipment may be involved in the problems that led to the ground stop, but a definitive cause has not been established, officia",
-      "link": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
-      "pubDate": "2026-11-14T22:54:47.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
@@ -755,14 +765,14 @@
       "isMarketRelated": true
     },
     {
-      "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-      "summary": "ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival ch",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-      "pubDate": "2026-11-14T15:50:43.000Z",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "summary": "Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignatio",
+      "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "pubDate": "2026-11-14T17:46:06.000Z",
       "source": "CNBC",
       "lang": "en",
       "emoji": "📊",
-      "isMarketRelated": true
+      "isMarketRelated": false
     },
     {
       "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
